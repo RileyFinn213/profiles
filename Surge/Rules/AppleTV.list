@@ -1,4 +1,7 @@
-# AppleTV: 8
+# AppleTV.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/AppleTV.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-KEYWORD,itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,tv.applemusic.com

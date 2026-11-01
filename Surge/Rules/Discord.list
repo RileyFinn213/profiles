@@ -1,4 +1,7 @@
-# Discord: 15
+# Discord.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Discord.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net

@@ -1,5 +1,6 @@
-# > 𝑳𝑺𝑷网站规则
-# 𝒎𝒊𝒔𝒔𝒂𝒗
+# LSP.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/LSP.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,missav123.com
-# > 𝑷𝒐𝒓𝒏𝒉𝒖𝒃规则
 DOMAIN-SUFFIX,pornhub.com

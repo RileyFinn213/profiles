@@ -1,9 +1,11 @@
-# SteamCN: 15
+# SteamCN.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/SteamCN.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamchina.cn
 DOMAIN-SUFFIX,steampp.net
 DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,wmsjsteam.com
 DOMAIN-SUFFIX,steampowered.com

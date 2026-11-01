@@ -1,4 +1,7 @@
-# Max: 12
+# HBO.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/HBO.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbogo.com

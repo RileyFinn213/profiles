@@ -1,4 +1,7 @@
-# Speedtest: 9
+# Speedtest.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Speedtest.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,ookla.com

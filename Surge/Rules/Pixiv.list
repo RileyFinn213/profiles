@@ -1,4 +1,7 @@
-# Pixiv: 12
+# Pixiv.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Pixiv.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.me
 DOMAIN-SUFFIX,pximg.net
@@ -8,6 +11,5 @@ DOMAIN-SUFFIX,pixiv.net.co
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,comic-art.com
-DOMAIN-SUFFIX,sketch.pixiv.net
 DOMAIN-KEYWORD,pixiv
 DOMAIN-KEYWORD,pximg

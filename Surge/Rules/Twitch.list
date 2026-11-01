@@ -1,4 +1,7 @@
-# Twitch: 12
+# Twitch.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Twitch.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,jtvnw.net
@@ -6,7 +9,6 @@ DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,twitchthumbs.com
 DOMAIN-SUFFIX,twitchsvc.net
 DOMAIN-SUFFIX,ext-twitch.tv
-DOMAIN-SUFFIX,baron.twitch.tv
 DOMAIN-SUFFIX,chatterino.com
 DOMAIN-KEYWORD,twitch
 DOMAIN-KEYWORD,ttvnw

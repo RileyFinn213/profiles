@@ -1,12 +1,13 @@
-# NGA: 12
+# NGA.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/NGA.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,nga.cn
 DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,178.com
-DOMAIN-SUFFIX,nga.178.com
 DOMAIN-SUFFIX,ngacn.cc
 DOMAIN-SUFFIX,biglobe.ne.jp
 DOMAIN-SUFFIX,pic.backblazeb2.com
-DOMAIN-SUFFIX,img9.nga.178.com
 DOMAIN-KEYWORD,ngabbs
 DOMAIN-KEYWORD,ngacn
 IP-ASN,135904,no-resolve

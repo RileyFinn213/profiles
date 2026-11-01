@@ -1,4 +1,7 @@
-# Reddit: 11
+# Reddit.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Reddit.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
@@ -7,6 +10,5 @@ DOMAIN-SUFFIX,redditmail.com
 DOMAIN-SUFFIX,reddithelp.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redditinc.com
-DOMAIN-SUFFIX,out.reddit.com
 DOMAIN-KEYWORD,reddit
 DOMAIN-KEYWORD,redditmedia

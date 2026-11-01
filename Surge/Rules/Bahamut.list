@@ -1,7 +1,9 @@
-# Bahamut: 8
+# Bahamut.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Bahamut.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,cdn.hinet.net
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,digicert.com

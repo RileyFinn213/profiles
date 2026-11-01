@@ -1,4 +1,7 @@
-# WeChat: 24
+# WeChat.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/WeChat.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,tencent.com
@@ -13,8 +16,6 @@ DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,gtimg.cn
 DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,weixinimg.jaeapp.com
 DOMAIN-KEYWORD,wechat
 DOMAIN-KEYWORD,weixin

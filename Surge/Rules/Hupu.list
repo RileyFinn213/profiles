@@ -1,4 +1,7 @@
-# Hupu: 7
+# Hupu.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Hupu.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-KEYWORD,hupu
 DOMAIN-SUFFIX,hoopchina.com
 DOMAIN-SUFFIX,kanqiu.com

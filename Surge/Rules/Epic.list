@@ -1,4 +1,7 @@
-# EpicGames: 13
+# Epic.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Epic.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,epicgames.dev
@@ -11,4 +14,3 @@ DOMAIN-SUFFIX,shadowcomplex.com
 DOMAIN-SUFFIX,spyjinx.com
 DOMAIN-SUFFIX,unrealtournament.com
 DOMAIN-SUFFIX,entitlements.com
-DOMAIN,help.epicgames.com

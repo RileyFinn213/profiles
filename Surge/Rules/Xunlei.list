@@ -1,4 +1,7 @@
-# Xunlei: 14
+# Xunlei.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Xunlei.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,thunderurl.com
 DOMAIN-SUFFIX,sandai.net

@@ -1,4 +1,7 @@
-# Pinterest: 4
+# Pinterest.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Pinterest.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinit.com
 DOMAIN-SUFFIX,pin.it

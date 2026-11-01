@@ -1,0 +1,392 @@
+{
+  "AGE.list": {
+    "input": 7,
+    "output": 7,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/AGE.list"
+    ]
+  },
+  "AI-China.list": {
+    "input": 46,
+    "output": 30,
+    "removed": 16,
+    "sources": [
+      "Surge/Rules/AI-China.list"
+    ]
+  },
+  "AI-Global.list": {
+    "input": 126,
+    "output": 87,
+    "removed": 39,
+    "sources": [
+      "Surge/Rules/AI-Global.list",
+      "Rabbit-Spec/Surge/Rules/AIGC.list"
+    ]
+  },
+  "Apple.list": {
+    "input": 2101,
+    "output": 1587,
+    "removed": 514,
+    "sources": [
+      "Surge/Rules/Apple.list",
+      "Rabbit-Spec/Surge/Rules/Apple.list"
+    ]
+  },
+  "AppleTV.list": {
+    "input": 8,
+    "output": 8,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/AppleTV.list"
+    ]
+  },
+  "Bahamut.list": {
+    "input": 8,
+    "output": 7,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/Bahamut.list"
+    ]
+  },
+  "Bilibili.list": {
+    "input": 138,
+    "output": 126,
+    "removed": 12,
+    "sources": [
+      "Surge/Rules/Bilibili.list",
+      "Rabbit-Spec/Surge/Rules/BiliBili.list"
+    ]
+  },
+  "Discord.list": {
+    "input": 15,
+    "output": 15,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Discord.list"
+    ]
+  },
+  "Disney+.list": {
+    "input": 266,
+    "output": 241,
+    "removed": 25,
+    "sources": [
+      "Surge/Rules/Disney+.list",
+      "Rabbit-Spec/Surge/Rules/Disney.list"
+    ]
+  },
+  "Douban.list": {
+    "input": 3,
+    "output": 3,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Douban.list"
+    ]
+  },
+  "Epic.list": {
+    "input": 13,
+    "output": 12,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/Epic.list"
+    ]
+  },
+  "Github.list": {
+    "input": 12,
+    "output": 10,
+    "removed": 2,
+    "sources": [
+      "Surge/Rules/Github.list"
+    ]
+  },
+  "Google.list": {
+    "input": 1215,
+    "output": 705,
+    "removed": 510,
+    "sources": [
+      "Surge/Rules/Google.list",
+      "Rabbit-Spec/Surge/Rules/Google.list"
+    ]
+  },
+  "HBO.list": {
+    "input": 12,
+    "output": 12,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/HBO.list"
+    ]
+  },
+  "Hupu.list": {
+    "input": 7,
+    "output": 7,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Hupu.list"
+    ]
+  },
+  "Instagram.list": {
+    "input": 82,
+    "output": 76,
+    "removed": 6,
+    "sources": [
+      "Surge/Rules/Instagram.list",
+      "Rabbit-Spec/Surge/Rules/Instagram.list"
+    ]
+  },
+  "LAN.list": {
+    "input": 188,
+    "output": 181,
+    "removed": 7,
+    "sources": [
+      "Surge/Rules/LAN.list",
+      "Rabbit-Spec/Surge/Rules/LAN.list"
+    ]
+  },
+  "LSP.list": {
+    "input": 2,
+    "output": 2,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/LSP.list"
+    ]
+  },
+  "Microsoft.list": {
+    "input": 953,
+    "output": 772,
+    "removed": 181,
+    "sources": [
+      "Surge/Rules/Microsoft.list",
+      "Rabbit-Spec/Surge/Rules/Microsoft.list"
+    ]
+  },
+  "NGA.list": {
+    "input": 12,
+    "output": 10,
+    "removed": 2,
+    "sources": [
+      "Surge/Rules/NGA.list"
+    ]
+  },
+  "Netflix.list": {
+    "input": 1633,
+    "output": 1619,
+    "removed": 14,
+    "sources": [
+      "Surge/Rules/Netflix.list",
+      "Rabbit-Spec/Surge/Rules/Netflix.list"
+    ]
+  },
+  "Pinterest.list": {
+    "input": 4,
+    "output": 4,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Pinterest.list"
+    ]
+  },
+  "Pixiv.list": {
+    "input": 12,
+    "output": 11,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/Pixiv.list"
+    ]
+  },
+  "PlayStation.list": {
+    "input": 30,
+    "output": 19,
+    "removed": 11,
+    "sources": [
+      "Surge/Rules/PlayStation.list"
+    ]
+  },
+  "Reddit.list": {
+    "input": 11,
+    "output": 10,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/Reddit.list"
+    ]
+  },
+  "Speedtest.list": {
+    "input": 9,
+    "output": 9,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Speedtest.list"
+    ]
+  },
+  "Spotify.list": {
+    "input": 55,
+    "output": 37,
+    "removed": 18,
+    "sources": [
+      "Surge/Rules/Spotify.list",
+      "Rabbit-Spec/Surge/Rules/Spotify.list"
+    ]
+  },
+  "Steam.list": {
+    "input": 16,
+    "output": 16,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Steam.list"
+    ]
+  },
+  "SteamCN.list": {
+    "input": 15,
+    "output": 14,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/SteamCN.list"
+    ]
+  },
+  "SubStore.list": {
+    "input": 19,
+    "output": 18,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/SubStore.list"
+    ]
+  },
+  "Telegram.list": {
+    "input": 65,
+    "output": 42,
+    "removed": 23,
+    "sources": [
+      "Surge/Rules/Telegram.list",
+      "Rabbit-Spec/Surge/Rules/Telegram.list",
+      "Rabbit-Spec/Surge/Rules/TelegramASN.list"
+    ]
+  },
+  "TikTok.list": {
+    "input": 88,
+    "output": 73,
+    "removed": 15,
+    "sources": [
+      "Surge/Rules/TikTok.list",
+      "Rabbit-Spec/Surge/Rules/TikTok.list"
+    ]
+  },
+  "Twitch.list": {
+    "input": 12,
+    "output": 11,
+    "removed": 1,
+    "sources": [
+      "Surge/Rules/Twitch.list"
+    ]
+  },
+  "Twitter.list": {
+    "input": 14,
+    "output": 12,
+    "removed": 2,
+    "sources": [
+      "Surge/Rules/Twitter.list"
+    ]
+  },
+  "WeChat.list": {
+    "input": 24,
+    "output": 22,
+    "removed": 2,
+    "sources": [
+      "Surge/Rules/WeChat.list"
+    ]
+  },
+  "Weibo.list": {
+    "input": 15,
+    "output": 15,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Weibo.list"
+    ]
+  },
+  "XiaoHongShu.list": {
+    "input": 12,
+    "output": 6,
+    "removed": 6,
+    "sources": [
+      "Surge/Rules/XiaoHongShu.list"
+    ]
+  },
+  "Xunlei.list": {
+    "input": 14,
+    "output": 14,
+    "removed": 0,
+    "sources": [
+      "Surge/Rules/Xunlei.list"
+    ]
+  },
+  "YouTube.list": {
+    "input": 209,
+    "output": 192,
+    "removed": 17,
+    "sources": [
+      "Surge/Rules/YouTube.list",
+      "Rabbit-Spec/Surge/Rules/YouTube.list"
+    ]
+  },
+  "YouXiPingTai.list": {
+    "input": 59,
+    "output": 47,
+    "removed": 12,
+    "sources": [
+      "Surge/Rules/YouXiPingTai.list"
+    ]
+  },
+  "China.list": {
+    "output": 6398,
+    "sources": [
+      "Rabbit-Spec + original ChinaDIRECT + audited additions"
+    ]
+  },
+  "ChinaCIDR.list": {
+    "output": 10036,
+    "sources": [
+      "Rabbit-Spec + original ChinaDIRECT + audited additions"
+    ]
+  },
+  "ChinaASN.list": {
+    "output": 5101,
+    "sources": [
+      "Rabbit-Spec + original ChinaDIRECT + audited additions"
+    ]
+  },
+  "ChinaMedia.list": {
+    "output": 358,
+    "sources": [
+      "Rabbit-Spec + original ChinaDIRECT + audited additions"
+    ]
+  },
+  "Game.list": {
+    "output": 867,
+    "optional": true
+  },
+  "GlobalMedia.list": {
+    "output": 1662,
+    "optional": true
+  },
+  "Proxy.list": {
+    "output": 24439,
+    "optional": true
+  },
+  "Facebook.list": {
+    "output": 587,
+    "optional": true
+  },
+  "Whatsapp.list": {
+    "output": 30,
+    "optional": true
+  },
+  "Meta.list": {
+    "output": 43,
+    "optional": true
+  },
+  "PayPal.list": {
+    "output": 247,
+    "optional": true
+  },
+  "AIGC.list": {
+    "output": 99,
+    "optional": true
+  }
+}

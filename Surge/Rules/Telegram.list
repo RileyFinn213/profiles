@@ -1,4 +1,9 @@
-# Telegram: 31
+# Telegram.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Telegram.list
+# Source: Rabbit-Spec/Surge/Rules/Telegram.list
+# Source: Rabbit-Spec/Surge/Rules/TelegramASN.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,tdesktop.com
@@ -30,3 +35,14 @@ IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
 IP-ASN,62041,no-resolve
+IP-CIDR,91.108.8.0/21,no-resolve
+IP-CIDR,91.108.16.0/21,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
+IP-CIDR,194.221.250.50/32,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+PROCESS-NAME,org.telegram.messenger
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,legra.ph
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+IP-ASN,62014,no-resolve

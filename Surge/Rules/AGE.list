@@ -1,4 +1,7 @@
-# AGE动漫：7
+# AGE.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/AGE.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,agedm.io
 DOMAIN-SUFFIX,age.tv
 DOMAIN-SUFFIX,agefans.com

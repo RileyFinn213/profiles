@@ -1,5 +1,7 @@
-# Sub-Store: 19
-DOMAIN-SUFFIX,substore.local
+# SubStore.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/SubStore.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,local
 DOMAIN,localhost
 DOMAIN-KEYWORD,sub-store

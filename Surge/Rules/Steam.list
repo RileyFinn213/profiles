@@ -1,4 +1,7 @@
-# Steam: 16
+# Steam.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Steam.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamstatic.com

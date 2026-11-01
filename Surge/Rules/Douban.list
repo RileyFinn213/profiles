@@ -1,4 +1,7 @@
-# Douban: 3
+# Douban.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Douban.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douban.fm

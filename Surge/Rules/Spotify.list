@@ -1,4 +1,8 @@
-# Spotify：15
+# Spotify.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Spotify.list
+# Source: Rabbit-Spec/Surge/Rules/Spotify.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
@@ -14,3 +18,25 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,audio-ak-spotify
 DOMAIN-KEYWORD,heads-ak-spotify
 DOMAIN-SUFFIX,spotify.map.fastly.net
+DOMAIN,audio4-ak-spotify-com.akamaized.net
+DOMAIN,cdn-spotify-experiments.conductrics.com
+DOMAIN,heads-ak-spotify-com.akamaized.net
+DOMAIN,spotify.map.fastlylb.net
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,spotify-com.akamaized.net
+DOMAIN-SUFFIX,spotify.app.link
+DOMAIN-SUFFIX,spotify.com.edgesuite.net
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifyforvendors.com
+DOMAIN-SUFFIX,spotifyjobs.com
+DOMAIN-SUFFIX,spotilocal.com
+DOMAIN-SUFFIX,tospotify.com
+DOMAIN-KEYWORD,-spotify-
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,spotify.com
+USER-AGENT,Spotify*
+IP-CIDR,35.186.224.47/32,no-resolve
+PROCESS-NAME,com.spotify.music

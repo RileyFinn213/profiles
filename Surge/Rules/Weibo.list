@@ -1,4 +1,7 @@
-# Weibo: 15
+# Weibo.list — merged snapshot, 2026-11-02
+# FORMAT: RULE-SET (no policy column)
+# Source: Surge/Rules/Weibo.list
+# Preserve upstream attribution and usage requirements.
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
