@@ -1,23 +1,13 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# 国外 AI 合集
-# 现有规则合并快照，不宣称覆盖全球全部 AI 服务。
-# 来源：AI.list
+# Converted from Surge/Rules/AI-Global.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN,bard.google.com
-DOMAIN,gemini.google.com
-DOMAIN,aistudio.google.com
 DOMAIN,ai.google.dev
-DOMAIN,notebooklm.google.com
-DOMAIN,notebooklm.google
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.googleusercontent.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,waa-pa.googleapis.com
-DOMAIN-SUFFIX,alkalinetoolkit-pa.googleapis.com
 DOMAIN-SUFFIX,ai.google
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,generativeai
@@ -30,7 +20,6 @@ DOMAIN-SUFFIX,searchgpt.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,featuregates.org
@@ -43,7 +32,6 @@ DOMAIN-SUFFIX,claude-files.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,bingimages.microsoft.com
 DOMAIN-SUFFIX,ai.microsoft.com
-DOMAIN-SUFFIX,cdn.openai.com
 DOMAIN-SUFFIX,openai.azure.com
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,azureedge.net
@@ -58,18 +46,45 @@ DOMAIN-SUFFIX,skypeassets.com
 DOMAIN,chat.bing.com
 DOMAIN,edgeservices.bing.com
 DOMAIN,api.bing.microsoft.com
-# 来源：Gemini.list
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
-# 来源：Grok.list
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x-ai.com
 DOMAIN-SUFFIX,xai.com
 DOMAIN-KEYWORD,grok-api
-DOMAIN,api.grok.com
-DOMAIN,assets.grok.com
-# Google Flow：来自用户目标及此前提供的配置；需实机请求确认完整依赖
 DOMAIN,flow.google.com
 DOMAIN,labs.google
-DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,antigravity-unleash.goog
+DOMAIN,antigravity.google
+DOMAIN,api.jetbrains.ai
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,inference.codeium.com
+DOMAIN,jules.google.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,openrouter.ai
+DOMAIN,server.codeium.com
+DOMAIN,server.self-serve.windsurf.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,g.ai
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,x.ai

@@ -1,5 +1,6 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# Steam: 16
+# Converted from Surge/Rules/YouXiPingTai.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamstatic.com
@@ -16,7 +17,6 @@ DOMAIN-SUFFIX,artifacts.com
 DOMAIN-KEYWORD,steam
 DOMAIN-KEYWORD,valve
 DOMAIN,valve.com
-# EpicGames: 13
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,epicgames.dev
@@ -29,8 +29,6 @@ DOMAIN-SUFFIX,shadowcomplex.com
 DOMAIN-SUFFIX,spyjinx.com
 DOMAIN-SUFFIX,unrealtournament.com
 DOMAIN-SUFFIX,entitlements.com
-DOMAIN,help.epicgames.com
-# PlayStation: 30
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstation.org
@@ -44,17 +42,6 @@ DOMAIN-SUFFIX,scee.com
 DOMAIN-SUFFIX,scestatic.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sony.net
-DOMAIN-SUFFIX,api.playstation.com
-DOMAIN-SUFFIX,store.playstation.com
-DOMAIN-SUFFIX,my.playstation.com
-DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
-DOMAIN-SUFFIX,account.sony.com
-DOMAIN-SUFFIX,accounts.np.ac.playstation.net
-DOMAIN-SUFFIX,np.community.playstation.net
-DOMAIN-SUFFIX,np.playstation.net
-DOMAIN-SUFFIX,dl.playstation.net
-DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
-DOMAIN-SUFFIX,remoteplay.dl.playstation.net
 DOMAIN-SUFFIX,playstationlivearea.com
 DOMAIN-SUFFIX,playstationmusic.com
 DOMAIN-SUFFIX,playstationvideo.com

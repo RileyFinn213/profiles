@@ -1,5 +1,6 @@
-# Quantumult X 通用规则集；导入时用 force-policy 指定实际策略。
-# AGE动漫：7
+# Converted from Surge/Rules/AGE.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Quantumult X native filter; use force-policy to select your actual policy.
 host-suffix,agedm.io,proxy
 host-suffix,age.tv,proxy
 host-suffix,agefans.com,proxy

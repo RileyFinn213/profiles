@@ -1,5 +1,6 @@
-# Quantumult X 通用规则集；导入时用 force-policy 指定实际策略。
-# WeChat: 24
+# Converted from Surge/Rules/WeChat.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Quantumult X native filter; use force-policy to select your actual policy.
 host-suffix,weixin.com,proxy
 host-suffix,wechat.com,proxy
 host-suffix,tencent.com,proxy
@@ -14,8 +15,6 @@ host-suffix,qq.com,proxy
 host-suffix,gtimg.com,proxy
 host-suffix,gtimg.cn,proxy
 host-suffix,myqcloud.com,proxy
-host-suffix,wx.qq.com,proxy
-host-suffix,wxs.qq.com,proxy
 host-suffix,weixinimg.jaeapp.com,proxy
 host-keyword,wechat,proxy
 host-keyword,weixin,proxy

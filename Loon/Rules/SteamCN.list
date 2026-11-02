@@ -1,10 +1,10 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# SteamCN: 15
+# Converted from Surge/Rules/SteamCN.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamchina.cn
 DOMAIN-SUFFIX,steampp.net
 DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,wmsjsteam.com
 DOMAIN-SUFFIX,steampowered.com

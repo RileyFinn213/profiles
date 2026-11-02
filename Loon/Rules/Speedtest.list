@@ -1,5 +1,6 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# Speedtest: 9
+# Converted from Surge/Rules/Speedtest.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,ookla.com

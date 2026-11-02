@@ -1,5 +1,6 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# PlayStation: 30
+# Converted from Surge/Rules/PlayStation.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstation.org
@@ -13,17 +14,6 @@ DOMAIN-SUFFIX,scee.com
 DOMAIN-SUFFIX,scestatic.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sony.net
-DOMAIN-SUFFIX,api.playstation.com
-DOMAIN-SUFFIX,store.playstation.com
-DOMAIN-SUFFIX,my.playstation.com
-DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
-DOMAIN-SUFFIX,account.sony.com
-DOMAIN-SUFFIX,accounts.np.ac.playstation.net
-DOMAIN-SUFFIX,np.community.playstation.net
-DOMAIN-SUFFIX,np.playstation.net
-DOMAIN-SUFFIX,dl.playstation.net
-DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
-DOMAIN-SUFFIX,remoteplay.dl.playstation.net
 DOMAIN-SUFFIX,playstationlivearea.com
 DOMAIN-SUFFIX,playstationmusic.com
 DOMAIN-SUFFIX,playstationvideo.com

@@ -1,5 +1,6 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# Telegram: 31
+# Converted from Surge/Rules/Telegram.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,tdesktop.com
@@ -31,3 +32,14 @@ IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
 IP-ASN,62041,no-resolve
+IP-CIDR,91.108.8.0/21,no-resolve
+IP-CIDR,91.108.16.0/21,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
+IP-CIDR,194.221.250.50/32,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+PROCESS-NAME,org.telegram.messenger
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,legra.ph
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+IP-ASN,62014,no-resolve

@@ -1,5 +1,6 @@
-# Loon 原生规则；导入时通过 policy 指定策略。
-# Reddit: 11
+# Converted from Surge/Rules/Reddit.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Loon RULE-SET; bind actual policy at import.
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
@@ -8,6 +9,5 @@ DOMAIN-SUFFIX,redditmail.com
 DOMAIN-SUFFIX,reddithelp.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redditinc.com
-DOMAIN-SUFFIX,out.reddit.com
 DOMAIN-KEYWORD,reddit
 DOMAIN-KEYWORD,redditmedia

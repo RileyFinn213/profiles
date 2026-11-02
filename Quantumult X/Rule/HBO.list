@@ -1,5 +1,6 @@
-# Quantumult X 通用规则集；导入时用 force-policy 指定实际策略。
-# Max: 12
+# Converted from Surge/Rules/HBO.list; source repository lanjue4/P-Configuration
+# Preserves Rabbit-Spec attribution from merged source.
+# Quantumult X native filter; use force-policy to select your actual policy.
 host-suffix,max.com,proxy
 host-suffix,hbomax.com,proxy
 host-suffix,hbogo.com,proxy

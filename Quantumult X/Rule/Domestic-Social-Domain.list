@@ -1,0 +1,15 @@
+# Intentional IP-region routing; override with Landing policy at import.
+host,edith.xiaohongshu.com,proxy
+host,xhs-link.xiaohongshu.com,proxy
+host,api.weibo.cn,proxy
+host-suffix,zhihu.com,proxy
+host,tieba.baidu.com,proxy
+host,tiebac.baidu.com,proxy
+host,c.tieba.baidu.com,proxy
+host,tbmsg.baidu.com,proxy
+host,mp.weixin.qq.com,proxy
+host,szshort.weixin.qq.com,proxy
+host,szextshort.weixin.qq.com,proxy
+host,szminorshort.weixin.qq.com,proxy
+host,aweme.snssdk.com,proxy
+host-suffix,amemv.com,proxy
