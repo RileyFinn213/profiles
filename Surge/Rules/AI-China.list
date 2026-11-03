@@ -1,7 +1,6 @@
-# AI-China.list — merged snapshot, 2026-11-02
-# FORMAT: RULE-SET (no policy column)
-# Source: Surge/Rules/AI-China.list
-# Preserve upstream attribution and usage requirements.
+# AI routing merged snapshot 2026-11-03
+# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Routing classification is not a trust endorsement or guarantee of physical server location.
 DOMAIN-KEYWORD,deepseek
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseek.ai
@@ -32,3 +31,8 @@ IP-ASN,134709,no-resolve
 IP-ASN,139070,no-resolve
 DOMAIN-SUFFIX,deepseek.cn
 IP-ASN,134763,no-resolve
+DOMAIN,api.moonshot.cn
+DOMAIN,api.siliconflow.cn
+DOMAIN,api.minimax.cn
+DOMAIN,dashscope.aliyuncs.com
+DOMAIN,token-plan-cn.xiaomimimo.com

@@ -1,6 +1,7 @@
-# Converted from Surge/Rules/AI-China.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
+# AI routing merged snapshot 2026-11-03
+# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Routing classification is not a trust endorsement or guarantee of physical server location.
+# Use force-policy on import.
 host-keyword,deepseek,direct
 host-suffix,deepseek.com,direct
 host-suffix,deepseek.ai,direct
@@ -31,3 +32,8 @@ ip-asn,134709,direct
 ip-asn,139070,direct
 host-suffix,deepseek.cn,direct
 ip-asn,134763,direct
+host,api.moonshot.cn,direct
+host,api.siliconflow.cn,direct
+host,api.minimax.cn,direct
+host,dashscope.aliyuncs.com,direct
+host,token-plan-cn.xiaomimimo.com,direct

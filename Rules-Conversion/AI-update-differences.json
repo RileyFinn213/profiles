@@ -1,0 +1,62 @@
+[
+  {
+    "file": "AI-China",
+    "client": "qx",
+    "rule": "IP-ASN,138692,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  },
+  {
+    "file": "AI-China",
+    "client": "qx",
+    "rule": "IP-ASN,204454,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  },
+  {
+    "file": "AI-China",
+    "client": "qx",
+    "rule": "IP-ASN,134709,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  },
+  {
+    "file": "AI-China",
+    "client": "qx",
+    "rule": "IP-ASN,139070,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  },
+  {
+    "file": "AI-China",
+    "client": "qx",
+    "rule": "IP-ASN,134763,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  },
+  {
+    "file": "AI-Global",
+    "client": "qx",
+    "rule": "AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))",
+    "reason": "No verified equivalent logical-rule syntax; retained in Surge/Loon only"
+  },
+  {
+    "file": "AI-Global",
+    "client": "qx",
+    "rule": "AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))",
+    "reason": "No verified equivalent logical-rule syntax; retained in Surge/Loon only"
+  },
+  {
+    "file": "AI-Global",
+    "client": "qx",
+    "rule": "AND,((DOMAIN-KEYWORD,antigravity-auto-updater-),(DOMAIN-SUFFIX,run.app))",
+    "reason": "No verified equivalent logical-rule syntax; retained in Surge/Loon only"
+  },
+  {
+    "file": "AI-Global",
+    "client": "qx",
+    "rule": "IP-CIDR,160.79.104.0/23,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  },
+  {
+    "file": "AI-Global",
+    "client": "qx",
+    "rule": "IP-CIDR6,2607:6bc0::/48,no-resolve",
+    "reason": "Surge per-rule no-resolve omitted; DNS matching behavior may differ"
+  }
+]
