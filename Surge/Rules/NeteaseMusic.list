@@ -38,6 +38,7 @@ DOMAIN-SUFFIX, mam.netease.com
 DOMAIN-SUFFIX, music.126.com
 DOMAIN-SUFFIX, music.126.net
 DOMAIN-SUFFIX, music.163.com.163jiasu.com
+DOMAIN-SUFFIX,yunxinfw.com
 
 IP-CIDR, 59.111.181.38/32, no-resolve
 IP-CIDR, 59.111.181.60/32, no-resolve
