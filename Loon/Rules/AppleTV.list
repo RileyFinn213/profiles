@@ -1,11 +1,8 @@
 # Converted from Surge/Rules/AppleTV.list; source repository lanjue4/P-Configuration
 # Preserves Rabbit-Spec attribution from merged source.
 # Loon RULE-SET; bind actual policy at import.
-DOMAIN-KEYWORD,itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,tv.applemusic.com
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,hls.itunes.apple.com
 DOMAIN-SUFFIX,hls-amt.itunes.apple.com
 DOMAIN-SUFFIX,play-edge.apple.com

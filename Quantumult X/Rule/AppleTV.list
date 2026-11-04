@@ -1,11 +1,8 @@
 # Converted from Surge/Rules/AppleTV.list; source repository lanjue4/P-Configuration
 # Preserves Rabbit-Spec attribution from merged source.
 # Quantumult X native filter; use force-policy to select your actual policy.
-host-keyword,itunes.apple.com,proxy
 host-suffix,tv.apple.com,proxy
 host-suffix,tv.applemusic.com,proxy
-host-suffix,aaplimg.com,proxy
-host-suffix,apple-mapkit.com,proxy
 host-suffix,hls.itunes.apple.com,proxy
 host-suffix,hls-amt.itunes.apple.com,proxy
 host-suffix,play-edge.apple.com,proxy
