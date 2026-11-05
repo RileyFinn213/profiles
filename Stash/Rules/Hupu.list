@@ -1,0 +1,9 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Hupu.list
+# Converted for target client; source attribution and usage terms remain applicable.
+DOMAIN-KEYWORD,hupu
+DOMAIN-SUFFIX,hoopchina.com
+DOMAIN-SUFFIX,kanqiu.com
+DOMAIN-SUFFIX,hpstatic.cn
+DOMAIN-SUFFIX,hupustatic.com
+DOMAIN-SUFFIX,shihuo.cn
+DOMAIN-SUFFIX,shihuoapi.com

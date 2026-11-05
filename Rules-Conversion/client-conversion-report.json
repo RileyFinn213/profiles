@@ -1,0 +1,492 @@
+{
+  "counts": {
+    "Google": {
+      "source": 705,
+      "Stash": 705,
+      "Egern": 700
+    },
+    "Spotify": {
+      "source": 37,
+      "Stash": 37,
+      "Egern": 36
+    },
+    "SubStore": {
+      "source": 18,
+      "Stash": 18,
+      "Egern": 18
+    },
+    "Bahamut": {
+      "source": 7,
+      "Stash": 7,
+      "Egern": 7
+    },
+    "Telegram": {
+      "source": 42,
+      "Stash": 42,
+      "Egern": 41
+    },
+    "China": {
+      "source": 6398,
+      "Stash": 6398,
+      "Egern": 6398
+    },
+    "Microsoft": {
+      "source": 772,
+      "Stash": 772,
+      "Egern": 770
+    },
+    "Pixiv": {
+      "source": 11,
+      "Stash": 11,
+      "Egern": 11
+    },
+    "Github": {
+      "source": 10,
+      "Stash": 10,
+      "Egern": 10
+    },
+    "Speedtest": {
+      "source": 9,
+      "Stash": 9,
+      "Egern": 9
+    },
+    "Reddit": {
+      "source": 10,
+      "Stash": 10,
+      "Egern": 10
+    },
+    "NGA": {
+      "source": 10,
+      "Stash": 10,
+      "Egern": 10
+    },
+    "TMDB": {
+      "source": 4,
+      "Stash": 4,
+      "Egern": 4
+    },
+    "Steam": {
+      "source": 16,
+      "Stash": 16,
+      "Egern": 16
+    },
+    "LSP": {
+      "source": 2,
+      "Stash": 2,
+      "Egern": 2
+    },
+    "Douban": {
+      "source": 3,
+      "Stash": 3,
+      "Egern": 3
+    },
+    "Discord": {
+      "source": 15,
+      "Stash": 15,
+      "Egern": 15
+    },
+    "Apple": {
+      "source": 1587,
+      "Stash": 1587,
+      "Egern": 1578
+    },
+    "XiaoHongShu": {
+      "source": 6,
+      "Stash": 6,
+      "Egern": 6
+    },
+    "Epic": {
+      "source": 12,
+      "Stash": 12,
+      "Egern": 12
+    },
+    "Disney+": {
+      "source": 241,
+      "Stash": 241,
+      "Egern": 239
+    },
+    "Pinterest": {
+      "source": 4,
+      "Stash": 4,
+      "Egern": 4
+    },
+    "AGE": {
+      "source": 7,
+      "Stash": 7,
+      "Egern": 7
+    },
+    "WeChat": {
+      "source": 22,
+      "Stash": 22,
+      "Egern": 22
+    },
+    "Twitch": {
+      "source": 11,
+      "Stash": 11,
+      "Egern": 11
+    },
+    "YouXiPingTai": {
+      "source": 47,
+      "Stash": 47,
+      "Egern": 47
+    },
+    "SteamCN": {
+      "source": 14,
+      "Stash": 14,
+      "Egern": 14
+    },
+    "AI-Global": {
+      "source": 276,
+      "Stash": 276,
+      "Egern": 276
+    },
+    "NeteaseMusic": {
+      "source": 33,
+      "Stash": 33,
+      "Egern": 33
+    },
+    "Instagram": {
+      "source": 76,
+      "Stash": 76,
+      "Egern": 76
+    },
+    "ChinaCIDR": {
+      "source": 10036,
+      "Stash": 10036,
+      "Egern": 10036
+    },
+    "Hupu": {
+      "source": 7,
+      "Stash": 7,
+      "Egern": 7
+    },
+    "Bilibili": {
+      "source": 126,
+      "Stash": 126,
+      "Egern": 124
+    },
+    "TikTok": {
+      "source": 73,
+      "Stash": 73,
+      "Egern": 72
+    },
+    "HBO": {
+      "source": 12,
+      "Stash": 12,
+      "Egern": 12
+    },
+    "Twitter": {
+      "source": 12,
+      "Stash": 12,
+      "Egern": 12
+    },
+    "LAN": {
+      "source": 181,
+      "Stash": 181,
+      "Egern": 181
+    },
+    "ChinaMedia": {
+      "source": 358,
+      "Stash": 358,
+      "Egern": 356
+    },
+    "Weibo": {
+      "source": 15,
+      "Stash": 15,
+      "Egern": 15
+    },
+    "ChinaASN": {
+      "source": 5101,
+      "Stash": 5101,
+      "Egern": 5101
+    },
+    "AppleTV": {
+      "source": 5,
+      "Stash": 5,
+      "Egern": 5
+    },
+    "YouTube": {
+      "source": 192,
+      "Stash": 192,
+      "Egern": 192
+    },
+    "Netflix": {
+      "source": 1619,
+      "Stash": 1619,
+      "Egern": 1618
+    },
+    "Xunlei": {
+      "source": 14,
+      "Stash": 14,
+      "Egern": 14
+    },
+    "PlayStation": {
+      "source": 19,
+      "Stash": 19,
+      "Egern": 19
+    },
+    "AI-China": {
+      "source": 35,
+      "Stash": 35,
+      "Egern": 35
+    },
+    "Domestic-Social-Domain": {
+      "source": 14,
+      "Stash": 14,
+      "Egern": 14
+    },
+    "Domestic-Social-IP-CIDR": {
+      "source": 35,
+      "Stash": 35,
+      "Egern": 35
+    },
+    "Advertising": {
+      "source": 782,
+      "Stash": 782,
+      "Egern": 781
+    },
+    "Privacy": {
+      "source": 20,
+      "Stash": 20,
+      "Egern": 20
+    },
+    "Hijacking": {
+      "source": 228,
+      "Stash": 228,
+      "Egern": 228
+    },
+    "Adblock4limbo_surge": {
+      "source": 548,
+      "Stash": 526,
+      "Egern": 526
+    },
+    "rejectAd": {
+      "source": 2748,
+      "Stash": 2656,
+      "Egern": 2655
+    },
+    "SystemOTA": {
+      "source": 78,
+      "Stash": 78,
+      "Egern": 78
+    },
+    "Emby-DIRECT": {
+      "source": 86,
+      "Stash": 86,
+      "Egern": 86
+    },
+    "Emby-USA": {
+      "source": 43,
+      "Stash": 43,
+      "Egern": 43
+    },
+    "Emby-JP": {
+      "source": 71,
+      "Stash": 70,
+      "Egern": 70
+    },
+    "Emby": {
+      "source": 1,
+      "Stash": 1,
+      "Egern": 1
+    }
+  },
+  "differences": [
+    {
+      "source": "Google",
+      "line": 706,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,GoogleDriveFS.exe",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Google",
+      "line": 707,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.android.vending",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Google",
+      "line": 708,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.google.android.gms",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Google",
+      "line": 709,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.google.android.gsf",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Google",
+      "line": 710,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.google.android.play.games",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Spotify",
+      "line": 42,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.spotify.music",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Telegram",
+      "line": 43,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,org.telegram.messenger",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Microsoft",
+      "line": 776,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,OneDrive",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Microsoft",
+      "line": 777,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,OneDriveUpdater",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1584,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,CoreLocationAgent",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1585,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,LookupViewService",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1586,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,WeatherWidget",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1587,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,apsd",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1588,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.apple.Maps",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1589,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.apple.geod",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1590,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,findmydevice-user-agent",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1591,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,fmfd",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Apple",
+      "line": 1592,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,mapspushd",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Disney+",
+      "line": 245,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.disney.datg.videoplatforms.android.abc",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Disney+",
+      "line": 246,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.disney.disneyplus",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Bilibili",
+      "line": 130,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.bilibili.app.in",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Bilibili",
+      "line": 131,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,tv.danmaku.bili",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "TikTok",
+      "line": 78,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.zhiliaoapp.musically",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "ChinaMedia",
+      "line": 348,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.bilibili.app.in",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "ChinaMedia",
+      "line": 349,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,tv.danmaku.bili",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Netflix",
+      "line": 1624,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.netflix.mediaclient",
+      "reason": "process conditions not supported"
+    },
+    {
+      "source": "Advertising",
+      "line": 795,
+      "client": "Egern",
+      "rule": "AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29))",
+      "reason": "logical child not convertible to domain regex USER-AGENT"
+    },
+    {
+      "source": "rejectAd",
+      "line": 3220,
+      "client": "Egern",
+      "rule": "AND,((NOT,((DOMAIN,volcengine-kdocs-cache.wpscdn.cn))), (NOT,((DOMAIN,vod-settings.volcvod.com))), (NOT,((DOMAIN,volcengine-kdocs-cache.wpscdn.cn))), (OR,((DOMAIN-KEYWORD,volc))))",
+      "reason": "list index out of range"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Telegram.list
+# Converted for target client; source attribution and usage terms remain applicable.
+no_resolve: true
+ip_cidr_set:
+- 91.108.4.0/22
+- 91.108.8.0/22
+- 91.108.12.0/22
+- 91.108.16.0/22
+- 91.108.20.0/22
+- 91.108.56.0/22
+- 91.105.192.0/23
+- 149.154.160.0/20
+- 185.76.151.0/24
+- 91.108.8.0/21
+- 91.108.16.0/21
+- 95.161.64.0/20
+- 194.221.250.50/32
+- 109.239.140.0/24
+- 5.28.192.0/18
+ip_cidr6_set:
+- 2001:b28:f23d::/48
+- 2001:b28:f23f::/48
+- 2001:b28:f24c::/48
+- 2001:67c:4e8::/48
+- 2a0a:f280::/32
+- 2001:b28:f23c::/48
+asn_set:
+- AS211157
+- AS44907
+- AS59930
+- AS62041
+- AS62014

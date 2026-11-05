@@ -1,0 +1,13 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Github.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- github.com
+- github.io
+- githubassets.com
+- githubusercontent.com
+- githubapp.com
+- githubcopilot.com
+- githubcopilotusercontent.com
+- actionsusercontent.com
+- ghcr.io
+- git.io

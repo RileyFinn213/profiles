@@ -1,0 +1,8 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/WeChat.list
+# Converted for target client; source attribution and usage terms remain applicable.
+no_resolve: true
+asn_set:
+- AS132203
+- AS132591
+- AS45090
+- AS58543

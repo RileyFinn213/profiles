@@ -1,0 +1,12 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AGE.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- agedm.io
+- age.tv
+- agefans.com
+- agedm.com
+- agedm.org
+domain_set:
+- ageapi.omwjhz.com
+domain_keyword_set:
+- agedm

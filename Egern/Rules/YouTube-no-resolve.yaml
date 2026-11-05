@@ -1,0 +1,12 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list
+# Converted for target client; source attribution and usage terms remain applicable.
+no_resolve: true
+asn_set:
+- AS19527
+- AS36040
+- AS43515
+ip_cidr_set:
+- 172.110.32.0/21
+- 216.73.80.0/20
+ip_cidr6_set:
+- 2620:120:e000::/40

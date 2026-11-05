@@ -1,0 +1,9 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bahamut.list
+# Converted for target client; source attribution and usage terms remain applicable.
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,viblast.com
+DOMAIN-SUFFIX,gvt1.com

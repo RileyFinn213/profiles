@@ -1,0 +1,9 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
+# Converted for target client; source attribution and usage terms remain applicable.
+no_resolve: true
+asn_set:
+- AS138692
+- AS204454
+- AS134709
+- AS139070
+- AS134763

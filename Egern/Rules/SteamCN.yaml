@@ -1,0 +1,18 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- steamchina.com
+- steamchina.cn
+- steampp.net
+- steamcontent.com
+- steamserver.net
+- wmsjsteam.com
+- steampowered.com
+- steamstatic.com
+- steamcdn-a.akamaihd.net
+- steamcommunity.com
+- steam-chat.com
+domain_keyword_set:
+- steamchina
+- steamcontent
+- steampowered

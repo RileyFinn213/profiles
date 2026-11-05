@@ -1,0 +1,19 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NeteaseMusic.list
+# Converted for target client; source attribution and usage terms remain applicable.
+user_agent_set:
+- NeteaseMusic*
+- 网易云音乐*
+- '%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*'
+domain_set:
+- iadmat.nosdn.127.net
+- netease.ugcvideoss.ourdvs.com
+domain_suffix_set:
+- music.163.com
+- 163yun.com
+- api.iplay.163.com
+- hz.netease.com
+- mam.netease.com
+- music.126.com
+- music.126.net
+- music.163.com.163jiasu.com
+- yunxinfw.com

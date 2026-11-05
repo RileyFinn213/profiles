@@ -1,0 +1,15 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Twitch.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- twitch.tv
+- ttvnw.net
+- jtvnw.net
+- twitchcdn.net
+- twitchthumbs.com
+- twitchsvc.net
+- ext-twitch.tv
+- chatterino.com
+domain_keyword_set:
+- twitch
+- ttvnw
+- jtvnw

@@ -1,0 +1,6 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list
+# Converted for target client; source attribution and usage terms remain applicable.
+no_resolve: true
+ip_cidr_set:
+- 173.194.0.0/16
+- 74.125.0.0/16

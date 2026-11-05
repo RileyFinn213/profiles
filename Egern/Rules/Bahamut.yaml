@@ -1,0 +1,10 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bahamut.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- gamer.com.tw
+- bahamut.com.tw
+- hinet.net
+- fbcdn.net
+- digicert.com
+- viblast.com
+- gvt1.com

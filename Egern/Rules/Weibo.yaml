@@ -1,0 +1,18 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Weibo.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- weibo.cn
+- weibo.com
+- weibocdn.com
+- weibocdn.cn
+- sinaimg.cn
+- sinajs.cn
+- sina.com.cn
+- sina.cn
+- sina.com
+- sinacn.com
+- miaopai.com
+- xiaokaxiu.com
+domain_keyword_set:
+- weibo
+- sinaimg

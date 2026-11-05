@@ -1,0 +1,6 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list
+# Converted for target client; source attribution and usage terms remain applicable.
+DOMAIN,tmdb-image-prod.b-cdn.net
+DOMAIN,tmdb-web-image-prod.b-cdn.net
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org

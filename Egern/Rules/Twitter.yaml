@@ -1,0 +1,9 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Twitter.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- x.com
+- twitter.com
+- twimg.com
+- t.co
+- grok.com
+- twvid.com

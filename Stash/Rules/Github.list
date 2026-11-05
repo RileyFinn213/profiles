@@ -1,0 +1,12 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Github.list
+# Converted for target client; source attribution and usage terms remain applicable.
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,githubcopilotusercontent.com
+DOMAIN-SUFFIX,actionsusercontent.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io

@@ -1,0 +1,41 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Spotify.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- spotify.com
+- scdn.co
+- spoti.fi
+- spotifycdn.com
+- spotifycdn.net
+- pscdn.co
+- spotify.link
+- spotifycodes.com
+- spotify-everywhere.com
+- byspotify.com
+- lifeatspotify.com
+- spotify.map.fastly.net
+- audio-ak-spotify-com.akamaized.net
+- heads4-ak-spotify-com.akamaized.net
+- spotify-com.akamaized.net
+- spotify.app.link
+- spotify.com.edgesuite.net
+- spotify.design
+- spotifycharts.com
+- spotifyforbrands.com
+- spotifyforvendors.com
+- spotifyjobs.com
+- spotilocal.com
+- tospotify.com
+domain_keyword_set:
+- spotify
+- audio-ak-spotify
+- heads-ak-spotify
+- -spotify-
+- -spotify-com
+- spotify.com
+domain_set:
+- audio4-ak-spotify-com.akamaized.net
+- cdn-spotify-experiments.conductrics.com
+- heads-ak-spotify-com.akamaized.net
+- spotify.map.fastlylb.net
+user_agent_set:
+- Spotify*

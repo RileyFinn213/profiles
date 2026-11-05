@@ -1,0 +1,12 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Reddit.list
+# Converted for target client; source attribution and usage terms remain applicable.
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmail.com
+DOMAIN-SUFFIX,reddithelp.com
+DOMAIN-SUFFIX,redditstatus.com
+DOMAIN-SUFFIX,redditinc.com
+DOMAIN-KEYWORD,reddit
+DOMAIN-KEYWORD,redditmedia

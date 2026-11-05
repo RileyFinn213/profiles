@@ -1,0 +1,15 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Pixiv.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- pixiv.net
+- pixiv.me
+- pximg.net
+- pixiv.org
+- pixiv.co.jp
+- pixiv.net.co
+- fanbox.cc
+- booth.pm
+- comic-art.com
+domain_keyword_set:
+- pixiv
+- pximg

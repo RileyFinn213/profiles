@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Google",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list",
+    "domainset": false,
+    "local": "Surge/Rules/Google.list"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Spotify.list",
+    "domainset": false,
+    "local": "Surge/Rules/Spotify.list"
+  },
+  {
+    "name": "SubStore",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SubStore.list",
+    "domainset": false,
+    "local": "Surge/Rules/SubStore.list"
+  },
+  {
+    "name": "Bahamut",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bahamut.list",
+    "domainset": false,
+    "local": "Surge/Rules/Bahamut.list"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Telegram.list",
+    "domainset": false,
+    "local": "Surge/Rules/Telegram.list"
+  },
+  {
+    "name": "China",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/China.list",
+    "domainset": true,
+    "local": "Surge/Rules/China.list"
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list",
+    "domainset": false,
+    "local": "Surge/Rules/Microsoft.list"
+  },
+  {
+    "name": "Pixiv",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Pixiv.list",
+    "domainset": false,
+    "local": "Surge/Rules/Pixiv.list"
+  },
+  {
+    "name": "Github",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Github.list",
+    "domainset": false,
+    "local": "Surge/Rules/Github.list"
+  },
+  {
+    "name": "Speedtest",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Speedtest.list",
+    "domainset": false,
+    "local": "Surge/Rules/Speedtest.list"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Reddit.list",
+    "domainset": false,
+    "local": "Surge/Rules/Reddit.list"
+  },
+  {
+    "name": "NGA",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NGA.list",
+    "domainset": false,
+    "local": "Surge/Rules/NGA.list"
+  },
+  {
+    "name": "TMDB",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list",
+    "domainset": false,
+    "local": "Surge/Rules/TMDB.list"
+  },
+  {
+    "name": "Steam",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Steam.list",
+    "domainset": false,
+    "local": "Surge/Rules/Steam.list"
+  },
+  {
+    "name": "LSP",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/LSP.list",
+    "domainset": false,
+    "local": "Surge/Rules/LSP.list"
+  },
+  {
+    "name": "Douban",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Douban.list",
+    "domainset": false,
+    "local": "Surge/Rules/Douban.list"
+  },
+  {
+    "name": "Discord",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Discord.list",
+    "domainset": false,
+    "local": "Surge/Rules/Discord.list"
+  },
+  {
+    "name": "Apple",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list",
+    "domainset": false,
+    "local": "Surge/Rules/Apple.list"
+  },
+  {
+    "name": "XiaoHongShu",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/XiaoHongShu.list",
+    "domainset": false,
+    "local": "Surge/Rules/XiaoHongShu.list"
+  },
+  {
+    "name": "Epic",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Epic.list",
+    "domainset": false,
+    "local": "Surge/Rules/Epic.list"
+  },
+  {
+    "name": "Disney+",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list",
+    "domainset": false,
+    "local": "Surge/Rules/Disney+.list"
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Pinterest.list",
+    "domainset": false,
+    "local": "Surge/Rules/Pinterest.list"
+  },
+  {
+    "name": "AGE",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AGE.list",
+    "domainset": false,
+    "local": "Surge/Rules/AGE.list"
+  },
+  {
+    "name": "WeChat",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/WeChat.list",
+    "domainset": false,
+    "local": "Surge/Rules/WeChat.list"
+  },
+  {
+    "name": "Twitch",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Twitch.list",
+    "domainset": false,
+    "local": "Surge/Rules/Twitch.list"
+  },
+  {
+    "name": "YouXiPingTai",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouXiPingTai.list",
+    "domainset": false,
+    "local": "Surge/Rules/YouXiPingTai.list"
+  },
+  {
+    "name": "SteamCN",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list",
+    "domainset": false,
+    "local": "Surge/Rules/SteamCN.list"
+  },
+  {
+    "name": "AI-Global",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list",
+    "domainset": false,
+    "local": "Surge/Rules/AI-Global.list"
+  },
+  {
+    "name": "NeteaseMusic",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NeteaseMusic.list",
+    "domainset": false,
+    "local": "Surge/Rules/NeteaseMusic.list"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Instagram.list",
+    "domainset": false,
+    "local": "Surge/Rules/Instagram.list"
+  },
+  {
+    "name": "ChinaCIDR",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/ChinaCIDR.list",
+    "domainset": false,
+    "local": "Surge/Rules/ChinaCIDR.list"
+  },
+  {
+    "name": "Hupu",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Hupu.list",
+    "domainset": false,
+    "local": "Surge/Rules/Hupu.list"
+  },
+  {
+    "name": "Bilibili",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+    "domainset": false,
+    "local": "Surge/Rules/Bilibili.list"
+  },
+  {
+    "name": "TikTok",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TikTok.list",
+    "domainset": false,
+    "local": "Surge/Rules/TikTok.list"
+  },
+  {
+    "name": "HBO",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/HBO.list",
+    "domainset": false,
+    "local": "Surge/Rules/HBO.list"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Twitter.list",
+    "domainset": false,
+    "local": "Surge/Rules/Twitter.list"
+  },
+  {
+    "name": "LAN",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/LAN.list",
+    "domainset": false,
+    "local": "Surge/Rules/LAN.list"
+  },
+  {
+    "name": "ChinaMedia",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/ChinaMedia.list",
+    "domainset": false,
+    "local": "Surge/Rules/ChinaMedia.list"
+  },
+  {
+    "name": "Weibo",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Weibo.list",
+    "domainset": false,
+    "local": "Surge/Rules/Weibo.list"
+  },
+  {
+    "name": "ChinaASN",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/ChinaASN.list",
+    "domainset": false,
+    "local": "Surge/Rules/ChinaASN.list"
+  },
+  {
+    "name": "AppleTV",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AppleTV.list",
+    "domainset": false,
+    "local": "Surge/Rules/AppleTV.list"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list",
+    "domainset": false,
+    "local": "Surge/Rules/YouTube.list"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+    "domainset": false,
+    "local": "Surge/Rules/Netflix.list"
+  },
+  {
+    "name": "Xunlei",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Xunlei.list",
+    "domainset": false,
+    "local": "Surge/Rules/Xunlei.list"
+  },
+  {
+    "name": "PlayStation",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/PlayStation.list",
+    "domainset": false,
+    "local": "Surge/Rules/PlayStation.list"
+  },
+  {
+    "name": "AI-China",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list",
+    "domainset": false,
+    "local": "Surge/Rules/AI-China.list"
+  },
+  {
+    "name": "Domestic-Social-Domain",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Rules/Domestic-Social-Domain.list",
+    "local": "Rules/Domestic-Social-Domain.list"
+  },
+  {
+    "name": "Domestic-Social-IP-CIDR",
+    "url": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Rules/Domestic-Social-IP-CIDR.list",
+    "local": "Rules/Domestic-Social-IP-CIDR.list"
+  },
+  {
+    "name": "Advertising",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list",
+    "domainset": false
+  },
+  {
+    "name": "Privacy",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy.list",
+    "domainset": false
+  },
+  {
+    "name": "Hijacking",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list",
+    "domainset": false
+  },
+  {
+    "name": "Adblock4limbo_surge",
+    "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list",
+    "domainset": false
+  },
+  {
+    "name": "rejectAd",
+    "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/rejectAd.list",
+    "domainset": false
+  },
+  {
+    "name": "SystemOTA",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list",
+    "domainset": false
+  },
+  {
+    "name": "Emby-DIRECT",
+    "url": "https://raw.githubusercontent.com/jiuyueqingcheng/Emby_list/main/Rule/Emby-DIRECT.list",
+    "domainset": false
+  },
+  {
+    "name": "Emby-USA",
+    "url": "https://raw.githubusercontent.com/jiuyueqingcheng/Emby_list/main/Rule/Emby-USA.list",
+    "domainset": false
+  },
+  {
+    "name": "Emby-JP",
+    "url": "https://raw.githubusercontent.com/jiuyueqingcheng/Emby_list/main/Rule/Emby-JP.list",
+    "domainset": false
+  },
+  {
+    "name": "Emby",
+    "url": "https://raw.githubusercontent.com/jiuyueqingcheng/Emby_list/main/Rule/Emby.list",
+    "domainset": false
+  }
+]

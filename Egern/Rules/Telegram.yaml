@@ -1,0 +1,18 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Telegram.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- t.me
+- tx.me
+- tdesktop.com
+- telegra.ph
+- telegram.me
+- telegram.org
+- telegram.space
+- graph.org
+- iturrit.com
+- telegram.dog
+- telesco.pe
+- tg.dev
+- comments.app
+- telegram-cdn.org
+- legra.ph

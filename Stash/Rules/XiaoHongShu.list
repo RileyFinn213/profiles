@@ -1,0 +1,8 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/XiaoHongShu.list
+# Converted for target client; source attribution and usage terms remain applicable.
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhs.cn
+DOMAIN-SUFFIX,rednote.com
+DOMAIN-SUFFIX,rednote.com.cn

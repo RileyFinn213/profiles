@@ -1,0 +1,18 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Discord.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- discord.com
+- discordapp.com
+- discordapp.net
+- discord.gg
+- discord.media
+- discord.design
+- discordstatus.com
+- discordcdn.com
+- discordmerch.com
+- discordpartygames.com
+- discord-activities.com
+- discord-attachments-uploads-prd.s3.amazonaws.com
+- dis.gd
+- discord.co
+- discord.v-gg

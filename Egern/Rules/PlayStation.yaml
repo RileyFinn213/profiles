@@ -1,0 +1,23 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/PlayStation.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- playstation.com
+- playstation.net
+- playstation.org
+- playstationnetwork.com
+- sonyentertainmentnetwork.com
+- sonyentertainmentnetwork.net
+- psn.com
+- scea.com
+- scei.co.jp
+- scee.com
+- scestatic.com
+- sony.com
+- sony.net
+- playstationlivearea.com
+- playstationmusic.com
+- playstationvideo.com
+domain_keyword_set:
+- playstation
+- sonyentertainmentnetwork
+- psn

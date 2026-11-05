@@ -1,0 +1,11 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list
+# Converted for target client; source attribution and usage terms remain applicable.
+no_resolve: true
+ip_cidr_set:
+- 106.75.74.76/32
+- 111.206.25.147/32
+- 119.3.238.64/32
+- 120.92.108.182/32
+- 120.92.113.99/32
+- 120.92.153.217/32
+- 134.175.207.130/32

@@ -1,0 +1,38 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- netflix.com
+- netflix.net
+- nflxext.com
+- nflximg.com
+- nflximg.net
+- nflxvideo.net
+- nflxso.net
+- netflixdnstest0.com
+- netflixdnstest1.com
+- netflixdnstest2.com
+- netflixdnstest3.com
+- netflixdnstest4.com
+- netflixdnstest5.com
+- fast.com
+- flxvpn.net
+- netflix.ca
+- netflix.com.au
+- netflix.com.edgesuite.net
+- netflixdnstest10.com
+- netflixdnstest6.com
+- netflixdnstest7.com
+- netflixdnstest8.com
+- netflixdnstest9.com
+- netflixinvestor.com
+- netflixstudios.com
+- netflixtechblog.com
+- nflxsearch.net
+- us-west-2.amazonaws.com
+domain_keyword_set:
+- apiproxy-device-prod-nlb-
+- dualstack.apiproxy-
+- dualstack.ichnaea-web-
+- netflixdnstest
+user_agent_set:
+- Argo*

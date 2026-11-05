@@ -1,0 +1,14 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Reddit.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- reddit.com
+- redditmedia.com
+- redditstatic.com
+- redd.it
+- redditmail.com
+- reddithelp.com
+- redditstatus.com
+- redditinc.com
+domain_keyword_set:
+- reddit
+- redditmedia

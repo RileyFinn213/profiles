@@ -1,0 +1,35 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_keyword_set:
+- deepseek
+- doubao
+- rtc-vcloud
+- volc-rtc
+- volcengine-rtc
+domain_suffix_set:
+- deepseek.com
+- deepseek.ai
+- deepseek-static.com
+- bytegecko.com
+- volces.com
+- volcengine.com
+- doubao.com
+- doubaoai.com
+- doubao-dev.com
+- doubaocdn.com
+- doubaozhidao.com
+- volccdn.com
+- volcengineapi.com
+- volcengine.cn
+- byteoversea.com
+- ibyteimg.com
+- snssdk.com
+- bytedance.com
+- deepseek.cn
+domain_set:
+- chat.gecko-pas.com
+- api.moonshot.cn
+- api.siliconflow.cn
+- api.minimax.cn
+- dashscope.aliyuncs.com
+- token-plan-cn.xiaomimimo.com

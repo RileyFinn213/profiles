@@ -1,0 +1,17 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Xunlei.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- xunlei.com
+- thunderurl.com
+- sandai.net
+- 00881.net
+- kankan.com
+- xlpan.com
+- xunlei.net
+- sjxl.cn
+- lixian.vip
+- xycdn.com
+- onethingpcs.com
+domain_keyword_set:
+- xunlei
+- thunder

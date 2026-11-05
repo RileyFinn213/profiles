@@ -1,0 +1,11 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Hupu.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_keyword_set:
+- hupu
+domain_suffix_set:
+- hoopchina.com
+- kanqiu.com
+- hpstatic.cn
+- hupustatic.com
+- shihuo.cn
+- shihuoapi.com

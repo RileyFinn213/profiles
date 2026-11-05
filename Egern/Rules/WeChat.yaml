@@ -1,0 +1,22 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/WeChat.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- weixin.com
+- wechat.com
+- tencent.com
+- qlogo.cn
+- qpic.cn
+- servicewechat.com
+- weixinbridge.com
+- wechatlegal.net
+- wechatpay.com
+- tenpay.com
+- qq.com
+- gtimg.com
+- gtimg.cn
+- myqcloud.com
+- weixinimg.jaeapp.com
+domain_keyword_set:
+- wechat
+- weixin
+- tencent

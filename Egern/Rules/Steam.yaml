@@ -1,0 +1,21 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Steam.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- steampowered.com
+- steamcommunity.com
+- steamstatic.com
+- steamusercontent.com
+- steam-chat.com
+- steamserver.net
+- steamcontent.com
+- steamdeck.com
+- steamgames.com
+- valvesoftware.com
+- valvecorp.com
+- underlords.com
+- artifacts.com
+domain_keyword_set:
+- steam
+- valve
+domain_set:
+- valve.com

@@ -1,0 +1,13 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Speedtest.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- speedtest.net
+- ooklaserver.net
+- ookla.com
+- speedtestcustom.com
+- downdetector.com
+- downdetector.com.br
+- downdetector.co.uk
+domain_keyword_set:
+- speedtest
+- ookla

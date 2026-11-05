@@ -1,0 +1,12 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NGA.list
+# Converted for target client; source attribution and usage terms remain applicable.
+domain_suffix_set:
+- nga.cn
+- ngabbs.com
+- 178.com
+- ngacn.cc
+- biglobe.ne.jp
+- pic.backblazeb2.com
+domain_keyword_set:
+- ngabbs
+- ngacn
