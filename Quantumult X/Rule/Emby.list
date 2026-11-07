@@ -1,8 +1,8 @@
-host-suffix, zhezhi.art, Emby
-host-suffix, okemby.org, Emby
-host-suffix, sadchicktv.com, Emby
-host-suffix, chapanda.site, Emby
-host-suffix, nijigem.by, Emby
-host-suffix, imetyou.top, Emby
-host-suffix, 28.ai, Emby
-host-suffix, zzm.li, Emby
+host-suffix, zhezhi.art,proxy
+host-suffix, okemby.org,proxy
+host-suffix, sadchicktv.com,proxy
+host-suffix, chapanda.site,proxy
+host-suffix, nijigem.by,proxy
+host-suffix, imetyou.top,proxy
+host-suffix, 28.ai,proxy
+host-suffix, zzm.li,proxy
