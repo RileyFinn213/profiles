@@ -1,4 +1,4 @@
-#!name=DNS Lite
+#!name=DNS分流与广告拦截
 #!desc=国内/国外双 DNS 分流，并拦截广告与追踪域名。国内域名走国内 DNS，其余走加密 DNS。
 # 用法：填写国内DNS、国外DNS和广告拦截动作；白名单不用时保留默认值。
 #!category=uui

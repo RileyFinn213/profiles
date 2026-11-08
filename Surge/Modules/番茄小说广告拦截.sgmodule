@@ -1,4 +1,4 @@
-#!name=番茄小说去广告
+#!name=番茄小说广告拦截
 #!desc=通过域名规则、URL Rewrite 和 MITM 处理番茄小说广告与活动接口；保留正文、登录和内容资源。
 # 用法：安装后按需启用；URL Rewrite/MITM 依赖受信任证书，出现正文、评论或登录异常时停用模块。
 #!category=uui

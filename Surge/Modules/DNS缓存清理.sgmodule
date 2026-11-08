@@ -1,4 +1,4 @@
-#!name=DNS 清理缓存
+#!name=DNS缓存清理
 #!desc=面板显示 Surge DNS 缓存状态；点击刷新按钮后调用 Surge API 清理并回读核验。
 # 用法：启用模块后点击面板右上角刷新按钮；自动刷新只读状态，不自动清缓存。
 #!category=uui

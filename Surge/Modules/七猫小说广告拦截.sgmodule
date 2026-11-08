@@ -1,4 +1,4 @@
-#!name=七猫小说去广告
+#!name=七猫小说广告拦截
 #!version=1.1.5
 #!desc=通过域名规则、URL Rewrite、Map Local 和响应脚本处理七猫广告与个人中心广告位。
 # 用法：安装后按需启用；Map Local/MITM可能影响任务、红包、提现或登录，出现异常时停用模块。
