@@ -701,8 +701,8 @@ function line(p, r) {
   var buf = String(text);
   for (var i = 5 - buf.length; i > 0; i--) buf += '\u3000';
 
-  // 国旗放在平台名称前面，整行右移一个全角空格。
-  return '\u3000' + (fg ? fg + ' ' : '　') + mark + ' ' + buf + ' ' + p.n;
+  // 国旗紧贴平台名称前面：状态 → 国旗 → 平台名称。
+  return '\u3000' + mark + ' ' + buf + ' ' + (fg ? fg + ' ' : '') + p.n;
 }
 
 function orderOf(p) {
