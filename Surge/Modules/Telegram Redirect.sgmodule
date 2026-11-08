@@ -1,4 +1,4 @@
-#!name=Telegram 跳转
+#!name=Telegram Redirect
 #!desc=将 t.me 链接跳转到指定 Telegram 客户端
 #!category=uui
 #!arguments=CLIENT:Telegram

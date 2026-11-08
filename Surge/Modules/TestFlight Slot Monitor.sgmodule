@@ -1,4 +1,4 @@
-#!name=TestFlight 空位监控
+#!name=TestFlight Slot Monitor
 #!desc=监控 TestFlight 公共邀请，发现开放时通知，点击前往 TestFlight。无需 MITM，不自动加入测试。
 #!category=uui
 #!arguments=APP_IDS:8位邀请码,MINUTES:10,START_HOUR:0,END_HOUR:23,TEST:false,DEDUP:true,SOUND:true,RESET_TOKEN:0
