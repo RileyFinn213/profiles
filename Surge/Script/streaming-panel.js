@@ -660,14 +660,30 @@ function probeGroup(g, cb) {
 //   在比例字体下的物理上限，再往下补就又会退回旧版的老路。
 
 function padLabel(s, target) {
-  var out = String(s || '');
+  return padRightTo(s, target);
+}
+
+function displayWidth(s) {
   var n = 0;
-  for (var i = 0; i < out.length; i++) {
-    var c = out.charCodeAt(i);
-    n += (c >= 0x2e80 && c <= 0x9fff) ? 2 : 1;
+  var t = String(s || '');
+  for (var i = 0; i < t.length; ) {
+    var cp = t.codePointAt(i);
+    var ch = String.fromCodePoint(cp);
+    // 组合字符、变体选择符和 ZWJ 不额外占宽度。
+    if (cp === 0xFE0F || cp === 0x200D || (cp >= 0x1F3FB && cp <= 0x1F3FF)) {
+      i += ch.length;
+      continue;
+    }
+    n += (cp >= 0x2E80 || cp >= 0x1F000) ? 2 : 1;
+    i += ch.length;
   }
-  var missing = target - n;
-  while (missing >= 2) { out += '\u3000'; missing -= 2; }
+  return n;
+}
+
+function padRightTo(s, target) {
+  var out = String(s || '');
+  var missing = target - displayWidth(out);
+  while (missing >= 2) { out += '\\u3000'; missing -= 2; }
   while (missing > 0) { out += ' '; missing--; }
   return out;
 }
