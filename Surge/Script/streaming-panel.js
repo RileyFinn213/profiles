@@ -604,6 +604,19 @@ function probeGroup(g, cb) {
 //   只有国旗列依然参差，因为平台名长短本来就不同。这是纯文本面板
 //   在比例字体下的物理上限，再往下补就又会退回旧版的老路。
 
+function padLabel(s, target) {
+  var out = String(s || '');
+  var n = 0;
+  for (var i = 0; i < out.length; i++) {
+    var c = out.charCodeAt(i);
+    n += (c >= 0x2e80 && c <= 0x9fff) ? 2 : 1;
+  }
+  var missing = target - n;
+  while (missing >= 2) { out += '\u3000'; missing -= 2; }
+  while (missing > 0) { out += ' '; missing--; }
+  return out;
+}
+
 function line(p, r) {
   var fg = r.cc ? flagOf(r.cc) : '';
   var mark, text;
@@ -617,7 +630,9 @@ function line(p, r) {
   var buf = String(text);
   for (var i = 5 - buf.length; i > 0; i--) buf += '\u3000';
 
-  return mark + ' ' + buf + ' ' + p.n + (fg ? ' ' + fg : '');
+  // 固定平台名列宽，让国旗统一出现在右侧同一列。
+  var name = padLabel(p.n, 12);
+  return mark + ' ' + buf + ' ' + name + (fg ? ' ' + fg : '');
 }
 
 function orderOf(p) {
@@ -735,8 +750,8 @@ function run() {
       if (m) { finName = m[1]; break; }
     }
 
+    // 只测试用户在 POLICIES 中填写的策略组，不再自动追加 FINAL。
     var list = typed.slice();
-    if (list.indexOf(finName) < 0) list.push(finName);
 
     apiGet('/v1/policies', function (pol) {
       var groups = [];
