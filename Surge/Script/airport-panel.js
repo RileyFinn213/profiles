@@ -200,142 +200,85 @@ function pctOf(d) {
   return ((Number(d.upload) || 0) + (Number(d.download) || 0)) / t * 100;
 }
 
-// ---------------- 单机场详细块（只有 1 个机场时） ----------------
-function blockFull(d, day, stale) {
-  var up = Number(d.upload) || 0;
-  var down = Number(d.download) || 0;
-  var used = up + down;
+// ---------------- 简洁流量面板 ----------------
+// 统一使用 GB 保持条目和合计可比较；均为近似显示，计算仍使用原始字节数。
+function usageGB(value) {
+  return (Math.max(0, Number(value) || 0) / GB).toFixed(1) + ' GB';
+}
+
+function usageLines(d) {
+  var used = (Number(d.upload) || 0) + (Number(d.download) || 0);
   var total = Number(d.total) || 0;
-  var L = [];
+  if (total <= 0) return ['已用 ' + usageGB(used) + ' · 总量不限'];
+  return [
+    '已用 ' + usageGB(used) + ' / ' + usageGB(total) + '（' + (used / total * 100).toFixed(0) + '%）',
+    '剩余 ' + usageGB(Math.max(0, total - used))
+  ];
+}
 
-  if (total > 0) {
-    var pct = used / total * 100;
-    L.push('\u603b\u6d41\u91cf  ' + fmtB(total));
-    L.push('\u5df2\u6d88\u8017  ' + fmtB(used) + '  ' + pct.toFixed(1) + '%');
-    L.push('\u5269\u4f59    ' + fmtB(Math.max(0, total - used)));
-    L.push(bar(pct) + ' ' + pct.toFixed(0) + '%');
-  } else {
-    L.push('\u603b\u6d41\u91cf  \u4e0d\u9650');
-    L.push('\u5df2\u6d88\u8017  ' + fmtB(used));
+function accountLines(it, showName) {
+  var L = showName ? [it.name] : [];
+  if (!it.info) {
+    L.push('获取失败' + (it.err ? '：' + it.err : ''));
+    if (it.day) L.push('每月 ' + it.day + ' 日重置');
+    return L;
   }
-
-  L.push('\u2191 ' + fmtB(up) + '   \u2193 ' + fmtB(down));
-
-  // 只有在用户填了重置日时才显示这一行；没填就整行不出现
-  if (day) {
-    var r = resetInfo(day);
-    L.push('\u91cd\u7f6e  \u6bcf\u6708 ' + day + ' \u53f7 \u00b7 ' + md(r.date) +
-      (r.days === 0 ? '\uff08\u4eca\u5929\uff09' : '\uff08' + r.days + ' \u5929\u540e\uff09'));
-  }
-
-  var exp = expireOf(d.expire);
-  if (exp) {
-    var dd = daysTo(exp);
-    L.push('\u5230\u671f  ' + ymd(exp) + (dd >= 0 ? '\uff08' + dd + ' \u5929\u540e\uff09' : '\uff08\u5df2\u8fc7\u671f\uff09'));
-  }
-
-  if (stale) {
-    var c0 = new Date(d.t || Date.now());
-    L.push('\u26a0\ufe0f \u672c\u6b21\u62c9\u53d6\u5931\u8d25\uff0c\u4e3a ' + md(c0) + ' ' + hhmm(c0) + ' \u7f13\u5b58');
+  L = L.concat(usageLines(it.info));
+  if (it.day) L.push('每月 ' + it.day + ' 日重置');
+  var exp = expireOf(it.info.expire);
+  if (exp) L.push('到期 ' + ymd(exp) + (daysTo(exp) < 0 ? '（已过期）' : ''));
+  if (it.stale) {
+    var t = Number(it.info.t);
+    L.push('⚠ 缓存数据' + (t > 0 ? ' · ' + md(new Date(t)) + ' ' + hhmm(new Date(t)) : '') + '，本次更新失败');
   }
   return L;
 }
 
-// ---------------- 单机场紧凑块（多机场时） ----------------
-function blockTight(d, name, day, stale) {
-  var up = Number(d.upload) || 0;
-  var down = Number(d.download) || 0;
-  var used = up + down;
-  var total = Number(d.total) || 0;
-  var pct = pctOf(d);
-  var L = [];
-
-  L.push((stale ? '\u26a0\ufe0f ' : '\u2708\ufe0f ') + name + '   ' +
-    (total > 0 ? fmtS(total) : '\u4e0d\u9650'));
-
-  if (total > 0) {
-    L.push('\u5df2\u7528 ' + fmtS(used) + '  \u5269 ' + fmtS(Math.max(0, total - used)) +
-      '  ' + bar(pct, 8) + ' ' + pct.toFixed(0) + '%');
-  } else {
-    L.push('\u5df2\u7528 ' + fmtS(used) + '  \u4e0d\u9650');
-  }
-
-  // 上行/下行一行照旧；重置日只有填了才追加到行尾
-  var tail = '';
-  if (day) {
-    var r = resetInfo(day);
-    tail = '  ' + md(r.date) + ' \u91cd\u7f6e\u00b7' + day + '\u53f7';
-  }
-  L.push('\u2191' + fmtS(up) + '  \u2193' + fmtS(down) + tail);
-
-  var exp = expireOf(d.expire);
-  if (exp) L.push('\u5230\u671f ' + ymd(exp) + ' \u00b7 ' + daysTo(exp) + ' \u5929');
-  if (stale) L.push('\u7f13\u5b58\u6570\u636e');
-
-  return L;
-}
-
-// ---------------- 汇总渲染 ----------------
 function render(items) {
-  var okN = 0, badN = 0, sumT = 0, sumU = 0;
+  var okN = 0, badN = 0, sumT = 0, sumU = 0, sumRemaining = 0;
   var anyUnlimited = false, maxPct = -1, stale = false;
-
   items.forEach(function (it) {
     if (!it.info) { badN++; return; }
     okN++;
     if (it.stale) stale = true;
-    sumU += (Number(it.info.upload) || 0) + (Number(it.info.download) || 0);
-    var t = Number(it.info.total) || 0;
-    if (t > 0) sumT += t; else anyUnlimited = true;
-    var p = pctOf(it.info);
-    if (p !== null && p > maxPct) maxPct = p;
+    var used = (Number(it.info.upload) || 0) + (Number(it.info.download) || 0);
+    var total = Number(it.info.total) || 0;
+    sumU += used;
+    if (total > 0) {
+      sumT += total;
+      sumRemaining += Math.max(0, total - used);
+    } else anyUnlimited = true;
+    var pct = pctOf(it.info);
+    if (pct !== null && pct > maxPct) maxPct = pct;
   });
-
   var multi = items.length > 1;
-  var title = multi ? ('\u673a\u573a\u6d41\u91cf \u00b7 ' + items.length + ' \u4e2a')
-    : (items[0] && items[0].name ? items[0].name : '\u673a\u573a\u6d41\u91cf');
-
+  var title = multi ? '订阅流量 · ' + items.length + ' 个' : (items[0] && items[0].name ? items[0].name : '订阅流量');
   var L = [];
-
   items.forEach(function (it, idx) {
-    if (multi && idx > 0) L.push('');
-    if (!it.info) {
-      L.push('\u2708\ufe0f ' + it.name);
-      L.push('\u26a0\ufe0f \u83b7\u53d6\u5931\u8d25' + (it.err ? '\uff1a' + it.err : '') +
-        (it.day ? '  \u00b7\u6bcf\u6708' + it.day + '\u53f7\u91cd\u7f6e' : ''));
-      return;
-    }
-    L = L.concat(multi ? blockTight(it.info, it.name, it.day, it.stale)
-      : blockFull(it.info, it.day, it.stale));
+    if (idx > 0) L.push('');
+    L = L.concat(accountLines(it, multi));
   });
-
   if (multi && okN > 1) {
     L.push('');
-    L.push('\u5408\u8ba1\uff08' + okN + ' \u4e2a\u673a\u573a\uff09');
-    L.push('\u5df2\u6d88\u8017 ' + fmtS(sumU) +
-      (sumT > 0 ? ' / ' + fmtS(sumT) + (anyUnlimited ? '+\u4e0d\u9650' : '') : ''));
-    if (sumT > 0) {
-      L.push('\u5269\u4f59 ' + fmtS(Math.max(0, sumT - sumU)) +
-        (anyUnlimited ? '' : '   ' + (sumU / sumT * 100).toFixed(0) + '%'));
-      if (!anyUnlimited) L.push(bar(sumU / sumT * 100) + ' ' + (sumU / sumT * 100).toFixed(0) + '%');
+    L.push('合计' + (stale ? '（含缓存）' : '') + (badN ? ' · 仅 ' + okN + ' 个有效订阅' : ''));
+    if (anyUnlimited) {
+      L.push('已用 ' + usageGB(sumU) + ' · 含不限量套餐');
+      if (sumT > 0) L.push('限量套餐剩余 ' + usageGB(sumRemaining));
+    } else {
+      L = L.concat(usageLines({upload: sumU, download: 0, total: sumT}));
+      // 超额套餐不应抵扣其他套餐剩余配额。
+      L[L.length - 1] = '剩余 ' + usageGB(sumRemaining);
     }
   }
-
   L.push('');
-  L.push('\u66f4\u65b0 ' + md(new Date()) + ' ' + hhmm(new Date()));
-
+  L.push('更新 ' + md(new Date()) + ' ' + hhmm(new Date()));
   var style = 'good';
   if (okN === 0) style = 'error';
   else if (stale || badN > 0) style = 'alert';
   else if (maxPct >= 100) style = 'error';
   else if (maxPct >= 90) style = 'alert';
   else if (maxPct < 0) style = 'info';
-
-  $done({
-    title: (stale ? '\u26a0\ufe0f ' : '') + title,
-    content: L.join('\n'),
-    style: style
-  });
+  $done({title: (stale ? '⚠ ' : '') + title, content: L.join('\n'), style: style});
 }
 
 // ---------------- 主流程 ----------------
