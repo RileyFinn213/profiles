@@ -702,7 +702,7 @@ function line(p, r) {
   for (var i = 5 - buf.length; i > 0; i--) buf += '\u3000';
 
   // 国旗放在平台名称前面，整行右移一个全角空格。
-  return '\\u3000' + (fg ? fg + ' ' : '　') + mark + ' ' + buf + ' ' + p.n;
+  return '\u3000' + (fg ? fg + ' ' : '　') + mark + ' ' + buf + ' ' + p.n;
 }
 
 function orderOf(p) {
