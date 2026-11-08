@@ -683,7 +683,7 @@ function displayWidth(s) {
 function padRightTo(s, target) {
   var out = String(s || '');
   var missing = target - displayWidth(out);
-  while (missing >= 2) { out += '\\u3000'; missing -= 2; }
+  while (missing >= 2) { out += '\u3000'; missing -= 2; }
   while (missing > 0) { out += ' '; missing--; }
   return out;
 }
