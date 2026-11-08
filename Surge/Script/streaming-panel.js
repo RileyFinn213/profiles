@@ -701,10 +701,8 @@ function line(p, r) {
   var buf = String(text);
   for (var i = 5 - buf.length; i > 0; i--) buf += '\u3000';
 
-  // 统一预留 16 个显示宽度；Surge 面板是纯文本，不能使用真正的右对齐。
-  // 预留宽度大于最长平台名，保证国旗落在同一列。
-  var name = padLabel(p.n, 16);
-  return mark + ' ' + buf + ' ' + name + (fg ? ' ' + fg : '');
+  // 国旗放在平台名称前面，整行右移一个全角空格。
+  return '\\u3000' + (fg ? fg + ' ' : '　') + mark + ' ' + buf + ' ' + p.n;
 }
 
 function orderOf(p) {
