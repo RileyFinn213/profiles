@@ -505,6 +505,61 @@ function pickPlatforms(s) {
   return out.length ? out : ALL;
 }
 
+// 根据策略组名称自动选择对应检测平台；匹配不区分大小写。
+// 找不到明确的平台名称时，回退为全部 16 个平台。
+var POLICY_PLATFORM_ALIASES = {
+  netflix: ['netflix', 'nf', '网飞', '奈飞'],
+  disney: ['disney', '迪士尼'],
+  youtube: ['youtube', 'yt', '油管'],
+  prime: ['prime', 'prime video', 'primevideo', '亚马逊'],
+  spotify: ['spotify', 'sp', '声田'],
+  hbo: ['hbo', 'max'],
+  hulu: ['hulu'],
+  paramount: ['paramount', 'paramount+', '派拉蒙'],
+  peacock: ['peacock', '孔雀'],
+  viu: ['viu'],
+  abema: ['abema'],
+  bahamut: ['bahamut', '巴哈', '动画疯'],
+  bili: ['bilibili', 'b站', '哔哩哔哩'],
+  chatgpt: ['chatgpt', 'gpt', 'openai'],
+  claude: ['claude', '克劳德'],
+  gemini: ['gemini', '双子', '谷歌'],
+  ai: ['ai']
+};
+
+function policyNameMatches(name, alias) {
+  var s = String(name || '').toLowerCase();
+  var a = String(alias || '').toLowerCase();
+  if (!a) return false;
+  if (/^[a-z0-9+ ]+$/.test(a)) {
+    return new RegExp('(^|[^a-z0-9])' + a.replace(/[+]/g, '\\+') + '([^a-z0-9]|$)', 'i').test(s);
+  }
+  return s.indexOf(a) >= 0;
+}
+
+function platformsForPolicy(name, fallback) {
+  var matched = {};
+  for (var k in POLICY_PLATFORM_ALIASES) {
+    var aliases = POLICY_PLATFORM_ALIASES[k];
+    for (var i = 0; i < aliases.length; i++) {
+      if (policyNameMatches(name, aliases[i])) {
+        if (k === 'ai') {
+          matched.chatgpt = 1; matched.claude = 1; matched.gemini = 1;
+        } else {
+          matched[k] = 1;
+        }
+        break;
+      }
+    }
+  }
+  if (!Object.keys(matched).length) return fallback;
+  var out = [];
+  for (var j = 0; j < fallback.length; j++) {
+    if (matched[fallback[j].k]) out.push(fallback[j]);
+  }
+  return out.length ? out : fallback;
+}
+
 // ---------------- 探测一个组 ----------------
 
 function probeGroup(g, cb) {
@@ -760,7 +815,7 @@ function run() {
         groups.push({
           input: nm, title: nm, ref: nm, node: '',
           isFinal: nm === finName,
-          platforms: platforms,
+          platforms: platformsForPolicy(nm, platforms),
           results: []
         });
       }
