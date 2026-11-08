@@ -701,8 +701,8 @@ function line(p, r) {
   var buf = String(text);
   for (var i = 5 - buf.length; i > 0; i--) buf += '\u3000';
 
-  // 顺序：状态 → 平台名称 → 国旗。
-  return '\u3000' + mark + ' ' + buf + ' ' + p.n + (fg ? ' ' + fg : '');
+  // 顺序：状态对齐最前面 → 平台名称 → 国旗。
+  return mark + ' ' + buf + ' ' + p.n + (fg ? ' ' + fg : '');
 }
 
 function orderOf(p) {
