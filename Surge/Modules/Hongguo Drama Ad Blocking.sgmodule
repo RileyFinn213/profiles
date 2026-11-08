@@ -1,11 +1,12 @@
 #!name=Hongguo Drama Ad Blocking
 #!desc=通过域名规则拦截红果短剧广告、广告SDK、推广位和埋点；正片CDN与图床保留放行，不需要MITM。
-# 用法：安装后直接启用；如出现播放、评论、金币或商城异常，停用模块，不要与同类红果/番茄广告模块重复启用。
 #!category=uui
 #!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/05/06/df050609-8be3-0daf-d35b-f29a143d0677/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/120x120bb.jpg
 #!openUrl=https://apps.apple.com/cn/app/id6451407032
 #!tag=去广告,红果短剧,短剧,字节
 #!homepage=https://github.com/zhiaon/Modules
+
+# 用法：安装后直接启用；如出现播放、评论、金币或商城异常，停用模块，不要与同类红果/番茄广告模块重复启用。
 # ============================================================
 # 红果短剧（com.phoenix.video / hongguoduanju.com）去广告模块
 #

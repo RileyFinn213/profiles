@@ -1,13 +1,14 @@
 #!name=Qimao Novel Ad Blocking
 #!version=1.1.5
 #!desc=通过域名规则、URL Rewrite、Map Local 和响应脚本处理七猫广告与个人中心广告位。
-# 用法：安装后按需启用；Map Local/MITM可能影响任务、红包、提现或登录，出现异常时停用模块。
 #!category=uui
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/SevenCat.png
 #!openUrl=https://apps.apple.com/app/id1387717110
 #!tag=去广告
 #!homepage=https://github.com/zhiaon/qimao-novel-adblock
 #!date=2026-10-28
+
+# 用法：安装后按需启用；Map Local/MITM可能影响任务、红包、提现或登录，出现异常时停用模块。
 
 [Rule]
 # 七猫自家广告 / 统计 / 风控域名（新增：七猫自建广告交换平台域名，见 DD-AD 七猫段）

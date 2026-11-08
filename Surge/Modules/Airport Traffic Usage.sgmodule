@@ -1,10 +1,11 @@
 #!name=Airport Traffic Usage
 #!desc=读取机场订阅流量信息并在面板显示已用、剩余、重置日和到期时间。只读取订阅，不修改机场账户。
-# 用法：填写机场名、订阅URL、重置日；最多6组。不用的整组三项保持默认值。
 #!category=uui
 #!icon=gauge.with.needle
 #!arguments=AIRPORT_NAME_1:填写机场名,SUBSCRIPTION_URL_1:填写URL,RESET_DAY_1:填写重置日,AIRPORT_NAME_2:填写机场名,SUBSCRIPTION_URL_2:填写URL,RESET_DAY_2:填写重置日,AIRPORT_NAME_3:填写机场名,SUBSCRIPTION_URL_3:填写URL,RESET_DAY_3:填写重置日,AIRPORT_NAME_4:填写机场名,SUBSCRIPTION_URL_4:填写URL,RESET_DAY_4:填写重置日,AIRPORT_NAME_5:填写机场名,SUBSCRIPTION_URL_5:填写URL,RESET_DAY_5:填写重置日,AIRPORT_NAME_6:填写机场名,SUBSCRIPTION_URL_6:填写URL,RESET_DAY_6:填写重置日
 #!arguments-desc=【监控设置】\n填写机场名、订阅URL和重置日，最多6组；不用的整组三项保持默认值。\n\nAIRPORT_NAME_1 至 AIRPORT_NAME_6：机场显示名称，只用于面板显示。\nSUBSCRIPTION_URL_1 至 SUBSCRIPTION_URL_6：机场完整订阅链接，通常包含敏感 token，不要分享。\nRESET_DAY_1 至 RESET_DAY_6：每月流量重置日，填写 1–31；不需要显示重置日时保持默认值。\n\n每组的编号必须对应：AIRPORT_NAME_1 + SUBSCRIPTION_URL_1 + RESET_DAY_1 是同一个机场，依次类推。
+
+# 用法：填写机场名、订阅URL、重置日；最多6组。不用的整组三项保持默认值。
 
 [Panel]
 机场流量 = title="机场流量",content="数据加载中…\n\n点这张卡右上角的刷新按钮立即拉取，或等下次自动更新（10 分钟）",style=info,script-name=机场流量,update-interval=600
