@@ -7,81 +7,81 @@
 # https://raw.githubusercontent.com/zqzess/MyWebStorage/main/xsreader/new/resources.txt
 
 # 香色闺阁书源及源文件托管
-DOMAIN-SUFFIX,github.com,DIRECT
-DOMAIN-SUFFIX,githubusercontent.com,DIRECT
-DOMAIN-SUFFIX,jsdelivr.net,DIRECT
-DOMAIN-SUFFIX,fastly.jsdelivr.net,DIRECT
-DOMAIN-SUFFIX,gitlab.com,DIRECT
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,fastly.jsdelivr.net
+DOMAIN-SUFFIX,gitlab.com
 
 # 正版小说与网文平台
-DOMAIN-SUFFIX,qidian.com,DIRECT
-DOMAIN-SUFFIX,yuewen.com,DIRECT
-DOMAIN-SUFFIX,jjwxc.net,DIRECT
-DOMAIN-SUFFIX,zongheng.com,DIRECT
-DOMAIN-SUFFIX,17k.com,DIRECT
-DOMAIN-SUFFIX,hongxiu.com,DIRECT
-DOMAIN-SUFFIX,fanqienovel.com,DIRECT
-DOMAIN-SUFFIX,fqnovel.com,DIRECT
-DOMAIN-SUFFIX,qimao.com,DIRECT
-DOMAIN-SUFFIX,ciweimao.com,DIRECT
-DOMAIN-SUFFIX,ihuaben.com,DIRECT
-DOMAIN-SUFFIX,sfacg.com,DIRECT
-DOMAIN-SUFFIX,linovel.net,DIRECT
-DOMAIN-SUFFIX,cmread.com,DIRECT
-DOMAIN-SUFFIX,zhangyue.com,DIRECT
-DOMAIN-SUFFIX,cread.com,DIRECT
-DOMAIN-SUFFIX,idejian.com,DIRECT
-DOMAIN-SUFFIX,heiyan.com,DIRECT
-DOMAIN-SUFFIX,tadu.com,DIRECT
-DOMAIN-SUFFIX,shuqi.com,DIRECT
-DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,qidian.com
+DOMAIN-SUFFIX,yuewen.com
+DOMAIN-SUFFIX,jjwxc.net
+DOMAIN-SUFFIX,zongheng.com
+DOMAIN-SUFFIX,17k.com
+DOMAIN-SUFFIX,hongxiu.com
+DOMAIN-SUFFIX,fanqienovel.com
+DOMAIN-SUFFIX,fqnovel.com
+DOMAIN-SUFFIX,qimao.com
+DOMAIN-SUFFIX,ciweimao.com
+DOMAIN-SUFFIX,ihuaben.com
+DOMAIN-SUFFIX,sfacg.com
+DOMAIN-SUFFIX,linovel.net
+DOMAIN-SUFFIX,cmread.com
+DOMAIN-SUFFIX,zhangyue.com
+DOMAIN-SUFFIX,cread.com
+DOMAIN-SUFFIX,idejian.com
+DOMAIN-SUFFIX,heiyan.com
+DOMAIN-SUFFIX,tadu.com
+DOMAIN-SUFFIX,shuqi.com
+DOMAIN-SUFFIX,qq.com
 
 # 漫画与图像阅读
-DOMAIN-SUFFIX,bilibili.com,DIRECT
-DOMAIN-SUFFIX,kuaikanmanhua.com,DIRECT
-DOMAIN-SUFFIX,manmanapp.com,DIRECT
-DOMAIN-SUFFIX,manhuatai.com,DIRECT
-DOMAIN-SUFFIX,mkzhan.com,DIRECT
-DOMAIN-SUFFIX,taomanhua.com,DIRECT
-DOMAIN-SUFFIX,iqiyi.com,DIRECT
-DOMAIN-SUFFIX,kkmh.com,DIRECT
-DOMAIN-SUFFIX,manhuaren.com,DIRECT
-DOMAIN-SUFFIX,baozimh.com,DIRECT
-DOMAIN-SUFFIX,baozimh.org,DIRECT
-DOMAIN-SUFFIX,xinmanhua.net,DIRECT
-DOMAIN-SUFFIX,zhiyinmanke.net,DIRECT
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,kuaikanmanhua.com
+DOMAIN-SUFFIX,manmanapp.com
+DOMAIN-SUFFIX,manhuatai.com
+DOMAIN-SUFFIX,mkzhan.com
+DOMAIN-SUFFIX,taomanhua.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,kkmh.com
+DOMAIN-SUFFIX,manhuaren.com
+DOMAIN-SUFFIX,baozimh.com
+DOMAIN-SUFFIX,baozimh.org
+DOMAIN-SUFFIX,xinmanhua.net
+DOMAIN-SUFFIX,zhiyinmanke.net
 
 # 听书与音频阅读
-DOMAIN-SUFFIX,ximalaya.com,DIRECT
-DOMAIN-SUFFIX,missevan.com,DIRECT
-DOMAIN-SUFFIX,ysts.cc,DIRECT
-DOMAIN-SUFFIX,ting55.com,DIRECT
-DOMAIN-SUFFIX,tingzh.com,DIRECT
-DOMAIN-SUFFIX,shuyinfm.com,DIRECT
-DOMAIN-SUFFIX,kuwo.cn,DIRECT
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,missevan.com
+DOMAIN-SUFFIX,ysts.cc
+DOMAIN-SUFFIX,ting55.com
+DOMAIN-SUFFIX,tingzh.com
+DOMAIN-SUFFIX,shuyinfm.com
+DOMAIN-SUFFIX,kuwo.cn
 
 # 书目、开放版权与资料库
-DOMAIN-SUFFIX,douban.com,DIRECT
-DOMAIN-SUFFIX,dushu.com,DIRECT
-DOMAIN-SUFFIX,archive.org,DIRECT
-DOMAIN-SUFFIX,gutenberg.org,DIRECT
-DOMAIN-SUFFIX,openlibrary.org,DIRECT
-DOMAIN-SUFFIX,wikisource.org,DIRECT
-DOMAIN-SUFFIX,zhihu.com,DIRECT
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,dushu.com
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,gutenberg.org
+DOMAIN-SUFFIX,openlibrary.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,zhihu.com
 
 # 书源中常见的官方接口/资源域名
-DOMAIN-SUFFIX,wtzw.com,DIRECT
-DOMAIN-SUFFIX,midureader.com,DIRECT
-DOMAIN-SUFFIX,reader.browser.miui.com,DIRECT
-DOMAIN-SUFFIX,api.17k.com,DIRECT
-DOMAIN-SUFFIX,api.ieasou.com,DIRECT
-DOMAIN-SUFFIX,api.kkmh.com,DIRECT
-DOMAIN-SUFFIX,api-bc.wtzw.com,DIRECT
-DOMAIN-SUFFIX,api3-normal-lf.fqnovel.com,DIRECT
-DOMAIN-SUFFIX,api5-normal-lf.fqnovel.com,DIRECT
-DOMAIN-SUFFIX,api.midureader.com,DIRECT
-DOMAIN-SUFFIX,api.midukanshu.com,DIRECT
+DOMAIN-SUFFIX,wtzw.com
+DOMAIN-SUFFIX,midureader.com
+DOMAIN-SUFFIX,reader.browser.miui.com
+DOMAIN-SUFFIX,api.17k.com
+DOMAIN-SUFFIX,api.ieasou.com
+DOMAIN-SUFFIX,api.kkmh.com
+DOMAIN-SUFFIX,api-bc.wtzw.com
+DOMAIN-SUFFIX,api3-normal-lf.fqnovel.com
+DOMAIN-SUFFIX,api5-normal-lf.fqnovel.com
+DOMAIN-SUFFIX,api.midureader.com
+DOMAIN-SUFFIX,api.midukanshu.com
 
-# 说明：这是 Surge 规则集片段，不包含 FINAL。
-# 请在主配置 [Rule] 中通过以下方式引用：
-# RULE-SET,Reading-Direct,DIRECT
+# 说明：这是不绑定策略的 Surge 规则集，不包含 FINAL。
+# 请在主配置 [Rule] 中指定策略，例如：
+# RULE-SET,Reading-Direct
