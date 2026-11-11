@@ -6,13 +6,6 @@
 # https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/xsreader/full.xbs
 # https://raw.githubusercontent.com/zqzess/MyWebStorage/main/xsreader/new/resources.txt
 
-# 香色闺阁书源及源文件托管
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,fastly.jsdelivr.net
-DOMAIN-SUFFIX,gitlab.com
-
 # 正版小说与网文平台
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,yuewen.com
@@ -60,13 +53,9 @@ DOMAIN-SUFFIX,tingzh.com
 DOMAIN-SUFFIX,shuyinfm.com
 DOMAIN-SUFFIX,kuwo.cn
 
-# 书目、开放版权与资料库
+# 书目与国内阅读资料
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,dushu.com
-DOMAIN-SUFFIX,archive.org
-DOMAIN-SUFFIX,gutenberg.org
-DOMAIN-SUFFIX,openlibrary.org
-DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,zhihu.com
 
 # 书源中常见的官方接口/资源域名
@@ -84,4 +73,4 @@ DOMAIN-SUFFIX,api.midukanshu.com
 
 # 说明：这是不绑定策略的 Surge 规则集，不包含 FINAL。
 # 请在主配置 [Rule] 中指定策略，例如：
-# RULE-SET,Reading-Direct
+# RULE-SET,Reading-Direct,DIRECT
