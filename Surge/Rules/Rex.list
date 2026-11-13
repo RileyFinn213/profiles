@@ -10,7 +10,6 @@ DOMAIN,auth.rexnow.tv
 DOMAIN,updates.rexnow.app
 
 # 其他已观测且未被 Emby 覆盖的服务/内容源
-DOMAIN,123.666291.xyz
 DOMAIN,4kzn.cc
 DOMAIN,api.dandanplay.net
 DOMAIN,api.drama.9ddm.com
@@ -39,7 +38,4 @@ DOMAIN,test.28.al
 DOMAIN,wn4k.com
 DOMAIN,www.123684.com
 DOMAIN,www.ciyuangou.net
-DOMAIN,www.hjzhencai.top
-DOMAIN,www.mihdr.top
 DOMAIN,www.mmpanpan.site
-DOMAIN,www.wogg.net
