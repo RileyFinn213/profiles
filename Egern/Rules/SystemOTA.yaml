@@ -1,5 +1,4 @@
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list
-# Converted for target client; source attribution and usage terms remain applicable.
 domain_set:
 - appldnld-cdn.apple.com.akadns.net
 - appldnld-cdn.origin-apple.com.akadns.net

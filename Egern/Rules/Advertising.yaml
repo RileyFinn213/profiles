@@ -1,5 +1,4 @@
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
-# Converted for target client; source attribution and usage terms remain applicable.
 domain_keyword_set:
 - -logging.nextmedia.com
 - -rtb.gravite.net
@@ -294,3 +293,8 @@ url_regex_set:
 - ^https?:\/\/update\.pan\.baidu\.com\/statistics
 - ^https?:\/\/cdn-1rtb\.caiyunapp\.com/creative/.*$
 - ^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/
+and_set:
+- - user_agent:
+      match: Frodo*
+  - domain:
+      match: 119.29.29.29
