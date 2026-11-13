@@ -1,0 +1,10 @@
+# Rex 实际连接域名快照（Surge RULE-SET）
+# 来源：Rex.app 进程最近/活动请求，以及用户截图。
+# 精确域名，不代表 Rex 官方完整域名；包含用户添加的第三方内容源。
+# 不含策略，由主配置 RULE-SET 绑定；不包含局域网地址。
+
+# Rex 服务
+DOMAIN,api.rexnow.tv
+DOMAIN,assets.rexnow.tv
+DOMAIN,auth.rexnow.tv
+DOMAIN,updates.rexnow.app
