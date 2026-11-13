@@ -1,0 +1,307 @@
+{
+  "Reading": {
+    "Stash": 26,
+    "FlClash": 26,
+    "FlClash_unsupported_excluded": 0
+  },
+  "TMDB": {
+    "Stash": 4,
+    "FlClash": 4,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Advertising": {
+    "Stash": 782,
+    "FlClash": 767,
+    "FlClash_unsupported_excluded": 15
+  },
+  "Privacy": {
+    "Stash": 20,
+    "FlClash": 20,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Hijacking": {
+    "Stash": 228,
+    "FlClash": 228,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Adblock4limbo": {
+    "Stash": 551,
+    "FlClash": 551,
+    "FlClash_unsupported_excluded": 0
+  },
+  "rejectAd": {
+    "Stash": 2748,
+    "FlClash": 2747,
+    "FlClash_unsupported_excluded": 1
+  },
+  "SystemOTA": {
+    "Stash": 78,
+    "FlClash": 78,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Domestic-Social-IP-CIDR": {
+    "Stash": 35,
+    "FlClash": 35,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Domestic-Social-Domain": {
+    "Stash": 14,
+    "FlClash": 14,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Emby": {
+    "Stash": 8,
+    "FlClash": 8,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Rex": {
+    "Stash": 33,
+    "FlClash": 33,
+    "FlClash_unsupported_excluded": 0
+  },
+  "NeteaseMusic": {
+    "Stash": 33,
+    "FlClash": 30,
+    "FlClash_unsupported_excluded": 3
+  },
+  "AI-China": {
+    "Stash": 35,
+    "FlClash": 35,
+    "FlClash_unsupported_excluded": 0
+  },
+  "AI-Global": {
+    "Stash": 284,
+    "FlClash": 284,
+    "FlClash_unsupported_excluded": 0
+  },
+  "SteamCN": {
+    "Stash": 14,
+    "FlClash": 14,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Bahamut": {
+    "Stash": 7,
+    "FlClash": 7,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Bilibili": {
+    "Stash": 126,
+    "FlClash": 126,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Speedtest": {
+    "Stash": 9,
+    "FlClash": 9,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Discord": {
+    "Stash": 15,
+    "FlClash": 15,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Instagram": {
+    "Stash": 76,
+    "FlClash": 76,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Telegram": {
+    "Stash": 42,
+    "FlClash": 42,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Twitter": {
+    "Stash": 12,
+    "FlClash": 12,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Reddit": {
+    "Stash": 10,
+    "FlClash": 10,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Pinterest": {
+    "Stash": 4,
+    "FlClash": 4,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Facebook": {
+    "Stash": 457,
+    "FlClash": 457,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Whatsapp": {
+    "Stash": 14,
+    "FlClash": 14,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Meta": {
+    "Stash": 7,
+    "FlClash": 7,
+    "FlClash_unsupported_excluded": 0
+  },
+  "AppleTV": {
+    "Stash": 5,
+    "FlClash": 5,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Disney+": {
+    "Stash": 241,
+    "FlClash": 241,
+    "FlClash_unsupported_excluded": 0
+  },
+  "HBO": {
+    "Stash": 12,
+    "FlClash": 12,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Netflix": {
+    "Stash": 1619,
+    "FlClash": 1618,
+    "FlClash_unsupported_excluded": 1
+  },
+  "Spotify": {
+    "Stash": 37,
+    "FlClash": 36,
+    "FlClash_unsupported_excluded": 1
+  },
+  "Twitch": {
+    "Stash": 11,
+    "FlClash": 11,
+    "FlClash_unsupported_excluded": 0
+  },
+  "YouTube": {
+    "Stash": 192,
+    "FlClash": 190,
+    "FlClash_unsupported_excluded": 2
+  },
+  "TikTok": {
+    "Stash": 73,
+    "FlClash": 72,
+    "FlClash_unsupported_excluded": 1
+  },
+  "AGE": {
+    "Stash": 7,
+    "FlClash": 7,
+    "FlClash_unsupported_excluded": 0
+  },
+  "GlobalMedia": {
+    "Stash": 721,
+    "FlClash": 721,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Epic": {
+    "Stash": 12,
+    "FlClash": 12,
+    "FlClash_unsupported_excluded": 0
+  },
+  "PlayStation": {
+    "Stash": 19,
+    "FlClash": 19,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Steam": {
+    "Stash": 16,
+    "FlClash": 16,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Game": {
+    "Stash": 704,
+    "FlClash": 704,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Github": {
+    "Stash": 10,
+    "FlClash": 10,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Pixiv": {
+    "Stash": 11,
+    "FlClash": 11,
+    "FlClash_unsupported_excluded": 0
+  },
+  "LSP": {
+    "Stash": 2,
+    "FlClash": 2,
+    "FlClash_unsupported_excluded": 0
+  },
+  "PayPal": {
+    "Stash": 230,
+    "FlClash": 230,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Google": {
+    "Stash": 705,
+    "FlClash": 705,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Microsoft": {
+    "Stash": 772,
+    "FlClash": 769,
+    "FlClash_unsupported_excluded": 3
+  },
+  "Apple": {
+    "Stash": 1587,
+    "FlClash": 1582,
+    "FlClash_unsupported_excluded": 5
+  },
+  "WeChat": {
+    "Stash": 22,
+    "FlClash": 22,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Weibo": {
+    "Stash": 15,
+    "FlClash": 15,
+    "FlClash_unsupported_excluded": 0
+  },
+  "XiaoHongShu": {
+    "Stash": 6,
+    "FlClash": 6,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Douban": {
+    "Stash": 3,
+    "FlClash": 3,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Hupu": {
+    "Stash": 7,
+    "FlClash": 7,
+    "FlClash_unsupported_excluded": 0
+  },
+  "NGA": {
+    "Stash": 10,
+    "FlClash": 10,
+    "FlClash_unsupported_excluded": 0
+  },
+  "Xunlei": {
+    "Stash": 14,
+    "FlClash": 14,
+    "FlClash_unsupported_excluded": 0
+  },
+  "China": {
+    "Stash": 6398,
+    "FlClash": 6398,
+    "FlClash_unsupported_excluded": 0
+  },
+  "ChinaASN": {
+    "Stash": 5101,
+    "FlClash": 5101,
+    "FlClash_unsupported_excluded": 0
+  },
+  "ChinaCIDR": {
+    "Stash": 10036,
+    "FlClash": 10036,
+    "FlClash_unsupported_excluded": 0
+  },
+  "ChinaMedia": {
+    "Stash": 358,
+    "FlClash": 345,
+    "FlClash_unsupported_excluded": 13
+  },
+  "Proxy": {
+    "Stash": 19703,
+    "FlClash": 19703,
+    "FlClash_unsupported_excluded": 0
+  }
+}

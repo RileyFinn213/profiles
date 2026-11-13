@@ -1,0 +1,9 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AGE.list
+payload:
+- DOMAIN-SUFFIX,agedm.io
+- DOMAIN-SUFFIX,age.tv
+- DOMAIN-SUFFIX,agefans.com
+- DOMAIN-SUFFIX,agedm.com
+- DOMAIN-SUFFIX,agedm.org
+- DOMAIN,ageapi.omwjhz.com
+- DOMAIN-KEYWORD,agedm

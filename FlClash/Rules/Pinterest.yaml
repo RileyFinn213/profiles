@@ -1,0 +1,6 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Pinterest.list
+payload:
+- DOMAIN-SUFFIX,pinimg.com
+- DOMAIN-SUFFIX,pinit.com
+- DOMAIN-SUFFIX,pin.it
+- DOMAIN-KEYWORD,pinterest

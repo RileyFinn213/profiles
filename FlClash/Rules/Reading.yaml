@@ -1,0 +1,28 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Reading.list
+payload:
+- DOMAIN-SUFFIX,0xs.net
+- DOMAIN-SUFFIX,52bqg.com
+- DOMAIN-SUFFIX,96dushu.com
+- DOMAIN-SUFFIX,99wx.info
+- DOMAIN-SUFFIX,biquge365.net
+- DOMAIN-SUFFIX,bqg.info
+- DOMAIN-SUFFIX,cn.ttkan.co
+- DOMAIN-SUFFIX,d8zw.com
+- DOMAIN-SUFFIX,dongtanxs.com
+- DOMAIN-SUFFIX,hetushu.com
+- DOMAIN-SUFFIX,ibiqugu.net
+- DOMAIN-SUFFIX,linovelib.com
+- DOMAIN-SUFFIX,mcxs.la
+- DOMAIN-SUFFIX,qiushu.info
+- DOMAIN-SUFFIX,shuhaige.net
+- DOMAIN-SUFFIX,snxsw.com
+- DOMAIN-SUFFIX,suduguu.com
+- DOMAIN-SUFFIX,ujxsw.org
+- DOMAIN-SUFFIX,xbiquge.cc
+- DOMAIN-SUFFIX,xbiquge.info
+- DOMAIN-SUFFIX,xbiquwk.com
+- DOMAIN-SUFFIX,xhytd.com
+- DOMAIN-SUFFIX,xiaoshuohu.com
+- DOMAIN-SUFFIX,xszj.org
+- DOMAIN-SUFFIX,xtxxs9.com
+- DOMAIN-SUFFIX,yeudusk.com

@@ -1,0 +1,13 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Twitch.list
+payload:
+- DOMAIN-SUFFIX,twitch.tv
+- DOMAIN-SUFFIX,ttvnw.net
+- DOMAIN-SUFFIX,jtvnw.net
+- DOMAIN-SUFFIX,twitchcdn.net
+- DOMAIN-SUFFIX,twitchthumbs.com
+- DOMAIN-SUFFIX,twitchsvc.net
+- DOMAIN-SUFFIX,ext-twitch.tv
+- DOMAIN-SUFFIX,chatterino.com
+- DOMAIN-KEYWORD,twitch
+- DOMAIN-KEYWORD,ttvnw
+- DOMAIN-KEYWORD,jtvnw

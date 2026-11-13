@@ -1,0 +1,5 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Douban.list
+payload:
+- DOMAIN-SUFFIX,douban.com
+- DOMAIN-SUFFIX,doubanio.com
+- DOMAIN-SUFFIX,douban.fm

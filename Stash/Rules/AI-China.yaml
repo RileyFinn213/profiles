@@ -1,0 +1,37 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
+payload:
+- DOMAIN-KEYWORD,deepseek
+- DOMAIN-SUFFIX,deepseek.com
+- DOMAIN-SUFFIX,deepseek.ai
+- DOMAIN-SUFFIX,deepseek-static.com
+- DOMAIN-SUFFIX,bytegecko.com
+- DOMAIN-SUFFIX,volces.com
+- DOMAIN-SUFFIX,volcengine.com
+- DOMAIN,chat.gecko-pas.com
+- DOMAIN-KEYWORD,doubao
+- DOMAIN-SUFFIX,doubao.com
+- DOMAIN-SUFFIX,doubaoai.com
+- DOMAIN-SUFFIX,doubao-dev.com
+- DOMAIN-SUFFIX,doubaocdn.com
+- DOMAIN-SUFFIX,doubaozhidao.com
+- DOMAIN-SUFFIX,volccdn.com
+- DOMAIN-SUFFIX,volcengineapi.com
+- DOMAIN-SUFFIX,volcengine.cn
+- DOMAIN-KEYWORD,rtc-vcloud
+- DOMAIN-KEYWORD,volc-rtc
+- DOMAIN-KEYWORD,volcengine-rtc
+- DOMAIN-SUFFIX,byteoversea.com
+- DOMAIN-SUFFIX,ibyteimg.com
+- DOMAIN-SUFFIX,snssdk.com
+- DOMAIN-SUFFIX,bytedance.com
+- IP-ASN,138692,no-resolve
+- IP-ASN,204454,no-resolve
+- IP-ASN,134709,no-resolve
+- IP-ASN,139070,no-resolve
+- DOMAIN-SUFFIX,deepseek.cn
+- IP-ASN,134763,no-resolve
+- DOMAIN,api.moonshot.cn
+- DOMAIN,api.siliconflow.cn
+- DOMAIN,api.minimax.cn
+- DOMAIN,dashscope.aliyuncs.com
+- DOMAIN,token-plan-cn.xiaomimimo.com

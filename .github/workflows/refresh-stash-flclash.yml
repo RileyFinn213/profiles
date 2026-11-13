@@ -1,0 +1,30 @@
+name: Refresh Stash and FlClash resources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: stash-flclash-resources
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install PyYAML==6.0.3
+      - run: python tools/refresh-stash-flclash-resources.py
+      - name: Publish generated libraries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Stash/Rules/*.yaml FlClash/Rules/*.yaml Rules-Conversion/stash-flclash-resource-counts.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh Stash and FlClash rule providers'
+            git pull --rebase
+            git push
+          fi

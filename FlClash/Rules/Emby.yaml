@@ -1,0 +1,10 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Rules/Emby.list
+payload:
+- DOMAIN-SUFFIX,origamiart.uk
+- DOMAIN-SUFFIX,okemby.org
+- DOMAIN-SUFFIX,sadchicktv.com
+- DOMAIN-SUFFIX,chapanda.site
+- DOMAIN-SUFFIX,nijigem.by
+- DOMAIN-SUFFIX,imetyou.top
+- DOMAIN-SUFFIX,28.ai
+- DOMAIN-SUFFIX,zzm.li

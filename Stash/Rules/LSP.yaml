@@ -1,0 +1,4 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/LSP.list
+payload:
+- DOMAIN-SUFFIX,missav123.com
+- DOMAIN-SUFFIX,pornhub.com

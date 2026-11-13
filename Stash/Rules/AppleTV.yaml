@@ -1,0 +1,7 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AppleTV.list
+payload:
+- DOMAIN-SUFFIX,tv.apple.com
+- DOMAIN-SUFFIX,tv.applemusic.com
+- DOMAIN-SUFFIX,hls.itunes.apple.com
+- DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+- DOMAIN-SUFFIX,play-edge.apple.com

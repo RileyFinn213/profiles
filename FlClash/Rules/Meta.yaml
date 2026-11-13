@@ -1,0 +1,9 @@
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Meta.list
+payload:
+- DOMAIN-SUFFIX,atdmt.com
+- DOMAIN-SUFFIX,meta.vc
+- DOMAIN-SUFFIX,whatsappbusiness.com
+- DOMAIN-SUFFIX,threads.com
+- DOMAIN-SUFFIX,threads.net
+- DOMAIN-SUFFIX,mapillary.com
+- DOMAIN-SUFFIX,getsupernatural.com
