@@ -1,0 +1,53 @@
+# Rex 实际连接域名快照（Surge RULE-SET）
+# 来源：Rex.app 进程最近/活动请求，以及用户截图。
+# 精确域名，不代表 Rex 官方完整域名；包含用户添加的第三方内容源。
+# 不含策略，由主配置 RULE-SET 绑定；不包含局域网地址。
+
+# Rex 服务
+DOMAIN,api.rexnow.tv
+DOMAIN,assets.rexnow.tv
+DOMAIN,auth.rexnow.tv
+DOMAIN,updates.rexnow.app
+
+# 本次使用过程中访问的第三方服务/内容源
+DOMAIN,123.666291.xyz
+DOMAIN,4kzn.cc
+DOMAIN,api.douban.com
+DOMAIN,api.drama.9ddm.com
+DOMAIN,api.gorafie.com
+DOMAIN,api.introdb.app
+DOMAIN,api.olelive.com
+DOMAIN,api.theintrodb.org
+DOMAIN,api.trakt.tv
+DOMAIN,cf.imetyou.top
+DOMAIN,drive-h.quark.cn
+DOMAIN,drive-pc.quark.cn
+DOMAIN,drivemby.com
+DOMAIN,eb.zzm.li
+DOMAIN,emby.chapanda.site
+DOMAIN,emby.sadchicktv.com
+DOMAIN,freevideo.zqqds.cn
+DOMAIN,hubdog.cc
+DOMAIN,identify-valley-europe-seventh.trycloudflare.com
+DOMAIN,image.tmdb.org
+DOMAIN,kkp.zhezhi.art
+DOMAIN,link00.okemby.org
+DOMAIN,m.douban.com
+DOMAIN,media.nijigem.by
+DOMAIN,mg.cttv.vip
+DOMAIN,nl.ftp2.eu.org
+DOMAIN,ogkk.nxog.eu.org
+DOMAIN,pan.yydsys.de
+DOMAIN,pc-api.uc.cn
+DOMAIN,quanpan.xyz
+DOMAIN,shandian.blog
+DOMAIN,streambridge-studio-markers.vercel.app
+DOMAIN,test.28.al
+DOMAIN,webapi.115.com
+DOMAIN,wn4k.com
+DOMAIN,www.123684.com
+DOMAIN,www.ciyuangou.net
+DOMAIN,www.hjzhencai.top
+DOMAIN,www.mihdr.top
+DOMAIN,www.mmpanpan.site
+DOMAIN,www.wogg.net
