@@ -1025,3 +1025,5 @@ ip-cidr, 104.233.237.11/32, proxy
 ip-cidr, 119.23.243.52/32, proxy
 ip-cidr, 180.76.103.51/32, proxy
 ip-cidr, 222.186.45.128/32, proxy
+# 用户实测补充
+host-suffix, qiushu.info, proxy

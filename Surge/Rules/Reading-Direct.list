@@ -1023,3 +1023,5 @@ IP-CIDR,104.233.237.11/32,no-resolve
 IP-CIDR,119.23.243.52/32,no-resolve
 IP-CIDR,180.76.103.51/32,no-resolve
 IP-CIDR,222.186.45.128/32,no-resolve
+# 用户实测补充
+DOMAIN-SUFFIX,qiushu.info

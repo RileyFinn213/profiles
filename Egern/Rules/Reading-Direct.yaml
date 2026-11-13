@@ -3,6 +3,7 @@
 # 香色闺阁 sourceModelList.xbs 书源站点直连规则（解密导出）
 # sources=1522 unique_domain_hosts=1017 unique_ipv4_ipv6=5 excluded_hosting=0
 domain_suffix_set:
+- qiushu.info
 - 00txs.com
 - 18av.mm-cg.com
 - 18comic.org
