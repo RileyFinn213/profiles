@@ -36946,5 +36946,22 @@
       "reason": "AI API, not streaming"
     }
   ],
-  "accounting_note": "Retained counts include one cross-file reassignment; per-source removed counts are net deltas. Removed ledger contains excluded original conditions, and reassignment tracked separately."
+  "accounting_note": "Retained counts include one cross-file reassignment; per-source removed counts are net deltas. Removed ledger contains excluded original conditions, and reassignment tracked separately.",
+  "follow_up": {
+    "AIGC": "Merged two incremental domains into AI-Global across all clients; AIGC files deleted",
+    "merged_domains": [
+      "gateway.ai.cloudflare.com",
+      "api.together.xyz"
+    ]
+  },
+  "active_supplements": [
+    "Whatsapp",
+    "Facebook",
+    "Meta",
+    "Game",
+    "GlobalMedia",
+    "PayPal",
+    "Proxy"
+  ],
+  "counts_status": "Historical initial integration counts; AIGC since merged into AI-Global."
 }

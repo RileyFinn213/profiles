@@ -1,5 +1,0 @@
-# Source: Rabbit-Spec/Surge/Rules/AIGC.list
-# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
-# Bind actual policy with force-policy.
-host, gateway.ai.cloudflare.com, proxy
-host, api.together.xyz, proxy

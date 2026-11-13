@@ -1,6 +1,4 @@
-# Source: Surge/Rules/AI-Global.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# AI-Global; includes former AIGC incremental endpoints.
 domain_set:
 - bard.google.com
 - ai.google.dev
@@ -179,6 +177,8 @@ domain_set:
 - ai.meta.com
 - aidemos.meta.com
 - imagine.meta.com
+- gateway.ai.cloudflare.com
+- api.together.xyz
 domain_suffix_set:
 - generativeai.google
 - deepmind.google

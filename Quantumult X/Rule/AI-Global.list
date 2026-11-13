@@ -284,3 +284,5 @@ host, aidemos.meta.com, proxy
 host, imagine.meta.com, proxy
 host-suffix, meta.ai, proxy
 host-suffix, metaaiusercontent.com, proxy
+host, gateway.ai.cloudflare.com, proxy
+host, api.together.xyz, proxy
