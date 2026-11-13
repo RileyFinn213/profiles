@@ -1,0 +1,10 @@
+# Source: Rabbit-Spec/Surge/Rules/Meta.list
+# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+domain_suffix_set:
+- atdmt.com
+- meta.vc
+- whatsappbusiness.com
+- threads.com
+- threads.net
+- mapillary.com
+- getsupernatural.com

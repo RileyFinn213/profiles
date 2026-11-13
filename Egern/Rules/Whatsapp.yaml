@@ -1,0 +1,18 @@
+# Source: Rabbit-Spec/Surge/Rules/Whatsapp.list
+# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+domain_set:
+- graph.facebook.com
+domain_suffix_set:
+- bintray.com
+- wa.me
+- whatsapp-plus.info
+- whatsapp-plus.me
+- whatsapp-plus.net
+- whatsapp.biz
+- whatsapp.cc
+- whatsapp.com
+- whatsapp.info
+- whatsapp.net
+- whatsapp.org
+- whatsapp.tv
+- whatsappbrand.com

@@ -1,0 +1,5 @@
+# Source: Rabbit-Spec/Surge/Rules/AIGC.list
+# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+domain_set:
+- gateway.ai.cloudflare.com
+- api.together.xyz

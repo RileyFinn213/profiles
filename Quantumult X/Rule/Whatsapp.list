@@ -1,0 +1,17 @@
+# Source: Rabbit-Spec/Surge/Rules/Whatsapp.list
+# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+# Native Quantumult X; bind actual policy with force-policy.
+host, graph.facebook.com, proxy
+host-suffix, bintray.com, proxy
+host-suffix, wa.me, proxy
+host-suffix, whatsapp-plus.info, proxy
+host-suffix, whatsapp-plus.me, proxy
+host-suffix, whatsapp-plus.net, proxy
+host-suffix, whatsapp.biz, proxy
+host-suffix, whatsapp.cc, proxy
+host-suffix, whatsapp.com, proxy
+host-suffix, whatsapp.info, proxy
+host-suffix, whatsapp.net, proxy
+host-suffix, whatsapp.org, proxy
+host-suffix, whatsapp.tv, proxy
+host-suffix, whatsappbrand.com, proxy
