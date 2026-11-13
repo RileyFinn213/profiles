@@ -1,0 +1,29 @@
+# 小说阅读直连规则；由主配置绑定 DIRECT
+# 来源：freeok/so-novel BOOK_SOURCES.md 大陆IP支持表；qiushu.info 为用户实测补充
+# 不包含 proxy-required 书源。非完整网站库，未逐站验证搜索/章节功能。
+DOMAIN-SUFFIX,0xs.net
+DOMAIN-SUFFIX,52bqg.com
+DOMAIN-SUFFIX,96dushu.com
+DOMAIN-SUFFIX,99wx.info
+DOMAIN-SUFFIX,biquge365.net
+DOMAIN-SUFFIX,bqg.info
+DOMAIN-SUFFIX,cn.ttkan.co
+DOMAIN-SUFFIX,d8zw.com
+DOMAIN-SUFFIX,dongtanxs.com
+DOMAIN-SUFFIX,hetushu.com
+DOMAIN-SUFFIX,ibiqugu.net
+DOMAIN-SUFFIX,linovelib.com
+DOMAIN-SUFFIX,mcxs.la
+DOMAIN-SUFFIX,qiushu.info
+DOMAIN-SUFFIX,shuhaige.net
+DOMAIN-SUFFIX,snxsw.com
+DOMAIN-SUFFIX,suduguu.com
+DOMAIN-SUFFIX,ujxsw.org
+DOMAIN-SUFFIX,xbiquge.cc
+DOMAIN-SUFFIX,xbiquge.info
+DOMAIN-SUFFIX,xbiquwk.com
+DOMAIN-SUFFIX,xhytd.com
+DOMAIN-SUFFIX,xiaoshuohu.com
+DOMAIN-SUFFIX,xszj.org
+DOMAIN-SUFFIX,xtxxs9.com
+DOMAIN-SUFFIX,yeudusk.com
