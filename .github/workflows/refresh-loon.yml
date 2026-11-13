@@ -1,0 +1,29 @@
+name: Refresh Loon resources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: loon-resources
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/refresh-loon-resources.py
+      - name: Publish converted Loon resources
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Loon/Rules/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh derived Loon remote rules'
+            git pull --rebase
+            git push
+          fi
