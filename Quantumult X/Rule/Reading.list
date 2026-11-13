@@ -1,8 +1,7 @@
-# Source: Surge/Rules/Reading-Direct.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# 香色闺阁 sourceModelList.xbs 书源站点直连规则（解密导出）
-# sources=1522 unique_domain_hosts=1017 unique_ipv4_ipv6=5 excluded_hosting=0
-# Native filter; bind actual policy with force-policy. no-resolve not retained.
+# Reading：阅读站点直连规则合集
+# 合并原 Reading-Direct 书源提取清单、freeok/so-novel 大陆IP支持表及用户实测补充。
+# 不含策略，由主配置绑定 DIRECT；原有站点保留，不代表逐站可用性验证。
+# 使用 force-policy=direct；不保留逐条 no-resolve。
 host-suffix, 00txs.com, proxy
 host-suffix, 18av.mm-cg.com, proxy
 host-suffix, 18comic.org, proxy
@@ -1025,5 +1024,28 @@ ip-cidr, 104.233.237.11/32, proxy
 ip-cidr, 119.23.243.52/32, proxy
 ip-cidr, 180.76.103.51/32, proxy
 ip-cidr, 222.186.45.128/32, proxy
-# 用户实测补充
 host-suffix, qiushu.info, proxy
+host-suffix, 0xs.net, proxy
+host-suffix, 52bqg.com, proxy
+host-suffix, 96dushu.com, proxy
+host-suffix, 99wx.info, proxy
+host-suffix, biquge365.net, proxy
+host-suffix, bqg.info, proxy
+host-suffix, cn.ttkan.co, proxy
+host-suffix, d8zw.com, proxy
+host-suffix, dongtanxs.com, proxy
+host-suffix, ibiqugu.net, proxy
+host-suffix, linovelib.com, proxy
+host-suffix, mcxs.la, proxy
+host-suffix, shuhaige.net, proxy
+host-suffix, snxsw.com, proxy
+host-suffix, suduguu.com, proxy
+host-suffix, ujxsw.org, proxy
+host-suffix, xbiquge.cc, proxy
+host-suffix, xbiquge.info, proxy
+host-suffix, xbiquwk.com, proxy
+host-suffix, xhytd.com, proxy
+host-suffix, xiaoshuohu.com, proxy
+host-suffix, xszj.org, proxy
+host-suffix, xtxxs9.com, proxy
+host-suffix, yeudusk.com, proxy

@@ -1,8 +1,6 @@
-# Source: Surge/Rules/Reading-Direct.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# 香色闺阁 sourceModelList.xbs 书源站点直连规则（解密导出）
-# sources=1522 unique_domain_hosts=1017 unique_ipv4_ipv6=5 excluded_hosting=0
-# Bind policy at import; process rules are ignored on iOS/tvOS.
+# Reading：阅读站点直连规则合集
+# 合并原 Reading-Direct 书源提取清单、freeok/so-novel 大陆IP支持表及用户实测补充。
+# 不含策略，由主配置绑定 DIRECT；原有站点保留，不代表逐站可用性验证。
 DOMAIN-SUFFIX,00txs.com
 DOMAIN-SUFFIX,18av.mm-cg.com
 DOMAIN-SUFFIX,18comic.org
@@ -1025,5 +1023,28 @@ IP-CIDR,104.233.237.11/32,no-resolve
 IP-CIDR,119.23.243.52/32,no-resolve
 IP-CIDR,180.76.103.51/32,no-resolve
 IP-CIDR,222.186.45.128/32,no-resolve
-# 用户实测补充
 DOMAIN-SUFFIX,qiushu.info
+DOMAIN-SUFFIX,0xs.net
+DOMAIN-SUFFIX,52bqg.com
+DOMAIN-SUFFIX,96dushu.com
+DOMAIN-SUFFIX,99wx.info
+DOMAIN-SUFFIX,biquge365.net
+DOMAIN-SUFFIX,bqg.info
+DOMAIN-SUFFIX,cn.ttkan.co
+DOMAIN-SUFFIX,d8zw.com
+DOMAIN-SUFFIX,dongtanxs.com
+DOMAIN-SUFFIX,ibiqugu.net
+DOMAIN-SUFFIX,linovelib.com
+DOMAIN-SUFFIX,mcxs.la
+DOMAIN-SUFFIX,shuhaige.net
+DOMAIN-SUFFIX,snxsw.com
+DOMAIN-SUFFIX,suduguu.com
+DOMAIN-SUFFIX,ujxsw.org
+DOMAIN-SUFFIX,xbiquge.cc
+DOMAIN-SUFFIX,xbiquge.info
+DOMAIN-SUFFIX,xbiquwk.com
+DOMAIN-SUFFIX,xhytd.com
+DOMAIN-SUFFIX,xiaoshuohu.com
+DOMAIN-SUFFIX,xszj.org
+DOMAIN-SUFFIX,xtxxs9.com
+DOMAIN-SUFFIX,yeudusk.com
