@@ -1,0 +1,1452 @@
+{
+  "source_files": 57,
+  "generated_files": 285,
+  "counts": [
+    {
+      "source": "AGE.list",
+      "source_sha256": "5e42777251506764d80915c2dfb9bd24d431a9b88bf837969f5b4adf7c45f260",
+      "rules": 7,
+      "Loon": 7,
+      "Stash": 7,
+      "Quantumult X": 7,
+      "Egern": 7,
+      "exclusions": {}
+    },
+    {
+      "source": "AI-China.list",
+      "source_sha256": "836de183a7c39139ddc3bd9a6a223955a3bf92fdfc8c4d1a571738f5c3b1ab15",
+      "rules": 35,
+      "Loon": 35,
+      "Stash": 35,
+      "Quantumult X": 35,
+      "Egern": 35,
+      "exclusions": {}
+    },
+    {
+      "source": "AI-Global.list",
+      "source_sha256": "9dd202b2d1f230b75d8acb1b231fc28607fb935e5c290d6a49bf0dfc7e95a415",
+      "rules": 282,
+      "Loon": 282,
+      "Stash": 282,
+      "Quantumult X": 279,
+      "Egern": 282,
+      "exclusions": {
+        "QX logical": 3
+      }
+    },
+    {
+      "source": "Apple.list",
+      "source_sha256": "bdc3e886b4540c94925b04cc54e00865bb4288290d001b38d4d0160eed09be0a",
+      "rules": 1587,
+      "Loon": 1587,
+      "Stash": 1587,
+      "Quantumult X": 1578,
+      "Egern": 1578,
+      "exclusions": {
+        "QX PROCESS-NAME": 9,
+        "Egern process": 9
+      }
+    },
+    {
+      "source": "AppleTV.list",
+      "source_sha256": "799719e9215b40c0f957b554d3c6c666a4c166944a3f9bb6c179f3b9a10098f4",
+      "rules": 5,
+      "Loon": 5,
+      "Stash": 5,
+      "Quantumult X": 5,
+      "Egern": 5,
+      "exclusions": {}
+    },
+    {
+      "source": "Bahamut.list",
+      "source_sha256": "595f4966b89889504ebb5caa6a2bbadeb966ffbb864c5d69e90a7632eef65029",
+      "rules": 7,
+      "Loon": 7,
+      "Stash": 7,
+      "Quantumult X": 7,
+      "Egern": 7,
+      "exclusions": {}
+    },
+    {
+      "source": "Bilibili.list",
+      "source_sha256": "bc26491a0df881d795ca04347c968692cc9546036430b6e9c04f658a9af80085",
+      "rules": 126,
+      "Loon": 126,
+      "Stash": 126,
+      "Quantumult X": 124,
+      "Egern": 124,
+      "exclusions": {
+        "QX PROCESS-NAME": 2,
+        "Egern process": 2
+      }
+    },
+    {
+      "source": "China.list",
+      "source_sha256": "3f895079c0591b9759af5e3cdf6bf5abb9f73e13361859442fd17904ca1cb4f4",
+      "rules": 6398,
+      "Loon": 6398,
+      "Stash": 6398,
+      "Quantumult X": 6398,
+      "Egern": 6398,
+      "exclusions": {}
+    },
+    {
+      "source": "ChinaASN.list",
+      "source_sha256": "0301daab58c2180644c709a34462c0becd78a5cbf50de84be1d432ac7fb66425",
+      "rules": 5101,
+      "Loon": 5101,
+      "Stash": 5101,
+      "Quantumult X": 5101,
+      "Egern": 5101,
+      "exclusions": {}
+    },
+    {
+      "source": "ChinaCIDR.list",
+      "source_sha256": "750eb756aeb947041773211770278045a6a96ac39c10d82d0498ba29937703ae",
+      "rules": 10036,
+      "Loon": 10036,
+      "Stash": 10036,
+      "Quantumult X": 10036,
+      "Egern": 10036,
+      "exclusions": {}
+    },
+    {
+      "source": "ChinaMedia.list",
+      "source_sha256": "ea46ae6214a51205e45c795129714621245caa6233a80eb6978842e7ec4852ab",
+      "rules": 358,
+      "Loon": 358,
+      "Stash": 358,
+      "Quantumult X": 356,
+      "Egern": 356,
+      "exclusions": {
+        "QX PROCESS-NAME": 2,
+        "Egern process": 2
+      }
+    },
+    {
+      "source": "Discord.list",
+      "source_sha256": "7457cc8f29c0baa6a15fd455dd0c376162ee594726612bace4d20a7885bf7c72",
+      "rules": 15,
+      "Loon": 15,
+      "Stash": 15,
+      "Quantumult X": 15,
+      "Egern": 15,
+      "exclusions": {}
+    },
+    {
+      "source": "Disney+.list",
+      "source_sha256": "bb7be37f7cab5866e41ca2724765b8481f501a8533db490147685e3b04748c60",
+      "rules": 241,
+      "Loon": 241,
+      "Stash": 241,
+      "Quantumult X": 239,
+      "Egern": 239,
+      "exclusions": {
+        "QX PROCESS-NAME": 2,
+        "Egern process": 2
+      }
+    },
+    {
+      "source": "Douban.list",
+      "source_sha256": "f05d0eac1905658d7d08791959740a6edc25f4045c133acd5933dccad86b0f13",
+      "rules": 3,
+      "Loon": 3,
+      "Stash": 3,
+      "Quantumult X": 3,
+      "Egern": 3,
+      "exclusions": {}
+    },
+    {
+      "source": "Emby.list",
+      "source_sha256": "3e6d70cd2cb4453132c33ff698530492864c09d7e374183fc221239679fbc68a",
+      "rules": 8,
+      "Loon": 8,
+      "Stash": 8,
+      "Quantumult X": 8,
+      "Egern": 8,
+      "exclusions": {}
+    },
+    {
+      "source": "Epic.list",
+      "source_sha256": "abb489a644f265f4306ab41b1f5e084f5c73e447db76fbb85953d4877153dfad",
+      "rules": 12,
+      "Loon": 12,
+      "Stash": 12,
+      "Quantumult X": 12,
+      "Egern": 12,
+      "exclusions": {}
+    },
+    {
+      "source": "Github.list",
+      "source_sha256": "73258ad644eeb17274563e5d5bdd654a3f9036c73ca5bff0b7a0857fddd0121b",
+      "rules": 10,
+      "Loon": 10,
+      "Stash": 10,
+      "Quantumult X": 10,
+      "Egern": 10,
+      "exclusions": {}
+    },
+    {
+      "source": "Google.list",
+      "source_sha256": "371e62409cefee32e9c96296a4767f5d0b6d62f8e97c4c69579d6f5b3e186f64",
+      "rules": 705,
+      "Loon": 705,
+      "Stash": 705,
+      "Quantumult X": 700,
+      "Egern": 700,
+      "exclusions": {
+        "QX PROCESS-NAME": 5,
+        "Egern process": 5
+      }
+    },
+    {
+      "source": "HBO.list",
+      "source_sha256": "36a2e9bbbda8a07b1b8d3a3f2a038f52accc35e4f4984b22ece504cce91e6040",
+      "rules": 12,
+      "Loon": 12,
+      "Stash": 12,
+      "Quantumult X": 12,
+      "Egern": 12,
+      "exclusions": {}
+    },
+    {
+      "source": "Hupu.list",
+      "source_sha256": "b783c1e48fb567a87bfee1e00f438076c278fadb62e26697b964c2e756dd2874",
+      "rules": 7,
+      "Loon": 7,
+      "Stash": 7,
+      "Quantumult X": 7,
+      "Egern": 7,
+      "exclusions": {}
+    },
+    {
+      "source": "Instagram.list",
+      "source_sha256": "6333da6013ab75378e52ff2fb8de1fb640a271982eb56bb926c39ec40742f27c",
+      "rules": 76,
+      "Loon": 76,
+      "Stash": 76,
+      "Quantumult X": 76,
+      "Egern": 76,
+      "exclusions": {}
+    },
+    {
+      "source": "LAN.list",
+      "source_sha256": "99fe2c191de1671e3da1769d2ac2b1214b23045b404573ff6450a95df22c50fc",
+      "rules": 181,
+      "Loon": 181,
+      "Stash": 181,
+      "Quantumult X": 181,
+      "Egern": 181,
+      "exclusions": {}
+    },
+    {
+      "source": "LSP.list",
+      "source_sha256": "0c1a8919a3fcea40201d6c27562afc9b7bc9f6421e307b056ab1fb5a127c214c",
+      "rules": 2,
+      "Loon": 2,
+      "Stash": 2,
+      "Quantumult X": 2,
+      "Egern": 2,
+      "exclusions": {}
+    },
+    {
+      "source": "Microsoft.list",
+      "source_sha256": "a311af5027ac3b257c9762945e184fa370035aed1778bb3503df10c81c30b049",
+      "rules": 772,
+      "Loon": 772,
+      "Stash": 772,
+      "Quantumult X": 770,
+      "Egern": 770,
+      "exclusions": {
+        "QX PROCESS-NAME": 2,
+        "Egern process": 2
+      }
+    },
+    {
+      "source": "NGA.list",
+      "source_sha256": "3304a843aec1e1bc7d3b35cde5b2a2a6537f4f3a714d7599a7fe3e9e4c173cba",
+      "rules": 10,
+      "Loon": 10,
+      "Stash": 10,
+      "Quantumult X": 10,
+      "Egern": 10,
+      "exclusions": {}
+    },
+    {
+      "source": "NeteaseMusic.list",
+      "source_sha256": "1a9604ca0c5bc9bbabc791087930aed8de9108f31ec4ec75bdf475d713dac805",
+      "rules": 33,
+      "Loon": 33,
+      "Stash": 33,
+      "Quantumult X": 33,
+      "Egern": 33,
+      "exclusions": {}
+    },
+    {
+      "source": "Netflix.list",
+      "source_sha256": "57126cb97eb61ad9594d86a54136f1d555a20f6a5b5aeb8613a390e8e28dec90",
+      "rules": 1619,
+      "Loon": 1619,
+      "Stash": 1619,
+      "Quantumult X": 1618,
+      "Egern": 1618,
+      "exclusions": {
+        "QX PROCESS-NAME": 1,
+        "Egern process": 1
+      }
+    },
+    {
+      "source": "Optional/AIGC.list",
+      "source_sha256": "1c69bf5fa9c09cc6021fcbe4276903288382def4ba77ad51df2d362b707650a8",
+      "rules": 99,
+      "Loon": 99,
+      "Stash": 99,
+      "Quantumult X": 99,
+      "Egern": 99,
+      "exclusions": {}
+    },
+    {
+      "source": "Optional/Facebook.list",
+      "source_sha256": "4109318a0a1d3d229458184146204fe3ff1fffb7cb6e54c0e3cabda6d2c62a9b",
+      "rules": 587,
+      "Loon": 587,
+      "Stash": 587,
+      "Quantumult X": 587,
+      "Egern": 587,
+      "exclusions": {}
+    },
+    {
+      "source": "Optional/Game.list",
+      "source_sha256": "27d67bad658b8355d6c09a98288ea6951c849ee4f436ecea3ea9f848cd815af7",
+      "rules": 867,
+      "Loon": 867,
+      "Stash": 867,
+      "Quantumult X": 867,
+      "Egern": 867,
+      "exclusions": {}
+    },
+    {
+      "source": "Optional/GlobalMedia.list",
+      "source_sha256": "28edecf706aae232555c5725c973fc0fbd8425cb05e585a98150d4a46b1f5111",
+      "rules": 1662,
+      "Loon": 1662,
+      "Stash": 1662,
+      "Quantumult X": 1658,
+      "Egern": 1659,
+      "exclusions": {
+        "QX URL-REGEX": 1,
+        "QX PROCESS-NAME": 3,
+        "Egern process": 3
+      }
+    },
+    {
+      "source": "Optional/Meta.list",
+      "source_sha256": "2d51864c77704ccc120c3477daf4c029bc5fae70321a9a97ef5d70a8a564ec02",
+      "rules": 43,
+      "Loon": 43,
+      "Stash": 43,
+      "Quantumult X": 43,
+      "Egern": 43,
+      "exclusions": {}
+    },
+    {
+      "source": "Optional/PayPal.list",
+      "source_sha256": "869ecfa1b74223f4da9ed8de6a30360cb4be47c36251714208c78f9b9aeff3c4",
+      "rules": 247,
+      "Loon": 247,
+      "Stash": 247,
+      "Quantumult X": 247,
+      "Egern": 247,
+      "exclusions": {}
+    },
+    {
+      "source": "Optional/Proxy.list",
+      "source_sha256": "1e7142adf6b33dd70b8157fccaf6750a98209615706ed4fe646aaa31ab4a0e89",
+      "rules": 24439,
+      "Loon": 24439,
+      "Stash": 24439,
+      "Quantumult X": 24431,
+      "Egern": 24431,
+      "exclusions": {
+        "QX PROCESS-NAME": 8,
+        "Egern process": 8
+      }
+    },
+    {
+      "source": "Optional/Whatsapp.list",
+      "source_sha256": "aaaa0c01800d876733771079970d90d73a1e734756fa774a9838ae514b47fc3c",
+      "rules": 30,
+      "Loon": 30,
+      "Stash": 30,
+      "Quantumult X": 30,
+      "Egern": 30,
+      "exclusions": {}
+    },
+    {
+      "source": "Pinterest.list",
+      "source_sha256": "dd150fd3c934f8691b155448b05736921a7040564d0525ecc92b0d76dd223074",
+      "rules": 4,
+      "Loon": 4,
+      "Stash": 4,
+      "Quantumult X": 4,
+      "Egern": 4,
+      "exclusions": {}
+    },
+    {
+      "source": "Pixiv.list",
+      "source_sha256": "59228a8684f5866931bf2f3ffb99e9faebfcbc0c4ec65ae32394162a267196d9",
+      "rules": 11,
+      "Loon": 11,
+      "Stash": 11,
+      "Quantumult X": 11,
+      "Egern": 11,
+      "exclusions": {}
+    },
+    {
+      "source": "PlayStation.list",
+      "source_sha256": "360389c74320bbf57453881830f9bf0610c1f16fdaed8d8802f56a39c4d7d0e4",
+      "rules": 19,
+      "Loon": 19,
+      "Stash": 19,
+      "Quantumult X": 19,
+      "Egern": 19,
+      "exclusions": {}
+    },
+    {
+      "source": "Reading-Direct.list",
+      "source_sha256": "ef36ec4b0ff9c56c8513adb9ccf621c3ea1f13af9210651011fc8fb5c49a8cba",
+      "rules": 1022,
+      "Loon": 1022,
+      "Stash": 1022,
+      "Quantumult X": 1022,
+      "Egern": 1022,
+      "exclusions": {}
+    },
+    {
+      "source": "Reddit.list",
+      "source_sha256": "cdfb2aca09d5ec18c0cbd8b25ba5bdc25e0ac1fd32b45cfbc89ab2071c59ce65",
+      "rules": 10,
+      "Loon": 10,
+      "Stash": 10,
+      "Quantumult X": 10,
+      "Egern": 10,
+      "exclusions": {}
+    },
+    {
+      "source": "Rex.list",
+      "source_sha256": "407fe1d10e8d7b401344baa5e5b82d1fd5aad04453ec087753085ef191f1041f",
+      "rules": 33,
+      "Loon": 33,
+      "Stash": 33,
+      "Quantumult X": 33,
+      "Egern": 33,
+      "exclusions": {}
+    },
+    {
+      "source": "Speedtest.list",
+      "source_sha256": "f29ca3b8631f2a86b30476934a6dde756f42b18ef693daa76f9f4b7d7fddb2b1",
+      "rules": 9,
+      "Loon": 9,
+      "Stash": 9,
+      "Quantumult X": 9,
+      "Egern": 9,
+      "exclusions": {}
+    },
+    {
+      "source": "Spotify.list",
+      "source_sha256": "9b867aef2c3ccc71b379ed2f771780939afca238fd8475e16b7b16327988ef1b",
+      "rules": 37,
+      "Loon": 37,
+      "Stash": 37,
+      "Quantumult X": 36,
+      "Egern": 36,
+      "exclusions": {
+        "QX PROCESS-NAME": 1,
+        "Egern process": 1
+      }
+    },
+    {
+      "source": "Steam.list",
+      "source_sha256": "bef7c201e6bda6e6ca633906c726bbc42ad837b634f8c8dd813fa0957533a657",
+      "rules": 16,
+      "Loon": 16,
+      "Stash": 16,
+      "Quantumult X": 16,
+      "Egern": 16,
+      "exclusions": {}
+    },
+    {
+      "source": "SteamCN.list",
+      "source_sha256": "0d04d80c0192873f108f734b746beb225d639fd0e017c40bb2cd5fe9942fb656",
+      "rules": 14,
+      "Loon": 14,
+      "Stash": 14,
+      "Quantumult X": 14,
+      "Egern": 14,
+      "exclusions": {}
+    },
+    {
+      "source": "SubStore.list",
+      "source_sha256": "1f9945348d3f7ad85f6bcb0e2c82b2ee90c51c7dc5c0ab686eb2a152fcd5934e",
+      "rules": 18,
+      "Loon": 18,
+      "Stash": 18,
+      "Quantumult X": 18,
+      "Egern": 18,
+      "exclusions": {}
+    },
+    {
+      "source": "TMDB.list",
+      "source_sha256": "bd53c61841b9c9bda80786727baca193eaecdf3a3999b89524e48fa1b94a9679",
+      "rules": 4,
+      "Loon": 4,
+      "Stash": 4,
+      "Quantumult X": 4,
+      "Egern": 4,
+      "exclusions": {}
+    },
+    {
+      "source": "Telegram.list",
+      "source_sha256": "13f795391ac5b73b3bf9c3a2c26f06e7516227e1d597005a507ff0f73249c26e",
+      "rules": 42,
+      "Loon": 42,
+      "Stash": 42,
+      "Quantumult X": 41,
+      "Egern": 41,
+      "exclusions": {
+        "QX PROCESS-NAME": 1,
+        "Egern process": 1
+      }
+    },
+    {
+      "source": "TikTok.list",
+      "source_sha256": "5e3d738e8967290f954e2714b37f4406448f3b905c50c852da06d151324af7b9",
+      "rules": 73,
+      "Loon": 73,
+      "Stash": 73,
+      "Quantumult X": 72,
+      "Egern": 72,
+      "exclusions": {
+        "QX PROCESS-NAME": 1,
+        "Egern process": 1
+      }
+    },
+    {
+      "source": "Twitch.list",
+      "source_sha256": "0631387f8ca085a329b765771143524a09e66a2fd023a39e70cf3b6a5fa81815",
+      "rules": 11,
+      "Loon": 11,
+      "Stash": 11,
+      "Quantumult X": 11,
+      "Egern": 11,
+      "exclusions": {}
+    },
+    {
+      "source": "Twitter.list",
+      "source_sha256": "4147ce2c2f46fe73c24403aeb72ce50a8f2de8a4b77678aace9d5406ddb73db4",
+      "rules": 12,
+      "Loon": 12,
+      "Stash": 12,
+      "Quantumult X": 12,
+      "Egern": 12,
+      "exclusions": {}
+    },
+    {
+      "source": "WeChat.list",
+      "source_sha256": "bdff3bf0ec61656b9322bd6a33b7032086d24fb1989a55037575efb7344caf41",
+      "rules": 22,
+      "Loon": 22,
+      "Stash": 22,
+      "Quantumult X": 22,
+      "Egern": 22,
+      "exclusions": {}
+    },
+    {
+      "source": "Weibo.list",
+      "source_sha256": "0bab4171df3218c6b2bf7bb1b6f5860a1ab590fcc2aaa8e37062af98e9f100e0",
+      "rules": 15,
+      "Loon": 15,
+      "Stash": 15,
+      "Quantumult X": 15,
+      "Egern": 15,
+      "exclusions": {}
+    },
+    {
+      "source": "XiaoHongShu.list",
+      "source_sha256": "83131d7b90bca50a698f5dd2fd4268fac16d2f84e0a91be0e1c83e3cebe537a1",
+      "rules": 6,
+      "Loon": 6,
+      "Stash": 6,
+      "Quantumult X": 6,
+      "Egern": 6,
+      "exclusions": {}
+    },
+    {
+      "source": "Xunlei.list",
+      "source_sha256": "043acfdc9850694540e22f442d80a2ffe0b3596ae6de3ba6ed628409574a0e90",
+      "rules": 14,
+      "Loon": 14,
+      "Stash": 14,
+      "Quantumult X": 14,
+      "Egern": 14,
+      "exclusions": {}
+    },
+    {
+      "source": "YouTube.list",
+      "source_sha256": "bb11161a5f558235e81f78bedd12bbfb0c54ecbb982431216c57c1311e25e7cd",
+      "rules": 192,
+      "Loon": 192,
+      "Stash": 192,
+      "Quantumult X": 192,
+      "Egern": 192,
+      "exclusions": {}
+    },
+    {
+      "source": "YouXiPingTai.list",
+      "source_sha256": "af8a1297b48b47c241172222fc47c8b1c19fd63ab0f07993e965c7a086bd3f29",
+      "rules": 47,
+      "Loon": 47,
+      "Stash": 47,
+      "Quantumult X": 47,
+      "Egern": 47,
+      "exclusions": {}
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "AI-Global.list",
+      "line": 87,
+      "client": "Quantumult X",
+      "rule": "AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))",
+      "reason": "logical condition unsupported"
+    },
+    {
+      "file": "AI-Global.list",
+      "line": 88,
+      "client": "Quantumult X",
+      "rule": "AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))",
+      "reason": "logical condition unsupported"
+    },
+    {
+      "file": "AI-Global.list",
+      "line": 103,
+      "client": "Quantumult X",
+      "rule": "AND,((DOMAIN-KEYWORD,antigravity-auto-updater-),(DOMAIN-SUFFIX,run.app))",
+      "reason": "logical condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1584,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,CoreLocationAgent",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1584,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,CoreLocationAgent",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1585,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,LookupViewService",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1585,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,LookupViewService",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1586,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,WeatherWidget",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1586,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,WeatherWidget",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1587,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,apsd",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1587,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,apsd",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1588,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.apple.Maps",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1588,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.apple.Maps",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1589,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.apple.geod",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1589,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.apple.geod",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1590,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,findmydevice-user-agent",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1590,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,findmydevice-user-agent",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1591,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,fmfd",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1591,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,fmfd",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1592,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,mapspushd",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Apple.list",
+      "line": 1592,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,mapspushd",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Bilibili.list",
+      "line": 130,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.bilibili.app.in",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Bilibili.list",
+      "line": 130,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.bilibili.app.in",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Bilibili.list",
+      "line": 131,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,tv.danmaku.bili",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Bilibili.list",
+      "line": 131,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,tv.danmaku.bili",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "ChinaMedia.list",
+      "line": 348,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.bilibili.app.in",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "ChinaMedia.list",
+      "line": 348,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.bilibili.app.in",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "ChinaMedia.list",
+      "line": 349,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,tv.danmaku.bili",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "ChinaMedia.list",
+      "line": 349,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,tv.danmaku.bili",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Disney+.list",
+      "line": 245,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.disney.datg.videoplatforms.android.abc",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Disney+.list",
+      "line": 245,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.disney.datg.videoplatforms.android.abc",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Disney+.list",
+      "line": 246,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.disney.disneyplus",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Disney+.list",
+      "line": 246,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.disney.disneyplus",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Google.list",
+      "line": 706,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,GoogleDriveFS.exe",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Google.list",
+      "line": 706,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,GoogleDriveFS.exe",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Google.list",
+      "line": 707,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.android.vending",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Google.list",
+      "line": 707,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.android.vending",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Google.list",
+      "line": 708,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.google.android.gms",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Google.list",
+      "line": 708,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.google.android.gms",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Google.list",
+      "line": 709,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.google.android.gsf",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Google.list",
+      "line": 709,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.google.android.gsf",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Google.list",
+      "line": 710,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.google.android.play.games",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Google.list",
+      "line": 710,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.google.android.play.games",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Microsoft.list",
+      "line": 776,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,OneDrive",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Microsoft.list",
+      "line": 776,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,OneDrive",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Microsoft.list",
+      "line": 777,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,OneDriveUpdater",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Microsoft.list",
+      "line": 777,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,OneDriveUpdater",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Netflix.list",
+      "line": 1624,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.netflix.mediaclient",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Netflix.list",
+      "line": 1624,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.netflix.mediaclient",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1195,
+      "client": "Quantumult X",
+      "rule": "URL-REGEX,^https?:\\/\\/www\\.amazon\\.com\\/(Amazon-Video|gp\\/video)\\/",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1662,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.viu.pad",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1662,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.viu.pad",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1663,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.viu.phone",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1663,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.viu.phone",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1664,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.vuclip.viu",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/GlobalMedia.list",
+      "line": 1664,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.vuclip.viu",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24434,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,CoreLocationAgent",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24434,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,CoreLocationAgent",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24435,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,WeatherWidget",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24435,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,WeatherWidget",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24436,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,apsd",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24436,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,apsd",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24437,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.apple.Maps",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24437,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.apple.Maps",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24438,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.apple.geod",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24438,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.apple.geod",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24439,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,findmydevice-user-agent",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24439,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,findmydevice-user-agent",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24440,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,fmfd",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24440,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,fmfd",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24441,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,mapspushd",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Optional/Proxy.list",
+      "line": 24441,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,mapspushd",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Spotify.list",
+      "line": 42,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.spotify.music",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Spotify.list",
+      "line": 42,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.spotify.music",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "Telegram.list",
+      "line": 43,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,org.telegram.messenger",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "Telegram.list",
+      "line": 43,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,org.telegram.messenger",
+      "reason": "process condition unsupported"
+    },
+    {
+      "file": "TikTok.list",
+      "line": 78,
+      "client": "Quantumult X",
+      "rule": "PROCESS-NAME,com.zhiliaoapp.musically",
+      "reason": "unsupported condition"
+    },
+    {
+      "file": "TikTok.list",
+      "line": 78,
+      "client": "Egern",
+      "rule": "PROCESS-NAME,com.zhiliaoapp.musically",
+      "reason": "process condition unsupported"
+    }
+  ],
+  "outputs": [
+    "Loon/Rules/AGE.list",
+    "Stash/Rules/AGE.list",
+    "Quantumult X/Rule/AGE.list",
+    "Egern/Rules/AGE.yaml",
+    "Egern/Rules/AGE-no-resolve.yaml",
+    "Loon/Rules/AI-China.list",
+    "Stash/Rules/AI-China.list",
+    "Quantumult X/Rule/AI-China.list",
+    "Egern/Rules/AI-China.yaml",
+    "Egern/Rules/AI-China-no-resolve.yaml",
+    "Loon/Rules/AI-Global.list",
+    "Stash/Rules/AI-Global.list",
+    "Quantumult X/Rule/AI-Global.list",
+    "Egern/Rules/AI-Global.yaml",
+    "Egern/Rules/AI-Global-no-resolve.yaml",
+    "Loon/Rules/Apple.list",
+    "Stash/Rules/Apple.list",
+    "Quantumult X/Rule/Apple.list",
+    "Egern/Rules/Apple.yaml",
+    "Egern/Rules/Apple-no-resolve.yaml",
+    "Loon/Rules/AppleTV.list",
+    "Stash/Rules/AppleTV.list",
+    "Quantumult X/Rule/AppleTV.list",
+    "Egern/Rules/AppleTV.yaml",
+    "Egern/Rules/AppleTV-no-resolve.yaml",
+    "Loon/Rules/Bahamut.list",
+    "Stash/Rules/Bahamut.list",
+    "Quantumult X/Rule/Bahamut.list",
+    "Egern/Rules/Bahamut.yaml",
+    "Egern/Rules/Bahamut-no-resolve.yaml",
+    "Loon/Rules/Bilibili.list",
+    "Stash/Rules/Bilibili.list",
+    "Quantumult X/Rule/Bilibili.list",
+    "Egern/Rules/Bilibili.yaml",
+    "Egern/Rules/Bilibili-no-resolve.yaml",
+    "Loon/Rules/China.list",
+    "Stash/Rules/China.list",
+    "Quantumult X/Rule/China.list",
+    "Egern/Rules/China.yaml",
+    "Egern/Rules/China-no-resolve.yaml",
+    "Loon/Rules/ChinaASN.list",
+    "Stash/Rules/ChinaASN.list",
+    "Quantumult X/Rule/ChinaASN.list",
+    "Egern/Rules/ChinaASN.yaml",
+    "Egern/Rules/ChinaASN-no-resolve.yaml",
+    "Loon/Rules/ChinaCIDR.list",
+    "Stash/Rules/ChinaCIDR.list",
+    "Quantumult X/Rule/ChinaCIDR.list",
+    "Egern/Rules/ChinaCIDR.yaml",
+    "Egern/Rules/ChinaCIDR-no-resolve.yaml",
+    "Loon/Rules/ChinaMedia.list",
+    "Stash/Rules/ChinaMedia.list",
+    "Quantumult X/Rule/ChinaMedia.list",
+    "Egern/Rules/ChinaMedia.yaml",
+    "Egern/Rules/ChinaMedia-no-resolve.yaml",
+    "Loon/Rules/Discord.list",
+    "Stash/Rules/Discord.list",
+    "Quantumult X/Rule/Discord.list",
+    "Egern/Rules/Discord.yaml",
+    "Egern/Rules/Discord-no-resolve.yaml",
+    "Loon/Rules/Disney+.list",
+    "Stash/Rules/Disney+.list",
+    "Quantumult X/Rule/Disney+.list",
+    "Egern/Rules/Disney+.yaml",
+    "Egern/Rules/Disney+-no-resolve.yaml",
+    "Loon/Rules/Douban.list",
+    "Stash/Rules/Douban.list",
+    "Quantumult X/Rule/Douban.list",
+    "Egern/Rules/Douban.yaml",
+    "Egern/Rules/Douban-no-resolve.yaml",
+    "Loon/Rules/Emby.list",
+    "Stash/Rules/Emby.list",
+    "Quantumult X/Rule/Emby.list",
+    "Egern/Rules/Emby.yaml",
+    "Egern/Rules/Emby-no-resolve.yaml",
+    "Loon/Rules/Epic.list",
+    "Stash/Rules/Epic.list",
+    "Quantumult X/Rule/Epic.list",
+    "Egern/Rules/Epic.yaml",
+    "Egern/Rules/Epic-no-resolve.yaml",
+    "Loon/Rules/Github.list",
+    "Stash/Rules/Github.list",
+    "Quantumult X/Rule/Github.list",
+    "Egern/Rules/Github.yaml",
+    "Egern/Rules/Github-no-resolve.yaml",
+    "Loon/Rules/Google.list",
+    "Stash/Rules/Google.list",
+    "Quantumult X/Rule/Google.list",
+    "Egern/Rules/Google.yaml",
+    "Egern/Rules/Google-no-resolve.yaml",
+    "Loon/Rules/HBO.list",
+    "Stash/Rules/HBO.list",
+    "Quantumult X/Rule/HBO.list",
+    "Egern/Rules/HBO.yaml",
+    "Egern/Rules/HBO-no-resolve.yaml",
+    "Loon/Rules/Hupu.list",
+    "Stash/Rules/Hupu.list",
+    "Quantumult X/Rule/Hupu.list",
+    "Egern/Rules/Hupu.yaml",
+    "Egern/Rules/Hupu-no-resolve.yaml",
+    "Loon/Rules/Instagram.list",
+    "Stash/Rules/Instagram.list",
+    "Quantumult X/Rule/Instagram.list",
+    "Egern/Rules/Instagram.yaml",
+    "Egern/Rules/Instagram-no-resolve.yaml",
+    "Loon/Rules/LAN.list",
+    "Stash/Rules/LAN.list",
+    "Quantumult X/Rule/LAN.list",
+    "Egern/Rules/LAN.yaml",
+    "Egern/Rules/LAN-no-resolve.yaml",
+    "Loon/Rules/LSP.list",
+    "Stash/Rules/LSP.list",
+    "Quantumult X/Rule/LSP.list",
+    "Egern/Rules/LSP.yaml",
+    "Egern/Rules/LSP-no-resolve.yaml",
+    "Loon/Rules/Microsoft.list",
+    "Stash/Rules/Microsoft.list",
+    "Quantumult X/Rule/Microsoft.list",
+    "Egern/Rules/Microsoft.yaml",
+    "Egern/Rules/Microsoft-no-resolve.yaml",
+    "Loon/Rules/NGA.list",
+    "Stash/Rules/NGA.list",
+    "Quantumult X/Rule/NGA.list",
+    "Egern/Rules/NGA.yaml",
+    "Egern/Rules/NGA-no-resolve.yaml",
+    "Loon/Rules/NeteaseMusic.list",
+    "Stash/Rules/NeteaseMusic.list",
+    "Quantumult X/Rule/NeteaseMusic.list",
+    "Egern/Rules/NeteaseMusic.yaml",
+    "Egern/Rules/NeteaseMusic-no-resolve.yaml",
+    "Loon/Rules/Netflix.list",
+    "Stash/Rules/Netflix.list",
+    "Quantumult X/Rule/Netflix.list",
+    "Egern/Rules/Netflix.yaml",
+    "Egern/Rules/Netflix-no-resolve.yaml",
+    "Loon/Rules/Optional/AIGC.list",
+    "Stash/Rules/Optional/AIGC.list",
+    "Quantumult X/Rule/Optional/AIGC.list",
+    "Egern/Rules/Optional/AIGC.yaml",
+    "Egern/Rules/Optional/AIGC-no-resolve.yaml",
+    "Loon/Rules/Optional/Facebook.list",
+    "Stash/Rules/Optional/Facebook.list",
+    "Quantumult X/Rule/Optional/Facebook.list",
+    "Egern/Rules/Optional/Facebook.yaml",
+    "Egern/Rules/Optional/Facebook-no-resolve.yaml",
+    "Loon/Rules/Optional/Game.list",
+    "Stash/Rules/Optional/Game.list",
+    "Quantumult X/Rule/Optional/Game.list",
+    "Egern/Rules/Optional/Game.yaml",
+    "Egern/Rules/Optional/Game-no-resolve.yaml",
+    "Loon/Rules/Optional/GlobalMedia.list",
+    "Stash/Rules/Optional/GlobalMedia.list",
+    "Quantumult X/Rule/Optional/GlobalMedia.list",
+    "Egern/Rules/Optional/GlobalMedia.yaml",
+    "Egern/Rules/Optional/GlobalMedia-no-resolve.yaml",
+    "Loon/Rules/Optional/Meta.list",
+    "Stash/Rules/Optional/Meta.list",
+    "Quantumult X/Rule/Optional/Meta.list",
+    "Egern/Rules/Optional/Meta.yaml",
+    "Egern/Rules/Optional/Meta-no-resolve.yaml",
+    "Loon/Rules/Optional/PayPal.list",
+    "Stash/Rules/Optional/PayPal.list",
+    "Quantumult X/Rule/Optional/PayPal.list",
+    "Egern/Rules/Optional/PayPal.yaml",
+    "Egern/Rules/Optional/PayPal-no-resolve.yaml",
+    "Loon/Rules/Optional/Proxy.list",
+    "Stash/Rules/Optional/Proxy.list",
+    "Quantumult X/Rule/Optional/Proxy.list",
+    "Egern/Rules/Optional/Proxy.yaml",
+    "Egern/Rules/Optional/Proxy-no-resolve.yaml",
+    "Loon/Rules/Optional/Whatsapp.list",
+    "Stash/Rules/Optional/Whatsapp.list",
+    "Quantumult X/Rule/Optional/Whatsapp.list",
+    "Egern/Rules/Optional/Whatsapp.yaml",
+    "Egern/Rules/Optional/Whatsapp-no-resolve.yaml",
+    "Loon/Rules/Pinterest.list",
+    "Stash/Rules/Pinterest.list",
+    "Quantumult X/Rule/Pinterest.list",
+    "Egern/Rules/Pinterest.yaml",
+    "Egern/Rules/Pinterest-no-resolve.yaml",
+    "Loon/Rules/Pixiv.list",
+    "Stash/Rules/Pixiv.list",
+    "Quantumult X/Rule/Pixiv.list",
+    "Egern/Rules/Pixiv.yaml",
+    "Egern/Rules/Pixiv-no-resolve.yaml",
+    "Loon/Rules/PlayStation.list",
+    "Stash/Rules/PlayStation.list",
+    "Quantumult X/Rule/PlayStation.list",
+    "Egern/Rules/PlayStation.yaml",
+    "Egern/Rules/PlayStation-no-resolve.yaml",
+    "Loon/Rules/Reading-Direct.list",
+    "Stash/Rules/Reading-Direct.list",
+    "Quantumult X/Rule/Reading-Direct.list",
+    "Egern/Rules/Reading-Direct.yaml",
+    "Egern/Rules/Reading-Direct-no-resolve.yaml",
+    "Loon/Rules/Reddit.list",
+    "Stash/Rules/Reddit.list",
+    "Quantumult X/Rule/Reddit.list",
+    "Egern/Rules/Reddit.yaml",
+    "Egern/Rules/Reddit-no-resolve.yaml",
+    "Loon/Rules/Rex.list",
+    "Stash/Rules/Rex.list",
+    "Quantumult X/Rule/Rex.list",
+    "Egern/Rules/Rex.yaml",
+    "Egern/Rules/Rex-no-resolve.yaml",
+    "Loon/Rules/Speedtest.list",
+    "Stash/Rules/Speedtest.list",
+    "Quantumult X/Rule/Speedtest.list",
+    "Egern/Rules/Speedtest.yaml",
+    "Egern/Rules/Speedtest-no-resolve.yaml",
+    "Loon/Rules/Spotify.list",
+    "Stash/Rules/Spotify.list",
+    "Quantumult X/Rule/Spotify.list",
+    "Egern/Rules/Spotify.yaml",
+    "Egern/Rules/Spotify-no-resolve.yaml",
+    "Loon/Rules/Steam.list",
+    "Stash/Rules/Steam.list",
+    "Quantumult X/Rule/Steam.list",
+    "Egern/Rules/Steam.yaml",
+    "Egern/Rules/Steam-no-resolve.yaml",
+    "Loon/Rules/SteamCN.list",
+    "Stash/Rules/SteamCN.list",
+    "Quantumult X/Rule/SteamCN.list",
+    "Egern/Rules/SteamCN.yaml",
+    "Egern/Rules/SteamCN-no-resolve.yaml",
+    "Loon/Rules/SubStore.list",
+    "Stash/Rules/SubStore.list",
+    "Quantumult X/Rule/SubStore.list",
+    "Egern/Rules/SubStore.yaml",
+    "Egern/Rules/SubStore-no-resolve.yaml",
+    "Loon/Rules/TMDB.list",
+    "Stash/Rules/TMDB.list",
+    "Quantumult X/Rule/TMDB.list",
+    "Egern/Rules/TMDB.yaml",
+    "Egern/Rules/TMDB-no-resolve.yaml",
+    "Loon/Rules/Telegram.list",
+    "Stash/Rules/Telegram.list",
+    "Quantumult X/Rule/Telegram.list",
+    "Egern/Rules/Telegram.yaml",
+    "Egern/Rules/Telegram-no-resolve.yaml",
+    "Loon/Rules/TikTok.list",
+    "Stash/Rules/TikTok.list",
+    "Quantumult X/Rule/TikTok.list",
+    "Egern/Rules/TikTok.yaml",
+    "Egern/Rules/TikTok-no-resolve.yaml",
+    "Loon/Rules/Twitch.list",
+    "Stash/Rules/Twitch.list",
+    "Quantumult X/Rule/Twitch.list",
+    "Egern/Rules/Twitch.yaml",
+    "Egern/Rules/Twitch-no-resolve.yaml",
+    "Loon/Rules/Twitter.list",
+    "Stash/Rules/Twitter.list",
+    "Quantumult X/Rule/Twitter.list",
+    "Egern/Rules/Twitter.yaml",
+    "Egern/Rules/Twitter-no-resolve.yaml",
+    "Loon/Rules/WeChat.list",
+    "Stash/Rules/WeChat.list",
+    "Quantumult X/Rule/WeChat.list",
+    "Egern/Rules/WeChat.yaml",
+    "Egern/Rules/WeChat-no-resolve.yaml",
+    "Loon/Rules/Weibo.list",
+    "Stash/Rules/Weibo.list",
+    "Quantumult X/Rule/Weibo.list",
+    "Egern/Rules/Weibo.yaml",
+    "Egern/Rules/Weibo-no-resolve.yaml",
+    "Loon/Rules/XiaoHongShu.list",
+    "Stash/Rules/XiaoHongShu.list",
+    "Quantumult X/Rule/XiaoHongShu.list",
+    "Egern/Rules/XiaoHongShu.yaml",
+    "Egern/Rules/XiaoHongShu-no-resolve.yaml",
+    "Loon/Rules/Xunlei.list",
+    "Stash/Rules/Xunlei.list",
+    "Quantumult X/Rule/Xunlei.list",
+    "Egern/Rules/Xunlei.yaml",
+    "Egern/Rules/Xunlei-no-resolve.yaml",
+    "Loon/Rules/YouTube.list",
+    "Stash/Rules/YouTube.list",
+    "Quantumult X/Rule/YouTube.list",
+    "Egern/Rules/YouTube.yaml",
+    "Egern/Rules/YouTube-no-resolve.yaml",
+    "Loon/Rules/YouXiPingTai.list",
+    "Stash/Rules/YouXiPingTai.list",
+    "Quantumult X/Rule/YouXiPingTai.list",
+    "Egern/Rules/YouXiPingTai.yaml",
+    "Egern/Rules/YouXiPingTai-no-resolve.yaml"
+  ],
+  "source": "current Surge/Rules tree; target-only files retained",
+  "runtime_validation": "not performed"
+}

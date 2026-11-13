@@ -1,4 +1,7 @@
-# Optional, not enabled automatically. Source: Rabbit-Spec/Surge via merged repository
+# Source: Surge/Rules/Optional/Game.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/Game.list
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN,a.ppy.sh
 DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
 DOMAIN,assets.ppy.sh

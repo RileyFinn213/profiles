@@ -1,5 +1,9 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/LAN.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/LAN.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/LAN.list
+# Source: Rabbit-Spec/Surge/Rules/LAN.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,local
 IP-CIDR,0.0.0.0/8
 IP-CIDR,10.0.0.0/8

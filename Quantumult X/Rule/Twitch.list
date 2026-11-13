@@ -1,14 +1,16 @@
-# Converted from Surge/Rules/Twitch.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,twitch.tv,proxy
-host-suffix,ttvnw.net,proxy
-host-suffix,jtvnw.net,proxy
-host-suffix,twitchcdn.net,proxy
-host-suffix,twitchthumbs.com,proxy
-host-suffix,twitchsvc.net,proxy
-host-suffix,ext-twitch.tv,proxy
-host-suffix,chatterino.com,proxy
-host-keyword,twitch,proxy
-host-keyword,ttvnw,proxy
-host-keyword,jtvnw,proxy
+# Source: Surge/Rules/Twitch.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Twitch.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, twitch.tv, proxy
+host-suffix, ttvnw.net, proxy
+host-suffix, jtvnw.net, proxy
+host-suffix, twitchcdn.net, proxy
+host-suffix, twitchthumbs.com, proxy
+host-suffix, twitchsvc.net, proxy
+host-suffix, ext-twitch.tv, proxy
+host-suffix, chatterino.com, proxy
+host-keyword, twitch, proxy
+host-keyword, ttvnw, proxy
+host-keyword, jtvnw, proxy

@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Steam.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Steam.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Steam.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamstatic.com

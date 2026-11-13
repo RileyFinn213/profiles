@@ -1,5 +1,9 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Disney+.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Disney+.list
+# Source: Rabbit-Spec/Surge/Rules/Disney.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneymedia.com

@@ -1,19 +1,21 @@
-# Converted from Surge/Rules/Steam.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,steampowered.com,proxy
-host-suffix,steamcommunity.com,proxy
-host-suffix,steamstatic.com,proxy
-host-suffix,steamusercontent.com,proxy
-host-suffix,steam-chat.com,proxy
-host-suffix,steamserver.net,proxy
-host-suffix,steamcontent.com,proxy
-host-suffix,steamdeck.com,proxy
-host-suffix,steamgames.com,proxy
-host-suffix,valvesoftware.com,proxy
-host-suffix,valvecorp.com,proxy
-host-suffix,underlords.com,proxy
-host-suffix,artifacts.com,proxy
-host-keyword,steam,proxy
-host-keyword,valve,proxy
-host,valve.com,proxy
+# Source: Surge/Rules/Steam.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Steam.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, steampowered.com, proxy
+host-suffix, steamcommunity.com, proxy
+host-suffix, steamstatic.com, proxy
+host-suffix, steamusercontent.com, proxy
+host-suffix, steam-chat.com, proxy
+host-suffix, steamserver.net, proxy
+host-suffix, steamcontent.com, proxy
+host-suffix, steamdeck.com, proxy
+host-suffix, steamgames.com, proxy
+host-suffix, valvesoftware.com, proxy
+host-suffix, valvecorp.com, proxy
+host-suffix, underlords.com, proxy
+host-suffix, artifacts.com, proxy
+host-keyword, steam, proxy
+host-keyword, valve, proxy
+host, valve.com, proxy

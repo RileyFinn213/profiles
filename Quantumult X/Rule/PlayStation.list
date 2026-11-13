@@ -1,22 +1,24 @@
-# Converted from Surge/Rules/PlayStation.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,playstation.com,proxy
-host-suffix,playstation.net,proxy
-host-suffix,playstation.org,proxy
-host-suffix,playstationnetwork.com,proxy
-host-suffix,sonyentertainmentnetwork.com,proxy
-host-suffix,sonyentertainmentnetwork.net,proxy
-host-suffix,psn.com,proxy
-host-suffix,scea.com,proxy
-host-suffix,scei.co.jp,proxy
-host-suffix,scee.com,proxy
-host-suffix,scestatic.com,proxy
-host-suffix,sony.com,proxy
-host-suffix,sony.net,proxy
-host-suffix,playstationlivearea.com,proxy
-host-suffix,playstationmusic.com,proxy
-host-suffix,playstationvideo.com,proxy
-host-keyword,playstation,proxy
-host-keyword,sonyentertainmentnetwork,proxy
-host-keyword,psn,proxy
+# Source: Surge/Rules/PlayStation.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/PlayStation.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, playstation.com, proxy
+host-suffix, playstation.net, proxy
+host-suffix, playstation.org, proxy
+host-suffix, playstationnetwork.com, proxy
+host-suffix, sonyentertainmentnetwork.com, proxy
+host-suffix, sonyentertainmentnetwork.net, proxy
+host-suffix, psn.com, proxy
+host-suffix, scea.com, proxy
+host-suffix, scei.co.jp, proxy
+host-suffix, scee.com, proxy
+host-suffix, scestatic.com, proxy
+host-suffix, sony.com, proxy
+host-suffix, sony.net, proxy
+host-suffix, playstationlivearea.com, proxy
+host-suffix, playstationmusic.com, proxy
+host-suffix, playstationvideo.com, proxy
+host-keyword, playstation, proxy
+host-keyword, sonyentertainmentnetwork, proxy
+host-keyword, psn, proxy

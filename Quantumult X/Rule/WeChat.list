@@ -1,25 +1,27 @@
-# Converted from Surge/Rules/WeChat.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,weixin.com,proxy
-host-suffix,wechat.com,proxy
-host-suffix,tencent.com,proxy
-host-suffix,qlogo.cn,proxy
-host-suffix,qpic.cn,proxy
-host-suffix,servicewechat.com,proxy
-host-suffix,weixinbridge.com,proxy
-host-suffix,wechatlegal.net,proxy
-host-suffix,wechatpay.com,proxy
-host-suffix,tenpay.com,proxy
-host-suffix,qq.com,proxy
-host-suffix,gtimg.com,proxy
-host-suffix,gtimg.cn,proxy
-host-suffix,myqcloud.com,proxy
-host-suffix,weixinimg.jaeapp.com,proxy
-host-keyword,wechat,proxy
-host-keyword,weixin,proxy
-host-keyword,tencent,proxy
-ip-asn,132203,proxy
-ip-asn,132591,proxy
-ip-asn,45090,proxy
-ip-asn,58543,proxy
+# Source: Surge/Rules/WeChat.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/WeChat.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, weixin.com, proxy
+host-suffix, wechat.com, proxy
+host-suffix, tencent.com, proxy
+host-suffix, qlogo.cn, proxy
+host-suffix, qpic.cn, proxy
+host-suffix, servicewechat.com, proxy
+host-suffix, weixinbridge.com, proxy
+host-suffix, wechatlegal.net, proxy
+host-suffix, wechatpay.com, proxy
+host-suffix, tenpay.com, proxy
+host-suffix, qq.com, proxy
+host-suffix, gtimg.com, proxy
+host-suffix, gtimg.cn, proxy
+host-suffix, myqcloud.com, proxy
+host-suffix, weixinimg.jaeapp.com, proxy
+host-keyword, wechat, proxy
+host-keyword, weixin, proxy
+host-keyword, tencent, proxy
+ip-asn, 132203, proxy
+ip-asn, 132591, proxy
+ip-asn, 45090, proxy
+ip-asn, 58543, proxy

@@ -1,5 +1,9 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Telegram.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Telegram.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Telegram.list
+# Source: Rabbit-Spec/Surge/Rules/Telegram.list
+# Source: Rabbit-Spec/Surge/Rules/TelegramASN.list
+# Preserve upstream attribution and usage requirements.
 domain_suffix_set:
 - t.me
 - tx.me

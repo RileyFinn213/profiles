@@ -1,10 +1,12 @@
-# Converted from Surge/Rules/Hupu.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-keyword,hupu,proxy
-host-suffix,hoopchina.com,proxy
-host-suffix,kanqiu.com,proxy
-host-suffix,hpstatic.cn,proxy
-host-suffix,hupustatic.com,proxy
-host-suffix,shihuo.cn,proxy
-host-suffix,shihuoapi.com,proxy
+# Source: Surge/Rules/Hupu.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Hupu.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-keyword, hupu, proxy
+host-suffix, hoopchina.com, proxy
+host-suffix, kanqiu.com, proxy
+host-suffix, hpstatic.cn, proxy
+host-suffix, hupustatic.com, proxy
+host-suffix, shihuo.cn, proxy
+host-suffix, shihuoapi.com, proxy

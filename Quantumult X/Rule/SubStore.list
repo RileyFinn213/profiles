@@ -1,21 +1,23 @@
-# Converted from Surge/Rules/SubStore.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,local,proxy
-host,localhost,proxy
-host-keyword,sub-store,proxy
-host-keyword,substore,proxy
-ip-cidr,0.0.0.0/8,proxy
-ip-cidr,10.0.0.0/8,proxy
-ip-cidr,100.64.0.0/10,proxy
-ip-cidr,127.0.0.0/8,proxy
-ip-cidr,169.254.0.0/16,proxy
-ip-cidr,172.16.0.0/12,proxy
-ip-cidr,192.0.0.0/24,proxy
-ip-cidr,192.0.2.0/24,proxy
-ip-cidr,192.168.0.0/16,proxy
-ip-cidr,224.0.0.0/4,proxy
-ip-cidr,240.0.0.0/4,proxy
-ip6-cidr,::1/128,proxy
-ip6-cidr,fc00::/7,proxy
-ip6-cidr,fe80::/10,proxy
+# Source: Surge/Rules/SubStore.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/SubStore.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, local, proxy
+host, localhost, proxy
+host-keyword, sub-store, proxy
+host-keyword, substore, proxy
+ip-cidr, 0.0.0.0/8, proxy
+ip-cidr, 10.0.0.0/8, proxy
+ip-cidr, 100.64.0.0/10, proxy
+ip-cidr, 127.0.0.0/8, proxy
+ip-cidr, 169.254.0.0/16, proxy
+ip-cidr, 172.16.0.0/12, proxy
+ip-cidr, 192.0.0.0/24, proxy
+ip-cidr, 192.0.2.0/24, proxy
+ip-cidr, 192.168.0.0/16, proxy
+ip-cidr, 224.0.0.0/4, proxy
+ip-cidr, 240.0.0.0/4, proxy
+ip6-cidr, ::1/128, proxy
+ip6-cidr, fc00::/7, proxy
+ip6-cidr, fe80::/10, proxy

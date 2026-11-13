@@ -1,8 +1,11 @@
-host-suffix, zhezhi.art,proxy
-host-suffix, okemby.org,proxy
-host-suffix, sadchicktv.com,proxy
-host-suffix, chapanda.site,proxy
-host-suffix, nijigem.by,proxy
-host-suffix, imetyou.top,proxy
-host-suffix, 28.ai,proxy
-host-suffix, zzm.li,proxy
+# Source: Surge/Rules/Emby.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, origamiart.uk, proxy
+host-suffix, okemby.org, proxy
+host-suffix, sadchicktv.com, proxy
+host-suffix, chapanda.site, proxy
+host-suffix, nijigem.by, proxy
+host-suffix, imetyou.top, proxy
+host-suffix, 28.ai, proxy
+host-suffix, zzm.li, proxy

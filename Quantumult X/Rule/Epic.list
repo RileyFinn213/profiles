@@ -1,15 +1,17 @@
-# Converted from Surge/Rules/Epic.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,epicgames.com,proxy
-host-suffix,unrealengine.com,proxy
-host-suffix,epicgames.dev,proxy
-host-suffix,epiconlineimages.com,proxy
-host-suffix,fortnite.com,proxy
-host-suffix,helpshift.com,proxy
-host-suffix,paragon.com,proxy
-host-suffix,playparagon.com,proxy
-host-suffix,shadowcomplex.com,proxy
-host-suffix,spyjinx.com,proxy
-host-suffix,unrealtournament.com,proxy
-host-suffix,entitlements.com,proxy
+# Source: Surge/Rules/Epic.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Epic.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, epicgames.com, proxy
+host-suffix, unrealengine.com, proxy
+host-suffix, epicgames.dev, proxy
+host-suffix, epiconlineimages.com, proxy
+host-suffix, fortnite.com, proxy
+host-suffix, helpshift.com, proxy
+host-suffix, paragon.com, proxy
+host-suffix, playparagon.com, proxy
+host-suffix, shadowcomplex.com, proxy
+host-suffix, spyjinx.com, proxy
+host-suffix, unrealtournament.com, proxy
+host-suffix, entitlements.com, proxy

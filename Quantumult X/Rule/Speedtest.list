@@ -1,12 +1,14 @@
-# Converted from Surge/Rules/Speedtest.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,speedtest.net,proxy
-host-suffix,ooklaserver.net,proxy
-host-suffix,ookla.com,proxy
-host-suffix,speedtestcustom.com,proxy
-host-suffix,downdetector.com,proxy
-host-suffix,downdetector.com.br,proxy
-host-suffix,downdetector.co.uk,proxy
-host-keyword,speedtest,proxy
-host-keyword,ookla,proxy
+# Source: Surge/Rules/Speedtest.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Speedtest.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, speedtest.net, proxy
+host-suffix, ooklaserver.net, proxy
+host-suffix, ookla.com, proxy
+host-suffix, speedtestcustom.com, proxy
+host-suffix, downdetector.com, proxy
+host-suffix, downdetector.com.br, proxy
+host-suffix, downdetector.co.uk, proxy
+host-keyword, speedtest, proxy
+host-keyword, ookla, proxy

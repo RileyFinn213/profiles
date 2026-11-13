@@ -1,6 +1,9 @@
-# TMDB scraping routes; sources: blackmatrix7/ios_rule_script (GPL-2.0), MetaCubeX/meta-rules-dat (GPL-3.0)
-# Quantumult X native filter; use force-policy on import.
-host,tmdb-image-prod.b-cdn.net,proxy
-host,tmdb-web-image-prod.b-cdn.net,proxy
-host-suffix,themoviedb.org,proxy
-host-suffix,tmdb.org,proxy
+# Source: Surge/Rules/TMDB.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: blackmatrix7/ios_rule_script (GPL-2.0) rule/Surge/Tmdb/Tmdb.list
+# Source: MetaCubeX/meta-rules-dat (GPL-3.0) meta/geo/geosite/tmdb.yaml
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host, tmdb-image-prod.b-cdn.net, proxy
+host, tmdb-web-image-prod.b-cdn.net, proxy
+host-suffix, themoviedb.org, proxy
+host-suffix, tmdb.org, proxy

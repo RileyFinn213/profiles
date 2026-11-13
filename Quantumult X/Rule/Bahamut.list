@@ -1,10 +1,12 @@
-# Converted from Surge/Rules/Bahamut.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,gamer.com.tw,proxy
-host-suffix,bahamut.com.tw,proxy
-host-suffix,hinet.net,proxy
-host-suffix,fbcdn.net,proxy
-host-suffix,digicert.com,proxy
-host-suffix,viblast.com,proxy
-host-suffix,gvt1.com,proxy
+# Source: Surge/Rules/Bahamut.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Bahamut.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, gamer.com.tw, proxy
+host-suffix, bahamut.com.tw, proxy
+host-suffix, hinet.net, proxy
+host-suffix, fbcdn.net, proxy
+host-suffix, digicert.com, proxy
+host-suffix, viblast.com, proxy
+host-suffix, gvt1.com, proxy

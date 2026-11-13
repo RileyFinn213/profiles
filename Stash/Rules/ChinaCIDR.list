@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/ChinaCIDR.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/ChinaCIDR.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: Rabbit-Spec/Surge (Master), lanjue4/P-Configuration (main)
+# Generated 2026-11-02. Preserve upstream attribution; not an automatic updater.
+# Classical text rule provider.
 IP-CIDR,1.0.1.0/24
 IP-CIDR,1.0.2.0/23
 IP-CIDR,1.0.32.0/19

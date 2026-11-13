@@ -1,18 +1,20 @@
-# Converted from Surge/Rules/Weibo.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,weibo.cn,proxy
-host-suffix,weibo.com,proxy
-host-suffix,weibocdn.com,proxy
-host-suffix,weibocdn.cn,proxy
-host-suffix,sinaimg.cn,proxy
-host-suffix,sinajs.cn,proxy
-host-suffix,sina.com.cn,proxy
-host-suffix,sina.cn,proxy
-host-suffix,sina.com,proxy
-host-suffix,sinacn.com,proxy
-host-suffix,miaopai.com,proxy
-host-suffix,xiaokaxiu.com,proxy
-host-keyword,weibo,proxy
-host-keyword,sinaimg,proxy
-ip-asn,23724,proxy
+# Source: Surge/Rules/Weibo.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Weibo.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, weibo.cn, proxy
+host-suffix, weibo.com, proxy
+host-suffix, weibocdn.com, proxy
+host-suffix, weibocdn.cn, proxy
+host-suffix, sinaimg.cn, proxy
+host-suffix, sinajs.cn, proxy
+host-suffix, sina.com.cn, proxy
+host-suffix, sina.cn, proxy
+host-suffix, sina.com, proxy
+host-suffix, sinacn.com, proxy
+host-suffix, miaopai.com, proxy
+host-suffix, xiaokaxiu.com, proxy
+host-keyword, weibo, proxy
+host-keyword, sinaimg, proxy
+ip-asn, 23724, proxy

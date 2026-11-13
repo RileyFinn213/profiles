@@ -1,75 +1,79 @@
-# Converted from Surge/Rules/TikTok.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,tiktok.com,proxy
-host-suffix,tiktokv.com,proxy
-host-suffix,musical.ly,proxy
-host-suffix,byteoversea.com,proxy
-host-suffix,bytegecko.com,proxy
-host-suffix,bytekv.com,proxy
-host-suffix,tiktokshop.com,proxy
-host-suffix,tiktokcdn.com,proxy
-host-suffix,ttwstatic.com,proxy
-host-suffix,ibyteimg.com,proxy
-host-suffix,ibytedtos.com,proxy
-host-suffix,tiktokwdata.com,proxy
-host-suffix,tiktokv.us,proxy
-host-suffix,tiktokinit.com,proxy
-host-suffix,tiktokorg.com,proxy
-host-suffix,byteoversea.net,proxy
-host-suffix,byteicdn.com,proxy
-host-suffix,tik-tokapi.com,proxy
-host-suffix,ttplugins.com,proxy
-host-suffix,ttlivecdn.com,proxy
-host-keyword,tiktokcdn-com,proxy
-host-keyword,-tiktokcdn-,proxy
-host-keyword,tiktok,proxy
-host,lf16-effectcdn.byteeffecttos-g.com,proxy
-host,lf16-pkgcdn.pitaya-clientai.com,proxy
-host,p16-tiktokcdn-com.akamaized.net,proxy
-host,roovza-launches.appsflyersdk.com,proxy
-host,roovza.inapps.appsflyersdk.com,proxy
-host,roovza.launches.appsflyersdk.com,proxy
-host,roovza.skadsdk.appsflyersdk.com,proxy
-host,trae-api-sg.mchost.guru,proxy
-host-suffix,bytedapm.com,proxy
-host-suffix,bytegecko-i18n.com,proxy
-host-suffix,byteintlapi.com,proxy
-host-suffix,capcut.com,proxy
-host-suffix,capcutapi.com,proxy
-host-suffix,capcutapi.us,proxy
-host-suffix,capcutcdn-us.com,proxy
-host-suffix,capcutstatic.com,proxy
-host-suffix,ipstatp.com,proxy
-host-suffix,isnssdk.com,proxy
-host-suffix,marscode.com,proxy
-host-suffix,muscdn.com,proxy
-host-suffix,sgpstatp.com,proxy
-host-suffix,snssdk.com,proxy
-host-suffix,tiktok-minis.com,proxy
-host-suffix,tiktok-row.net,proxy
-host-suffix,tiktokcdn-eu.com,proxy
-host-suffix,tiktokcdn-us.com,proxy
-host-suffix,tiktokcdn-us.com.edgesuite.net,proxy
-host-suffix,tiktokcdn.com.akamaized.net,proxy
-host-suffix,tiktokcdn.com.edgesuite.net,proxy
-host-suffix,tiktokd.net,proxy
-host-suffix,tiktokd.org,proxy
-host-suffix,tiktokeu-cdn.com,proxy
-host-suffix,tiktokglobalshopv.com,proxy
-host-suffix,tiktokminis.us,proxy
-host-suffix,tiktokmusic.app,proxy
-host-suffix,tiktokrow-cdn.com,proxy
-host-suffix,tiktokv.com.edgekey.net,proxy
-host-suffix,tiktokv.com.edgesuite.net,proxy
-host-suffix,tiktokv.eu,proxy
-host-suffix,tiktokw.eu,proxy
-host-suffix,tiktokw.us,proxy
-host-suffix,trae.ai,proxy
-host-suffix,ttcdn-us.com,proxy
-host-suffix,ttoverseaus.net,proxy
-host-suffix,ttwebview.com,proxy
-host-keyword,-tiktokcdn-com,proxy
-host-keyword,musical.ly,proxy
-host-keyword,tiktokcdn,proxy
-user-agent,TikTok*,proxy
+# Source: Surge/Rules/TikTok.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/TikTok.list
+# Source: Rabbit-Spec/Surge/Rules/TikTok.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, tiktok.com, proxy
+host-suffix, tiktokv.com, proxy
+host-suffix, musical.ly, proxy
+host-suffix, byteoversea.com, proxy
+host-suffix, bytegecko.com, proxy
+host-suffix, bytekv.com, proxy
+host-suffix, tiktokshop.com, proxy
+host-suffix, tiktokcdn.com, proxy
+host-suffix, ttwstatic.com, proxy
+host-suffix, ibyteimg.com, proxy
+host-suffix, ibytedtos.com, proxy
+host-suffix, tiktokwdata.com, proxy
+host-suffix, tiktokv.us, proxy
+host-suffix, tiktokinit.com, proxy
+host-suffix, tiktokorg.com, proxy
+host-suffix, byteoversea.net, proxy
+host-suffix, byteicdn.com, proxy
+host-suffix, tik-tokapi.com, proxy
+host-suffix, ttplugins.com, proxy
+host-suffix, ttlivecdn.com, proxy
+host-keyword, tiktokcdn-com, proxy
+host-keyword, -tiktokcdn-, proxy
+host-keyword, tiktok, proxy
+host, lf16-effectcdn.byteeffecttos-g.com, proxy
+host, lf16-pkgcdn.pitaya-clientai.com, proxy
+host, p16-tiktokcdn-com.akamaized.net, proxy
+host, roovza-launches.appsflyersdk.com, proxy
+host, roovza.inapps.appsflyersdk.com, proxy
+host, roovza.launches.appsflyersdk.com, proxy
+host, roovza.skadsdk.appsflyersdk.com, proxy
+host, trae-api-sg.mchost.guru, proxy
+host-suffix, bytedapm.com, proxy
+host-suffix, bytegecko-i18n.com, proxy
+host-suffix, byteintlapi.com, proxy
+host-suffix, capcut.com, proxy
+host-suffix, capcutapi.com, proxy
+host-suffix, capcutapi.us, proxy
+host-suffix, capcutcdn-us.com, proxy
+host-suffix, capcutstatic.com, proxy
+host-suffix, ipstatp.com, proxy
+host-suffix, isnssdk.com, proxy
+host-suffix, marscode.com, proxy
+host-suffix, muscdn.com, proxy
+host-suffix, sgpstatp.com, proxy
+host-suffix, snssdk.com, proxy
+host-suffix, tiktok-minis.com, proxy
+host-suffix, tiktok-row.net, proxy
+host-suffix, tiktokcdn-eu.com, proxy
+host-suffix, tiktokcdn-us.com, proxy
+host-suffix, tiktokcdn-us.com.edgesuite.net, proxy
+host-suffix, tiktokcdn.com.akamaized.net, proxy
+host-suffix, tiktokcdn.com.edgesuite.net, proxy
+host-suffix, tiktokd.net, proxy
+host-suffix, tiktokd.org, proxy
+host-suffix, tiktokeu-cdn.com, proxy
+host-suffix, tiktokglobalshopv.com, proxy
+host-suffix, tiktokminis.us, proxy
+host-suffix, tiktokmusic.app, proxy
+host-suffix, tiktokrow-cdn.com, proxy
+host-suffix, tiktokv.com.edgekey.net, proxy
+host-suffix, tiktokv.com.edgesuite.net, proxy
+host-suffix, tiktokv.eu, proxy
+host-suffix, tiktokw.eu, proxy
+host-suffix, tiktokw.us, proxy
+host-suffix, trae.ai, proxy
+host-suffix, ttcdn-us.com, proxy
+host-suffix, ttoverseaus.net, proxy
+host-suffix, ttwebview.com, proxy
+host-keyword, -tiktokcdn-com, proxy
+host-keyword, musical.ly, proxy
+host-keyword, tiktokcdn, proxy
+user-agent, TikTok*, proxy
+# OMITTED (unsupported condition): PROCESS-NAME,com.zhiliaoapp.musically

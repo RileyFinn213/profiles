@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Epic.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Epic.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Epic.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,epicgames.dev

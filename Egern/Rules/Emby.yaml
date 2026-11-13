@@ -1,4 +1,11 @@
-# Source: https://raw.githubusercontent.com/jiuyueqingcheng/Emby_list/main/Rule/Emby.list
-# Converted for target client; source attribution and usage terms remain applicable.
-domain_set:
-- c.emby.wtf
+# Source: Surge/Rules/Emby.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+domain_suffix_set:
+- origamiart.uk
+- okemby.org
+- sadchicktv.com
+- chapanda.site
+- nijigem.by
+- imetyou.top
+- 28.ai
+- zzm.li

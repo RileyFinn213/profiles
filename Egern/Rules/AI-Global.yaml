@@ -1,5 +1,6 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/AI-Global.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
 domain_set:
 - bard.google.com
 - ai.google.dev
@@ -174,6 +175,10 @@ domain_set:
 - api.zeldoc.ai
 - ai.zenifra.com
 - zenmux.ai
+- ai.developer.meta.com
+- ai.meta.com
+- aidemos.meta.com
+- imagine.meta.com
 domain_suffix_set:
 - generativeai.google
 - deepmind.google
@@ -270,6 +275,8 @@ domain_suffix_set:
 - pplx.ai
 - perplexity.com
 - z.ai
+- meta.ai
+- metaaiusercontent.com
 domain_keyword_set:
 - gemini
 - generativeai

@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/YouTube.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/YouTube.list
+# Source: Rabbit-Spec/Surge/Rules/YouTube.list
+# Preserve upstream attribution and usage requirements.
 no_resolve: true
 asn_set:
 - AS19527

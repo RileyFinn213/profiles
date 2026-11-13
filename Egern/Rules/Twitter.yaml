@@ -1,5 +1,7 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Twitter.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Twitter.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Twitter.list
+# Preserve upstream attribution and usage requirements.
 domain_suffix_set:
 - x.com
 - twitter.com

@@ -1,5 +1,7 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouXiPingTai.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/YouXiPingTai.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/YouXiPingTai.list
+# Preserve upstream attribution and usage requirements.
 domain_suffix_set:
 - steampowered.com
 - steamcommunity.com

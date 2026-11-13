@@ -1,0 +1,10 @@
+# Source: Surge/Rules/Optional/AIGC.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/AIGC.list
+no_resolve: true
+asn_set:
+- AS20473
+ip_cidr_set:
+- 129.146.3.78/32
+- 24.199.123.28/32
+- 64.23.132.171/32

@@ -1,5 +1,8 @@
-# TMDB scraping routes; sources: blackmatrix7/ios_rule_script (GPL-2.0), MetaCubeX/meta-rules-dat (GPL-3.0)
-# Loon RULE-SET; bind policy at import.
+# Source: Surge/Rules/TMDB.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: blackmatrix7/ios_rule_script (GPL-2.0) rule/Surge/Tmdb/Tmdb.list
+# Source: MetaCubeX/meta-rules-dat (GPL-3.0) meta/geo/geosite/tmdb.yaml
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN,tmdb-image-prod.b-cdn.net
 DOMAIN,tmdb-web-image-prod.b-cdn.net
 DOMAIN-SUFFIX,themoviedb.org

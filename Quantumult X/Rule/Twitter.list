@@ -1,15 +1,17 @@
-# Converted from Surge/Rules/Twitter.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,x.com,proxy
-host-suffix,twitter.com,proxy
-host-suffix,twimg.com,proxy
-host-suffix,t.co,proxy
-host-suffix,grok.com,proxy
-host-suffix,twvid.com,proxy
-ip-cidr,104.244.42.0/21,proxy
-ip-cidr,192.133.76.0/22,proxy
-ip-cidr,199.16.156.0/22,proxy
-ip-cidr,199.59.148.0/22,proxy
-ip-asn,13414,proxy
-ip-asn,35995,proxy
+# Source: Surge/Rules/Twitter.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Twitter.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, x.com, proxy
+host-suffix, twitter.com, proxy
+host-suffix, twimg.com, proxy
+host-suffix, t.co, proxy
+host-suffix, grok.com, proxy
+host-suffix, twvid.com, proxy
+ip-cidr, 104.244.42.0/21, proxy
+ip-cidr, 192.133.76.0/22, proxy
+ip-cidr, 199.16.156.0/22, proxy
+ip-cidr, 199.59.148.0/22, proxy
+ip-asn, 13414, proxy
+ip-asn, 35995, proxy

@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Douban.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Douban.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Douban.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douban.fm

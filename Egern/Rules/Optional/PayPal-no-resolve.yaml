@@ -1,0 +1,4 @@
+# Source: Surge/Rules/Optional/PayPal.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/PayPal.list
+no_resolve: true

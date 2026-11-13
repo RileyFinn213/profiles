@@ -1,6 +1,7 @@
-# AI routing merged snapshot 2026-11-03
+# Source: Surge/Rules/AI-China.list
+# Synced from this repository; preserve upstream attribution and usage terms.
 # Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
-# Routing classification is not a trust endorsement or guarantee of physical server location.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN-KEYWORD,deepseek
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseek.ai

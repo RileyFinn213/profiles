@@ -1,15 +1,17 @@
-# Converted from Surge/Rules/HBO.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,max.com,proxy
-host-suffix,hbomax.com,proxy
-host-suffix,hbogo.com,proxy
-host-suffix,hbo.com,proxy
-host-suffix,hbomaxcdn.com,proxy
-host-suffix,hboasia.com,proxy
-host-suffix,hbogoasia.com,proxy
-host-suffix,hbogoasia.hk,proxy
-host-suffix,discomax.com,proxy
-host-suffix,wbd.com,proxy
-host-suffix,execute-api.us-east-1.amazonaws.com,proxy
-host,beam-images.warnermediacdn.com,proxy
+# Source: Surge/Rules/HBO.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/HBO.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, max.com, proxy
+host-suffix, hbomax.com, proxy
+host-suffix, hbogo.com, proxy
+host-suffix, hbo.com, proxy
+host-suffix, hbomaxcdn.com, proxy
+host-suffix, hboasia.com, proxy
+host-suffix, hbogoasia.com, proxy
+host-suffix, hbogoasia.hk, proxy
+host-suffix, discomax.com, proxy
+host-suffix, wbd.com, proxy
+host-suffix, execute-api.us-east-1.amazonaws.com, proxy
+host, beam-images.warnermediacdn.com, proxy

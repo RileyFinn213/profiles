@@ -1,0 +1,36 @@
+# Source: Surge/Rules/Rex.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
+DOMAIN,api.rexnow.tv
+DOMAIN,assets.rexnow.tv
+DOMAIN,auth.rexnow.tv
+DOMAIN,updates.rexnow.app
+DOMAIN,4kzn.cc
+DOMAIN,api.dandanplay.net
+DOMAIN,api.drama.9ddm.com
+DOMAIN,api.gorafie.com
+DOMAIN,api.introdb.app
+DOMAIN,api.olelive.com
+DOMAIN,api.pleasfun.com
+DOMAIN,api.theintrodb.org
+DOMAIN,api.trakt.tv
+DOMAIN,api.xiawen.tv
+DOMAIN,api5-normal-c-hl.amemv.com
+DOMAIN,drivemby.com
+DOMAIN,hubdog.cc
+DOMAIN,hxqapi.hiyun.tv
+DOMAIN,identify-valley-europe-seventh.trycloudflare.com
+DOMAIN,image.tmdb.org
+DOMAIN,kkp.zhezhi.art
+DOMAIN,mg.cttv.vip
+DOMAIN,nl.ftp2.eu.org
+DOMAIN,ogkk.nxog.eu.org
+DOMAIN,pan.yydsys.de
+DOMAIN,quanpan.xyz
+DOMAIN,shandian.blog
+DOMAIN,streambridge-studio-markers.vercel.app
+DOMAIN,test.28.al
+DOMAIN,wn4k.com
+DOMAIN,www.123684.com
+DOMAIN,www.ciyuangou.net
+DOMAIN,www.mmpanpan.site

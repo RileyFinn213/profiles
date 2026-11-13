@@ -1,13 +1,15 @@
-# Converted from Surge/Rules/NGA.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,nga.cn,proxy
-host-suffix,ngabbs.com,proxy
-host-suffix,178.com,proxy
-host-suffix,ngacn.cc,proxy
-host-suffix,biglobe.ne.jp,proxy
-host-suffix,pic.backblazeb2.com,proxy
-host-keyword,ngabbs,proxy
-host-keyword,ngacn,proxy
-ip-asn,135904,proxy
-ip-asn,4808,proxy
+# Source: Surge/Rules/NGA.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/NGA.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, nga.cn, proxy
+host-suffix, ngabbs.com, proxy
+host-suffix, 178.com, proxy
+host-suffix, ngacn.cc, proxy
+host-suffix, biglobe.ne.jp, proxy
+host-suffix, pic.backblazeb2.com, proxy
+host-keyword, ngabbs, proxy
+host-keyword, ngacn, proxy
+ip-asn, 135904, proxy
+ip-asn, 4808, proxy

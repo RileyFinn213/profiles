@@ -1,4 +1,7 @@
-# Optional, not enabled automatically. Source: Rabbit-Spec/Surge via merged repository
+# Source: Surge/Rules/Optional/Proxy.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/Proxy.list
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN-SUFFIX,snbforums.com
 DOMAIN-SUFFIX,asuswrt-merlin.net
 DOMAIN-SUFFIX,caldigit.com

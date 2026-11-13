@@ -1,39 +1,39 @@
-# AI routing merged snapshot 2026-11-03
+# Source: Surge/Rules/AI-China.list
+# Synced from this repository; preserve upstream attribution and usage terms.
 # Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
-# Routing classification is not a trust endorsement or guarantee of physical server location.
-# Use force-policy on import.
-host-keyword,deepseek,direct
-host-suffix,deepseek.com,direct
-host-suffix,deepseek.ai,direct
-host-suffix,deepseek-static.com,direct
-host-suffix,bytegecko.com,direct
-host-suffix,volces.com,direct
-host-suffix,volcengine.com,direct
-host,chat.gecko-pas.com,direct
-host-keyword,doubao,direct
-host-suffix,doubao.com,direct
-host-suffix,doubaoai.com,direct
-host-suffix,doubao-dev.com,direct
-host-suffix,doubaocdn.com,direct
-host-suffix,doubaozhidao.com,direct
-host-suffix,volccdn.com,direct
-host-suffix,volcengineapi.com,direct
-host-suffix,volcengine.cn,direct
-host-keyword,rtc-vcloud,direct
-host-keyword,volc-rtc,direct
-host-keyword,volcengine-rtc,direct
-host-suffix,byteoversea.com,direct
-host-suffix,ibyteimg.com,direct
-host-suffix,snssdk.com,direct
-host-suffix,bytedance.com,direct
-ip-asn,138692,direct
-ip-asn,204454,direct
-ip-asn,134709,direct
-ip-asn,139070,direct
-host-suffix,deepseek.cn,direct
-ip-asn,134763,direct
-host,api.moonshot.cn,direct
-host,api.siliconflow.cn,direct
-host,api.minimax.cn,direct
-host,dashscope.aliyuncs.com,direct
-host,token-plan-cn.xiaomimimo.com,direct
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-keyword, deepseek, proxy
+host-suffix, deepseek.com, proxy
+host-suffix, deepseek.ai, proxy
+host-suffix, deepseek-static.com, proxy
+host-suffix, bytegecko.com, proxy
+host-suffix, volces.com, proxy
+host-suffix, volcengine.com, proxy
+host, chat.gecko-pas.com, proxy
+host-keyword, doubao, proxy
+host-suffix, doubao.com, proxy
+host-suffix, doubaoai.com, proxy
+host-suffix, doubao-dev.com, proxy
+host-suffix, doubaocdn.com, proxy
+host-suffix, doubaozhidao.com, proxy
+host-suffix, volccdn.com, proxy
+host-suffix, volcengineapi.com, proxy
+host-suffix, volcengine.cn, proxy
+host-keyword, rtc-vcloud, proxy
+host-keyword, volc-rtc, proxy
+host-keyword, volcengine-rtc, proxy
+host-suffix, byteoversea.com, proxy
+host-suffix, ibyteimg.com, proxy
+host-suffix, snssdk.com, proxy
+host-suffix, bytedance.com, proxy
+ip-asn, 138692, proxy
+ip-asn, 204454, proxy
+ip-asn, 134709, proxy
+ip-asn, 139070, proxy
+host-suffix, deepseek.cn, proxy
+ip-asn, 134763, proxy
+host, api.moonshot.cn, proxy
+host, api.siliconflow.cn, proxy
+host, api.minimax.cn, proxy
+host, dashscope.aliyuncs.com, proxy
+host, token-plan-cn.xiaomimimo.com, proxy

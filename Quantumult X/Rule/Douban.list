@@ -1,6 +1,8 @@
-# Converted from Surge/Rules/Douban.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,douban.com,proxy
-host-suffix,doubanio.com,proxy
-host-suffix,douban.fm,proxy
+# Source: Surge/Rules/Douban.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Douban.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, douban.com, proxy
+host-suffix, doubanio.com, proxy
+host-suffix, douban.fm, proxy

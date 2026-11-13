@@ -1,4 +1,7 @@
-# Optional, not enabled automatically. Source: Rabbit-Spec/Surge via merged repository
+# Source: Surge/Rules/Optional/GlobalMedia.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/GlobalMedia.list
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
@@ -1191,6 +1194,7 @@ USER-AGENT,YouTube*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,discovery+*
 USER-AGENT,mytv*
+URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,103.246.56.0/22,no-resolve
 IP-CIDR,103.27.148.0/22,no-resolve

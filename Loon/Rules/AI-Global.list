@@ -1,6 +1,7 @@
-# AI routing merged snapshot 2026-11-03
+# Source: Surge/Rules/AI-Global.list
+# Synced from this repository; preserve upstream attribution and usage terms.
 # Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
-# Routing classification is not a trust endorsement or guarantee of physical server location.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN,bard.google.com
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,generativeai.google
@@ -277,3 +278,9 @@ DOMAIN-SUFFIX,z.ai
 DOMAIN,api.zeldoc.ai
 DOMAIN,ai.zenifra.com
 DOMAIN,zenmux.ai
+DOMAIN,ai.developer.meta.com
+DOMAIN,ai.meta.com
+DOMAIN,aidemos.meta.com
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaiusercontent.com

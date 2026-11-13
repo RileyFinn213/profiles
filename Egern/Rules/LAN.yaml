@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/LAN.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/LAN.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/LAN.list
+# Source: Rabbit-Spec/Surge/Rules/LAN.list
+# Preserve upstream attribution and usage requirements.
 domain_suffix_set:
 - local
 - 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa

@@ -1,44 +1,47 @@
-# Optional, not enabled automatically. Source: Rabbit-Spec/Surge via merged repository
-host-suffix,aboutfacebook.com,proxy
-host-suffix,fb.com,proxy
-host-suffix,fb.me,proxy
-host-suffix,fb.gg,proxy
-host-suffix,fb.watch,proxy
-host-suffix,facebook.com,proxy
-host-suffix,facebook.net,proxy
-host-suffix,facebookmail.com,proxy
-host-suffix,fbcdn.net,proxy
-host-suffix,fbcdn-a.akamaihd.net,proxy
-host-suffix,fbsbx.com,proxy
-host-suffix,atdmt.com,proxy
-host-suffix,atdmt2.com,proxy
-host-suffix,atlasdmt.com,proxy
-host-suffix,cdninstagram.com,proxy
-host-suffix,ig.me,proxy
-host-suffix,instagr.am,proxy
-host-suffix,instagram.com,proxy
-host-suffix,oninstagram.com,proxy
-host-suffix,m.me,proxy
-host-suffix,messenger.com,proxy
-host-suffix,meta.vc,proxy
-host-suffix,wa.me,proxy
-host-suffix,whatsapp.biz,proxy
-host-suffix,whatsapp.com,proxy
-host-suffix,whatsapp.net,proxy
-host-suffix,whatsappbusiness.com,proxy
-host-suffix,threads.com,proxy
-host-suffix,threads.net,proxy
-host-suffix,meta.ai,proxy
-host-suffix,meta.com,proxy
-host-suffix,mapillary.com,proxy
-host-suffix,getsupernatural.com,proxy
-host-suffix,ocul.us,proxy
-host-suffix,oculus.com,proxy
-host-suffix,oculuscdn.com,proxy
-host-suffix,oculusvr.com,proxy
-host-suffix,expresswifi.com,proxy
-host-suffix,freebasics.com,proxy
-host-suffix,freebasics.net,proxy
-host-suffix,internet.org,proxy
-ip-asn,32934,proxy
-ip-asn,63293,proxy
+# Source: Surge/Rules/Optional/Meta.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/Meta.list
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, aboutfacebook.com, proxy
+host-suffix, fb.com, proxy
+host-suffix, fb.me, proxy
+host-suffix, fb.gg, proxy
+host-suffix, fb.watch, proxy
+host-suffix, facebook.com, proxy
+host-suffix, facebook.net, proxy
+host-suffix, facebookmail.com, proxy
+host-suffix, fbcdn.net, proxy
+host-suffix, fbcdn-a.akamaihd.net, proxy
+host-suffix, fbsbx.com, proxy
+host-suffix, atdmt.com, proxy
+host-suffix, atdmt2.com, proxy
+host-suffix, atlasdmt.com, proxy
+host-suffix, cdninstagram.com, proxy
+host-suffix, ig.me, proxy
+host-suffix, instagr.am, proxy
+host-suffix, instagram.com, proxy
+host-suffix, oninstagram.com, proxy
+host-suffix, m.me, proxy
+host-suffix, messenger.com, proxy
+host-suffix, meta.vc, proxy
+host-suffix, wa.me, proxy
+host-suffix, whatsapp.biz, proxy
+host-suffix, whatsapp.com, proxy
+host-suffix, whatsapp.net, proxy
+host-suffix, whatsappbusiness.com, proxy
+host-suffix, threads.com, proxy
+host-suffix, threads.net, proxy
+host-suffix, meta.ai, proxy
+host-suffix, meta.com, proxy
+host-suffix, mapillary.com, proxy
+host-suffix, getsupernatural.com, proxy
+host-suffix, ocul.us, proxy
+host-suffix, oculus.com, proxy
+host-suffix, oculuscdn.com, proxy
+host-suffix, oculusvr.com, proxy
+host-suffix, expresswifi.com, proxy
+host-suffix, freebasics.com, proxy
+host-suffix, freebasics.net, proxy
+host-suffix, internet.org, proxy
+ip-asn, 32934, proxy
+ip-asn, 63293, proxy

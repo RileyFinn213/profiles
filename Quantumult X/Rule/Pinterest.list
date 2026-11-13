@@ -1,7 +1,9 @@
-# Converted from Surge/Rules/Pinterest.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,pinimg.com,proxy
-host-suffix,pinit.com,proxy
-host-suffix,pin.it,proxy
-host-keyword,pinterest,proxy
+# Source: Surge/Rules/Pinterest.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Pinterest.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, pinimg.com, proxy
+host-suffix, pinit.com, proxy
+host-suffix, pin.it, proxy
+host-keyword, pinterest, proxy

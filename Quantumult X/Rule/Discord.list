@@ -1,18 +1,20 @@
-# Converted from Surge/Rules/Discord.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,discord.com,proxy
-host-suffix,discordapp.com,proxy
-host-suffix,discordapp.net,proxy
-host-suffix,discord.gg,proxy
-host-suffix,discord.media,proxy
-host-suffix,discord.design,proxy
-host-suffix,discordstatus.com,proxy
-host-suffix,discordcdn.com,proxy
-host-suffix,discordmerch.com,proxy
-host-suffix,discordpartygames.com,proxy
-host-suffix,discord-activities.com,proxy
-host-suffix,discord-attachments-uploads-prd.s3.amazonaws.com,proxy
-host-suffix,dis.gd,proxy
-host-suffix,discord.co,proxy
-host-suffix,discord.v-gg,proxy
+# Source: Surge/Rules/Discord.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Discord.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, discord.com, proxy
+host-suffix, discordapp.com, proxy
+host-suffix, discordapp.net, proxy
+host-suffix, discord.gg, proxy
+host-suffix, discord.media, proxy
+host-suffix, discord.design, proxy
+host-suffix, discordstatus.com, proxy
+host-suffix, discordcdn.com, proxy
+host-suffix, discordmerch.com, proxy
+host-suffix, discordpartygames.com, proxy
+host-suffix, discord-activities.com, proxy
+host-suffix, discord-attachments-uploads-prd.s3.amazonaws.com, proxy
+host-suffix, dis.gd, proxy
+host-suffix, discord.co, proxy
+host-suffix, discord.v-gg, proxy

@@ -1,6 +1,8 @@
-# Converted from Surge/Rules/Epic.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Loon RULE-SET; bind actual policy at import.
+# Source: Surge/Rules/Epic.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Epic.list
+# Preserve upstream attribution and usage requirements.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,epicgames.dev

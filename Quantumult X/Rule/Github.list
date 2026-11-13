@@ -1,13 +1,15 @@
-# Converted from Surge/Rules/Github.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,github.com,proxy
-host-suffix,github.io,proxy
-host-suffix,githubassets.com,proxy
-host-suffix,githubusercontent.com,proxy
-host-suffix,githubapp.com,proxy
-host-suffix,githubcopilot.com,proxy
-host-suffix,githubcopilotusercontent.com,proxy
-host-suffix,actionsusercontent.com,proxy
-host-suffix,ghcr.io,proxy
-host-suffix,git.io,proxy
+# Source: Surge/Rules/Github.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Github.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, github.com, proxy
+host-suffix, github.io, proxy
+host-suffix, githubassets.com, proxy
+host-suffix, githubusercontent.com, proxy
+host-suffix, githubapp.com, proxy
+host-suffix, githubcopilot.com, proxy
+host-suffix, githubcopilotusercontent.com, proxy
+host-suffix, actionsusercontent.com, proxy
+host-suffix, ghcr.io, proxy
+host-suffix, git.io, proxy

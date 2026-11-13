@@ -1,0 +1,36 @@
+# Source: Surge/Rules/Rex.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host, api.rexnow.tv, proxy
+host, assets.rexnow.tv, proxy
+host, auth.rexnow.tv, proxy
+host, updates.rexnow.app, proxy
+host, 4kzn.cc, proxy
+host, api.dandanplay.net, proxy
+host, api.drama.9ddm.com, proxy
+host, api.gorafie.com, proxy
+host, api.introdb.app, proxy
+host, api.olelive.com, proxy
+host, api.pleasfun.com, proxy
+host, api.theintrodb.org, proxy
+host, api.trakt.tv, proxy
+host, api.xiawen.tv, proxy
+host, api5-normal-c-hl.amemv.com, proxy
+host, drivemby.com, proxy
+host, hubdog.cc, proxy
+host, hxqapi.hiyun.tv, proxy
+host, identify-valley-europe-seventh.trycloudflare.com, proxy
+host, image.tmdb.org, proxy
+host, kkp.zhezhi.art, proxy
+host, mg.cttv.vip, proxy
+host, nl.ftp2.eu.org, proxy
+host, ogkk.nxog.eu.org, proxy
+host, pan.yydsys.de, proxy
+host, quanpan.xyz, proxy
+host, shandian.blog, proxy
+host, streambridge-studio-markers.vercel.app, proxy
+host, test.28.al, proxy
+host, wn4k.com, proxy
+host, www.123684.com, proxy
+host, www.ciyuangou.net, proxy
+host, www.mmpanpan.site, proxy

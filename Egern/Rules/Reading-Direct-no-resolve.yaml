@@ -1,0 +1,11 @@
+# Source: Surge/Rules/Reading-Direct.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# 香色闺阁 sourceModelList.xbs 书源站点直连规则（解密导出）
+# sources=1522 unique_domain_hosts=1017 unique_ipv4_ipv6=5 excluded_hosting=0
+no_resolve: true
+ip_cidr_set:
+- 101.32.31.203/32
+- 104.233.237.11/32
+- 119.23.243.52/32
+- 180.76.103.51/32
+- 222.186.45.128/32

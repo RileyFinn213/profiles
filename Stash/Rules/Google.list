@@ -1,5 +1,9 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Google.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Google.list
+# Source: Rabbit-Spec/Surge/Rules/Google.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com

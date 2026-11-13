@@ -1,5 +1,6 @@
-# 网易云音乐；由 Surge/Rules/NeteaseMusic.list 同步。
-# Loon RULE-SET，导入时指定策略；保留no-resolve。
+# Source: Surge/Rules/NeteaseMusic.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 USER-AGENT,NeteaseMusic*
 USER-AGENT,网易云音乐*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*

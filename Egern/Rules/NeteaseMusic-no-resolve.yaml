@@ -1,5 +1,5 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NeteaseMusic.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/NeteaseMusic.list
+# Synced from this repository; preserve upstream attribution and usage terms.
 no_resolve: true
 ip_cidr_set:
 - 47.100.127.239/32

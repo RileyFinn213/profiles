@@ -1,5 +1,7 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/ChinaMedia.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/ChinaMedia.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: Rabbit-Spec/Surge (Master), lanjue4/P-Configuration (main)
+# Generated 2026-11-02. Preserve upstream attribution; not an automatic updater.
 domain_set:
 - 00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 - 0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com

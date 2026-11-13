@@ -1,5 +1,7 @@
-# Converted from Surge/Rules/LSP.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,missav123.com,proxy
-host-suffix,pornhub.com,proxy
+# Source: Surge/Rules/LSP.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/LSP.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, missav123.com, proxy
+host-suffix, pornhub.com, proxy

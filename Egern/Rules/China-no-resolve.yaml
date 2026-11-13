@@ -1,3 +1,5 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/China.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/China.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: Rabbit-Spec/Surge (Master), lanjue4/P-Configuration (main)
+# Generated 2026-11-02. Preserve upstream attribution; not an automatic updater.
 no_resolve: true

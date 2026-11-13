@@ -1,10 +1,12 @@
-# Converted from Surge/Rules/AGE.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,agedm.io,proxy
-host-suffix,age.tv,proxy
-host-suffix,agefans.com,proxy
-host-suffix,agedm.com,proxy
-host-suffix,agedm.org,proxy
-host,ageapi.omwjhz.com,proxy
-host-keyword,agedm,proxy
+# Source: Surge/Rules/AGE.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/AGE.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, agedm.io, proxy
+host-suffix, age.tv, proxy
+host-suffix, agefans.com, proxy
+host-suffix, agedm.com, proxy
+host-suffix, agedm.org, proxy
+host, ageapi.omwjhz.com, proxy
+host-keyword, agedm, proxy

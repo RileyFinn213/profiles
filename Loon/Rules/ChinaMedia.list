@@ -1,6 +1,8 @@
-# Converted from Surge/Rules/ChinaMedia.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Loon RULE-SET; bind actual policy at import.
+# Source: Surge/Rules/ChinaMedia.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: Rabbit-Spec/Surge (Master), lanjue4/P-Configuration (main)
+# Generated 2026-11-02. Preserve upstream attribution; not an automatic updater.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com

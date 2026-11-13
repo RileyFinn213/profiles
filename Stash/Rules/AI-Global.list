@@ -1,5 +1,7 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/AI-Global.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Classical text rule provider.
 DOMAIN,bard.google.com
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,generativeai.google
@@ -276,3 +278,9 @@ DOMAIN-SUFFIX,z.ai
 DOMAIN,api.zeldoc.ai
 DOMAIN,ai.zenifra.com
 DOMAIN,zenmux.ai
+DOMAIN,ai.developer.meta.com
+DOMAIN,ai.meta.com
+DOMAIN,aidemos.meta.com
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaiusercontent.com

@@ -1,39 +1,43 @@
-# Converted from Surge/Rules/Spotify.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,spotify.com,proxy
-host-suffix,scdn.co,proxy
-host-suffix,spoti.fi,proxy
-host-suffix,spotifycdn.com,proxy
-host-suffix,spotifycdn.net,proxy
-host-suffix,pscdn.co,proxy
-host-suffix,spotify.link,proxy
-host-suffix,spotifycodes.com,proxy
-host-suffix,spotify-everywhere.com,proxy
-host-suffix,byspotify.com,proxy
-host-suffix,lifeatspotify.com,proxy
-host-keyword,spotify,proxy
-host-keyword,audio-ak-spotify,proxy
-host-keyword,heads-ak-spotify,proxy
-host-suffix,spotify.map.fastly.net,proxy
-host,audio4-ak-spotify-com.akamaized.net,proxy
-host,cdn-spotify-experiments.conductrics.com,proxy
-host,heads-ak-spotify-com.akamaized.net,proxy
-host,spotify.map.fastlylb.net,proxy
-host-suffix,audio-ak-spotify-com.akamaized.net,proxy
-host-suffix,heads4-ak-spotify-com.akamaized.net,proxy
-host-suffix,spotify-com.akamaized.net,proxy
-host-suffix,spotify.app.link,proxy
-host-suffix,spotify.com.edgesuite.net,proxy
-host-suffix,spotify.design,proxy
-host-suffix,spotifycharts.com,proxy
-host-suffix,spotifyforbrands.com,proxy
-host-suffix,spotifyforvendors.com,proxy
-host-suffix,spotifyjobs.com,proxy
-host-suffix,spotilocal.com,proxy
-host-suffix,tospotify.com,proxy
-host-keyword,-spotify-,proxy
-host-keyword,-spotify-com,proxy
-host-keyword,spotify.com,proxy
-user-agent,Spotify*,proxy
-ip-cidr,35.186.224.47/32,proxy
+# Source: Surge/Rules/Spotify.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Spotify.list
+# Source: Rabbit-Spec/Surge/Rules/Spotify.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, spotify.com, proxy
+host-suffix, scdn.co, proxy
+host-suffix, spoti.fi, proxy
+host-suffix, spotifycdn.com, proxy
+host-suffix, spotifycdn.net, proxy
+host-suffix, pscdn.co, proxy
+host-suffix, spotify.link, proxy
+host-suffix, spotifycodes.com, proxy
+host-suffix, spotify-everywhere.com, proxy
+host-suffix, byspotify.com, proxy
+host-suffix, lifeatspotify.com, proxy
+host-keyword, spotify, proxy
+host-keyword, audio-ak-spotify, proxy
+host-keyword, heads-ak-spotify, proxy
+host-suffix, spotify.map.fastly.net, proxy
+host, audio4-ak-spotify-com.akamaized.net, proxy
+host, cdn-spotify-experiments.conductrics.com, proxy
+host, heads-ak-spotify-com.akamaized.net, proxy
+host, spotify.map.fastlylb.net, proxy
+host-suffix, audio-ak-spotify-com.akamaized.net, proxy
+host-suffix, heads4-ak-spotify-com.akamaized.net, proxy
+host-suffix, spotify-com.akamaized.net, proxy
+host-suffix, spotify.app.link, proxy
+host-suffix, spotify.com.edgesuite.net, proxy
+host-suffix, spotify.design, proxy
+host-suffix, spotifycharts.com, proxy
+host-suffix, spotifyforbrands.com, proxy
+host-suffix, spotifyforvendors.com, proxy
+host-suffix, spotifyjobs.com, proxy
+host-suffix, spotilocal.com, proxy
+host-suffix, tospotify.com, proxy
+host-keyword, -spotify-, proxy
+host-keyword, -spotify-com, proxy
+host-keyword, spotify.com, proxy
+user-agent, Spotify*, proxy
+ip-cidr, 35.186.224.47/32, proxy
+# OMITTED (unsupported condition): PROCESS-NAME,com.spotify.music

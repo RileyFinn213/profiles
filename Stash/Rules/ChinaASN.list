@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/ChinaASN.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/ChinaASN.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: Rabbit-Spec/Surge (Master), lanjue4/P-Configuration (main)
+# Generated 2026-11-02. Preserve upstream attribution; not an automatic updater.
+# Classical text rule provider.
 IP-ASN,10111
 IP-ASN,10206
 IP-ASN,10212

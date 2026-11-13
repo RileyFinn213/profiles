@@ -1,5 +1,8 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Reddit.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Reddit.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Reddit.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com

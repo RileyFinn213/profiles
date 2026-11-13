@@ -1,0 +1,36 @@
+# Source: Surge/Rules/Rex.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+domain_set:
+- api.rexnow.tv
+- assets.rexnow.tv
+- auth.rexnow.tv
+- updates.rexnow.app
+- 4kzn.cc
+- api.dandanplay.net
+- api.drama.9ddm.com
+- api.gorafie.com
+- api.introdb.app
+- api.olelive.com
+- api.pleasfun.com
+- api.theintrodb.org
+- api.trakt.tv
+- api.xiawen.tv
+- api5-normal-c-hl.amemv.com
+- drivemby.com
+- hubdog.cc
+- hxqapi.hiyun.tv
+- identify-valley-europe-seventh.trycloudflare.com
+- image.tmdb.org
+- kkp.zhezhi.art
+- mg.cttv.vip
+- nl.ftp2.eu.org
+- ogkk.nxog.eu.org
+- pan.yydsys.de
+- quanpan.xyz
+- shandian.blog
+- streambridge-studio-markers.vercel.app
+- test.28.al
+- wn4k.com
+- www.123684.com
+- www.ciyuangou.net
+- www.mmpanpan.site

@@ -1,6 +1,9 @@
-# Converted from Surge/Rules/LAN.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Loon RULE-SET; bind actual policy at import.
+# Source: Surge/Rules/LAN.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/LAN.list
+# Source: Rabbit-Spec/Surge/Rules/LAN.list
+# Preserve upstream attribution and usage requirements.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN-SUFFIX,local
 IP-CIDR,0.0.0.0/8
 IP-CIDR,10.0.0.0/8

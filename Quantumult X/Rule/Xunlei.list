@@ -1,17 +1,19 @@
-# Converted from Surge/Rules/Xunlei.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host-suffix,xunlei.com,proxy
-host-suffix,thunderurl.com,proxy
-host-suffix,sandai.net,proxy
-host-suffix,00881.net,proxy
-host-suffix,kankan.com,proxy
-host-suffix,xlpan.com,proxy
-host-suffix,xunlei.net,proxy
-host-suffix,sjxl.cn,proxy
-host-suffix,lixian.vip,proxy
-host-suffix,xycdn.com,proxy
-host-suffix,onethingpcs.com,proxy
-host-keyword,xunlei,proxy
-host-keyword,thunder,proxy
-ip-asn,135905,proxy
+# Source: Surge/Rules/Xunlei.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Xunlei.list
+# Preserve upstream attribution and usage requirements.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host-suffix, xunlei.com, proxy
+host-suffix, thunderurl.com, proxy
+host-suffix, sandai.net, proxy
+host-suffix, 00881.net, proxy
+host-suffix, kankan.com, proxy
+host-suffix, xlpan.com, proxy
+host-suffix, xunlei.net, proxy
+host-suffix, sjxl.cn, proxy
+host-suffix, lixian.vip, proxy
+host-suffix, xycdn.com, proxy
+host-suffix, onethingpcs.com, proxy
+host-keyword, xunlei, proxy
+host-keyword, thunder, proxy
+ip-asn, 135905, proxy

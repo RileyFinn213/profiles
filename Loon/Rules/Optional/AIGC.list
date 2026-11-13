@@ -1,4 +1,7 @@
-# Optional, not enabled automatically. Source: Rabbit-Spec/Surge via merged repository
+# Source: Surge/Rules/Optional/AIGC.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Rabbit-Spec/Surge/Rules/AIGC.list
+# Bind policy at import; process rules are ignored on iOS/tvOS.
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe

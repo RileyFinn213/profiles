@@ -1,0 +1,11 @@
+# Source: Surge/Rules/Emby.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Bind policy at import; process rules are ignored on iOS/tvOS.
+DOMAIN-SUFFIX,origamiart.uk
+DOMAIN-SUFFIX,okemby.org
+DOMAIN-SUFFIX,sadchicktv.com
+DOMAIN-SUFFIX,chapanda.site
+DOMAIN-SUFFIX,nijigem.by
+DOMAIN-SUFFIX,imetyou.top
+DOMAIN-SUFFIX,28.ai
+DOMAIN-SUFFIX,zzm.li

@@ -1,5 +1,7 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/AI-China.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Classical text rule provider.
 DOMAIN-KEYWORD,deepseek
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseek.ai

@@ -1,5 +1,9 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list
-# Converted for target client; source attribution and usage terms remain applicable.
+# Source: Surge/Rules/Microsoft.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: Surge/Rules/Microsoft.list
+# Source: Rabbit-Spec/Surge/Rules/Microsoft.list
+# Preserve upstream attribution and usage requirements.
+# Classical text rule provider.
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,windows.net

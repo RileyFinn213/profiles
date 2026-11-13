@@ -1,359 +1,363 @@
-# Converted from Surge/Rules/ChinaMedia.list; source repository lanjue4/P-Configuration
-# Preserves Rabbit-Spec attribution from merged source.
-# Quantumult X native filter; use force-policy to select your actual policy.
-host,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,direct
-host,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,direct
-host,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,direct
-host,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com,direct
-host,112-81-125-43.dhost.00cdn.com,direct
-host,113-219-145-1.ksyungslb.com,direct
-host,114-236-92-129.ksyungslb.com,direct
-host,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net,direct
-host,180-101-74-1.ksyungslb.com,direct
-host,1geadrmttge3nhcjwgazdope.ourdvsss.com,direct
-host,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,direct
-host,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,direct
-host,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,direct
-host,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,direct
-host,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,direct
-host,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,direct
-host,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,direct
-host,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,direct
-host,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,direct
-host,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,direct
-host,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,direct
-host,1graukmttga4nhcjtgozdgce.ourdvsss.com,direct
-host,218-91-225-1.ksyungslb.com,direct
-host,219-155-150-1.ksyungslb.com,direct
-host,222-188-6-1.ksyungslb.com,direct
-host,36-104-134-1.ksyungslb.com,direct
-host,36-25-252-1.ksyungslb.com,direct
-host,3ge3drmttga5nhcbqge3ur.ourdvsss.com,direct
-host,3geauymtsgrzdnqbofa5do.ourdvsss.com,direct
-host,3geauymtsgrzdnqbofa5dy.ourdvsss.com,direct
-host,3geauymtsgrzdrcbzfahue.ourdvsss.com,direct
-host,3geauymtsgrzdrcbzfahuk.ourdvsss.com,direct
-host,4go41hcjtgazdoctqge4o.ourdvsss.com,direct
-host,apd-pcdnvodstat.teg.tencent-cloud.net,direct
-host,apiintl.biliapi.net,direct
-host,dldir1.qq.com,direct
-host,iacc.qq.com,direct
-host,ins-eeww7kom.ias.tencent-cloud.net,direct
-host,ios.video.mpush.qq.com,direct
-host,rdelivery.qq.com,direct
-host,ts.qq.com,direct
-host,upos-hz-mirrorakam.akamaized.net,direct
-host,v.streaming.qq.com,direct
-host,video-public-1258344701.shiply-cdn.qq.com,direct
-host,video-search-1258344701.shiply-cdn.qq.com,direct
-host,video-vip-1258344701.shiply-cdn.qq.com,direct
-host,yoo.gtimg.com,direct
-host-keyword,qiyi,direct
-host-suffix,0co3geye.cn,direct
-host-suffix,2isbbess.cn,direct
-host-suffix,33lwhaoinc.cn,direct
-host-suffix,52mtkvideo.cn,direct
-host-suffix,71.am,direct
-host-suffix,71.am.com,direct
-host-suffix,71edge.com,direct
-host-suffix,71edge.net,direct
-host-suffix,9xsecndns.cn,direct
-host-suffix,acg.tv,direct
-host-suffix,acgvideo.com,direct
-host-suffix,ad.cctv.com,direct
-host-suffix,aianno.cn,direct
-host-suffix,aianno.com,direct
-host-suffix,aiqiyicloud-mgmt.com,direct
-host-suffix,aiqiyicloud.com,direct
-host-suffix,aiqiyicloud.net,direct
-host-suffix,animetamashi.cn,direct
-host-suffix,animetamashi.com,direct
-host-suffix,anitama.cn,direct
-host-suffix,anitama.net,direct
-host-suffix,b23.tv,direct
-host-suffix,b82yxres.cn,direct
-host-suffix,baiying.com,direct
-host-suffix,baka.im,direct
-host-suffix,bigfun.cn,direct
-host-suffix,bigfunapp.cn,direct
-host-suffix,bili22.cn,direct
-host-suffix,bili2233.cn,direct
-host-suffix,bili23.cn,direct
-host-suffix,bili33.cn,direct
-host-suffix,biliapi.com,direct
-host-suffix,biliapi.net,direct
-host-suffix,bilibili.cc,direct
-host-suffix,bilibili.cn,direct
-host-suffix,bilibili.co,direct
-host-suffix,bilibili.com,direct
-host-suffix,bilibili.net,direct
-host-suffix,bilibili.tv,direct
-host-suffix,bilibiligame.cn,direct
-host-suffix,bilibiligame.co,direct
-host-suffix,bilibiligame.net,direct
-host-suffix,bilibilipay.cn,direct
-host-suffix,bilibilipay.com,direct
-host-suffix,bilicdn1.com,direct
-host-suffix,bilicdn2.com,direct
-host-suffix,bilicdn3.com,direct
-host-suffix,bilicdn4.com,direct
-host-suffix,bilicdn5.com,direct
-host-suffix,bilicomic.com,direct
-host-suffix,bilicomics.com,direct
-host-suffix,biligame.cn,direct
-host-suffix,biligame.co,direct
-host-suffix,biligame.com,direct
-host-suffix,biligame.net,direct
-host-suffix,biligo.com,direct
-host-suffix,biliimg.com,direct
-host-suffix,biliintl.co,direct
-host-suffix,biliintl.com,direct
-host-suffix,biliplus.com,direct
-host-suffix,bilivideo.cn,direct
-host-suffix,bilivideo.com,direct
-host-suffix,bilivideo.net,direct
-host-suffix,cctv.cn,direct
-host-suffix,cctv.com,direct
-host-suffix,cctv4g.com,direct
-host-suffix,cctvlib.cn,direct
-host-suffix,cctvlib.com.cn,direct
-host-suffix,cctvlibrary.cn,direct
-host-suffix,cctvlibrary.com.cn,direct
-host-suffix,cctvpic.com,direct
-host-suffix,cctvpro.cn,direct
-host-suffix,cctvpro.com.cn,direct
-host-suffix,chinaepg.cn,direct
-host-suffix,chinalive.com,direct
-host-suffix,chinaott.com,direct
-host-suffix,cibntv.net,direct
-host-suffix,citv.net.cn,direct
-host-suffix,cnms.net.cn,direct
-host-suffix,cntv.cn,direct
-host-suffix,cntv.com.cn,direct
-host-suffix,cntvwb.cn,direct
-host-suffix,corari.com,direct
-host-suffix,cri.cn,direct
-host-suffix,domesticmedia.cc,direct
-host-suffix,domesticmedia.cn,direct
-host-suffix,domesticmedia.co,direct
-host-suffix,domesticmedia.com,direct
-host-suffix,domesticmedia.net,direct
-host-suffix,domesticmedia.tv,direct
-host-suffix,domesticmediagame.cn,direct
-host-suffix,domesticmediagame.co,direct
-host-suffix,domesticmediagame.net,direct
-host-suffix,domesticmediapay.cn,direct
-host-suffix,domesticmediapay.com,direct
-host-suffix,dreamcast.hk,direct
-host-suffix,dyhgames.com,direct
-host-suffix,e8h2ty.tdum.alibaba.com,direct
-host-suffix,gamenow.club,direct
-host-suffix,gitv.cn,direct
-host-suffix,gitv.tv,direct
-host-suffix,gjgbdszt.cn,direct
-host-suffix,gjgbdszt.com.cn,direct
-host-suffix,gjgbdszt.net.cn,direct
-host-suffix,hdslb.com,direct
-host-suffix,hdslb.com.w.kunlunhuf.com,direct
-host-suffix,hdslb.com.w.kunlunpi.com,direct
-host-suffix,hdslb.net,direct
-host-suffix,hdslb.org,direct
-host-suffix,hifuntv.com,direct
-host-suffix,hitv.com,direct
-host-suffix,huasheng.cn,direct
-host-suffix,hunaniptv.com,direct
-host-suffix,ibkstore.com,direct
-host-suffix,icntvcdn.com,direct
-host-suffix,im9.com,direct
-host-suffix,imgo.tv,direct
-host-suffix,ipanda.cn,direct
-host-suffix,ipanda.com,direct
-host-suffix,ipanda.com.cn,direct
-host-suffix,ipanda.net,direct
-host-suffix,iq.com,direct
-host-suffix,iqiyi.com,direct
-host-suffix,iqiyi.demo.uwp,direct
-host-suffix,iqiyiedge.com,direct
-host-suffix,iqiyiedge.net,direct
-host-suffix,iqiyipic.com,direct
-host-suffix,jiangbing.cn,direct
-host-suffix,kumiao.com,direct
-host-suffix,kumiao.tv,direct
-host-suffix,kuxiaomiao.cn,direct
-host-suffix,kuxiaomiao.com,direct
-host-suffix,kuxiaomiao.com.cn,direct
-host-suffix,kuxiaomiao.net,direct
-host-suffix,livechina.cn,direct
-host-suffix,livechina.com,direct
-host-suffix,maoer.com,direct
-host-suffix,maoercdn.com,direct
-host-suffix,mcbbs.net,direct
-host-suffix,mcdn.bilivideo.cn,direct
-host-suffix,mgtv.com,direct
-host-suffix,mincdn.com,direct
-host-suffix,missevan.com,direct
-host-suffix,mmstat.com,direct
-host-suffix,ns6mitkxo.cn,direct
-host-suffix,olympicchannelchina.cn,direct
-host-suffix,ottcn.com,direct
-host-suffix,p-bstarstatic.akamaized.net,direct
-host-suffix,p.bstarstatic.com,direct
-host-suffix,pgdt.gtimg.cn,direct
-host-suffix,pps.tv,direct
-host-suffix,ppsimg.com,direct
-host-suffix,ppstream.cn,direct
-host-suffix,ppstream.com,direct
-host-suffix,ppstream.com.cn,direct
-host-suffix,ppstream.net,direct
-host-suffix,ppstream.net.cn,direct
-host-suffix,ppsurl.com,direct
-host-suffix,qiyi.cn,direct
-host-suffix,qiyi.com,direct
-host-suffix,qiyipic.com,direct
-host-suffix,qqvideo.gtimg.com,direct
-host-suffix,qy.com,direct
-host-suffix,qy.net,direct
-host-suffix,sharejoytech.com,direct
-host-suffix,sk2cdsnw.cn,direct
-host-suffix,smtcdns.net,direct
-host-suffix,sogoodtech1.cn,direct
-host-suffix,soku.com,direct
-host-suffix,suike.cn,direct
-host-suffix,tazai.com,direct
-host-suffix,tudou.com,direct
-host-suffix,tvcc.cn,direct
-host-suffix,tvcc.com.cn,direct
-host-suffix,ukoo.com.cn,direct
-host-suffix,updream.cn,direct
-host-suffix,upos-bstar-mirrorakam.akamaized.net,direct
-host-suffix,upos-bstar1-mirrorakam.akamaized.net,direct
-host-suffix,upos-hz-mirrorakam.akamaized.net,direct
-host-suffix,uposdash-302-bilivideo.yfcdn.net,direct
-host-suffix,v.qq.com,direct
-host-suffix,v.smtcdns.com,direct
-host-suffix,v1d.szbdyd.com,direct
-host-suffix,video.qq.com,direct
-host-suffix,wenyupages.com,direct
-host-suffix,wingsmobiletek.cn,direct
-host-suffix,wwc.alicdn.com,direct
-host-suffix,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,direct
-host-suffix,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,direct
-host-suffix,xn--fiq53l90et9fpncc7joo6apn8a.cn,direct
-host-suffix,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,direct
-host-suffix,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,direct
-host-suffix,yangshipin.cn,direct
-host-suffix,ykimg.com,direct
-host-suffix,yo9.com,direct
-host-suffix,yodou.com,direct
-host-suffix,yoku.net.cn,direct
-host-suffix,yoqoo.com,direct
-host-suffix,yoqoo.net,direct
-host-suffix,yoqoo.net.cn,direct
-host-suffix,yoqoo.tv,direct
-host-suffix,youku.com,direct
-host-suffix,youku.com.cn,direct
-host-suffix,youku.org,direct
-host-suffix,youqoo.net,direct
-host-suffix,zggbdszt.cn,direct
-host-suffix,zggbdszt.com.cn,direct
-host-suffix,zggbdszt.net.cn,direct
-host-suffix,zygbdszt.net.cn,direct
-ip-cidr,101.224.0.0/13,direct
-ip-cidr,103.44.56.0/22,direct
-ip-cidr,103.5.34.153/32,direct
-ip-cidr,104.109.129.153/32,direct
-ip-cidr,106.11.0.0/16,direct
-ip-cidr,106.75.74.76/32,direct
-ip-cidr,110.238.107.47/32,direct
-ip-cidr,111.206.25.147/32,direct
-ip-cidr,118.26.120.0/24,direct
-ip-cidr,118.26.32.0/23,direct
-ip-cidr,119.176.0.0/12,direct
-ip-cidr,119.29.29.29/32,direct
-ip-cidr,119.3.238.64/32,direct
-ip-cidr,120.92.108.182/32,direct
-ip-cidr,120.92.113.99/32,direct
-ip-cidr,120.92.153.217/32,direct
-ip-cidr,128.1.62.200/32,direct
-ip-cidr,128.1.62.201/32,direct
-ip-cidr,134.175.207.130/32,direct
-ip-cidr,150.116.92.250/32,direct
-ip-cidr,164.52.76.18/32,direct
-ip-cidr,203.107.1.0/24,direct
-ip-cidr,203.211.4.169/32,direct
-ip-cidr,203.211.4.193/32,direct
-ip-cidr,203.74.95.131/32,direct
-ip-cidr,203.74.95.139/32,direct
-ip-cidr,203.74.95.153/32,direct
-ip-cidr,210.201.32.11/32,direct
-ip-cidr,210.201.32.8/32,direct
-ip-cidr,210.71.227.200/32,direct
-ip-cidr,210.71.227.202/32,direct
-ip-cidr,23.211.15.99/32,direct
-ip-cidr,23.40.241.251/32,direct
-ip-cidr,23.40.242.10/32,direct
-ip-cidr,23.53.32.88/32,direct
-ip-cidr,45.43.32.234/32,direct
-ip-cidr,58.49.111.117/32,direct
-ip-cidr,58.49.111.79/32,direct
-ip-cidr,58.49.111.95/32,direct
-ip6-cidr,::ffff:113.248.172.245/128,direct
-ip6-cidr,::ffff:114.235.96.186/128,direct
-ip6-cidr,::ffff:115.236.128.112/128,direct
-ip6-cidr,::ffff:115.236.128.120/128,direct
-ip6-cidr,::ffff:115.236.128.24/128,direct
-ip6-cidr,::ffff:115.236.128.80/128,direct
-ip6-cidr,::ffff:117.64.75.196/128,direct
-ip6-cidr,::ffff:117.68.200.210/128,direct
-ip6-cidr,::ffff:117.87.144.24/128,direct
-ip6-cidr,::ffff:121.56.126.255/128,direct
-ip6-cidr,::ffff:124.73.198.81/128,direct
-ip6-cidr,::ffff:124.73.200.142/128,direct
-ip6-cidr,::ffff:175.6.84.30/128,direct
-ip6-cidr,::ffff:175.6.84.96/128,direct
-ip6-cidr,::ffff:183.161.144.133/128,direct
-ip6-cidr,::ffff:183.161.144.230/128,direct
-ip6-cidr,::ffff:183.161.149.105/128,direct
-ip6-cidr,::ffff:198.18.5.138/128,direct
-ip6-cidr,::ffff:198.18.6.81/128,direct
-ip6-cidr,::ffff:198.18.6.83/128,direct
-ip6-cidr,::ffff:223.240.191.238/128,direct
-ip6-cidr,::ffff:27.157.209.46/128,direct
-ip6-cidr,::ffff:58.217.232.117/128,direct
-ip6-cidr,::ffff:58.217.232.68/128,direct
-ip6-cidr,::ffff:58.217.232.79/128,direct
-ip6-cidr,::ffff:58.58.0.90/128,direct
-ip6-cidr,::ffff:60.171.183.161/128,direct
-ip6-cidr,::ffff:60.171.183.186/128,direct
-ip6-cidr,::ffff:60.171.183.98/128,direct
-user-agent,%E4%BC%98%E9%85%B7*,direct
-user-agent,*bili*,direct
-user-agent,DomesticMedia*,direct
-user-agent,MGTV*,direct
-user-agent,MOO*,direct
-user-agent,PPStream*,direct
-user-agent,QIYI*,direct
-user-agent,QYPlayer*,direct
-user-agent,TencentMidasConnect*,direct
-user-agent,bili*,direct
-user-agent,bili-inter*,direct
-user-agent,iQiyi*,direct
-user-agent,youku*,direct
+# Source: Surge/Rules/ChinaMedia.list
+# Synced from this repository; preserve upstream attribution and usage terms.
+# Sources: Rabbit-Spec/Surge (Master), lanjue4/P-Configuration (main)
+# Generated 2026-11-02. Preserve upstream attribution; not an automatic updater.
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
+host, 00713915daab0be43def5c338c02c80b.dlied1.cdntips.net, proxy
+host, 0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com, proxy
+host, 0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com, proxy
+host, 0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com, proxy
+host, 112-81-125-43.dhost.00cdn.com, proxy
+host, 113-219-145-1.ksyungslb.com, proxy
+host, 114-236-92-129.ksyungslb.com, proxy
+host, 17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net, proxy
+host, 180-101-74-1.ksyungslb.com, proxy
+host, 1geadrmttge3nhcjwgazdope.ourdvsss.com, proxy
+host, 1geadrmttge3nhcjwgwzdqqe.ourdvsss.com, proxy
+host, 1gr3uomttgr31hcjo8yzdnco.ourdvsss.com, proxy
+host, 1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com, proxy
+host, 1gr3uomttgr31hcjtgezdkcy.ourdvsss.com, proxy
+host, 1gr4uqmtt8y41hcjigazdqca.ourdvsss.com, proxy
+host, 1gr4uqmtt8y41hcjigazdqce.ourdvsss.com, proxy
+host, 1gr4uqmtt8y41hcjigazdqco.ourdvsss.com, proxy
+host, 1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com, proxy
+host, 1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdcca.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdcco.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdkca.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdkco.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com, proxy
+host, 1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com, proxy
+host, 1graukmttga4nhcjtgozdgce.ourdvsss.com, proxy
+host, 218-91-225-1.ksyungslb.com, proxy
+host, 219-155-150-1.ksyungslb.com, proxy
+host, 222-188-6-1.ksyungslb.com, proxy
+host, 36-104-134-1.ksyungslb.com, proxy
+host, 36-25-252-1.ksyungslb.com, proxy
+host, 3ge3drmttga5nhcbqge3ur.ourdvsss.com, proxy
+host, 3geauymtsgrzdnqbofa5do.ourdvsss.com, proxy
+host, 3geauymtsgrzdnqbofa5dy.ourdvsss.com, proxy
+host, 3geauymtsgrzdrcbzfahue.ourdvsss.com, proxy
+host, 3geauymtsgrzdrcbzfahuk.ourdvsss.com, proxy
+host, 4go41hcjtgazdoctqge4o.ourdvsss.com, proxy
+host, apd-pcdnvodstat.teg.tencent-cloud.net, proxy
+host, apiintl.biliapi.net, proxy
+host, dldir1.qq.com, proxy
+host, iacc.qq.com, proxy
+host, ins-eeww7kom.ias.tencent-cloud.net, proxy
+host, ios.video.mpush.qq.com, proxy
+host, rdelivery.qq.com, proxy
+host, ts.qq.com, proxy
+host, upos-hz-mirrorakam.akamaized.net, proxy
+host, v.streaming.qq.com, proxy
+host, video-public-1258344701.shiply-cdn.qq.com, proxy
+host, video-search-1258344701.shiply-cdn.qq.com, proxy
+host, video-vip-1258344701.shiply-cdn.qq.com, proxy
+host, yoo.gtimg.com, proxy
+host-keyword, qiyi, proxy
+host-suffix, 0co3geye.cn, proxy
+host-suffix, 2isbbess.cn, proxy
+host-suffix, 33lwhaoinc.cn, proxy
+host-suffix, 52mtkvideo.cn, proxy
+host-suffix, 71.am, proxy
+host-suffix, 71.am.com, proxy
+host-suffix, 71edge.com, proxy
+host-suffix, 71edge.net, proxy
+host-suffix, 9xsecndns.cn, proxy
+host-suffix, acg.tv, proxy
+host-suffix, acgvideo.com, proxy
+host-suffix, ad.cctv.com, proxy
+host-suffix, aianno.cn, proxy
+host-suffix, aianno.com, proxy
+host-suffix, aiqiyicloud-mgmt.com, proxy
+host-suffix, aiqiyicloud.com, proxy
+host-suffix, aiqiyicloud.net, proxy
+host-suffix, animetamashi.cn, proxy
+host-suffix, animetamashi.com, proxy
+host-suffix, anitama.cn, proxy
+host-suffix, anitama.net, proxy
+host-suffix, b23.tv, proxy
+host-suffix, b82yxres.cn, proxy
+host-suffix, baiying.com, proxy
+host-suffix, baka.im, proxy
+host-suffix, bigfun.cn, proxy
+host-suffix, bigfunapp.cn, proxy
+host-suffix, bili22.cn, proxy
+host-suffix, bili2233.cn, proxy
+host-suffix, bili23.cn, proxy
+host-suffix, bili33.cn, proxy
+host-suffix, biliapi.com, proxy
+host-suffix, biliapi.net, proxy
+host-suffix, bilibili.cc, proxy
+host-suffix, bilibili.cn, proxy
+host-suffix, bilibili.co, proxy
+host-suffix, bilibili.com, proxy
+host-suffix, bilibili.net, proxy
+host-suffix, bilibili.tv, proxy
+host-suffix, bilibiligame.cn, proxy
+host-suffix, bilibiligame.co, proxy
+host-suffix, bilibiligame.net, proxy
+host-suffix, bilibilipay.cn, proxy
+host-suffix, bilibilipay.com, proxy
+host-suffix, bilicdn1.com, proxy
+host-suffix, bilicdn2.com, proxy
+host-suffix, bilicdn3.com, proxy
+host-suffix, bilicdn4.com, proxy
+host-suffix, bilicdn5.com, proxy
+host-suffix, bilicomic.com, proxy
+host-suffix, bilicomics.com, proxy
+host-suffix, biligame.cn, proxy
+host-suffix, biligame.co, proxy
+host-suffix, biligame.com, proxy
+host-suffix, biligame.net, proxy
+host-suffix, biligo.com, proxy
+host-suffix, biliimg.com, proxy
+host-suffix, biliintl.co, proxy
+host-suffix, biliintl.com, proxy
+host-suffix, biliplus.com, proxy
+host-suffix, bilivideo.cn, proxy
+host-suffix, bilivideo.com, proxy
+host-suffix, bilivideo.net, proxy
+host-suffix, cctv.cn, proxy
+host-suffix, cctv.com, proxy
+host-suffix, cctv4g.com, proxy
+host-suffix, cctvlib.cn, proxy
+host-suffix, cctvlib.com.cn, proxy
+host-suffix, cctvlibrary.cn, proxy
+host-suffix, cctvlibrary.com.cn, proxy
+host-suffix, cctvpic.com, proxy
+host-suffix, cctvpro.cn, proxy
+host-suffix, cctvpro.com.cn, proxy
+host-suffix, chinaepg.cn, proxy
+host-suffix, chinalive.com, proxy
+host-suffix, chinaott.com, proxy
+host-suffix, cibntv.net, proxy
+host-suffix, citv.net.cn, proxy
+host-suffix, cnms.net.cn, proxy
+host-suffix, cntv.cn, proxy
+host-suffix, cntv.com.cn, proxy
+host-suffix, cntvwb.cn, proxy
+host-suffix, corari.com, proxy
+host-suffix, cri.cn, proxy
+host-suffix, domesticmedia.cc, proxy
+host-suffix, domesticmedia.cn, proxy
+host-suffix, domesticmedia.co, proxy
+host-suffix, domesticmedia.com, proxy
+host-suffix, domesticmedia.net, proxy
+host-suffix, domesticmedia.tv, proxy
+host-suffix, domesticmediagame.cn, proxy
+host-suffix, domesticmediagame.co, proxy
+host-suffix, domesticmediagame.net, proxy
+host-suffix, domesticmediapay.cn, proxy
+host-suffix, domesticmediapay.com, proxy
+host-suffix, dreamcast.hk, proxy
+host-suffix, dyhgames.com, proxy
+host-suffix, e8h2ty.tdum.alibaba.com, proxy
+host-suffix, gamenow.club, proxy
+host-suffix, gitv.cn, proxy
+host-suffix, gitv.tv, proxy
+host-suffix, gjgbdszt.cn, proxy
+host-suffix, gjgbdszt.com.cn, proxy
+host-suffix, gjgbdszt.net.cn, proxy
+host-suffix, hdslb.com, proxy
+host-suffix, hdslb.com.w.kunlunhuf.com, proxy
+host-suffix, hdslb.com.w.kunlunpi.com, proxy
+host-suffix, hdslb.net, proxy
+host-suffix, hdslb.org, proxy
+host-suffix, hifuntv.com, proxy
+host-suffix, hitv.com, proxy
+host-suffix, huasheng.cn, proxy
+host-suffix, hunaniptv.com, proxy
+host-suffix, ibkstore.com, proxy
+host-suffix, icntvcdn.com, proxy
+host-suffix, im9.com, proxy
+host-suffix, imgo.tv, proxy
+host-suffix, ipanda.cn, proxy
+host-suffix, ipanda.com, proxy
+host-suffix, ipanda.com.cn, proxy
+host-suffix, ipanda.net, proxy
+host-suffix, iq.com, proxy
+host-suffix, iqiyi.com, proxy
+host-suffix, iqiyi.demo.uwp, proxy
+host-suffix, iqiyiedge.com, proxy
+host-suffix, iqiyiedge.net, proxy
+host-suffix, iqiyipic.com, proxy
+host-suffix, jiangbing.cn, proxy
+host-suffix, kumiao.com, proxy
+host-suffix, kumiao.tv, proxy
+host-suffix, kuxiaomiao.cn, proxy
+host-suffix, kuxiaomiao.com, proxy
+host-suffix, kuxiaomiao.com.cn, proxy
+host-suffix, kuxiaomiao.net, proxy
+host-suffix, livechina.cn, proxy
+host-suffix, livechina.com, proxy
+host-suffix, maoer.com, proxy
+host-suffix, maoercdn.com, proxy
+host-suffix, mcbbs.net, proxy
+host-suffix, mcdn.bilivideo.cn, proxy
+host-suffix, mgtv.com, proxy
+host-suffix, mincdn.com, proxy
+host-suffix, missevan.com, proxy
+host-suffix, mmstat.com, proxy
+host-suffix, ns6mitkxo.cn, proxy
+host-suffix, olympicchannelchina.cn, proxy
+host-suffix, ottcn.com, proxy
+host-suffix, p-bstarstatic.akamaized.net, proxy
+host-suffix, p.bstarstatic.com, proxy
+host-suffix, pgdt.gtimg.cn, proxy
+host-suffix, pps.tv, proxy
+host-suffix, ppsimg.com, proxy
+host-suffix, ppstream.cn, proxy
+host-suffix, ppstream.com, proxy
+host-suffix, ppstream.com.cn, proxy
+host-suffix, ppstream.net, proxy
+host-suffix, ppstream.net.cn, proxy
+host-suffix, ppsurl.com, proxy
+host-suffix, qiyi.cn, proxy
+host-suffix, qiyi.com, proxy
+host-suffix, qiyipic.com, proxy
+host-suffix, qqvideo.gtimg.com, proxy
+host-suffix, qy.com, proxy
+host-suffix, qy.net, proxy
+host-suffix, sharejoytech.com, proxy
+host-suffix, sk2cdsnw.cn, proxy
+host-suffix, smtcdns.net, proxy
+host-suffix, sogoodtech1.cn, proxy
+host-suffix, soku.com, proxy
+host-suffix, suike.cn, proxy
+host-suffix, tazai.com, proxy
+host-suffix, tudou.com, proxy
+host-suffix, tvcc.cn, proxy
+host-suffix, tvcc.com.cn, proxy
+host-suffix, ukoo.com.cn, proxy
+host-suffix, updream.cn, proxy
+host-suffix, upos-bstar-mirrorakam.akamaized.net, proxy
+host-suffix, upos-bstar1-mirrorakam.akamaized.net, proxy
+host-suffix, upos-hz-mirrorakam.akamaized.net, proxy
+host-suffix, uposdash-302-bilivideo.yfcdn.net, proxy
+host-suffix, v.qq.com, proxy
+host-suffix, v.smtcdns.com, proxy
+host-suffix, v1d.szbdyd.com, proxy
+host-suffix, video.qq.com, proxy
+host-suffix, wenyupages.com, proxy
+host-suffix, wingsmobiletek.cn, proxy
+host-suffix, wwc.alicdn.com, proxy
+host-suffix, xn--fiq53l6wcx3kp9bc7joo6apn8a.cn, proxy
+host-suffix, xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s, proxy
+host-suffix, xn--fiq53l90et9fpncc7joo6apn8a.cn, proxy
+host-suffix, xn--kprv4ewxfr9cpxcc7joo6apn8a.cn, proxy
+host-suffix, xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s, proxy
+host-suffix, yangshipin.cn, proxy
+host-suffix, ykimg.com, proxy
+host-suffix, yo9.com, proxy
+host-suffix, yodou.com, proxy
+host-suffix, yoku.net.cn, proxy
+host-suffix, yoqoo.com, proxy
+host-suffix, yoqoo.net, proxy
+host-suffix, yoqoo.net.cn, proxy
+host-suffix, yoqoo.tv, proxy
+host-suffix, youku.com, proxy
+host-suffix, youku.com.cn, proxy
+host-suffix, youku.org, proxy
+host-suffix, youqoo.net, proxy
+host-suffix, zggbdszt.cn, proxy
+host-suffix, zggbdszt.com.cn, proxy
+host-suffix, zggbdszt.net.cn, proxy
+host-suffix, zygbdszt.net.cn, proxy
+ip-cidr, 101.224.0.0/13, proxy
+ip-cidr, 103.44.56.0/22, proxy
+ip-cidr, 103.5.34.153/32, proxy
+ip-cidr, 104.109.129.153/32, proxy
+ip-cidr, 106.11.0.0/16, proxy
+ip-cidr, 106.75.74.76/32, proxy
+ip-cidr, 110.238.107.47/32, proxy
+ip-cidr, 111.206.25.147/32, proxy
+ip-cidr, 118.26.120.0/24, proxy
+ip-cidr, 118.26.32.0/23, proxy
+ip-cidr, 119.176.0.0/12, proxy
+ip-cidr, 119.29.29.29/32, proxy
+ip-cidr, 119.3.238.64/32, proxy
+ip-cidr, 120.92.108.182/32, proxy
+ip-cidr, 120.92.113.99/32, proxy
+ip-cidr, 120.92.153.217/32, proxy
+ip-cidr, 128.1.62.200/32, proxy
+ip-cidr, 128.1.62.201/32, proxy
+ip-cidr, 134.175.207.130/32, proxy
+ip-cidr, 150.116.92.250/32, proxy
+ip-cidr, 164.52.76.18/32, proxy
+ip-cidr, 203.107.1.0/24, proxy
+ip-cidr, 203.211.4.169/32, proxy
+ip-cidr, 203.211.4.193/32, proxy
+ip-cidr, 203.74.95.131/32, proxy
+ip-cidr, 203.74.95.139/32, proxy
+ip-cidr, 203.74.95.153/32, proxy
+ip-cidr, 210.201.32.11/32, proxy
+ip-cidr, 210.201.32.8/32, proxy
+ip-cidr, 210.71.227.200/32, proxy
+ip-cidr, 210.71.227.202/32, proxy
+ip-cidr, 23.211.15.99/32, proxy
+ip-cidr, 23.40.241.251/32, proxy
+ip-cidr, 23.40.242.10/32, proxy
+ip-cidr, 23.53.32.88/32, proxy
+ip-cidr, 45.43.32.234/32, proxy
+ip-cidr, 58.49.111.117/32, proxy
+ip-cidr, 58.49.111.79/32, proxy
+ip-cidr, 58.49.111.95/32, proxy
+ip6-cidr, ::ffff:113.248.172.245/128, proxy
+ip6-cidr, ::ffff:114.235.96.186/128, proxy
+ip6-cidr, ::ffff:115.236.128.112/128, proxy
+ip6-cidr, ::ffff:115.236.128.120/128, proxy
+ip6-cidr, ::ffff:115.236.128.24/128, proxy
+ip6-cidr, ::ffff:115.236.128.80/128, proxy
+ip6-cidr, ::ffff:117.64.75.196/128, proxy
+ip6-cidr, ::ffff:117.68.200.210/128, proxy
+ip6-cidr, ::ffff:117.87.144.24/128, proxy
+ip6-cidr, ::ffff:121.56.126.255/128, proxy
+ip6-cidr, ::ffff:124.73.198.81/128, proxy
+ip6-cidr, ::ffff:124.73.200.142/128, proxy
+ip6-cidr, ::ffff:175.6.84.30/128, proxy
+ip6-cidr, ::ffff:175.6.84.96/128, proxy
+ip6-cidr, ::ffff:183.161.144.133/128, proxy
+ip6-cidr, ::ffff:183.161.144.230/128, proxy
+ip6-cidr, ::ffff:183.161.149.105/128, proxy
+ip6-cidr, ::ffff:198.18.5.138/128, proxy
+ip6-cidr, ::ffff:198.18.6.81/128, proxy
+ip6-cidr, ::ffff:198.18.6.83/128, proxy
+ip6-cidr, ::ffff:223.240.191.238/128, proxy
+ip6-cidr, ::ffff:27.157.209.46/128, proxy
+ip6-cidr, ::ffff:58.217.232.117/128, proxy
+ip6-cidr, ::ffff:58.217.232.68/128, proxy
+ip6-cidr, ::ffff:58.217.232.79/128, proxy
+ip6-cidr, ::ffff:58.58.0.90/128, proxy
+ip6-cidr, ::ffff:60.171.183.161/128, proxy
+ip6-cidr, ::ffff:60.171.183.186/128, proxy
+ip6-cidr, ::ffff:60.171.183.98/128, proxy
+# OMITTED (unsupported condition): PROCESS-NAME,com.bilibili.app.in
+# OMITTED (unsupported condition): PROCESS-NAME,tv.danmaku.bili
+user-agent, %E4%BC%98%E9%85%B7*, proxy
+user-agent, *bili*, proxy
+user-agent, DomesticMedia*, proxy
+user-agent, MGTV*, proxy
+user-agent, MOO*, proxy
+user-agent, PPStream*, proxy
+user-agent, QIYI*, proxy
+user-agent, QYPlayer*, proxy
+user-agent, TencentMidasConnect*, proxy
+user-agent, bili*, proxy
+user-agent, bili-inter*, proxy
+user-agent, iQiyi*, proxy
+user-agent, youku*, proxy
