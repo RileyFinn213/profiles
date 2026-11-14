@@ -1,6 +1,6 @@
 # Source: Surge/Rules/Rex.list
 # Synced from this repository; preserve upstream attribution and usage terms.
-domain_set:
+domain_suffix_set:
 - api.rexnow.tv
 - assets.rexnow.tv
 - auth.rexnow.tv
@@ -16,7 +16,6 @@ domain_set:
 - api.trakt.tv
 - api.xiawen.tv
 - api5-normal-c-hl.amemv.com
-- drivemby.com
 - hubdog.cc
 - hxqapi.hiyun.tv
 - identify-valley-europe-seventh.trycloudflare.com
