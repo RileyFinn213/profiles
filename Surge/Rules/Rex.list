@@ -1,41 +1,39 @@
 # Rex 实际访问域名（Surge RULE-SET）
 # 按 Rex.app 进程连接记录整理；不代表完整或官方域名库。
 # 已排除 Emby.list 后缀覆盖项，以及本次检查有 DIRECT 路由记录的域名。
-# 精确匹配，不含策略；第三方内容源可能变化。
+# 后缀匹配，不含策略；第三方内容源可能变化。
 
 # Rex 服务
-DOMAIN,api.rexnow.tv
-DOMAIN,assets.rexnow.tv
-DOMAIN,auth.rexnow.tv
-DOMAIN,updates.rexnow.app
+DOMAIN-SUFFIX,api.rexnow.tv
+DOMAIN-SUFFIX,assets.rexnow.tv
+DOMAIN-SUFFIX,auth.rexnow.tv
+DOMAIN-SUFFIX,updates.rexnow.app
 
 # 其他已观测且未被 Emby 覆盖的服务/内容源
-DOMAIN,4kzn.cc
-DOMAIN,api.dandanplay.net
-DOMAIN,api.drama.9ddm.com
-DOMAIN,api.gorafie.com
-DOMAIN,api.introdb.app
-DOMAIN,api.olelive.com
-DOMAIN,api.pleasfun.com
-DOMAIN,api.theintrodb.org
-DOMAIN,api.trakt.tv
-DOMAIN,api.xiawen.tv
-DOMAIN,api5-normal-c-hl.amemv.com
-DOMAIN,drivemby.com
-DOMAIN,hubdog.cc
-DOMAIN,hxqapi.hiyun.tv
-DOMAIN,identify-valley-europe-seventh.trycloudflare.com
-DOMAIN,image.tmdb.org
-DOMAIN,kkp.zhezhi.art
-DOMAIN,mg.cttv.vip
-DOMAIN,nl.ftp2.eu.org
-DOMAIN,ogkk.nxog.eu.org
-DOMAIN,pan.yydsys.de
-DOMAIN,quanpan.xyz
-DOMAIN,shandian.blog
-DOMAIN,streambridge-studio-markers.vercel.app
-DOMAIN,test.28.al
-DOMAIN,wn4k.com
-DOMAIN,www.123684.com
-DOMAIN,www.ciyuangou.net
-DOMAIN,www.mmpanpan.site
+DOMAIN-SUFFIX,4kzn.cc
+DOMAIN-SUFFIX,api.dandanplay.net
+DOMAIN-SUFFIX,api.drama.9ddm.com
+DOMAIN-SUFFIX,api.gorafie.com
+DOMAIN-SUFFIX,api.introdb.app
+DOMAIN-SUFFIX,api.olelive.com
+DOMAIN-SUFFIX,api.pleasfun.com
+DOMAIN-SUFFIX,api.theintrodb.org
+DOMAIN-SUFFIX,api.trakt.tv
+DOMAIN-SUFFIX,api.xiawen.tv
+DOMAIN-SUFFIX,hubdog.cc
+DOMAIN-SUFFIX,hxqapi.hiyun.tv
+DOMAIN-SUFFIX,identify-valley-europe-seventh.trycloudflare.com
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,kkp.zhezhi.art
+DOMAIN-SUFFIX,mg.cttv.vip
+DOMAIN-SUFFIX,nl.ftp2.eu.org
+DOMAIN-SUFFIX,ogkk.nxog.eu.org
+DOMAIN-SUFFIX,pan.yydsys.de
+DOMAIN-SUFFIX,quanpan.xyz
+DOMAIN-SUFFIX,shandian.blog
+DOMAIN-SUFFIX,streambridge-studio-markers.vercel.app
+DOMAIN-SUFFIX,test.28.al
+DOMAIN-SUFFIX,wn4k.com
+DOMAIN-SUFFIX,www.123684.com
+DOMAIN-SUFFIX,www.ciyuangou.net
+DOMAIN-SUFFIX,www.mmpanpan.site
