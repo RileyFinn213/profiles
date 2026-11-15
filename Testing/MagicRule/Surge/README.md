@@ -1,3 +1,5 @@
+> **全量复核未通过**：134,842条基础格式未检出错误，但分类存在确定错误、规则类型遗漏及跨组覆盖问题。参见 Audit/README.md。勿整套启用。
+
 > **测试结论：分类审查未通过，请勿整套启用。** Surge 已连接，但临时 RULE-SET 未证明命中新文件，原规则仍在生效。AI.list 混入 GlobalAI 源中的无关域名。详见 runtime-review.json。
 
 # MagicRule / Surge 实验规则
