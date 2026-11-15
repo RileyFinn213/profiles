@@ -1,6 +1,6 @@
 {
-  "status": "experimental",
-  "runtime_test": "unavailable: Surge connection refused",
+  "status": "failed_classification_review",
+  "runtime_test": "connected; new rules not proven loaded/matched; see runtime-review.json",
   "classification": "heuristic, not verified routing",
   "duplicate_check": "exact rule type and value only; suffix overlaps remain",
   "files": [

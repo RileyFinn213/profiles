@@ -1,3 +1,5 @@
+> **测试结论：分类审查未通过，请勿整套启用。** Surge 已连接，但临时 RULE-SET 未证明命中新文件，原规则仍在生效。AI.list 混入 GlobalAI 源中的无关域名。详见 runtime-review.json。
+
 # MagicRule / Surge 实验规则
 
 基于用户上传的 MagicRule规则库.zip 整理，按现有策略组生成的启发式分类草稿。
