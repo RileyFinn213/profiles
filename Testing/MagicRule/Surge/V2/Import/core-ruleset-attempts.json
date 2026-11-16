@@ -1,0 +1,1129 @@
+{
+  "files": [
+    {
+      "file": "AI-Global.list",
+      "policy": "AI",
+      "rules": 179,
+      "tests": [
+        {
+          "host": "ai.google.dev",
+          "matched_test_file": false,
+          "policy": "AI",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 154
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list",
+              "rule": "ai.google.dev"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list,AI,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "aistudio.google.com",
+          "matched_test_file": false,
+          "policy": "AI",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 154
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list",
+              "rule": ".aistudio.google.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list,AI,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "alkalicore-pa.clients6.google.com",
+          "matched_test_file": false,
+          "policy": "AI",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 154
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list",
+              "rule": "alkalicore-pa.clients6.google.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list,AI,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "744d568f1c2266638c480463f67547404247e4a6ac3f79f5463fa654eeae16c4",
+      "passed": false
+    },
+    {
+      "file": "Apple-Neutral.list",
+      "policy": "Apple",
+      "rules": 1777,
+      "tests": [
+        {
+          "host": "api-glb-sea.smoot.apple.com",
+          "matched_test_file": false,
+          "policy": "Apple",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 222
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list",
+              "rule": ".apple.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list,Apple,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "appldnld-cdn.apple.com.akadns.net",
+          "matched_test_file": false,
+          "policy": "REJECT",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 141
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list",
+              "rule": "appldnld-cdn.apple.com.akadns.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list,REJECT,\"update-interval=86400\""
+        },
+        {
+          "host": "appldnld-lb.apple.com.akadns.net",
+          "matched_test_file": false,
+          "policy": "REJECT",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 141
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list",
+              "rule": ".appldnld-lb.apple.com.akadns.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list,REJECT,\"update-interval=86400\""
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "e105393b8a916aeb69577ba8fe09aac81f69a1df3578ee7167aaf3c8157745c4",
+      "passed": false
+    },
+    {
+      "file": "Bilibili-China.list",
+      "policy": "Bilibili",
+      "rules": 52,
+      "tests": [
+        {
+          "host": "apiintl.biliapi.net",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": ".biliapi.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "upos-sz-mirroralibstar1.bilivideo.com",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": ".bilivideo.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "upos-sz-mirrorcosbstar1.bilivideo.com",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": ".bilivideo.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "0439f6e42b38baa050d45ccb941de34a540709f14dd17b5133aee6176cccdcf5",
+      "passed": false
+    },
+    {
+      "file": "Cleanup-Neutral.list",
+      "policy": "Cleanup",
+      "rules": 490295,
+      "tests": [
+        {
+          "host": "0.avmarket.rs",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        },
+        {
+          "host": "0.myikas.com",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        },
+        {
+          "host": "0.net.easyjet.com",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "2992dc9befa813271e248b870795eadbcd6e304f447ab0df38caf1460b857d8c",
+      "passed": false
+    },
+    {
+      "file": "DIRECT-China.list",
+      "policy": "DIRECT",
+      "rules": 15695,
+      "tests": [
+        {
+          "host": "00713915daab0be43def5c338c02c80b.dlied1.cdntips.net",
+          "matched_test_file": false,
+          "policy": "Cleanup",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 139
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/rejectAd.list",
+              "rule": ".cdntips.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/rejectAd.list,Cleanup,\"update-interval=86400\""
+        },
+        {
+          "host": "0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": "0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": "0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "f488db25c9f325f492ffa71624aa831c87b5f81b85b597f4136cbe8270b3d5b8",
+      "passed": false
+    },
+    {
+      "file": "Gaming-Global.list",
+      "policy": "Gaming",
+      "rules": 1363,
+      "tests": [
+        {
+          "host": "a.ppy.sh",
+          "matched_test_file": false,
+          "policy": "Gaming",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 208
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list",
+              "rule": "a.ppy.sh"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list,Gaming,\"update-interval=86400\""
+        },
+        {
+          "host": "a4e8s8k3.map2.ssl.hwcdn.net",
+          "matched_test_file": false,
+          "policy": "Gaming",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 208
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list",
+              "rule": "a4e8s8k3.map2.ssl.hwcdn.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list,Gaming,\"update-interval=86400\""
+        },
+        {
+          "host": "akamai.cdn.steampipe.steamcontent.com",
+          "matched_test_file": false,
+          "policy": "DIRECT",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 156
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list",
+              "rule": "DOMAIN-KEYWORD,steamcontent"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list,DIRECT,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "0fc7970ec3f2fa75df4c2a1a19c72feb3460d8d56fe52654eaec3e114c32edf2",
+      "passed": false
+    },
+    {
+      "file": "GitHub-Global.list",
+      "policy": "GitHub",
+      "rules": 59,
+      "tests": [
+        {
+          "host": "api.github.com",
+          "matched_test_file": false,
+          "policy": "GitHub",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 210
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Github.list",
+              "rule": ".github.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Github.list,GitHub,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "github-api.arkoselabs.com",
+          "matched_test_file": false,
+          "policy": "AI",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 154
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list",
+              "rule": ".arkoselabs.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list,AI,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "github-cloud.s3.amazonaws.com",
+          "matched_test_file": false,
+          "policy": "Microsoft",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 220
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list",
+              "rule": "github-cloud.s3.amazonaws.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list,Microsoft,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "a39d2e5313b82920301686d5bb1bd0aa0231c57943bb83024f710fb87ffa7ae8",
+      "passed": false
+    },
+    {
+      "file": "Google-Global.list",
+      "policy": "Google",
+      "rules": 814,
+      "tests": [
+        {
+          "host": "8888.google",
+          "matched_test_file": false,
+          "policy": "Google",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 218
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list",
+              "rule": "DOMAIN-SUFFIX,google"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list,Google,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "adservice.google.se",
+          "matched_test_file": false,
+          "policy": "Cleanup",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 131
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list",
+              "rule": "DOMAIN-KEYWORD,adservice"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,Cleanup,\"update-interval=86400\""
+        },
+        {
+          "host": "alt1-mtalk.google.com",
+          "matched_test_file": false,
+          "policy": "Google",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 218
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list",
+              "rule": "DOMAIN-KEYWORD,google"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list,Google,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "cd49ac123ce193070dd65787d70ed5d50b43d77d271c58d1f8e12cf6f3b52291",
+      "passed": false
+    },
+    {
+      "file": "Landing-China.list",
+      "policy": "Landing",
+      "rules": 16,
+      "tests": [
+        {
+          "host": "appcloud2.in.zhihu.com",
+          "matched_test_file": false,
+          "policy": "Cleanup",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 137
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list",
+              "rule": "appcloud2.in.zhihu.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,Cleanup,\"update-interval=86400\""
+        },
+        {
+          "host": "log.amemv.com",
+          "matched_test_file": false,
+          "policy": "Landing",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 144
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Rules/Domestic-Social-Domain.list",
+              "rule": ".amemv.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Rules/Domestic-Social-Domain.list,Landing,\"update-interval=86400\""
+        },
+        {
+          "host": "log0-misc-hl.amemv.com",
+          "matched_test_file": false,
+          "policy": "Landing",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 144
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Rules/Domestic-Social-Domain.list",
+              "rule": ".amemv.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Rules/Domestic-Social-Domain.list,Landing,\"update-interval=86400\""
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "063699c32ae3de9def81bf01227e29f586b0a5b26f764ab4f86cd24748307a76",
+      "passed": false
+    },
+    {
+      "file": "Microsoft-Global.list",
+      "policy": "Microsoft",
+      "rules": 545,
+      "tests": [
+        {
+          "host": "adsdk.bing.net",
+          "matched_test_file": false,
+          "policy": "Cleanup",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 131
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list",
+              "rule": "DOMAIN-KEYWORD,adsdk"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,Cleanup,\"update-interval=86400\""
+        },
+        {
+          "host": "ajax.microsoft.com",
+          "matched_test_file": false,
+          "policy": "Microsoft",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 220
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list",
+              "rule": "DOMAIN-KEYWORD,microsoft"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list,Microsoft,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "alcdn.msauth.net",
+          "matched_test_file": false,
+          "policy": "Microsoft",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 220
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list",
+              "rule": ".msauth.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list,Microsoft,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "a229ab51c0884506adca35c7f9687fd8b5680674ac36a6105e14a74f905462ec",
+      "passed": false
+    },
+    {
+      "file": "Netflix-Global.list",
+      "policy": "Netflix",
+      "rules": 25,
+      "tests": [
+        {
+          "host": "netflix.com.edgesuite.net",
+          "matched_test_file": false,
+          "policy": "Netflix",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 188
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+              "rule": ".netflix.com.edgesuite.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list,Netflix,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "fast.com",
+          "matched_test_file": false,
+          "policy": "Netflix",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 188
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+              "rule": ".fast.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list,Netflix,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "netflix.ca",
+          "matched_test_file": false,
+          "policy": "Netflix",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 188
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+              "rule": ".netflix.ca"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list,Netflix,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "1ae3159d7f1125edfdd48c7b899fadaec45a8cc68ccb617f8120914cdb80616e",
+      "passed": false
+    },
+    {
+      "file": "Select-Global.list",
+      "policy": "Select",
+      "rules": 18358,
+      "tests": [
+        {
+          "host": "0813a4e76b5d404a97a4070b8e087bc4.mediatailor.us-east-1.amazonaws.com",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        },
+        {
+          "host": "106a0d4b0.vws.vegacdn.vn",
+          "matched_test_file": false,
+          "policy": "Google",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 218
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list",
+              "rule": "DOMAIN-SUFFIX,vn"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list,Google,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "1111296894.rsc.cdn77.org",
+          "matched_test_file": false,
+          "policy": "Select",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 243
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Proxy.list",
+              "rule": "DOMAIN-SUFFIX,cdn77.org"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Proxy.list,Select,\"update-interval=86400\""
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "2e9e3ebc7317071bfd3a2837fe8cf25e86f639a4500a7ea74d19a2285d83ed21",
+      "passed": false
+    },
+    {
+      "file": "Social-Global.list",
+      "policy": "Social",
+      "rules": 603,
+      "tests": [
+        {
+          "host": "e122475.dscg.akamaiedge.net",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        },
+        {
+          "host": "fbcdn-a.akamaihd.net",
+          "matched_test_file": false,
+          "policy": "Social",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 176
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Facebook.list",
+              "rule": ".fbcdn-a.akamaihd.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Facebook.list,Social,\"update-interval=86400\""
+        },
+        {
+          "host": "graph.facebook.com",
+          "matched_test_file": false,
+          "policy": "Social",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 178
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Whatsapp.list",
+              "rule": "graph.facebook.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Whatsapp.list,Social,\"update-interval=86400\""
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "89c10b8a3ae18b84998a2c10dd099d7724285bd83024ec4f02d36c237b6599bb",
+      "passed": false
+    },
+    {
+      "file": "Speedtest-Neutral.list",
+      "policy": "Speedtest",
+      "rules": 59,
+      "tests": [
+        {
+          "host": "77.testdebit.info",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        },
+        {
+          "host": "cdn.nperf.com",
+          "matched_test_file": false,
+          "policy": "Select",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 243
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Proxy.list",
+              "rule": "cdn.nperf.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Proxy.list,Select,\"update-interval=86400\""
+        },
+        {
+          "host": "ivry.testdebit.info",
+          "matched_test_file": false,
+          "policy": "Final",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 246
+          },
+          "subrules": [],
+          "rule": "FINAL,Final"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "494a35ab865f03c433efa38440b592a7d9978db7b053cc2b617d61b27b7dbf0a",
+      "passed": false
+    },
+    {
+      "file": "Spotify-Global.list",
+      "policy": "Spotify",
+      "rules": 24,
+      "tests": [
+        {
+          "host": "audio4-ak-spotify-com.akamaized.net",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": ".akamaized.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "cdn-spotify-experiments.conductrics.com",
+          "matched_test_file": false,
+          "policy": "Spotify",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 190
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Spotify.list",
+              "rule": "DOMAIN-KEYWORD,spotify"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Spotify.list,Spotify,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "heads-ak-spotify-com.akamaized.net",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": ".akamaized.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "6eecc9c6b9b1c174d9ee2cc1c768acc63f16c96a92108c3ab02c0ac2f6d812ae",
+      "passed": false
+    },
+    {
+      "file": "Streaming-Global.list",
+      "policy": "Streaming",
+      "rules": 1603,
+      "tests": [
+        {
+          "host": "0b1ea79d9170498c91073ff8c460de18.mediatailor.us-west-2.amazonaws.com",
+          "matched_test_file": false,
+          "policy": "Netflix",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 188
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+              "rule": ".us-west-2.amazonaws.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list,Netflix,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "0bdf3efc906045538c63468aa2f86a96.mediatailor.us-west-2.amazonaws.com",
+          "matched_test_file": false,
+          "policy": "Netflix",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 188
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+              "rule": ".us-west-2.amazonaws.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list,Netflix,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "0cf4f660964046daa9e0b7b6467a4e84.mediatailor.us-west-2.amazonaws.com",
+          "matched_test_file": false,
+          "policy": "Netflix",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 188
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list",
+              "rule": ".us-west-2.amazonaws.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Netflix.list,Netflix,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "db95da54c74352ff59a751517e3b3a7703761e9fb0d4beb7aa9ccd9113136bc4",
+      "passed": false
+    },
+    {
+      "file": "TMDB-Global.list",
+      "policy": "TMDB",
+      "rules": 4,
+      "tests": [
+        {
+          "host": "tmdb-image-prod.b-cdn.net",
+          "matched_test_file": false,
+          "policy": "TMDB",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 126
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list",
+              "rule": "tmdb-image-prod.b-cdn.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list,TMDB,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "tmdb-web-image-prod.b-cdn.net",
+          "matched_test_file": false,
+          "policy": "TMDB",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 126
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list",
+              "rule": "tmdb-web-image-prod.b-cdn.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list,TMDB,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "themoviedb.org",
+          "matched_test_file": false,
+          "policy": "TMDB",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 126
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list",
+              "rule": ".themoviedb.org"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/TMDB.list,TMDB,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "b2fd024101de3e7445beb428683bd96f3cdd74be5eb43ddb9ce05656481ac4fe",
+      "passed": false
+    },
+    {
+      "file": "TikTok-Global.list",
+      "policy": "TikTok",
+      "rules": 38,
+      "tests": [
+        {
+          "host": "p16-tiktokcdn-com.akamaized.net",
+          "matched_test_file": false,
+          "policy": "Bilibili",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 160
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list",
+              "rule": ".akamaized.net"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bilibili.list,Bilibili,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "roovza-launches.appsflyersdk.com",
+          "matched_test_file": false,
+          "policy": "Cleanup",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 131
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list",
+              "rule": "DOMAIN-KEYWORD,appsflyer"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,Cleanup,\"update-interval=86400\""
+        },
+        {
+          "host": "roovza.inapps.appsflyersdk.com",
+          "matched_test_file": false,
+          "policy": "Cleanup",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 131
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list",
+              "rule": "DOMAIN-KEYWORD,appsflyer"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,Cleanup,\"update-interval=86400\""
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "c354e9a00bba457c9698ed6982e104c784fc9316e9054f55097319a183369d8f",
+      "passed": false
+    },
+    {
+      "file": "YouTube-Global.list",
+      "policy": "YouTube",
+      "rules": 180,
+      "tests": [
+        {
+          "host": "music.youtube.com",
+          "matched_test_file": false,
+          "policy": "YouTube",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 194
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list",
+              "rule": "DOMAIN-KEYWORD,youtube"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list,YouTube,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "youtubei.googleapis.com",
+          "matched_test_file": false,
+          "policy": "AI",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 154
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list",
+              "rule": "DOMAIN-SUFFIX,googleapis.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list,AI,\"update-interval=86400\",no-resolve"
+        },
+        {
+          "host": "yt3.ggpht.com",
+          "matched_test_file": false,
+          "policy": "YouTube",
+          "source": {
+            "type": "profile",
+            "file": "P-ios.conf",
+            "line": 194
+          },
+          "subrules": [
+            {
+              "rule-set": "https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list",
+              "rule": ".ggpht.com"
+            }
+          ],
+          "rule": "RULE-SET,https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/YouTube.list,YouTube,\"update-interval=86400\",no-resolve"
+        }
+      ],
+      "cleanup_removed": true,
+      "sha256": "ceca269a494ad9a15c4d769a225bd0e933cc2836cc4fc5e22a89bec458ad9beb",
+      "passed": false
+    }
+  ],
+  "scope": "Full group files submitted to Surge; up to three representative native matches each. Not all hosts connectivity tested."
+}

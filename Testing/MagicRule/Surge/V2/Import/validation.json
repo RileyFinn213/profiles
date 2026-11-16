@@ -1,0 +1,410 @@
+{
+  "status": "READY_FOR_USER_TEST_NOT_FULLY_CORE_LOADED",
+  "reference_count": 125,
+  "domain_rules": 41394,
+  "new_cleanup_enabled": false,
+  "ip_asn_pending_enabled": false,
+  "baseline_original_rule_order_preserved": true,
+  "native_individual_tests": [
+    {
+      "file": "AI-Global.list",
+      "rule": "DOMAIN,ai.google.dev,AI",
+      "host": "ai.google.dev",
+      "passed": true,
+      "policy": "AI",
+      "final": "🇺🇸 LX US 11",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "AI-Global.list",
+      "rule": "DOMAIN,aistudio.google.com,AI",
+      "host": "aistudio.google.com",
+      "passed": true,
+      "policy": "AI",
+      "final": "🇺🇸 LX US 11",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Apple-Neutral.list",
+      "rule": "DOMAIN,api-glb-sea.smoot.apple.com,Apple",
+      "host": "api-glb-sea.smoot.apple.com",
+      "passed": true,
+      "policy": "Apple",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Apple-Neutral.list",
+      "rule": "DOMAIN,appldnld-cdn.apple.com.akadns.net,Apple",
+      "host": "appldnld-cdn.apple.com.akadns.net",
+      "passed": true,
+      "policy": "Apple",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Bilibili-China.list",
+      "rule": "DOMAIN,apiintl.biliapi.net,Bilibili",
+      "host": "apiintl.biliapi.net",
+      "passed": true,
+      "policy": "Bilibili",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Bilibili-China.list",
+      "rule": "DOMAIN,upos-sz-mirroralibstar1.bilivideo.com,Bilibili",
+      "host": "upos-sz-mirroralibstar1.bilivideo.com",
+      "passed": true,
+      "policy": "Bilibili",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "DIRECT-China.list",
+      "rule": "DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,DIRECT",
+      "host": "00713915daab0be43def5c338c02c80b.dlied1.cdntips.net",
+      "passed": true,
+      "policy": "DIRECT",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "DIRECT-China.list",
+      "rule": "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,DIRECT",
+      "host": "0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+      "passed": true,
+      "policy": "DIRECT",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Gaming-Global.list",
+      "rule": "DOMAIN,a.ppy.sh,Gaming",
+      "host": "a.ppy.sh",
+      "passed": true,
+      "policy": "Gaming",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Gaming-Global.list",
+      "rule": "DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net,Gaming",
+      "host": "a4e8s8k3.map2.ssl.hwcdn.net",
+      "passed": true,
+      "policy": "Gaming",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "GitHub-Global.list",
+      "rule": "DOMAIN,api.github.com,GitHub",
+      "host": "api.github.com",
+      "passed": true,
+      "policy": "GitHub",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "GitHub-Global.list",
+      "rule": "DOMAIN,github-api.arkoselabs.com,GitHub",
+      "host": "github-api.arkoselabs.com",
+      "passed": true,
+      "policy": "GitHub",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Google-Global.list",
+      "rule": "DOMAIN,8888.google,Google",
+      "host": "8888.google",
+      "passed": true,
+      "policy": "Google",
+      "final": "🇺🇸 LX US 06",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Google-Global.list",
+      "rule": "DOMAIN,adservice.google.se,Google",
+      "host": "adservice.google.se",
+      "passed": true,
+      "policy": "Google",
+      "final": "🇺🇸 LX US 06",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Landing-China.list",
+      "rule": "DOMAIN,appcloud2.in.zhihu.com,Landing",
+      "host": "appcloud2.in.zhihu.com",
+      "passed": true,
+      "policy": "Landing",
+      "final": "PC",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Landing-China.list",
+      "rule": "DOMAIN,log.amemv.com,Landing",
+      "host": "log.amemv.com",
+      "passed": true,
+      "policy": "Landing",
+      "final": "PC",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Microsoft-Global.list",
+      "rule": "DOMAIN,adsdk.bing.net,Microsoft",
+      "host": "adsdk.bing.net",
+      "passed": true,
+      "policy": "Microsoft",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Microsoft-Global.list",
+      "rule": "DOMAIN,ajax.microsoft.com,Microsoft",
+      "host": "ajax.microsoft.com",
+      "passed": true,
+      "policy": "Microsoft",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Netflix-Global.list",
+      "rule": "DOMAIN,netflix.com.edgesuite.net,Netflix",
+      "host": "netflix.com.edgesuite.net",
+      "passed": true,
+      "policy": "Netflix",
+      "final": "🇸🇬 LX SG 09",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Netflix-Global.list",
+      "rule": "DOMAIN-SUFFIX,fast.com,Netflix",
+      "host": "fast.com",
+      "passed": true,
+      "policy": "Netflix",
+      "final": "🇸🇬 LX SG 09",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Select-Global.list",
+      "rule": "DOMAIN,0813a4e76b5d404a97a4070b8e087bc4.mediatailor.us-east-1.amazonaws.com,Select",
+      "host": "0813a4e76b5d404a97a4070b8e087bc4.mediatailor.us-east-1.amazonaws.com",
+      "passed": true,
+      "policy": "Select",
+      "final": "🇸🇬 LX SG 12",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Select-Global.list",
+      "rule": "DOMAIN,106a0d4b0.vws.vegacdn.vn,Select",
+      "host": "106a0d4b0.vws.vegacdn.vn",
+      "passed": true,
+      "policy": "Select",
+      "final": "🇸🇬 LX SG 09",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Social-Global.list",
+      "rule": "DOMAIN,e122475.dscg.akamaiedge.net,Social",
+      "host": "e122475.dscg.akamaiedge.net",
+      "passed": true,
+      "policy": "Social",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Social-Global.list",
+      "rule": "DOMAIN,fbcdn-a.akamaihd.net,Social",
+      "host": "fbcdn-a.akamaihd.net",
+      "passed": true,
+      "policy": "Social",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Speedtest-Neutral.list",
+      "rule": "DOMAIN,77.testdebit.info,Speedtest",
+      "host": "77.testdebit.info",
+      "passed": true,
+      "policy": "Speedtest",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Speedtest-Neutral.list",
+      "rule": "DOMAIN,cdn.nperf.com,Speedtest",
+      "host": "cdn.nperf.com",
+      "passed": true,
+      "policy": "Speedtest",
+      "final": "DIRECT",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Spotify-Global.list",
+      "rule": "DOMAIN,audio4-ak-spotify-com.akamaized.net,Spotify",
+      "host": "audio4-ak-spotify-com.akamaized.net",
+      "passed": true,
+      "policy": "Spotify",
+      "final": "🇺🇸 LX US 06",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Spotify-Global.list",
+      "rule": "DOMAIN,cdn-spotify-experiments.conductrics.com,Spotify",
+      "host": "cdn-spotify-experiments.conductrics.com",
+      "passed": true,
+      "policy": "Spotify",
+      "final": "🇺🇸 LX US 06",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Streaming-Global.list",
+      "rule": "DOMAIN,0b1ea79d9170498c91073ff8c460de18.mediatailor.us-west-2.amazonaws.com,Streaming",
+      "host": "0b1ea79d9170498c91073ff8c460de18.mediatailor.us-west-2.amazonaws.com",
+      "passed": true,
+      "policy": "Streaming",
+      "final": "🇸🇬 LX SG 11",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "Streaming-Global.list",
+      "rule": "DOMAIN,0bdf3efc906045538c63468aa2f86a96.mediatailor.us-west-2.amazonaws.com,Streaming",
+      "host": "0bdf3efc906045538c63468aa2f86a96.mediatailor.us-west-2.amazonaws.com",
+      "passed": true,
+      "policy": "Streaming",
+      "final": "🇸🇬 LX SG 11",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "TMDB-Global.list",
+      "rule": "DOMAIN,tmdb-image-prod.b-cdn.net,TMDB",
+      "host": "tmdb-image-prod.b-cdn.net",
+      "passed": true,
+      "policy": "TMDB",
+      "final": "🇸🇬 LX SG 09",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "TMDB-Global.list",
+      "rule": "DOMAIN,tmdb-web-image-prod.b-cdn.net,TMDB",
+      "host": "tmdb-web-image-prod.b-cdn.net",
+      "passed": true,
+      "policy": "TMDB",
+      "final": "🇸🇬 LX SG 09",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "TikTok-Global.list",
+      "rule": "DOMAIN,p16-tiktokcdn-com.akamaized.net,TikTok",
+      "host": "p16-tiktokcdn-com.akamaized.net",
+      "passed": true,
+      "policy": "TikTok",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "TikTok-Global.list",
+      "rule": "DOMAIN,roovza-launches.appsflyersdk.com,TikTok",
+      "host": "roovza-launches.appsflyersdk.com",
+      "passed": true,
+      "policy": "TikTok",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "YouTube-Global.list",
+      "rule": "DOMAIN,music.youtube.com,YouTube",
+      "host": "music.youtube.com",
+      "passed": true,
+      "policy": "YouTube",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    },
+    {
+      "file": "YouTube-Global.list",
+      "rule": "DOMAIN,youtubei.googleapis.com,YouTube",
+      "host": "youtubei.googleapis.com",
+      "passed": true,
+      "policy": "YouTube",
+      "final": "🇪🇸 PC ES 01",
+      "source": {
+        "type": "runtime"
+      }
+    }
+  ],
+  "native_individual_passed": 36,
+  "all_group_resources_download_verified": true,
+  "remote_ruleset_native_loading": "not demonstrated via temporary RULE-SET; user profile import still needed",
+  "temporary_rules_restored": true
+}
