@@ -9,3 +9,7 @@ DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,viblast.com
 DOMAIN-SUFFIX,gvt1.com
+
+# MagicRule 域名补充
+DOMAIN,bahamut.akamaized.net
+DOMAIN-SUFFIX,bahamut.akamaized.net
