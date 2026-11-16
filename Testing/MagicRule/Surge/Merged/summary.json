@@ -1,0 +1,450 @@
+[
+  {
+    "file": "AGE.list",
+    "policy": "Streaming",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "AI-China.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 107,
+    "already_covered": 4,
+    "original_preserved": true
+  },
+  {
+    "file": "AI-Global.list",
+    "policy": "AI",
+    "kind": "RULE-SET",
+    "additions": 92,
+    "already_covered": 87,
+    "original_preserved": true
+  },
+  {
+    "file": "Apple.list",
+    "policy": "Apple",
+    "kind": "RULE-SET",
+    "additions": 6,
+    "already_covered": 1771,
+    "original_preserved": true
+  },
+  {
+    "file": "AppleTV.list",
+    "policy": "Streaming",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Bahamut.list",
+    "policy": "TW",
+    "kind": "RULE-SET",
+    "additions": 2,
+    "already_covered": 4,
+    "original_preserved": true
+  },
+  {
+    "file": "Bilibili.list",
+    "policy": "Bilibili",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 52,
+    "original_preserved": true
+  },
+  {
+    "file": "China.list",
+    "policy": "DIRECT",
+    "kind": "DOMAIN-SET",
+    "additions": 5947,
+    "already_covered": 9574,
+    "original_preserved": true
+  },
+  {
+    "file": "ChinaASN.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "ChinaCIDR.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "ChinaMedia.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Discord.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Disney+.list",
+    "policy": "Streaming",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 217,
+    "original_preserved": true
+  },
+  {
+    "file": "Domestic-Social-Domain.list",
+    "policy": "Landing",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 16,
+    "original_preserved": true
+  },
+  {
+    "file": "Domestic-Social-IP-CIDR.list",
+    "policy": "Landing",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Douban.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 3,
+    "original_preserved": true
+  },
+  {
+    "file": "Emby.list",
+    "policy": "Emby",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Epic.list",
+    "policy": "Gaming",
+    "kind": "RULE-SET",
+    "additions": 22,
+    "already_covered": 15,
+    "original_preserved": true
+  },
+  {
+    "file": "Facebook.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 7,
+    "already_covered": 385,
+    "original_preserved": true
+  },
+  {
+    "file": "Game.list",
+    "policy": "Gaming",
+    "kind": "RULE-SET",
+    "additions": 171,
+    "already_covered": 683,
+    "original_preserved": true
+  },
+  {
+    "file": "Github.list",
+    "policy": "GitHub",
+    "kind": "RULE-SET",
+    "additions": 49,
+    "already_covered": 10,
+    "original_preserved": true
+  },
+  {
+    "file": "GlobalMedia.list",
+    "policy": "Streaming",
+    "kind": "RULE-SET",
+    "additions": 530,
+    "already_covered": 751,
+    "original_preserved": true
+  },
+  {
+    "file": "Google.list",
+    "policy": "Google",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 814,
+    "original_preserved": true
+  },
+  {
+    "file": "HBO.list",
+    "policy": "Streaming",
+    "kind": "RULE-SET",
+    "additions": 55,
+    "already_covered": 10,
+    "original_preserved": true
+  },
+  {
+    "file": "Hupu.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 3,
+    "already_covered": 1,
+    "original_preserved": true
+  },
+  {
+    "file": "Instagram.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 72,
+    "original_preserved": true
+  },
+  {
+    "file": "LSP.list",
+    "policy": "Select",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Meta.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 2,
+    "original_preserved": true
+  },
+  {
+    "file": "Microsoft.list",
+    "policy": "Microsoft",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 545,
+    "original_preserved": true
+  },
+  {
+    "file": "NGA.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 4,
+    "original_preserved": true
+  },
+  {
+    "file": "NeteaseMusic.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Netflix.list",
+    "policy": "Netflix",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 25,
+    "original_preserved": true
+  },
+  {
+    "file": "PayPal.list",
+    "policy": "Select",
+    "kind": "RULE-SET",
+    "additions": 15,
+    "already_covered": 228,
+    "original_preserved": true
+  },
+  {
+    "file": "Pinterest.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Pixiv.list",
+    "policy": "Select",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "PlayStation.list",
+    "policy": "Gaming",
+    "kind": "RULE-SET",
+    "additions": 1,
+    "already_covered": 7,
+    "original_preserved": true
+  },
+  {
+    "file": "Proxy.list",
+    "policy": "Select",
+    "kind": "RULE-SET",
+    "additions": 5690,
+    "already_covered": 12425,
+    "original_preserved": true
+  },
+  {
+    "file": "Reading.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Reddit.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Rex.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Social-Supplement.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 115,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Speedtest.list",
+    "policy": "Speedtest",
+    "kind": "RULE-SET",
+    "additions": 55,
+    "already_covered": 4,
+    "original_preserved": true
+  },
+  {
+    "file": "Spotify.list",
+    "policy": "Spotify",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 24,
+    "original_preserved": true
+  },
+  {
+    "file": "Steam.list",
+    "policy": "Gaming",
+    "kind": "RULE-SET",
+    "additions": 42,
+    "already_covered": 422,
+    "original_preserved": true
+  },
+  {
+    "file": "SteamCN.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 23,
+    "already_covered": 4,
+    "original_preserved": true
+  },
+  {
+    "file": "TMDB.list",
+    "policy": "TMDB",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 4,
+    "original_preserved": true
+  },
+  {
+    "file": "Telegram.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "TikTok.list",
+    "policy": "TikTok",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 38,
+    "original_preserved": true
+  },
+  {
+    "file": "Twitch.list",
+    "policy": "Streaming",
+    "kind": "RULE-SET",
+    "additions": 28,
+    "already_covered": 6,
+    "original_preserved": true
+  },
+  {
+    "file": "Twitter.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 17,
+    "already_covered": 5,
+    "original_preserved": true
+  },
+  {
+    "file": "WeChat.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Weibo.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "Whatsapp.list",
+    "policy": "Social",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 0,
+    "original_preserved": true
+  },
+  {
+    "file": "XiaoHongShu.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 4,
+    "already_covered": 3,
+    "original_preserved": true
+  },
+  {
+    "file": "Xunlei.list",
+    "policy": "DIRECT",
+    "kind": "RULE-SET",
+    "additions": 9,
+    "already_covered": 9,
+    "original_preserved": true
+  },
+  {
+    "file": "YouTube.list",
+    "policy": "YouTube",
+    "kind": "RULE-SET",
+    "additions": 0,
+    "already_covered": 180,
+    "original_preserved": true
+  }
+]

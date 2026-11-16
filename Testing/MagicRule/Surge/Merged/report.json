@@ -1,0 +1,10 @@
+{
+  "files": 56,
+  "total_additions": 12990,
+  "original_files_preserved": 55,
+  "additional_files": [
+    "Social-Supplement.list"
+  ],
+  "priorities": "original reference order preserved; check cross-policy shadowing before promoting",
+  "runtime_tested": false
+}

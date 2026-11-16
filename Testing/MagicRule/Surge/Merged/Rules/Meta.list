@@ -1,0 +1,9 @@
+# Source: Rabbit-Spec/Surge/Rules/Meta.list
+# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+DOMAIN-SUFFIX,atdmt.com
+DOMAIN-SUFFIX,meta.vc
+DOMAIN-SUFFIX,whatsappbusiness.com
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,mapillary.com
+DOMAIN-SUFFIX,getsupernatural.com
