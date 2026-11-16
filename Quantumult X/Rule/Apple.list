@@ -1591,3 +1591,11 @@ ip6-cidr, 2a01:b740::/32, proxy
 # OMITTED (unsupported condition): PROCESS-NAME,findmydevice-user-agent
 # OMITTED (unsupported condition): PROCESS-NAME,fmfd
 # OMITTED (unsupported condition): PROCESS-NAME,mapspushd
+
+# MagicRule 域名补充
+host-suffix, appleworldwidedeveloper.hb-api.omtrdc.net, proxy
+host-suffix, appleworldwidedeveloper.sc.omtrdc.net, proxy
+host-suffix, beatselectronicsllc.tt.omtrdc.net, proxy
+host-suffix, notary-submissions-prod.s3-accelerate.amazonaws.com, proxy
+host-suffix, notary-submissions-prod.s3.us-west-2.amazonaws.com, proxy
+host-suffix, p-events-delivery.akamaized.net, proxy

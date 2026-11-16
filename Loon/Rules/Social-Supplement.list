@@ -1,6 +1,7 @@
-# Additional foreign social services not fitting existing specific files.
+# Source: Surge/Rules/Social-Supplement.list
+# Synced from this repository; preserve upstream attribution and usage terms.
 
-# MagicRule V2 independently classified domain additions
+# MagicRule 域名补充
 DOMAIN,e122475.dscg.akamaiedge.net
 DOMAIN,licdn.cn.cdn20.com
 DOMAIN,linkedin.sc.omtrdc.net

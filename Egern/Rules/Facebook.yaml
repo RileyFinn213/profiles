@@ -458,3 +458,11 @@ domain_suffix_set:
 - yogalayout.com
 - zuckerberg.com
 - zuckerberg.net
+- facebook.br
+- facebook.com
+- facebookland.com
+- facewbook.co
+- fbcdn.net
+- fna.fbcdn.net
+domain_set:
+- graph.facebook.com

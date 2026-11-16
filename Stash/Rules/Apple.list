@@ -1591,3 +1591,11 @@ PROCESS-NAME,com.apple.geod
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,fmfd
 PROCESS-NAME,mapspushd
+
+# MagicRule 域名补充
+DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
+DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
+DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net
+DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
+DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
+DOMAIN-SUFFIX,p-events-delivery.akamaized.net

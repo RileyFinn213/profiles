@@ -15,3 +15,22 @@ ip-cidr, 199.16.156.0/22, proxy
 ip-cidr, 199.59.148.0/22, proxy
 ip-asn, 13414, proxy
 ip-asn, 35995, proxy
+
+# MagicRule 域名补充
+host-suffix, cms-twdigitalassets.com, proxy
+host-suffix, periscope.tv, proxy
+host-suffix, pscp.tv, proxy
+host-suffix, tweetdeck.com, proxy
+host-suffix, twitpic.com, proxy
+host-suffix, twitter.biz, proxy
+host-suffix, twitter.jp, proxy
+host-suffix, twitter.map.fastly.net, proxy
+host-suffix, twittercommunity.com, proxy
+host-suffix, twitterflightschool.com, proxy
+host-suffix, twitterinc.com, proxy
+host-suffix, twitteroauth.com, proxy
+host-suffix, twitterstat.us, proxy
+host-suffix, twtrdns.net, proxy
+host-suffix, twttr.com, proxy
+host-suffix, twttr.net, proxy
+host-suffix, vine.co, proxy

@@ -10,3 +10,7 @@ host-suffix, fbcdn.net, proxy
 host-suffix, digicert.com, proxy
 host-suffix, viblast.com, proxy
 host-suffix, gvt1.com, proxy
+
+# MagicRule 域名补充
+host, bahamut.akamaized.net, proxy
+host-suffix, bahamut.akamaized.net, proxy

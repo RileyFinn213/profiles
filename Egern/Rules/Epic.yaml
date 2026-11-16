@@ -15,3 +15,26 @@ domain_suffix_set:
 - spyjinx.com
 - unrealtournament.com
 - entitlements.com
+- 3lateral.com
+- artstation.com
+- artstationmedia.com
+- battlebreakers.com
+- capturingreality.com
+- cubicmotion.com
+- eac-cdn.com
+- easy.ac
+- easyanticheat.net
+- egdownload.fastly-edge.com
+- epicgamescdn.com
+- fab.com
+- fortnite-vod.akamaized.net
+- hyprsense.com
+- quixel.com
+- quixel.se
+- radgametools.com
+- realityscan.com
+- roborecall.com
+- sketchfab.com
+- twinmotion.com
+domain_set:
+- cloudflare.epicgamescdn.com

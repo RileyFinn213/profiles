@@ -10,3 +10,8 @@ host-suffix, hpstatic.cn, proxy
 host-suffix, hupustatic.com, proxy
 host-suffix, shihuo.cn, proxy
 host-suffix, shihuoapi.com, proxy
+
+# MagicRule 域名补充
+host-suffix, hoopchina.com.cn, proxy
+host-suffix, hupu.com, proxy
+host-suffix, hupucdn.com, proxy

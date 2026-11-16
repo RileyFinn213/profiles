@@ -231,3 +231,20 @@ host-suffix, xoom.com, proxy
 host-suffix, xoom.io, proxy
 host-suffix, xoom.us, proxy
 host-suffix, xoomcom.com, proxy
+
+# MagicRule 域名补充
+host-suffix, anfutong.cn, proxy
+host-suffix, anfutong.com.cn, proxy
+host-suffix, beibao.cn, proxy
+host-suffix, beibao.com.cn, proxy
+host-suffix, paypal.com.cn, proxy
+host-suffix, paypal.com.hk, proxy
+host-suffix, paypal.com.sg, proxy
+host-suffix, paypal.hk, proxy
+host-suffix, paypal.net.cn, proxy
+host-suffix, paypal.org.cn, proxy
+host-suffix, paypalcommunity.cn, proxy
+host-suffix, paypalhere.cn, proxy
+host-suffix, paypalhere.com.cn, proxy
+host-suffix, xn--bnq297cix3a.cn, proxy
+host-suffix, xoom.net.cn, proxy

@@ -10,3 +10,6 @@ domain_suffix_set:
 - digicert.com
 - viblast.com
 - gvt1.com
+- bahamut.akamaized.net
+domain_set:
+- bahamut.akamaized.net

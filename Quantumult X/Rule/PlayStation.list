@@ -22,3 +22,6 @@ host-suffix, playstationvideo.com, proxy
 host-keyword, playstation, proxy
 host-keyword, sonyentertainmentnetwork, proxy
 host-keyword, psn, proxy
+
+# MagicRule 域名补充
+host-suffix, playstation, proxy

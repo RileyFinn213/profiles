@@ -9,3 +9,9 @@ host-suffix, xhslink.com, proxy
 host-suffix, xhs.cn, proxy
 host-suffix, rednote.com, proxy
 host-suffix, rednote.com.cn, proxy
+
+# MagicRule 域名补充
+host-suffix, redelight.cn, proxy
+host-suffix, rnote.com, proxy
+host-suffix, xhscdn.net, proxy
+host-suffix, xhsrcdn.com, proxy

@@ -457,3 +457,10 @@ payload:
 - DOMAIN-SUFFIX,yogalayout.com
 - DOMAIN-SUFFIX,zuckerberg.com
 - DOMAIN-SUFFIX,zuckerberg.net
+- DOMAIN,graph.facebook.com
+- DOMAIN-SUFFIX,facebook.br
+- DOMAIN-SUFFIX,facebook.com
+- DOMAIN-SUFFIX,facebookland.com
+- DOMAIN-SUFFIX,facewbook.co
+- DOMAIN-SUFFIX,fbcdn.net
+- DOMAIN-SUFFIX,fna.fbcdn.net

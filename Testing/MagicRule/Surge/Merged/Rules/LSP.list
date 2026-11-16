@@ -1,6 +1,0 @@
-# LSP.list — merged snapshot, 2026-11-02
-# FORMAT: RULE-SET (no policy column)
-# Source: Surge/Rules/LSP.list
-# Preserve upstream attribution and usage requirements.
-DOMAIN-SUFFIX,missav123.com
-DOMAIN-SUFFIX,pornhub.com

@@ -458,3 +458,12 @@ host-suffix, wwwmfacebook.com, proxy
 host-suffix, yogalayout.com, proxy
 host-suffix, zuckerberg.com, proxy
 host-suffix, zuckerberg.net, proxy
+
+# MagicRule 域名补充
+host, graph.facebook.com, proxy
+host-suffix, facebook.br, proxy
+host-suffix, facebook.com, proxy
+host-suffix, facebookland.com, proxy
+host-suffix, facewbook.co, proxy
+host-suffix, fbcdn.net, proxy
+host-suffix, fna.fbcdn.net, proxy

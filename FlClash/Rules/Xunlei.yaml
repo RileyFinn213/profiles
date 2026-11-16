@@ -14,3 +14,12 @@ payload:
 - DOMAIN-KEYWORD,xunlei
 - DOMAIN-KEYWORD,thunder
 - IP-ASN,135905,no-resolve
+- DOMAIN,112-81-125-43.dhost.00cdn.com
+- DOMAIN-SUFFIX,00cdn.com
+- DOMAIN-SUFFIX,88cdn.com
+- DOMAIN-SUFFIX,8uri.cn
+- DOMAIN-SUFFIX,guangyacdn.com
+- DOMAIN-SUFFIX,guangyapan.com
+- DOMAIN-SUFFIX,kanimg.com
+- DOMAIN-SUFFIX,thundercdn.com
+- DOMAIN-SUFFIX,xycloud.com
