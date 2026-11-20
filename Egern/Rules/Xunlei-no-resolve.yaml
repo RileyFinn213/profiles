@@ -1,7 +1,0 @@
-# Source: Surge/Rules/Xunlei.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Xunlei.list
-# Preserve upstream attribution and usage requirements.
-no_resolve: true
-asn_set:
-- AS135905

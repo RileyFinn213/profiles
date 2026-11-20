@@ -1,0 +1,144 @@
+# NAME: China-NetDisk
+# FORMAT: Surge RULE-SET; policy is assigned by the caller
+# UPDATED: 2026-11-21
+# Scope: selected service domains; shared CDN roots and IP literals are not covered.
+# TOTAL: 110
+# Not an exhaustive list of every download CDN.
+# Sources: blackmatrix7/ios_rule_script; v2fly/domain-list-community;
+# LM-Firefly/Rules; OpenListTeam/OpenList.
+
+# 115 网盘
+host, fhnfile.oss-cn-shenzhen.aliyuncs.com, direct
+host-suffix, 115.com, direct
+host-suffix, 115cdn.com, direct
+host-suffix, 115cdn.net, direct
+host-suffix, 115img.com, direct
+host-suffix, 116cd.cn, direct
+host-suffix, 116cd.com, direct
+host-suffix, 116cd.net, direct
+host-suffix, anxia.com, direct
+host-suffix, sq.cc, direct
+
+# 123 云盘 / 分享与下载域名
+host-suffix, 123242.com, direct
+host-suffix, 123245.com, direct
+host-suffix, 123254.com, direct
+host-suffix, 123259.com, direct
+host-suffix, 123278.com, direct
+host-suffix, 123295.com, direct
+host-suffix, 123624.com, direct
+host-suffix, 123635.com, direct
+host-suffix, 123641.com, direct
+host-suffix, 123652.com, direct
+host-suffix, 123684.com, direct
+host-suffix, 123773.com, direct
+host-suffix, 123795.com, direct
+host-suffix, 123842.com, direct
+host-suffix, 123860.com, direct
+host-suffix, 123865.com, direct
+host-suffix, 123912.com, direct
+host-suffix, 123952.com, direct
+host-suffix, 123957.com, direct
+host-suffix, 123pan.cn, direct
+host-suffix, 123pan.com, direct
+
+# 百度网盘
+host-suffix, pan.baidu.com, direct
+host-suffix, yun.baidu.com, direct
+host-suffix, baidupcs.cn, direct
+host-suffix, baidupcs.com, direct
+host-suffix, baidupcs.com.cn, direct
+host-suffix, baidupcs.net, direct
+
+# 阿里云盘
+host-suffix, alicloudccp.com, direct
+host-suffix, alipan.com, direct
+host-suffix, aliyundrive.cloud, direct
+host-suffix, aliyundrive.com, direct
+host-suffix, aliyundrive.net, direct
+host-suffix, yunpan.aliyun.com, direct
+
+# 夸克网盘
+host-suffix, pan.quark.cn, direct
+host-suffix, drive.quark.cn, direct
+host-suffix, open-api-drive.quark.cn, direct
+
+# UC 网盘
+host-suffix, drive.uc.cn, direct
+host-suffix, pc-api.uc.cn, direct
+host-suffix, open-api-drive.uc.cn, direct
+
+# 天翼云盘
+host-suffix, cloud.189.cn, direct
+host, open.e.189.cn, direct
+
+# 中国移动云盘 / 和彩云
+host-suffix, yun.139.com, direct
+host-suffix, caiyun.139.com, direct
+host-suffix, caiyun.feixin.10086.cn, direct
+
+# 坚果云
+host-suffix, gdfgq.club, direct
+host-suffix, jianguopuzi.com, direct
+host-suffix, jianguoyun.com, direct
+host-suffix, nutstore.net, direct
+host-suffix, nutstorehq.com, direct
+
+# 蓝奏云
+host-suffix, baidupan.com, direct
+host-suffix, bakstotre.com, direct
+host-suffix, ilanzou.com, direct
+host-suffix, lanosso.com, direct
+host-suffix, lanpv.com, direct
+host-suffix, lanpw.com, direct
+host-suffix, lanrar.com, direct
+host-suffix, lanzn.com, direct
+host-suffix, lanzou.com, direct
+host-suffix, lanzoub.com, direct
+host-suffix, lanzouc.com, direct
+host-suffix, lanzoue.com, direct
+host-suffix, lanzouf.com, direct
+host-suffix, lanzoug.com, direct
+host-suffix, lanzouh.com, direct
+host-suffix, lanzoui.com, direct
+host-suffix, lanzouj.com, direct
+host-suffix, lanzouk.com, direct
+host-suffix, lanzoul.com, direct
+host-suffix, lanzoum.com, direct
+host-suffix, lanzouo.com, direct
+host-suffix, lanzoup.com, direct
+host-suffix, lanzouq.com, direct
+host-suffix, lanzous.com, direct
+host-suffix, lanzout.com, direct
+host-suffix, lanzouu.com, direct
+host-suffix, lanzouv.com, direct
+host-suffix, lanzouw.com, direct
+host-suffix, lanzoux.com, direct
+host-suffix, lanzouy.com, direct
+host-suffix, lanzov.com, direct
+host-suffix, lanzv.com, direct
+host-suffix, ulanzou.com, direct
+host-suffix, webgetstore.com, direct
+host-suffix, woozooo.com, direct
+host-suffix, wwentua.com, direct
+
+# 城通网盘
+host-suffix, ctfile.com, direct
+host-suffix, ctfile.net, direct
+host-suffix, n802.com, direct
+host-suffix, tv002.com, direct
+
+# 360 云盘
+host-suffix, cmedia360.com, direct
+host-suffix, yunpan.cn, direct
+host-suffix, yunpan.com, direct
+host-suffix, yunpan.com.cn, direct
+
+# 迅雷云盘（存储相关域名）
+host-suffix, pan.xunlei.com, direct
+host-suffix, api-pan.xunlei.com, direct
+host-suffix, xlpan.com, direct
+host-suffix, xbase.cloud, direct
+host-suffix, xbase.xyz, direct
+host-suffix, xcloudbase.com, direct
+host-suffix, thundercdn.com, direct
