@@ -251,9 +251,13 @@ function operator(pro) {
 
     !GetK && ObjKA(Allmap)
     // 匹配 Allkey 地区
-    const findKey = AMK.find(([key]) =>
-      e.name.includes(key)
-    )
+    const findKey = AMK.find(([key]) => {
+      // Country codes must not match inside VLESS, TLS, AnyTLS, or provider names.
+      if (/^[A-Z]{2}$/.test(key)) {
+        return new RegExp("(^|[^A-Za-z])" + key + "(?=$|[^A-Za-z])").test(e.name);
+      }
+      return e.name.includes(key);
+    })
     
     let firstName = "",
       nNames = "";
@@ -280,7 +284,7 @@ function operator(pro) {
       e.name = keyover.join(FGF);
     } else {
       if (nm) {
-        e.name = FNAME + FGF + e.name;
+        e.name = (FNAME ? FNAME + FGF : "") + ens;
       } else {
         e.name = null;
       }
