@@ -498,7 +498,11 @@ function parseArguments() {
   return opts;
 }
 function parseExcludeList(s) {
-  return String(s || "").split(/[|,，、]/).map((x) => x.trim()).filter(Boolean);
+  // 模块参数 DakaExclude 的默认值是「无」（Surge 不允许空默认值），表示不排除任何账号
+  return String(s || "")
+    .split(/[|,，、]/)
+    .map((x) => x.trim())
+    .filter((x) => x && x !== "无" && x.toLowerCase() !== "none");
 }
 function applyOptions(opts) {
   const bool = (v, dft) => (typeof v === "string" ? v.toLowerCase() !== "false" && v !== "0" : dft);
@@ -517,8 +521,11 @@ function applyOptions(opts) {
 }
 function isDakaExcluded(acc) {
   if (!CONFIG.dakaExclude.length) return false;
+  // 昵称比较时忽略所有空白（手机输入法常在末尾带空格），避免看起来一样却匹配不上
+  const norm = (s) => String(s || "").replace(/\s+/g, "");
+  const nick = norm(acc.nickname);
   return CONFIG.dakaExclude.some(
-    (x) => x === acc.nickname || (acc.uid && x === String(acc.uid))
+    (x) => norm(x) === nick || (acc.uid && x.trim() === String(acc.uid))
   );
 }
 
