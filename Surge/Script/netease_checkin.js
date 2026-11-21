@@ -1,5 +1,6 @@
 /**
- * 网易云音乐自动签到 + VIP 成长值领取 + 听歌打卡 - Surge 脚本 v2
+ * 网易云音乐自动签到 + VIP 成长值领取 + 听歌打卡 - Surge 脚本 v2.1
+ * v2.1 修复：编辑器手动运行时空 $request 被误判为抓 Cookie、返回空 {} 像没反应
  *
  * 触发方式（由 .sgmodule 配置）：
  *  1) http-request：打开网易云 App 时抓 MUSIC_U Cookie 并保存
@@ -226,9 +227,10 @@ async function weapiPost(cookie, path, obj) {
 function captureCookie() {
   const cookie = getHeader($request.headers, "Cookie");
   const musicU = parseCookieValue(cookie, "MUSIC_U");
-  if (!musicU) { $done({}); return; }
+  if (!musicU) { log("请求里没有 MUSIC_U，放行"); $done({}); return; }
   const old = $persistentStore.read(STORE_KEY_MUSIC_U);
-  if (old === musicU) { $done({}); return; }
+  if (old === musicU) { log("Cookie 未变化，跳过"); $done({}); return; }
+  log("已抓到并保存新的 MUSIC_U Cookie");
   $persistentStore.write(cookie, STORE_KEY_COOKIE);
   $persistentStore.write(musicU, STORE_KEY_MUSIC_U);
   notify("Cookie 获取成功 ✅", "登录态已保存，签到 / 成长值 / 打卡都会用它。失效时重新打开 App 即可刷新。");
@@ -412,6 +414,7 @@ function parseMode() {
 async function mainCron() {
   const cookie = $persistentStore.read(STORE_KEY_COOKIE);
   if (!cookie || !parseCookieValue(cookie, "MUSIC_U")) {
+    log("还没有 Cookie，请先打开网易云音乐 App 触发抓取");
     notify("还没有 Cookie ⚠️", "请先打开网易云音乐 App（保持登录），点进「我的」页面触发抓取后再运行。");
     $done();
     return;
@@ -451,7 +454,16 @@ async function mainCron() {
   $done();
 }
 
-if (typeof $request !== "undefined" && $request) {
+// 注意：Surge 编辑器里点「运行」时也会给一个空的 $request（没有 url），
+// 若只判断 $request 是否存在，手动运行会被误判成抓 Cookie，直接 $done({}) 返回空对象，看起来像“没反应”。
+// 因此只有带真实 url 的请求才走抓 Cookie，其余一律走任务流程。
+const IS_REAL_REQUEST =
+  typeof $request !== "undefined" &&
+  $request &&
+  typeof $request.url === "string" &&
+  $request.url.indexOf("163.com") !== -1;
+
+if (IS_REAL_REQUEST) {
   captureCookie();
 } else {
   mainCron();
