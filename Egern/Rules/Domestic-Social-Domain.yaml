@@ -8,10 +8,6 @@ domain_set:
 - tiebac.baidu.com
 - c.tieba.baidu.com
 - tbmsg.baidu.com
-- mp.weixin.qq.com
-- szshort.weixin.qq.com
-- szextshort.weixin.qq.com
-- szminorshort.weixin.qq.com
 - aweme.snssdk.com
 domain_suffix_set:
 - zhihu.com
