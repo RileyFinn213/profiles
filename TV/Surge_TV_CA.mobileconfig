@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>Surge_Generated_CA_7C054E9E.cer</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIDdTCCAl2gAwIBAgIQSaWwyfT6C2vPYd/HEJxt7jANBgkqhkiG
+			9w0BAQsFADBMMSQwIgYDVQQKDBtTdXJnZSBHZW5lcmF0ZWQgQ0Eg
+			N0MwNTRFOUUxJDAiBgNVBAMMG1N1cmdlIEdlbmVyYXRlZCBDQSA3
+			QzA1NEU5RTAeFw0yNjExMDExMTE5MjVaFw0zNjEwMjkxMTE5MjVa
+			MEwxJDAiBgNVBAoMG1N1cmdlIEdlbmVyYXRlZCBDQSA3QzA1NEU5
+			RTEkMCIGA1UEAwwbU3VyZ2UgR2VuZXJhdGVkIENBIDdDMDU0RTlF
+			MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz3GWQ5SA
+			f8Z2Upb1KfgTt3IWVB98wtp8TQGxz6vQ3Y6kVpsfJsOFRXioLppo
+			3BYnTU1z41zsFYFWoLQ4guO7iOfiI9uWeqgvRBdaSGkCh9ZTggA8
+			fZkrkitg2L6JY3urmO2Bj1jrYpYuPTNSSlGcniPkR+BeA0pM/aUd
+			6VniOrVqEkjQg0GgnhgZT/32FNUThcayTB9DztIT2RGpqgCl9VDo
+			PJYZ8ZKrKMw80USwmCJ0hshZffNX3/vlIpHxA6GYMharRoD4BGh9
+			yorDTD8z2JtTaLYLxSirhcXqug5t7J5SZdDL00NMVs3LQ2nc+Tbq
+			uCBy6nGTKikJ6c/dmoc3MwIDAQABo1MwUTAPBgNVHRMBAf8EBTAD
+			AQH/MB0GA1UdDgQWBBQVdoYDkbQDManzQZ8rVTrMheihfTAfBgNV
+			HSMEGDAWgBQVdoYDkbQDManzQZ8rVTrMheihfTANBgkqhkiG9w0B
+			AQsFAAOCAQEAgux+rMNt28i669a5kfEBnypRZRc00V/0z/EQINBl
+			IVyU6F3NaTSYGtCe3xIJVc2H0gCOfBOVY664x8PrLKL5JXAn43M1
+			F34DemxtYFi6J5B0QpSmbaaI5bYXlgx5OjNY2SIEOWmTEio6Gr8o
+			lUJPpLiMF7EuhHy+2xaaNjMgzQTBtuXI3kSBDCAqC8PdeLsVXQQ3
+			PQGrBc2KzFVcHOgRjD7QfFQbH7Iuzq9nwZJo18Nj2sO8qqDrvHtp
+			jTnL8qGHpZIjySF3zvvx7du0AlaQj4DLNErkLpoClzNCj5tMl0Nn
+			YQuk47Wcu0u3yV+AnzfFhxZsdcxQM6xN9d+RaFpqaA==
+			</data>
+			<key>PayloadDescription</key>
+			<string>Surge 根证书 (Surge Generated CA 7C054E9E)</string>
+			<key>PayloadDisplayName</key>
+			<string>Surge Generated CA 7C054E9E</string>
+			<key>PayloadIdentifier</key>
+			<string>local.surge.tvos.ca.cert</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>3879B55F-034E-435E-BE39-C02241ACF4E6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>为 Apple TV 安装 Surge 的根证书，用于 MitM 解密</string>
+	<key>PayloadDisplayName</key>
+	<string>Surge TV CA</string>
+	<key>PayloadIdentifier</key>
+	<string>local.surge.tvos.ca</string>
+	<key>PayloadOrganization</key>
+	<string>Surge</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D6897160-D91A-48E9-8EF2-68BED4D8C347</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
