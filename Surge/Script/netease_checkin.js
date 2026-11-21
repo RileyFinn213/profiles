@@ -34,12 +34,14 @@ const CONFIG = {
   daka: true,             // 是否听歌打卡（mode=daka 或手动运行时）
   dakaTarget: 300,        // 打卡目标：每天最多计入 300 首
   dakaBatch: 50,          // 每批上报的歌曲数
+  dakaExclude: [],        // 不打卡的账号（昵称或 uid 列表），由模块参数 DakaExclude 填入
   maxAccounts: 5,         // 最多保存的账号数
 };
 
 const STORE_KEY_COOKIE = "netease_music_cookie";          // v2 旧版单账号（仅作迁移来源）
 const STORE_KEY_MUSIC_U = "netease_music_music_u";        // v2 旧版单账号（仅作迁移来源）
 const STORE_KEY_ACCOUNTS = "netease_music_accounts_v3";   // v3 多账号列表（JSON）
+const STORE_KEY_DAKA_EXCLUDE = "netease_music_daka_exclude"; // 模块参数里设的「不打卡账号」，存下来供手动运行时也生效
 const TITLE = "网易云音乐";
 
 /* ================= 多账号存储 =================
@@ -495,6 +497,9 @@ function parseArguments() {
   }
   return opts;
 }
+function parseExcludeList(s) {
+  return String(s || "").split(/[|,，、]/).map((x) => x.trim()).filter(Boolean);
+}
 function applyOptions(opts) {
   const bool = (v, dft) => (typeof v === "string" ? v.toLowerCase() !== "false" && v !== "0" : dft);
   CONFIG.sign = bool(opts.enableSign, CONFIG.sign);
@@ -502,6 +507,19 @@ function applyOptions(opts) {
   CONFIG.daka = bool(opts.enableDaka, CONFIG.daka);
   const t = parseInt(opts.dakaTarget, 10);
   if (!isNaN(t)) CONFIG.dakaTarget = Math.max(1, Math.min(300, t));
+  // 不打卡名单：参数里带了就更新存档；没带（编辑器手动运行）就用上次存档，保证手动运行也不会误打被排除的账号
+  if (typeof opts.dakaExclude === "string") {
+    $persistentStore.write(opts.dakaExclude, STORE_KEY_DAKA_EXCLUDE);
+    CONFIG.dakaExclude = parseExcludeList(opts.dakaExclude);
+  } else {
+    CONFIG.dakaExclude = parseExcludeList($persistentStore.read(STORE_KEY_DAKA_EXCLUDE) || "");
+  }
+}
+function isDakaExcluded(acc) {
+  if (!CONFIG.dakaExclude.length) return false;
+  return CONFIG.dakaExclude.some(
+    (x) => x === acc.nickname || (acc.uid && x === String(acc.uid))
+  );
 }
 
 // 跑单个账号，返回 { lines, expired }
@@ -520,12 +538,16 @@ async function runAccount(acc, mode) {
     lines.push(...vip.lines);
   }
   if ((mode === "daka" || mode === "all") && CONFIG.daka) {
-    const daka = await doDaka(cookie);
-    lines.push(...daka.lines);
-    if (mode === "daka" && CONFIG.vipGrowth) {
-      // 打卡可能刚完成 VIP 听歌类任务，顺手领一次
-      const vip = await doVipGrowth(cookie);
-      lines.push(...vip.lines);
+    if (isDakaExcluded(acc)) {
+      lines.push("打卡：本账号在模块参数中被排除，跳过（签到/成长值不受影响）");
+    } else {
+      const daka = await doDaka(cookie);
+      lines.push(...daka.lines);
+      if (mode === "daka" && CONFIG.vipGrowth) {
+        // 打卡可能刚完成 VIP 听歌类任务，顺手领一次
+        const vip = await doVipGrowth(cookie);
+        lines.push(...vip.lines);
+      }
     }
   }
   if (!lines.length) lines.push("本账号相关开关均已关闭，跳过");
@@ -541,6 +563,7 @@ async function mainCron() {
     saveAccounts([]);
     $persistentStore.write("", STORE_KEY_COOKIE);
     $persistentStore.write("", STORE_KEY_MUSIC_U);
+    $persistentStore.write("", STORE_KEY_DAKA_EXCLUDE);
     log("已清空全部账号");
     notify("账号已清空 🗑️", "已删除全部已保存账号。重新打开网易云 App 登录即可逐个重新添加。");
     $done();
