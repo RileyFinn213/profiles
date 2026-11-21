@@ -1,20 +1,23 @@
 #!name=网易云音乐自动签到
-#!desc=自动抓 Cookie，每天签到 + 领取 VIP 成长值，并定时听歌打卡。首次使用需开启 MITM 并打开一次网易云 App 抓 Cookie。脚本地址需替换为你自己托管的地址，见 README。打卡属刷量行为，有风控/封号风险，见 README。
+#!desc=多账号自动签到 + 领取 VIP 成长值 + 听歌打卡。首次使用需开启 MITM 并打开一次网易云 App 抓 Cookie（切号登录可添加多个账号）。功能开关、打卡首数、定时时间均可在下方参数里改。打卡属刷量行为，有风控/封号风险，见 README。
 #!category=签到
 #!author=Muse
 #!homepage=
 #!icon=
+#!arguments=EnableSign:true,EnableVip:true,EnableDaka:true,DakaTarget:300,SignTime:12 8 * * *,DakaTime:23 14 * * *
+#!arguments-desc=EnableSign=每日签到开关；EnableVip=成长值领取开关；EnableDaka=听歌打卡开关（true 开 / false 关）；DakaTarget=每日打卡目标首数（上限 300）；SignTime / DakaTime=定时时间（cron：分 时 日 月 周）。改完参数后请停用再启用一次本模块让定时生效。
 
 # ============================================================
-# 使用前必做：把下面三处 SCRIPT_URL 换成你托管 netease_checkin.js 的真实地址
+# 使用前必做：把下面四处 SCRIPT_URL 换成你托管 netease_checkin.js 的真实地址
 # 例如：https://raw.githubusercontent.com/你的用户名/你的仓库/main/netease_checkin.js
-# 不想打卡：删掉或在 Surge 里禁用「网易云音乐打卡」这条定时脚本即可
+# 若脚本就放在 Surge 本地脚本目录，也可以填本地文件名 netease_checkin.js
 # ============================================================
 
 [Script]
 网易云音乐抓Cookie = type=http-request, pattern=^https?:\/\/(music|interface\.music)\.163\.com\/(weapi|eapi|api)\/, script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, requires-body=false, max-size=0
-网易云音乐签到 = type=cron, cronexp="12 8 * * *", script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, timeout=180, wake-system=true, argument="mode=sign_vip"
-网易云音乐打卡 = type=cron, cronexp="23 14 * * *", script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, timeout=900, wake-system=true, argument="mode=daka"
+网易云音乐签到 = type=cron, cronexp="{{{SignTime}}}", script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, timeout=300, wake-system=true, argument="mode=sign_vip&enableSign={{{EnableSign}}}&enableVip={{{EnableVip}}}"
+网易云音乐打卡 = type=cron, cronexp="{{{DakaTime}}}", script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, timeout=1200, wake-system=true, argument="mode=daka&enableDaka={{{EnableDaka}}}&enableVip={{{EnableVip}}}&dakaTarget={{{DakaTarget}}}"
+网易云音乐账号重置 = type=generic, script-path=SCRIPT_URL, timeout=30, argument="mode=reset_accounts"
 
 [MITM]
 hostname = %APPEND% music.163.com, interface.music.163.com
