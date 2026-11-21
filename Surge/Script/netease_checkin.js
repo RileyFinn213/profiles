@@ -1,12 +1,15 @@
 /**
- * 网易云音乐自动签到 + VIP 成长值领取 + 听歌打卡 - Surge 脚本 v2.1
+ * 网易云音乐自动签到 + VIP 成长值领取 + 听歌打卡 - Surge 脚本 v3
+ * v3 新增：多账号管理（每个登录过的账号各存一份 Cookie，定时任务逐个执行）；
+ *          功能开关/打卡首数改由模块参数（.sgmodule 的 #!arguments）控制，可在 Surge 模块页直接改。
  * v2.1 修复：编辑器手动运行时空 $request 被误判为抓 Cookie、返回空 {} 像没反应
  *
  * 触发方式（由 .sgmodule 配置）：
- *  1) http-request：打开网易云 App 时抓 MUSIC_U Cookie 并保存
- *  2) cron argument="mode=sign_vip"：每天签到（移动端+网页端）+ 领取 VIP 成长值
- *  3) cron argument="mode=daka"：听歌打卡（上报播放日志冲听歌量）+ 顺带领取 VIP 成长值
- *  手动运行（无 argument）时三项全做。
+ *  1) http-request：打开网易云 App 时抓 MUSIC_U Cookie，按账号保存（切号登录会新增一个账号）
+ *  2) cron argument="mode=sign_vip&enableSign=..&enableVip=.."：每天签到 + 领取 VIP 成长值（全部账号）
+ *  3) cron argument="mode=daka&enableDaka=..&dakaTarget=.."：听歌打卡 + 顺带领取成长值（全部账号）
+ *  4) generic argument="mode=reset_accounts"：清空已保存的全部账号（在脚本列表里手动运行）
+ *  手动运行（无 argument）时三项全做，开关默认全开。
  *
  * 说明：
  *  - 签到走明文接口 /api/point/dailyTask，其余任务走 /weapi 接口，
@@ -17,22 +20,79 @@
  *
  * 风险提示：
  *  - 打卡是模拟播放日志上报，属于网易云明令禁止的刷量行为，可能触发 -460 风控，
- *    严重时可能影响账号。请自行评估，默认目标 300 首/天，可在下方调小。
- *  - 本脚本未在真实账号上实测（开发者没有你的 Cookie），首次请手动运行并看通知/日志核对。
+ *    严重时可能影响账号。请自行评估，打卡目标首数在模块参数里可调（默认 300）。
+ *  - 听歌量为次日 14:00 后结算，打卡后立即查听歌数/排行通常看不到变化，属正常。
  */
 
-/* ================= 配置 ================= */
+/* ================= 配置 =================
+ * 默认值；模块参数（$argument 里的 enableSign/enableVip/enableDaka/dakaTarget）会覆盖这里。
+ * 在 Surge 里改开关请去：模块页 -> 本模块 -> 参数，不要直接改代码。
+ */
 const CONFIG = {
+  sign: true,             // 每日签到开关
   vipGrowth: true,        // 是否领取 VIP 成长值
   daka: true,             // 是否听歌打卡（mode=daka 或手动运行时）
   dakaTarget: 300,        // 打卡目标：每天最多计入 300 首
   dakaBatch: 50,          // 每批上报的歌曲数
-  dakaTolerance: 10,      // 今天已打卡到「目标-容忍值」以上就不再打
+  maxAccounts: 5,         // 最多保存的账号数
 };
 
-const STORE_KEY_COOKIE = "netease_music_cookie";
-const STORE_KEY_MUSIC_U = "netease_music_music_u";
+const STORE_KEY_COOKIE = "netease_music_cookie";          // v2 旧版单账号（仅作迁移来源）
+const STORE_KEY_MUSIC_U = "netease_music_music_u";        // v2 旧版单账号（仅作迁移来源）
+const STORE_KEY_ACCOUNTS = "netease_music_accounts_v3";   // v3 多账号列表（JSON）
 const TITLE = "网易云音乐";
+
+/* ================= 多账号存储 =================
+ * accounts: [{ musicU, cookie, uid, nickname, addedAt }]
+ * 以 uid 为账号唯一标识（抓取时查一次资料）：同一账号重新登录只更新 Cookie，不新增。
+ */
+function loadAccounts() {
+  let list = [];
+  try { list = JSON.parse($persistentStore.read(STORE_KEY_ACCOUNTS) || "[]"); } catch (e) { list = []; }
+  if (!Array.isArray(list)) list = [];
+  if (!list.length) {
+    // 从 v2 单账号数据迁移
+    const cookie = $persistentStore.read(STORE_KEY_COOKIE);
+    const musicU = $persistentStore.read(STORE_KEY_MUSIC_U);
+    if (cookie && musicU) {
+      list = [{ musicU, cookie, uid: null, nickname: "", addedAt: 0 }];
+      saveAccounts(list);
+    }
+  }
+  return list;
+}
+function saveAccounts(list) {
+  $persistentStore.write(JSON.stringify(list || []), STORE_KEY_ACCOUNTS);
+}
+// 账号身份以 uid 为准（重新登录 MUSIC_U 会变，但 uid 不变 -> 更新原记录而不是新增）；
+// 拿不到 uid 时退回用 MUSIC_U 匹配。
+function upsertAccount(cookie, musicU, profile) {
+  const list = loadAccounts();
+  const uid = profile && profile.uid;
+  let idx = -1;
+  if (uid) idx = list.findIndex((a) => a.uid === uid);
+  if (idx < 0) idx = list.findIndex((a) => a.musicU === musicU);
+  if (idx >= 0) {
+    list[idx].cookie = cookie;
+    list[idx].musicU = musicU;
+    if (uid) list[idx].uid = uid;
+    if (profile && profile.nickname) list[idx].nickname = profile.nickname;
+    saveAccounts(list);
+    return { list, index: idx, added: false };
+  }
+  list.push({
+    musicU, cookie,
+    uid: uid || null,
+    nickname: (profile && profile.nickname) || "",
+    addedAt: Date.now(),
+  });
+  while (list.length > CONFIG.maxAccounts) list.shift(); // 超上限时移除最早加入的
+  saveAccounts(list);
+  return { list, index: list.length - 1, added: true };
+}
+function accountLabel(acc, idx) {
+  return acc.nickname ? acc.nickname : `账号${idx + 1}`;
+}
 
 /* ================= 基础工具 ================= */
 function notify(subtitle, body) {
@@ -223,17 +283,36 @@ async function weapiPost(cookie, path, obj) {
   return json;
 }
 
-/* ================= 1) 抓 Cookie ================= */
-function captureCookie() {
+/* ================= 1) 抓 Cookie（多账号） ================= */
+async function fetchAccountProfile(cookie) {
+  try {
+    const resp = await weapiPost(cookie, "/weapi/w/nuser/account/get", {});
+    if (resp && resp.code === 200 && resp.profile) {
+      return { uid: resp.profile.userId || null, nickname: resp.profile.nickname || "" };
+    }
+  } catch (e) { /* 拿不到昵称不影响保存 */ }
+  return { uid: null, nickname: "" };
+}
+
+async function captureCookie() {
   const cookie = getHeader($request.headers, "Cookie");
   const musicU = parseCookieValue(cookie, "MUSIC_U");
   if (!musicU) { log("请求里没有 MUSIC_U，放行"); $done({}); return; }
-  const old = $persistentStore.read(STORE_KEY_MUSIC_U);
-  if (old === musicU) { log("Cookie 未变化，跳过"); $done({}); return; }
-  log("已抓到并保存新的 MUSIC_U Cookie");
-  $persistentStore.write(cookie, STORE_KEY_COOKIE);
-  $persistentStore.write(musicU, STORE_KEY_MUSIC_U);
-  notify("Cookie 获取成功 ✅", "登录态已保存，签到 / 成长值 / 打卡都会用它。失效时重新打开 App 即可刷新。");
+
+  const before = loadAccounts();
+  const existing = before.find((a) => a.cookie === cookie);
+  if (existing) { log("Cookie 未变化，跳过"); $done({}); return; }
+
+  // 先查 uid/昵称再落盘：重新登录时 MUSIC_U 会变，靠 uid 认出是同一个账号
+  const profile = await fetchAccountProfile(cookie);
+  const { list, index, added } = upsertAccount(cookie, musicU, profile);
+  const acc = list[index];
+  const label = accountLabel(acc, index);
+  log(`${added ? "新增" : "更新"}账号：${label}（共 ${list.length} 个）`);
+  notify(
+    added ? "新账号已保存 ✅" : "Cookie 已更新 ✅",
+    `${label}（共 ${list.length} 个账号）\n签到 / 成长值 / 打卡会给每个账号都跑。切号登录即可继续添加，最多 ${CONFIG.maxAccounts} 个。`
+  );
   $done({});
 }
 
@@ -325,7 +404,7 @@ async function doDaka(cookie) {
     return { lines: [`打卡：获取等级失败（code ${levelResp && levelResp.code}）`], done: 0 };
   }
   uid = levelResp.data.userId;
-  if (levelResp.full) {
+  if (levelResp.full || levelResp.data.full) {
     return { lines: ["打卡：等级已满，无需打卡"], done: 0 };
   }
   let before = null;
@@ -402,37 +481,44 @@ async function doDaka(cookie) {
   return { lines, done: uploaded };
 }
 
-/* ================= 入口 ================= */
-function parseMode() {
+/* ================= 入口 =================
+ * $argument 形如 "mode=sign_vip&enableSign=true&enableVip=true"，
+ * 由 .sgmodule 的参数表（#!arguments + {{{占位符}}}）在安装/编辑模块时填入。
+ */
+function parseArguments() {
+  const opts = { mode: "all" };
   if (typeof $argument === "string" && $argument) {
-    const m = $argument.match(/mode=([a-z_]+)/);
-    if (m) return m[1];
+    for (const part of $argument.split("&")) {
+      const eq = part.indexOf("=");
+      if (eq > 0) opts[part.slice(0, eq).trim()] = part.slice(eq + 1).trim();
+    }
   }
-  return "all";
+  return opts;
+}
+function applyOptions(opts) {
+  const bool = (v, dft) => (typeof v === "string" ? v.toLowerCase() !== "false" && v !== "0" : dft);
+  CONFIG.sign = bool(opts.enableSign, CONFIG.sign);
+  CONFIG.vipGrowth = bool(opts.enableVip, CONFIG.vipGrowth);
+  CONFIG.daka = bool(opts.enableDaka, CONFIG.daka);
+  const t = parseInt(opts.dakaTarget, 10);
+  if (!isNaN(t)) CONFIG.dakaTarget = Math.max(1, Math.min(300, t));
 }
 
-async function mainCron() {
-  const cookie = $persistentStore.read(STORE_KEY_COOKIE);
-  if (!cookie || !parseCookieValue(cookie, "MUSIC_U")) {
-    log("还没有 Cookie，请先打开网易云音乐 App 触发抓取");
-    notify("还没有 Cookie ⚠️", "请先打开网易云音乐 App（保持登录），点进「我的」页面触发抓取后再运行。");
-    $done();
-    return;
-  }
-  const mode = parseMode();
+// 跑单个账号，返回 { lines, expired }
+async function runAccount(acc, mode) {
   const lines = [];
   let expired = false;
+  const cookie = acc.cookie;
 
-  if (mode === "sign_vip" || mode === "all") {
+  if ((mode === "sign_vip" || mode === "all") && CONFIG.sign) {
     const signResults = await doSign(cookie);
     expired = signResults.some((r) => r.expired);
     lines.push(...signResults.map((r) => `${r.label}签到：${r.msg}`));
-    if (CONFIG.vipGrowth) {
-      const vip = await doVipGrowth(cookie);
-      lines.push(...vip.lines);
-    }
   }
-
+  if ((mode === "sign_vip" || mode === "all") && CONFIG.vipGrowth) {
+    const vip = await doVipGrowth(cookie);
+    lines.push(...vip.lines);
+  }
   if ((mode === "daka" || mode === "all") && CONFIG.daka) {
     const daka = await doDaka(cookie);
     lines.push(...daka.lines);
@@ -442,15 +528,64 @@ async function mainCron() {
       lines.push(...vip.lines);
     }
   }
+  if (!lines.length) lines.push("本账号相关开关均已关闭，跳过");
+  return { lines, expired };
+}
+
+async function mainCron() {
+  const opts = parseArguments();
+  applyOptions(opts);
+  const mode = opts.mode || "all";
+
+  if (mode === "reset_accounts") {
+    saveAccounts([]);
+    $persistentStore.write("", STORE_KEY_COOKIE);
+    $persistentStore.write("", STORE_KEY_MUSIC_U);
+    log("已清空全部账号");
+    notify("账号已清空 🗑️", "已删除全部已保存账号。重新打开网易云 App 登录即可逐个重新添加。");
+    $done();
+    return;
+  }
+
+  const accounts = loadAccounts().filter((a) => a.cookie && parseCookieValue(a.cookie, "MUSIC_U"));
+  if (!accounts.length) {
+    log("还没有账号 Cookie，请先打开网易云音乐 App 触发抓取");
+    notify("还没有账号 ⚠️", "请先打开网易云音乐 App（保持登录），点进「我的」页面触发抓取后再运行。每个登录过的账号都会被保存。");
+    $done();
+    return;
+  }
+
+  const allLines = [];
+  let anyExpired = false;
+  for (let i = 0; i < accounts.length; i++) {
+    const acc = accounts[i];
+    // 老账号（迁移来的）还没昵称时补查一次
+    if (!acc.nickname) {
+      const profile = await fetchAccountProfile(acc.cookie);
+      if (profile.nickname || profile.uid) {
+        acc.nickname = profile.nickname;
+        acc.uid = profile.uid;
+        saveAccounts(accounts);
+      }
+    }
+    const label = accountLabel(acc, i);
+    try {
+      const r = await runAccount(acc, mode);
+      if (r.expired) anyExpired = true;
+      allLines.push(`【${label}】`);
+      allLines.push(...r.lines);
+      if (r.expired) allLines.push("⚠️ 该账号 Cookie 已失效，请在 App 里切到该账号重新登录一次");
+    } catch (e) {
+      allLines.push(`【${label}】执行出错：${e && e.message ? e.message : e}`);
+    }
+  }
 
   const title =
     mode === "daka" ? "打卡完成 🎧" : mode === "sign_vip" ? "签到完成 ✅" : "全部任务完成 ✅";
-  if (expired) {
-    notify("Cookie 已失效 ❌", lines.join("\n") + "\n请重新打开网易云音乐 App 刷新登录态。");
-  } else {
-    notify(title, lines.join("\n"));
-  }
-  log(lines.join(" | "));
+  let body = allLines.join("\n");
+  log(allLines.join(" | "));
+  if (body.length > 1400) body = body.slice(0, 1400) + "\n…（内容较长，完整结果见 Surge 脚本日志）";
+  notify(anyExpired ? "部分账号 Cookie 已失效 ⚠️" : title, body);
   $done();
 }
 
@@ -464,7 +599,7 @@ const IS_REAL_REQUEST =
   $request.url.indexOf("163.com") !== -1;
 
 if (IS_REAL_REQUEST) {
-  captureCookie();
+  captureCookie().catch((e) => { log(`抓 Cookie 出错：${e && e.message}`); $done({}); });
 } else {
-  mainCron();
+  mainCron().catch((e) => { log(`执行出错：${e && e.message}`); $done(); });
 }
