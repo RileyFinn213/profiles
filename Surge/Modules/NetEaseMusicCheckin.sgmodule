@@ -4,7 +4,7 @@
 #!author=Muse
 #!homepage=
 #!icon=
-#!arguments=EnableSign:true,EnableVip:true,EnableDaka:true,DakaTarget:300,DakaExclude:,SignTime:12 8 * * *,DakaTime:23 14 * * *
+#!arguments=EnableSign:true,EnableVip:true,EnableDaka:true,DakaTarget:300,DakaExclude,SignTime:12 8 * * *,DakaTime:23 14 * * *
 #!arguments-desc=EnableSign=每日签到开关；EnableVip=成长值领取开关；EnableDaka=听歌打卡总开关（true 开 / false 关）；DakaTarget=每日打卡目标首数（上限 300）；DakaExclude=不打卡的账号昵称（填通知里显示的昵称，多个用 | 隔开，如 大号昵称；被排除的账号仍会签到和领成长值，只是跳过打卡；留空=全部账号都打卡）；SignTime / DakaTime=定时时间（cron：分 时 日 月 周）。改完参数后请停用再启用一次本模块让定时生效。
 
 # ============================================================
