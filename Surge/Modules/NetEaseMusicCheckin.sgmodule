@@ -12,9 +12,9 @@
 # ============================================================
 
 [Script]
-网易云音乐抓Cookie = type=http-request, pattern=^https?:\/\/(music|interface\.music)\.163\.com\/(weapi|eapi|api)\/, script-path=SCRIPT_URL, requires-body=false, max-size=0
-网易云音乐签到 = type=cron, cronexp="12 8 * * *", script-path=SCRIPT_URL, timeout=180, wake-system=true, argument="mode=sign_vip"
-网易云音乐打卡 = type=cron, cronexp="23 14 * * *", script-path=SCRIPT_URL, timeout=900, wake-system=true, argument="mode=daka"
+网易云音乐抓Cookie = type=http-request, pattern=^https?:\/\/(music|interface\.music)\.163\.com\/(weapi|eapi|api)\/, script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, requires-body=false, max-size=0
+网易云音乐签到 = type=cron, cronexp="12 8 * * *", script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, timeout=180, wake-system=true, argument="mode=sign_vip"
+网易云音乐打卡 = type=cron, cronexp="23 14 * * *", script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Script/netease_checkin.js, timeout=900, wake-system=true, argument="mode=daka"
 
 [MITM]
 hostname = %APPEND% music.163.com, interface.music.163.com
