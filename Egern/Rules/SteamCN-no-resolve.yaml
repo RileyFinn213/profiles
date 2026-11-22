@@ -1,5 +1,3 @@
-# Source: Surge/Rules/SteamCN.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/SteamCN.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list
+# Cleaned 2026-11-22: removed 6 cross-group entries (see audit report)
 no_resolve: true

@@ -1,6 +1,3 @@
-# Source: Surge/Rules/Disney+.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Disney+.list
-# Source: Rabbit-Spec/Surge/Rules/Disney.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 no_resolve: true

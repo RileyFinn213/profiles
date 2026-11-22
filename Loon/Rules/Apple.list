@@ -1,9 +1,5 @@
-# Source: Surge/Rules/Apple.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Apple.list
-# Source: Rabbit-Spec/Surge/Rules/Apple.list
-# Preserve upstream attribution and usage requirements.
-# Bind policy at import; process rules are ignored on iOS/tvOS.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com.cn
@@ -837,7 +833,6 @@ DOMAIN-SUFFIX,coolmonster.net
 DOMAIN-SUFFIX,coreml.net
 DOMAIN-SUFFIX,cozydrdrebeats.com
 DOMAIN-SUFFIX,cqcorea.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,cuffiesaldi.com
 DOMAIN-SUFFIX,cups.org
 DOMAIN-SUFFIX,custom-iphonecase.com
@@ -1566,11 +1561,6 @@ DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,icoudo
 DOMAIN-KEYWORD,icoudos
 DOMAIN-KEYWORD,testflight
-USER-AGENT,AppleNews*
-USER-AGENT,AppleTV*
-USER-AGENT,com.apple.news*
-USER-AGENT,com.apple.trustd*
-USER-AGENT,com.apple.tv*
 IP-CIDR,139.178.128.0/18,no-resolve
 IP-CIDR,144.178.0.0/19,no-resolve
 IP-CIDR,144.178.36.0/22,no-resolve
@@ -1591,8 +1581,6 @@ PROCESS-NAME,com.apple.geod
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,fmfd
 PROCESS-NAME,mapspushd
-
-# MagicRule 域名补充
 DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net

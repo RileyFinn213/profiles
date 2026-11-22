@@ -1,8 +1,5 @@
-# Source: Surge/Rules/Disney+.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Disney+.list
-# Source: Rabbit-Spec/Surge/Rules/Disney.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-suffix, disneyplus.com, proxy
 host-suffix, disney-plus.net, proxy
@@ -29,7 +26,6 @@ host-suffix, adobedtm.com, proxy
 host-suffix, adventuresbydisney.com, proxy
 host-suffix, babble.com, proxy
 host-suffix, babyzone.com, proxy
-host-suffix, bam.nr-data.net, proxy
 host-suffix, bamtech.net, proxy
 host-suffix, beautyandthebeastmusical.co.uk, proxy
 host-suffix, braze.com, proxy
@@ -194,7 +190,6 @@ host-suffix, huluteam.com, proxy
 host-suffix, hulutv.com, proxy
 host-suffix, huluusa.com, proxy
 host-suffix, joinmaidez.com, proxy
-host-suffix, js-agent.newrelic.com, proxy
 host-suffix, lucasfilm.com, proxy
 host-suffix, marvel.com, proxy
 host-suffix, marvel10thanniversary.com, proxy
@@ -243,5 +238,5 @@ host-suffix, waltdisneystudios.com, proxy
 host-suffix, watchdisneyfe.com, proxy
 host-suffix, watchespn.com, proxy
 host-suffix, wwwhuluplus.com, proxy
-# OMITTED (unsupported condition): PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
-# OMITTED (unsupported condition): PROCESS-NAME,com.disney.disneyplus
+# OMITTED (process condition unsupported): PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
+# OMITTED (process condition unsupported): PROCESS-NAME,com.disney.disneyplus

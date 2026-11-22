@@ -1,6 +1,5 @@
-# Source: Surge/Rules/AI-Global.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list
+# Cleaned 2026-11-22: removed 10 cross-group entries (see audit report)
 no_resolve: true
 ip_cidr_set:
 - 160.79.104.0/23

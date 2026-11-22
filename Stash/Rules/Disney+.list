@@ -1,9 +1,5 @@
-# Source: Surge/Rules/Disney+.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Disney+.list
-# Source: Rabbit-Spec/Surge/Rules/Disney.list
-# Preserve upstream attribution and usage requirements.
-# Classical text rule provider.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneymedia.com
@@ -29,7 +25,6 @@ DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adventuresbydisney.com
 DOMAIN-SUFFIX,babble.com
 DOMAIN-SUFFIX,babyzone.com
-DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,bamtech.net
 DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk
 DOMAIN-SUFFIX,braze.com
@@ -194,7 +189,6 @@ DOMAIN-SUFFIX,huluteam.com
 DOMAIN-SUFFIX,hulutv.com
 DOMAIN-SUFFIX,huluusa.com
 DOMAIN-SUFFIX,joinmaidez.com
-DOMAIN-SUFFIX,js-agent.newrelic.com
 DOMAIN-SUFFIX,lucasfilm.com
 DOMAIN-SUFFIX,marvel.com
 DOMAIN-SUFFIX,marvel10thanniversary.com

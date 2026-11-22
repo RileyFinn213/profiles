@@ -1,5 +1,5 @@
-# Source: Surge/Rules/NeteaseMusic.list
-# Synced from this repository; preserve upstream attribution and usage terms.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NeteaseMusic.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 no_resolve: true
 ip_cidr_set:
 - 47.100.127.239/32

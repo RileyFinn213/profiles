@@ -1,4 +1,5 @@
 # Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list
+# Cleaned 2026-11-22: removed 10 cross-group entries (see audit report)
 payload:
 - DOMAIN,bard.google.com
 - DOMAIN,ai.google.dev
@@ -33,21 +34,12 @@ payload:
 - DOMAIN-SUFFIX,ai.microsoft.com
 - DOMAIN-SUFFIX,openai.azure.com
 - DOMAIN-SUFFIX,openaicom.imgix.net
-- DOMAIN-SUFFIX,azureedge.net
-- DOMAIN-SUFFIX,msn.com
-- DOMAIN-SUFFIX,msn.cn
 - DOMAIN-SUFFIX,edge.microsoft.com
 - DOMAIN-SUFFIX,sydney.bing.com
 - DOMAIN-SUFFIX,copilot.microsoft365.com
-- DOMAIN-SUFFIX,edgeservices.bing.com.edgekey.net
-- DOMAIN-SUFFIX,skype.com
-- DOMAIN-SUFFIX,skypeassets.com
 - DOMAIN,chat.bing.com
 - DOMAIN,edgeservices.bing.com
 - DOMAIN,api.bing.microsoft.com
-- DOMAIN-SUFFIX,googleapis.com
-- DOMAIN-SUFFIX,gstatic.com
-- DOMAIN-SUFFIX,googleusercontent.com
 - DOMAIN-SUFFIX,grok.com
 - DOMAIN-SUFFIX,x-ai.com
 - DOMAIN-SUFFIX,xai.com
@@ -330,7 +322,6 @@ payload:
 - DOMAIN-SUFFIX,flow.google
 - DOMAIN-SUFFIX,flow.google.com
 - DOMAIN-SUFFIX,gateway.ai.cloudflare.com
-- DOMAIN-SUFFIX,githubcopilot.com
 - DOMAIN-SUFFIX,grok.x.com
 - DOMAIN-SUFFIX,grokipedia.com
 - DOMAIN-SUFFIX,h2o.ai

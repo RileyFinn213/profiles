@@ -1,5 +1,5 @@
-# Source: Rabbit-Spec/Surge/Rules/Game.list
-# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 DOMAIN,a.ppy.sh
 DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
 DOMAIN,assets.ppy.sh
@@ -146,7 +146,6 @@ DOMAIN-SUFFIX,clashmini.com
 DOMAIN-SUFFIX,clashofclans.com
 DOMAIN-SUFFIX,clashroyale.com
 DOMAIN-SUFFIX,clashroyaleapp.com
-DOMAIN-SUFFIX,client-update.queniuqe.com
 DOMAIN-SUFFIX,cncrivals.com
 DOMAIN-SUFFIX,commandandconquer.com
 DOMAIN-SUFFIX,conquerwithcharacter.com
@@ -704,8 +703,6 @@ DOMAIN-SUFFIX,zenlesszonezero.com
 DOMAIN-SUFFIX,zynga.com
 DOMAIN-SUFFIX,zyngaplayersupport.com
 DOMAIN-SUFFIX,zyngapoker.com
-
-# MagicRule 域名补充
 DOMAIN,assets-www.xbox.com
 DOMAIN,assets.play.xbox.com
 DOMAIN,assets1.xboxlive.com

@@ -1,6 +1,5 @@
-# Source: Surge/Rules/AI-China.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
+# Cleaned 2026-11-22: removed 4 ByteDance shared-infra entries (kept only in TikTok set, per user decision)
 no_resolve: true
 asn_set:
 - AS138692

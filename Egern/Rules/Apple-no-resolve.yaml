@@ -1,8 +1,5 @@
-# Source: Surge/Rules/Apple.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Apple.list
-# Source: Rabbit-Spec/Surge/Rules/Apple.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 no_resolve: true
 ip_cidr_set:
 - 17.0.0.0/8

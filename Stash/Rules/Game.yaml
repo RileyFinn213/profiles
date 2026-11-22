@@ -1,4 +1,5 @@
 # Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 payload:
 - DOMAIN,a.ppy.sh
 - DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
@@ -146,7 +147,6 @@ payload:
 - DOMAIN-SUFFIX,clashofclans.com
 - DOMAIN-SUFFIX,clashroyale.com
 - DOMAIN-SUFFIX,clashroyaleapp.com
-- DOMAIN-SUFFIX,client-update.queniuqe.com
 - DOMAIN-SUFFIX,cncrivals.com
 - DOMAIN-SUFFIX,commandandconquer.com
 - DOMAIN-SUFFIX,conquerwithcharacter.com

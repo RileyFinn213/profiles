@@ -1,5 +1,5 @@
-# Source: Rabbit-Spec/Surge/Rules/Game.list
-# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 domain_set:
 - a.ppy.sh
 - a4e8s8k3.map2.ssl.hwcdn.net
@@ -179,7 +179,6 @@ domain_suffix_set:
 - clashofclans.com
 - clashroyale.com
 - clashroyaleapp.com
-- client-update.queniuqe.com
 - cncrivals.com
 - commandandconquer.com
 - conquerwithcharacter.com

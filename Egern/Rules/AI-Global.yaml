@@ -1,4 +1,5 @@
-# AI-Global; includes former AIGC incremental endpoints.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list
+# Cleaned 2026-11-22: removed 10 cross-group entries (see audit report)
 domain_set:
 - bard.google.com
 - ai.google.dev
@@ -214,18 +215,9 @@ domain_suffix_set:
 - ai.microsoft.com
 - openai.azure.com
 - openaicom.imgix.net
-- azureedge.net
-- msn.com
-- msn.cn
 - edge.microsoft.com
 - sydney.bing.com
 - copilot.microsoft365.com
-- edgeservices.bing.com.edgekey.net
-- skype.com
-- skypeassets.com
-- googleapis.com
-- gstatic.com
-- googleusercontent.com
 - grok.com
 - x-ai.com
 - xai.com
@@ -323,7 +315,6 @@ domain_suffix_set:
 - flow.google
 - flow.google.com
 - gateway.ai.cloudflare.com
-- githubcopilot.com
 - grok.x.com
 - grokipedia.com
 - h2o.ai
@@ -374,6 +365,6 @@ domain_keyword_set:
 - generativeai
 - grok-api
 domain_regex_set:
-- (?i)^(?=.*chatgpt\-async\-webps\-prod\-.*)(?=(?:.*\.)?webpubsub\.azure\.com$).*$
-- (?i)^(?=.*openaicom\-api\-.*)(?=(?:.*\.)?azurefd\.net$).*$
-- (?i)^(?=.*antigravity\-auto\-updater\-.*)(?=(?:.*\.)?run\.app$).*$
+- (?i)^(?=.*chatgpt\-async\-webps\-prod\-)(?=(?:.*\.)?webpubsub\.azure\.com$).*$
+- (?i)^(?=.*openaicom\-api\-)(?=(?:.*\.)?azurefd\.net$).*$
+- (?i)^(?=.*antigravity\-auto\-updater\-)(?=(?:.*\.)?run\.app$).*$

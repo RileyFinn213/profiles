@@ -1,9 +1,5 @@
-# 网易云音乐独立分流规则；策略由配置引用指定。
-# 文件内语义去重；保留与国内总集的重叠，避免破坏独立分类用途。
-USER-AGENT,NeteaseMusic*
-USER-AGENT,网易云音乐*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-DOMAIN,iadmat.nosdn.127.net
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NeteaseMusic.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,163yun.com
@@ -13,7 +9,6 @@ DOMAIN-SUFFIX,mam.netease.com
 DOMAIN-SUFFIX,music.126.com
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com.163jiasu.com
-DOMAIN-SUFFIX,yunxinfw.com
 IP-CIDR,47.100.127.239/32,no-resolve
 IP-CIDR,118.24.63.156/32,no-resolve
 IP-CIDR,193.112.159.225/32,no-resolve

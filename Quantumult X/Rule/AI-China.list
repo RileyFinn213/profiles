@@ -1,12 +1,10 @@
-# Source: Surge/Rules/AI-China.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
+# Cleaned 2026-11-22: removed 4 ByteDance shared-infra entries (kept only in TikTok set, per user decision)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-keyword, deepseek, proxy
 host-suffix, deepseek.com, proxy
 host-suffix, deepseek.ai, proxy
 host-suffix, deepseek-static.com, proxy
-host-suffix, bytegecko.com, proxy
 host-suffix, volces.com, proxy
 host-suffix, volcengine.com, proxy
 host, chat.gecko-pas.com, proxy
@@ -22,9 +20,6 @@ host-suffix, volcengine.cn, proxy
 host-keyword, rtc-vcloud, proxy
 host-keyword, volc-rtc, proxy
 host-keyword, volcengine-rtc, proxy
-host-suffix, byteoversea.com, proxy
-host-suffix, ibyteimg.com, proxy
-host-suffix, snssdk.com, proxy
 host-suffix, bytedance.com, proxy
 ip-asn, 138692, proxy
 ip-asn, 204454, proxy
@@ -37,8 +32,6 @@ host, api.siliconflow.cn, proxy
 host, api.minimax.cn, proxy
 host, dashscope.aliyuncs.com, proxy
 host, token-plan-cn.xiaomimimo.com, proxy
-
-# MagicRule 域名补充
 host, api.minimaxi.com, proxy
 host, yiyan.baidu.com, proxy
 host-suffix, ai-indeed.com, proxy

@@ -1,8 +1,5 @@
-# Source: Surge/Rules/Microsoft.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Microsoft.list
-# Source: Rabbit-Spec/Surge/Rules/Microsoft.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list
+# Cleaned 2026-11-22: removed 83 cross-group entries (see audit report)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-suffix, microsoft.com, proxy
 host-suffix, live.com, proxy
@@ -44,13 +41,6 @@ host-suffix, bing.com, proxy
 host-suffix, bing.net, proxy
 host-suffix, bingimages.net, proxy
 host-suffix, edgeservices.bing.com.edgekey.net, proxy
-host, github-api.arkoselabs.com, proxy
-host, github-cloud.s3.amazonaws.com, proxy
-host, github-production-release-asset-2e65be.s3.amazonaws.com, proxy
-host, github-production-repository-file-5c1aeb.s3.amazonaws.com, proxy
-host, github-production-repository-image-32fea6.s3.amazonaws.com, proxy
-host, github-production-upload-manifest-file-7fdce7.s3.amazonaws.com, proxy
-host, github-production-user-asset-6210df.s3.amazonaws.com, proxy
 host, vsmarketplacebadge.apphb.com, proxy
 host-suffix, 1drv.com, proxy
 host-suffix, 21vbc.com, proxy
@@ -68,7 +58,6 @@ host-suffix, adaptivecards.io, proxy
 host-suffix, aggresmart.com, proxy
 host-suffix, aicscience.com, proxy
 host-suffix, aka.ms, proxy
-host-suffix, akadns.net, proxy
 host-suffix, ankarazirvesi2018.com, proxy
 host-suffix, api-extractor.com, proxy
 host-suffix, apihub-internal.cn, proxy
@@ -80,7 +69,6 @@ host-suffix, appserviceenvironment.cn, proxy
 host-suffix, aria.ms, proxy
 host-suffix, asp.net, proxy
 host-suffix, assets-yammer.com, proxy
-host-suffix, atom.io, proxy
 host-suffix, azchcdna.com, proxy
 host-suffix, azchcdnb.com, proxy
 host-suffix, azchcdnc.com, proxy
@@ -178,10 +166,6 @@ host-suffix, b.akamaiedge.net, proxy
 host-suffix, b2clogin.cn, proxy
 host-suffix, b3itech.cn, proxy
 host-suffix, bbing.com, proxy
-host-suffix, beth.games, proxy
-host-suffix, bethesda.net, proxy
-host-suffix, bethesdagamestudios.com, proxy
-host-suffix, bethsoft.com, proxy
 host-suffix, bibg.com, proxy
 host-suffix, biing.com, proxy
 host-suffix, binads.com, proxy
@@ -222,7 +206,6 @@ host-suffix, botframework.com, proxy
 host-suffix, brazilpartneruniversity.com, proxy
 host-suffix, breakdown.me, proxy
 host-suffix, c-msedge.net, proxy
-host-suffix, callersbane.com, proxy
 host-suffix, cegid-cloud.cn, proxy
 host-suffix, centralvalidation.com, proxy
 host-suffix, ch9.ms, proxy
@@ -236,7 +219,6 @@ host-suffix, cloudapp.net, proxy
 host-suffix, cloudappsecurity.com, proxy
 host-suffix, codethemicrobit.com, proxy
 host-suffix, copilot-stg.com, proxy
-host-suffix, copilot.com, proxy
 host-suffix, cortana.ai, proxy
 host-suffix, cortanaanalytics.com, proxy
 host-suffix, cortanaskills.com, proxy
@@ -247,13 +229,11 @@ host-suffix, crmdynint.com, proxy
 host-suffix, crossborderexpansion.com, proxy
 host-suffix, cs11.wpc.v0cdn.net, proxy
 host-suffix, cs9.wac.phicdn.net, proxy
-host-suffix, dependabot.com, proxy
 host-suffix, devopsassessment.net, proxy
 host-suffix, devopsms.com, proxy
 host-suffix, dictate.ms, proxy
 host-suffix, discoverbing.com, proxy
 host-suffix, docs.com, proxy
-host-suffix, doom.com, proxy
 host-suffix, dot.net, proxy
 host-suffix, dwh5.com, proxy
 host-suffix, dynamics.cn, proxy
@@ -261,7 +241,6 @@ host-suffix, dynamics.com, proxy
 host-suffix, e-msedge.net, proxy
 host-suffix, edgesuite.net, proxy
 host-suffix, efproject.net, proxy
-host-suffix, elderscrolls.com, proxy
 host-suffix, engkoo.com, proxy
 host-suffix, evoke-windowsservices-tas.msedge, proxy
 host-suffix, exp-tas.com, proxy
@@ -272,12 +251,7 @@ host-suffix, femalefounderscomp.com, proxy
 host-suffix, flipwithsurface.com, proxy
 host-suffix, fluidpreview.com, proxy
 host-suffix, footprintdns.com, proxy
-host-suffix, forza.net, proxy
-host-suffix, forzamotorsport.net, proxy
-host-suffix, forzaracingchampionship.com, proxy
-host-suffix, forzarc.com, proxy
 host-suffix, g.akamaiedge.net, proxy
-host-suffix, gamepass.com, proxy
 host-suffix, gamesstack.com, proxy
 host-suffix, gameuxmasterguide.com, proxy
 host-suffix, gears5.com, proxy
@@ -285,33 +259,12 @@ host-suffix, gearspop.com, proxy
 host-suffix, gearstactics.com, proxy
 host-suffix, getmicrosoftkey.com, proxy
 host-suffix, gfx.ms, proxy
-host-suffix, gh.io, proxy
-host-suffix, ghcr.io, proxy
-host-suffix, ghe.com, proxy
 host-suffix, gigjam.com, proxy
-host-suffix, git.io, proxy
-host-suffix, github.ai, proxy
-host-suffix, github.blog, proxy
-host-suffix, github.career, proxy
-host-suffix, github.com, proxy
-host-suffix, github.community, proxy
-host-suffix, github.dev, proxy
-host-suffix, github.io, proxy
-host-suffix, githubapp.com, proxy
-host-suffix, githubassets.com, proxy
-host-suffix, githubcopilot.com, proxy
-host-suffix, githubhackathon.com, proxy
-host-suffix, githubnext.com, proxy
-host-suffix, githubpreview.dev, proxy
-host-suffix, githubstatus.com, proxy
 host-suffix, githubsupport.com, proxy
-host-suffix, githubuniverse.com, proxy
-host-suffix, githubusercontent.com, proxy
 host-suffix, gotcosmos.com, proxy
 host-suffix, graphengine.io, proxy
 host-suffix, groupme.com, proxy
 host-suffix, hdinsightservices.cn, proxy
-host-suffix, helpshift.com, proxy
 host-suffix, here.com, proxy
 host-suffix, here.net, proxy
 host-suffix, heremaps.cn, proxy
@@ -352,7 +305,6 @@ host-suffix, live.net, proxy
 host-suffix, livefilestore.com, proxy
 host-suffix, livetileedge.dsx.mp.microsoft.com.edgekey.net, proxy
 host-suffix, livingyourambition.com, proxy
-host-suffix, localytics.com, proxy
 host-suffix, lync.cn, proxy
 host-suffix, lync.com, proxy
 host-suffix, m12.vc, proxy
@@ -501,14 +453,9 @@ host-suffix, microsofttranslator-int.cn, proxy
 host-suffix, microsofttranslator.com, proxy
 host-suffix, microsoftusercontent.com, proxy
 host-suffix, microsoftuwp.com, proxy
-host-suffix, minecraft-services.net, proxy
-host-suffix, minecraft.net, proxy
-host-suffix, minecraftservices.com, proxy
-host-suffix, minecraftshop.com, proxy
 host-suffix, mmais.com.cn, proxy
 host-suffix, mmdnn.com, proxy
 host-suffix, mncmsidlab1.cn, proxy
-host-suffix, mojang.com, proxy
 host-suffix, momentumms.com, proxy
 host-suffix, mono-project.com, proxy
 host-suffix, morphcharts.com, proxy
@@ -516,7 +463,6 @@ host-suffix, mpnevolution.com, proxy
 host-suffix, ms-studiosmedia.com, proxy
 host-suffix, ms365surfaceoffer.com, proxy
 host-suffix, msa.akadns6.net, proxy
-host-suffix, msads.net, proxy
 host-suffix, msappproxy.cn, proxy
 host-suffix, msappproxy.net, proxy
 host-suffix, msauth.cn, proxy
@@ -571,12 +517,8 @@ host-suffix, msxiaona.cn, proxy
 host-suffix, mwf-service.akamaized.net, proxy
 host-suffix, myhomemsn.com, proxy
 host-suffix, mymicrosoft.com, proxy
-host-suffix, myoctocat.com, proxy
 host-suffix, nelreports.net, proxy
 host-suffix, nextechafrica.net, proxy
-host-suffix, npm.community, proxy
-host-suffix, npmjs.com, proxy
-host-suffix, npmjs.org, proxy
 host-suffix, nuget.org, proxy
 host-suffix, nugettest.org, proxy
 host-suffix, nxta.org, proxy
@@ -586,7 +528,6 @@ host-suffix, o365weve-dev.com, proxy
 host-suffix, o365weve-ppe.com, proxy
 host-suffix, o365weve.com, proxy
 host-suffix, oaspapps.com, proxy
-host-suffix, octocaptcha.com, proxy
 host-suffix, office, proxy
 host-suffix, office365-net.cn, proxy
 host-suffix, office365.cn, proxy
@@ -609,11 +550,9 @@ host-suffix, onenote.net, proxy
 host-suffix, onestore.ms, proxy
 host-suffix, onmicrosoft.com, proxy
 host-suffix, onmschina.cn, proxy
-host-suffix, opensource.guide, proxy
 host-suffix, opentranslatorstothings.org, proxy
 host-suffix, opticsforthecloud.net, proxy
 host-suffix, optimizely.com, proxy
-host-suffix, orithegame.com, proxy
 host-suffix, osdinfra.net, proxy
 host-suffix, outingsapp.com, proxy
 host-suffix, outlook.cn, proxy
@@ -645,8 +584,6 @@ host-suffix, pxt.io, proxy
 host-suffix, reactorms.com.cn, proxy
 host-suffix, renlifang.com, proxy
 host-suffix, renovacionoffice.com, proxy
-host-suffix, renovacionxboxlive.com, proxy
-host-suffix, repo.new, proxy
 host-suffix, s-dc-msedge.net, proxy
 host-suffix, s-microsoft.com, proxy
 host-suffix, s-msedge.net, proxy
@@ -688,10 +625,7 @@ host-suffix, sysinternals.com, proxy
 host-suffix, t-msedge.net, proxy
 host-suffix, tailwindtraders.com, proxy
 host-suffix, techhub.ms, proxy
-host-suffix, tellmewhygame.com, proxy
-host-suffix, tenor.com, proxy
 host-suffix, tfsallin.net, proxy
-host-suffix, thegithubshop.com, proxy
 host-suffix, timelinestoryteller.com, proxy
 host-suffix, trafficmanager.cn, proxy
 host-suffix, trafficmanager.net, proxy
@@ -744,35 +678,12 @@ host-suffix, wlxrs.com, proxy
 host-suffix, working-bing-int.com, proxy
 host-suffix, wunderlist.com, proxy
 host-suffix, xamarin.com, proxy
-host-suffix, xbox, proxy
-host-suffix, xbox.co, proxy
-host-suffix, xbox.com, proxy
-host-suffix, xbox.eu, proxy
-host-suffix, xbox.org, proxy
-host-suffix, xbox360.co, proxy
-host-suffix, xbox360.com, proxy
-host-suffix, xbox360.eu, proxy
-host-suffix, xbox360.org, proxy
-host-suffix, xboxab.com, proxy
-host-suffix, xboxgamepass.com, proxy
-host-suffix, xboxgamestudios.com, proxy
 host-suffix, xboxlive.cn, proxy
-host-suffix, xboxlive.com, proxy
-host-suffix, xboxone.co, proxy
-host-suffix, xboxone.com, proxy
-host-suffix, xboxone.eu, proxy
-host-suffix, xboxplayanywhere.com, proxy
-host-suffix, xboxservices.com, proxy
-host-suffix, xboxstudios.com, proxy
-host-suffix, xbx.lv, proxy
 host-suffix, yammer.com, proxy
 host-suffix, yammerusercontent.com, proxy
 host-keyword, 1drv, proxy
 host-keyword, microsoft, proxy
 host-keyword, onedrive, proxy
 host-keyword, skydrive, proxy
-user-agent, Microsoft*, proxy
-user-agent, OneDrive*, proxy
-user-agent, OneDriveiOSApp*, proxy
-# OMITTED (unsupported condition): PROCESS-NAME,OneDrive
-# OMITTED (unsupported condition): PROCESS-NAME,OneDriveUpdater
+# OMITTED (process condition unsupported): PROCESS-NAME,OneDrive
+# OMITTED (process condition unsupported): PROCESS-NAME,OneDriveUpdater

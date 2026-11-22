@@ -1,6 +1,5 @@
-# Source: Surge/Rules/AI-Global.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-Global.list
+# Cleaned 2026-11-22: removed 10 cross-group entries (see audit report)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host, bard.google.com, proxy
 host, ai.google.dev, proxy
@@ -35,21 +34,12 @@ host-suffix, bingimages.microsoft.com, proxy
 host-suffix, ai.microsoft.com, proxy
 host-suffix, openai.azure.com, proxy
 host-suffix, openaicom.imgix.net, proxy
-host-suffix, azureedge.net, proxy
-host-suffix, msn.com, proxy
-host-suffix, msn.cn, proxy
 host-suffix, edge.microsoft.com, proxy
 host-suffix, sydney.bing.com, proxy
 host-suffix, copilot.microsoft365.com, proxy
-host-suffix, edgeservices.bing.com.edgekey.net, proxy
-host-suffix, skype.com, proxy
-host-suffix, skypeassets.com, proxy
 host, chat.bing.com, proxy
 host, edgeservices.bing.com, proxy
 host, api.bing.microsoft.com, proxy
-host-suffix, googleapis.com, proxy
-host-suffix, gstatic.com, proxy
-host-suffix, googleusercontent.com, proxy
 host-suffix, grok.com, proxy
 host-suffix, x-ai.com, proxy
 host-suffix, xai.com, proxy
@@ -286,8 +276,6 @@ host-suffix, meta.ai, proxy
 host-suffix, metaaiusercontent.com, proxy
 host, gateway.ai.cloudflare.com, proxy
 host, api.together.xyz, proxy
-
-# MagicRule 域名补充
 host, copilot-workspace.githubnext.com, proxy
 host, copilotprodattachments.blob.core.windows.net, proxy
 host, openaiassets.blob.core.windows.net, proxy
@@ -334,7 +322,6 @@ host-suffix, envatousercontent.com, proxy
 host-suffix, flow.google, proxy
 host-suffix, flow.google.com, proxy
 host-suffix, gateway.ai.cloudflare.com, proxy
-host-suffix, githubcopilot.com, proxy
 host-suffix, grok.x.com, proxy
 host-suffix, grokipedia.com, proxy
 host-suffix, h2o.ai, proxy

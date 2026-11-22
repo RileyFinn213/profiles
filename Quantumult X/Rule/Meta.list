@@ -1,7 +1,6 @@
-# Source: Rabbit-Spec/Surge/Rules/Meta.list
-# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
-# Native Quantumult X; bind actual policy with force-policy.
-host-suffix, atdmt.com, proxy
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Meta.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-suffix, meta.vc, proxy
 host-suffix, whatsappbusiness.com, proxy
 host-suffix, threads.com, proxy

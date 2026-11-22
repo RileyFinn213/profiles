@@ -1,6 +1,6 @@
 # Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Meta.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 payload:
-- DOMAIN-SUFFIX,atdmt.com
 - DOMAIN-SUFFIX,meta.vc
 - DOMAIN-SUFFIX,whatsappbusiness.com
 - DOMAIN-SUFFIX,threads.com

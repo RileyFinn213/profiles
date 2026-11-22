@@ -1,8 +1,7 @@
-# Source: Surge/Rules/Microsoft.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Microsoft.list
-# Source: Rabbit-Spec/Surge/Rules/Microsoft.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list
+# Cleaned 2026-11-22: removed 83 cross-group entries (see audit report)
+# OMITTED (process condition unsupported): PROCESS-NAME,OneDrive
+# OMITTED (process condition unsupported): PROCESS-NAME,OneDriveUpdater
 domain_suffix_set:
 - microsoft.com
 - live.com
@@ -60,7 +59,6 @@ domain_suffix_set:
 - aggresmart.com
 - aicscience.com
 - aka.ms
-- akadns.net
 - ankarazirvesi2018.com
 - api-extractor.com
 - apihub-internal.cn
@@ -72,7 +70,6 @@ domain_suffix_set:
 - aria.ms
 - asp.net
 - assets-yammer.com
-- atom.io
 - azchcdna.com
 - azchcdnb.com
 - azchcdnc.com
@@ -170,10 +167,6 @@ domain_suffix_set:
 - b2clogin.cn
 - b3itech.cn
 - bbing.com
-- beth.games
-- bethesda.net
-- bethesdagamestudios.com
-- bethsoft.com
 - bibg.com
 - biing.com
 - binads.com
@@ -214,7 +207,6 @@ domain_suffix_set:
 - brazilpartneruniversity.com
 - breakdown.me
 - c-msedge.net
-- callersbane.com
 - cegid-cloud.cn
 - centralvalidation.com
 - ch9.ms
@@ -228,7 +220,6 @@ domain_suffix_set:
 - cloudappsecurity.com
 - codethemicrobit.com
 - copilot-stg.com
-- copilot.com
 - cortana.ai
 - cortanaanalytics.com
 - cortanaskills.com
@@ -239,13 +230,11 @@ domain_suffix_set:
 - crossborderexpansion.com
 - cs11.wpc.v0cdn.net
 - cs9.wac.phicdn.net
-- dependabot.com
 - devopsassessment.net
 - devopsms.com
 - dictate.ms
 - discoverbing.com
 - docs.com
-- doom.com
 - dot.net
 - dwh5.com
 - dynamics.cn
@@ -253,7 +242,6 @@ domain_suffix_set:
 - e-msedge.net
 - edgesuite.net
 - efproject.net
-- elderscrolls.com
 - engkoo.com
 - evoke-windowsservices-tas.msedge
 - exp-tas.com
@@ -264,12 +252,7 @@ domain_suffix_set:
 - flipwithsurface.com
 - fluidpreview.com
 - footprintdns.com
-- forza.net
-- forzamotorsport.net
-- forzaracingchampionship.com
-- forzarc.com
 - g.akamaiedge.net
-- gamepass.com
 - gamesstack.com
 - gameuxmasterguide.com
 - gears5.com
@@ -277,33 +260,12 @@ domain_suffix_set:
 - gearstactics.com
 - getmicrosoftkey.com
 - gfx.ms
-- gh.io
-- ghcr.io
-- ghe.com
 - gigjam.com
-- git.io
-- github.ai
-- github.blog
-- github.career
-- github.com
-- github.community
-- github.dev
-- github.io
-- githubapp.com
-- githubassets.com
-- githubcopilot.com
-- githubhackathon.com
-- githubnext.com
-- githubpreview.dev
-- githubstatus.com
 - githubsupport.com
-- githubuniverse.com
-- githubusercontent.com
 - gotcosmos.com
 - graphengine.io
 - groupme.com
 - hdinsightservices.cn
-- helpshift.com
 - here.com
 - here.net
 - heremaps.cn
@@ -344,7 +306,6 @@ domain_suffix_set:
 - livefilestore.com
 - livetileedge.dsx.mp.microsoft.com.edgekey.net
 - livingyourambition.com
-- localytics.com
 - lync.cn
 - lync.com
 - m12.vc
@@ -493,14 +454,9 @@ domain_suffix_set:
 - microsofttranslator.com
 - microsoftusercontent.com
 - microsoftuwp.com
-- minecraft-services.net
-- minecraft.net
-- minecraftservices.com
-- minecraftshop.com
 - mmais.com.cn
 - mmdnn.com
 - mncmsidlab1.cn
-- mojang.com
 - momentumms.com
 - mono-project.com
 - morphcharts.com
@@ -508,7 +464,6 @@ domain_suffix_set:
 - ms-studiosmedia.com
 - ms365surfaceoffer.com
 - msa.akadns6.net
-- msads.net
 - msappproxy.cn
 - msappproxy.net
 - msauth.cn
@@ -563,12 +518,8 @@ domain_suffix_set:
 - mwf-service.akamaized.net
 - myhomemsn.com
 - mymicrosoft.com
-- myoctocat.com
 - nelreports.net
 - nextechafrica.net
-- npm.community
-- npmjs.com
-- npmjs.org
 - nuget.org
 - nugettest.org
 - nxta.org
@@ -578,7 +529,6 @@ domain_suffix_set:
 - o365weve-ppe.com
 - o365weve.com
 - oaspapps.com
-- octocaptcha.com
 - office
 - office365-net.cn
 - office365.cn
@@ -601,11 +551,9 @@ domain_suffix_set:
 - onestore.ms
 - onmicrosoft.com
 - onmschina.cn
-- opensource.guide
 - opentranslatorstothings.org
 - opticsforthecloud.net
 - optimizely.com
-- orithegame.com
 - osdinfra.net
 - outingsapp.com
 - outlook.cn
@@ -637,8 +585,6 @@ domain_suffix_set:
 - reactorms.com.cn
 - renlifang.com
 - renovacionoffice.com
-- renovacionxboxlive.com
-- repo.new
 - s-dc-msedge.net
 - s-microsoft.com
 - s-msedge.net
@@ -680,10 +626,7 @@ domain_suffix_set:
 - t-msedge.net
 - tailwindtraders.com
 - techhub.ms
-- tellmewhygame.com
-- tenor.com
 - tfsallin.net
-- thegithubshop.com
 - timelinestoryteller.com
 - trafficmanager.cn
 - trafficmanager.net
@@ -736,44 +679,13 @@ domain_suffix_set:
 - working-bing-int.com
 - wunderlist.com
 - xamarin.com
-- xbox
-- xbox.co
-- xbox.com
-- xbox.eu
-- xbox.org
-- xbox360.co
-- xbox360.com
-- xbox360.eu
-- xbox360.org
-- xboxab.com
-- xboxgamepass.com
-- xboxgamestudios.com
 - xboxlive.cn
-- xboxlive.com
-- xboxone.co
-- xboxone.com
-- xboxone.eu
-- xboxplayanywhere.com
-- xboxservices.com
-- xboxstudios.com
-- xbx.lv
 - yammer.com
 - yammerusercontent.com
 domain_set:
-- github-api.arkoselabs.com
-- github-cloud.s3.amazonaws.com
-- github-production-release-asset-2e65be.s3.amazonaws.com
-- github-production-repository-file-5c1aeb.s3.amazonaws.com
-- github-production-repository-image-32fea6.s3.amazonaws.com
-- github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
-- github-production-user-asset-6210df.s3.amazonaws.com
 - vsmarketplacebadge.apphb.com
 domain_keyword_set:
 - 1drv
 - microsoft
 - onedrive
 - skydrive
-user_agent_set:
-- Microsoft*
-- OneDrive*
-- OneDriveiOSApp*

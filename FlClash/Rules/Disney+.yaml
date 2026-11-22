@@ -1,4 +1,5 @@
 # Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 payload:
 - DOMAIN-SUFFIX,disneyplus.com
 - DOMAIN-SUFFIX,disney-plus.net
@@ -25,7 +26,6 @@ payload:
 - DOMAIN-SUFFIX,adventuresbydisney.com
 - DOMAIN-SUFFIX,babble.com
 - DOMAIN-SUFFIX,babyzone.com
-- DOMAIN-SUFFIX,bam.nr-data.net
 - DOMAIN-SUFFIX,bamtech.net
 - DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk
 - DOMAIN-SUFFIX,braze.com
@@ -190,7 +190,6 @@ payload:
 - DOMAIN-SUFFIX,hulutv.com
 - DOMAIN-SUFFIX,huluusa.com
 - DOMAIN-SUFFIX,joinmaidez.com
-- DOMAIN-SUFFIX,js-agent.newrelic.com
 - DOMAIN-SUFFIX,lucasfilm.com
 - DOMAIN-SUFFIX,marvel.com
 - DOMAIN-SUFFIX,marvel10thanniversary.com

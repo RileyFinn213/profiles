@@ -1,4 +1,5 @@
 # Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list
+# Cleaned 2026-11-22: removed 6 cross-group entries (see audit report)
 payload:
 - DOMAIN-SUFFIX,steamchina.com
 - DOMAIN-SUFFIX,steamchina.cn
@@ -6,14 +7,8 @@ payload:
 - DOMAIN-SUFFIX,steamcontent.com
 - DOMAIN-SUFFIX,steamserver.net
 - DOMAIN-SUFFIX,wmsjsteam.com
-- DOMAIN-SUFFIX,steampowered.com
-- DOMAIN-SUFFIX,steamstatic.com
-- DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-- DOMAIN-SUFFIX,steamcommunity.com
-- DOMAIN-SUFFIX,steam-chat.com
 - DOMAIN-KEYWORD,steamchina
 - DOMAIN-KEYWORD,steamcontent
-- DOMAIN-KEYWORD,steampowered
 - DOMAIN,csgo.wmsj.cn
 - DOMAIN,dl.steam.clngaa.com
 - DOMAIN,dota2.wmsj.cn

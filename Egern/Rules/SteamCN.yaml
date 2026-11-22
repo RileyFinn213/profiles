@@ -1,7 +1,5 @@
-# Source: Surge/Rules/SteamCN.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/SteamCN.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/SteamCN.list
+# Cleaned 2026-11-22: removed 6 cross-group entries (see audit report)
 domain_suffix_set:
 - steamchina.com
 - steamchina.cn
@@ -9,11 +7,6 @@ domain_suffix_set:
 - steamcontent.com
 - steamserver.net
 - wmsjsteam.com
-- steampowered.com
-- steamstatic.com
-- steamcdn-a.akamaihd.net
-- steamcommunity.com
-- steam-chat.com
 - client-update.queniuqe.com
 - csgo.com.cn
 - csgo.wmsj.cn
@@ -29,7 +22,6 @@ domain_suffix_set:
 domain_keyword_set:
 - steamchina
 - steamcontent
-- steampowered
 domain_set:
 - csgo.wmsj.cn
 - dl.steam.clngaa.com

@@ -1,15 +1,10 @@
-# Source: Surge/Rules/Bahamut.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Bahamut.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bahamut.list
+# Cleaned 2026-11-22: removed 3 cross-group entries (see audit report)
 domain_suffix_set:
 - gamer.com.tw
 - bahamut.com.tw
 - hinet.net
-- fbcdn.net
-- digicert.com
 - viblast.com
-- gvt1.com
 - bahamut.akamaized.net
 domain_set:
 - bahamut.akamaized.net

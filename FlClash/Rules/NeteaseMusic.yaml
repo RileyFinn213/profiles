@@ -1,6 +1,6 @@
-# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Surge/Rules/NeteaseMusic.list
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/NeteaseMusic.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
 payload:
-- DOMAIN,iadmat.nosdn.127.net
 - DOMAIN,netease.ugcvideoss.ourdvs.com
 - DOMAIN-SUFFIX,music.163.com
 - DOMAIN-SUFFIX,163yun.com
@@ -10,7 +10,6 @@ payload:
 - DOMAIN-SUFFIX,music.126.com
 - DOMAIN-SUFFIX,music.126.net
 - DOMAIN-SUFFIX,music.163.com.163jiasu.com
-- DOMAIN-SUFFIX,yunxinfw.com
 - IP-CIDR,47.100.127.239/32,no-resolve
 - IP-CIDR,118.24.63.156/32,no-resolve
 - IP-CIDR,193.112.159.225/32,no-resolve

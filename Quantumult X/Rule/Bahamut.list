@@ -1,16 +1,9 @@
-# Source: Surge/Rules/Bahamut.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Bahamut.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bahamut.list
+# Cleaned 2026-11-22: removed 3 cross-group entries (see audit report)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-suffix, gamer.com.tw, proxy
 host-suffix, bahamut.com.tw, proxy
 host-suffix, hinet.net, proxy
-host-suffix, fbcdn.net, proxy
-host-suffix, digicert.com, proxy
 host-suffix, viblast.com, proxy
-host-suffix, gvt1.com, proxy
-
-# MagicRule 域名补充
 host, bahamut.akamaized.net, proxy
 host-suffix, bahamut.akamaized.net, proxy

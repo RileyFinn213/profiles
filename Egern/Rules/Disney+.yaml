@@ -1,8 +1,7 @@
-# Source: Surge/Rules/Disney+.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Disney+.list
-# Source: Rabbit-Spec/Surge/Rules/Disney.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Disney+.list
+# Cleaned 2026-11-22: removed 2 cross-group entries (see audit report)
+# OMITTED (process condition unsupported): PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
+# OMITTED (process condition unsupported): PROCESS-NAME,com.disney.disneyplus
 domain_suffix_set:
 - disneyplus.com
 - disney-plus.net
@@ -27,7 +26,6 @@ domain_suffix_set:
 - adventuresbydisney.com
 - babble.com
 - babyzone.com
-- bam.nr-data.net
 - bamtech.net
 - beautyandthebeastmusical.co.uk
 - braze.com
@@ -192,7 +190,6 @@ domain_suffix_set:
 - hulutv.com
 - huluusa.com
 - joinmaidez.com
-- js-agent.newrelic.com
 - lucasfilm.com
 - marvel.com
 - marvel10thanniversary.com

@@ -1,8 +1,14 @@
-# Source: Surge/Rules/Apple.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Apple.list
-# Source: Rabbit-Spec/Surge/Rules/Apple.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
+# OMITTED (process condition unsupported): PROCESS-NAME,CoreLocationAgent
+# OMITTED (process condition unsupported): PROCESS-NAME,LookupViewService
+# OMITTED (process condition unsupported): PROCESS-NAME,WeatherWidget
+# OMITTED (process condition unsupported): PROCESS-NAME,apsd
+# OMITTED (process condition unsupported): PROCESS-NAME,com.apple.Maps
+# OMITTED (process condition unsupported): PROCESS-NAME,com.apple.geod
+# OMITTED (process condition unsupported): PROCESS-NAME,findmydevice-user-agent
+# OMITTED (process condition unsupported): PROCESS-NAME,fmfd
+# OMITTED (process condition unsupported): PROCESS-NAME,mapspushd
 domain_suffix_set:
 - apple.com
 - apple.cn
@@ -827,7 +833,6 @@ domain_suffix_set:
 - coreml.net
 - cozydrdrebeats.com
 - cqcorea.com
-- crashlytics.com
 - cuffiesaldi.com
 - cups.org
 - custom-iphonecase.com
@@ -1572,9 +1577,3 @@ domain_keyword_set:
 - icoudo
 - icoudos
 - testflight
-user_agent_set:
-- AppleNews*
-- AppleTV*
-- com.apple.news*
-- com.apple.trustd*
-- com.apple.tv*

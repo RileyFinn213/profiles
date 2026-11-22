@@ -1,8 +1,5 @@
-# Source: Surge/Rules/Apple.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Apple.list
-# Source: Rabbit-Spec/Surge/Rules/Apple.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Apple.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-suffix, apple.com, proxy
 host-suffix, apple.cn, proxy
@@ -837,7 +834,6 @@ host-suffix, coolmonster.net, proxy
 host-suffix, coreml.net, proxy
 host-suffix, cozydrdrebeats.com, proxy
 host-suffix, cqcorea.com, proxy
-host-suffix, crashlytics.com, proxy
 host-suffix, cuffiesaldi.com, proxy
 host-suffix, cups.org, proxy
 host-suffix, custom-iphonecase.com, proxy
@@ -1566,11 +1562,6 @@ host-keyword, icloud.com.akadns.net, proxy
 host-keyword, icoudo, proxy
 host-keyword, icoudos, proxy
 host-keyword, testflight, proxy
-user-agent, AppleNews*, proxy
-user-agent, AppleTV*, proxy
-user-agent, com.apple.news*, proxy
-user-agent, com.apple.trustd*, proxy
-user-agent, com.apple.tv*, proxy
 ip-cidr, 139.178.128.0/18, proxy
 ip-cidr, 144.178.0.0/19, proxy
 ip-cidr, 144.178.36.0/22, proxy
@@ -1582,17 +1573,15 @@ ip-cidr, 63.92.224.0/19, proxy
 ip-cidr, 65.199.22.0/23, proxy
 ip6-cidr, 2403:300::/32, proxy
 ip6-cidr, 2a01:b740::/32, proxy
-# OMITTED (unsupported condition): PROCESS-NAME,CoreLocationAgent
-# OMITTED (unsupported condition): PROCESS-NAME,LookupViewService
-# OMITTED (unsupported condition): PROCESS-NAME,WeatherWidget
-# OMITTED (unsupported condition): PROCESS-NAME,apsd
-# OMITTED (unsupported condition): PROCESS-NAME,com.apple.Maps
-# OMITTED (unsupported condition): PROCESS-NAME,com.apple.geod
-# OMITTED (unsupported condition): PROCESS-NAME,findmydevice-user-agent
-# OMITTED (unsupported condition): PROCESS-NAME,fmfd
-# OMITTED (unsupported condition): PROCESS-NAME,mapspushd
-
-# MagicRule 域名补充
+# OMITTED (process condition unsupported): PROCESS-NAME,CoreLocationAgent
+# OMITTED (process condition unsupported): PROCESS-NAME,LookupViewService
+# OMITTED (process condition unsupported): PROCESS-NAME,WeatherWidget
+# OMITTED (process condition unsupported): PROCESS-NAME,apsd
+# OMITTED (process condition unsupported): PROCESS-NAME,com.apple.Maps
+# OMITTED (process condition unsupported): PROCESS-NAME,com.apple.geod
+# OMITTED (process condition unsupported): PROCESS-NAME,findmydevice-user-agent
+# OMITTED (process condition unsupported): PROCESS-NAME,fmfd
+# OMITTED (process condition unsupported): PROCESS-NAME,mapspushd
 host-suffix, appleworldwidedeveloper.hb-api.omtrdc.net, proxy
 host-suffix, appleworldwidedeveloper.sc.omtrdc.net, proxy
 host-suffix, beatselectronicsllc.tt.omtrdc.net, proxy

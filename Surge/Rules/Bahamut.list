@@ -1,15 +1,8 @@
-# Bahamut.list — merged snapshot, 2026-11-02
-# FORMAT: RULE-SET (no policy column)
-# Source: Surge/Rules/Bahamut.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Bahamut.list
+# Cleaned 2026-11-22: removed 3 cross-group entries (see audit report)
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,hinet.net
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,viblast.com
-DOMAIN-SUFFIX,gvt1.com
-
-# MagicRule 域名补充
 DOMAIN,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.akamaized.net

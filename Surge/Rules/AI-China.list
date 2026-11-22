@@ -1,11 +1,9 @@
-# AI routing merged snapshot 2026-11-03
-# Sources: RileyFinn213/profiles; Haxhork/DeveloperBeta/Surge/Ruleset/AI.list; official endpoint documentation
-# Routing classification is not a trust endorsement or guarantee of physical server location.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/AI-China.list
+# Cleaned 2026-11-22: removed 4 ByteDance shared-infra entries (kept only in TikTok set, per user decision)
 DOMAIN-KEYWORD,deepseek
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseek.ai
 DOMAIN-SUFFIX,deepseek-static.com
-DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volcengine.com
 DOMAIN,chat.gecko-pas.com
@@ -21,9 +19,6 @@ DOMAIN-SUFFIX,volcengine.cn
 DOMAIN-KEYWORD,rtc-vcloud
 DOMAIN-KEYWORD,volc-rtc
 DOMAIN-KEYWORD,volcengine-rtc
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,bytedance.com
 IP-ASN,138692,no-resolve
 IP-ASN,204454,no-resolve
@@ -36,8 +31,6 @@ DOMAIN,api.siliconflow.cn
 DOMAIN,api.minimax.cn
 DOMAIN,dashscope.aliyuncs.com
 DOMAIN,token-plan-cn.xiaomimimo.com
-
-# MagicRule 域名补充
 DOMAIN,api.minimaxi.com
 DOMAIN,yiyan.baidu.com
 DOMAIN-SUFFIX,ai-indeed.com

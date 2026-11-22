@@ -1,15 +1,16 @@
-# Source: Surge/Rules/Google.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Google.list
-# Source: Rabbit-Spec/Surge/Rules/Google.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list
+# Cleaned 2026-11-22: removed 47 cross-group entries (see audit report)
+# OMITTED (process condition unsupported): PROCESS-NAME,GoogleDriveFS.exe
+# OMITTED (process condition unsupported): PROCESS-NAME,com.android.vending
+# OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.gms
+# OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.gsf
+# OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.play.games
 domain_suffix_set:
 - google.com
 - googleapis.com
 - gstatic.com
 - googleusercontent.com
 - googleusercontent.cn
-- ggpht.com
 - recaptcha.net
 - recaptcha-cn.net
 - chrome.com
@@ -17,16 +18,9 @@ domain_suffix_set:
 - firebaseio.com
 - firebaseapi.com
 - googlezip.net
-- googlesyndication.com
-- doubleclick.net
-- google-analytics.com
 - google-analytics-cn.com
-- googletagmanager.com
 - googleoptimize.com
-- app-measurement.com
 - gvt0.com
-- gvt1.com
-- gvt2.com
 - gvt3.com
 - 1e100.net
 - withgoogle.com
@@ -41,7 +35,6 @@ domain_suffix_set:
 - adgoogle.net
 - admeld.com
 - admob-cn.com
-- admob.com
 - adsense.com
 - adsensecustomsearchads.com
 - adsenseformobileapps.com
@@ -50,7 +43,6 @@ domain_suffix_set:
 - adwords-community.com
 - adwords.com
 - adwordsexpress.com
-- ai.studio
 - amp.dev
 - ampproject.com
 - ampproject.net
@@ -73,10 +65,8 @@ domain_suffix_set:
 - apps5.oingo.com
 - appspot.com
 - apture.com
-- ar
 - area120.com
 - asp-cc.com
-- au
 - autodraw.com
 - avail.googleflights.net
 - bandpage.com
@@ -147,8 +137,6 @@ domain_suffix_set:
 - blogspot.sn
 - blogspot.td
 - blogspot.ug
-- bo
-- br
 - brocaproject.com
 - brotli.org
 - bumpshare.com
@@ -177,7 +165,6 @@ domain_suffix_set:
 - cloudfunctions.net
 - cloudproxy.app
 - cloudrobotics.com
-- co
 - cobrasearch.com
 - codespot.com
 - conscrypt.com
@@ -186,14 +173,12 @@ domain_suffix_set:
 - coova.com
 - coova.net
 - coova.org
-- crashlytics.com
 - crbug.com
 - creativelab5.com
 - crossmediapanel.com
 - crr.com
 - crrev.com
 - cs4hs.com
-- cu
 - dart.dev
 - dartlang.org
 - dartpad.dev
@@ -204,7 +189,6 @@ domain_suffix_set:
 - dclk
 - debug.com
 - debugproject.com
-- deepmind.com
 - deja.com
 - deps.dev
 - deps.info
@@ -213,13 +197,8 @@ domain_suffix_set:
 - digisfera.com
 - digitalassetlinks.org
 - digitalattackmap.com
-- do
 - docs.new
-- doubleclick-cn.net
 - doubleclick.cn
-- doubleclick.com
-- ec
-- eg
 - episodic.com
 - fastlane.ci
 - fastlane.tools
@@ -452,8 +431,6 @@ domain_suffix_set:
 - googleads-cn.com
 - googleads.com
 - googleadservices-cn.com
-- googleadservices.com
-- googleadsserving.cn
 - googleanalytics.com
 - googleapis-cn.com
 - googleapis.cn
@@ -466,7 +443,6 @@ domain_suffix_set:
 - googlecert.net
 - googlecnapps.cn
 - googlecode.com
-- googlecommerce.com
 - googlecompare.co.uk
 - googledanmark.com
 - googledomains.com
@@ -488,10 +464,8 @@ domain_suffix_set:
 - googlesource.com
 - googlestore.com
 - googlesverige.com
-- googlesyndication-cn.com
 - googletagmanager-cn.com
 - googletagservices-cn.com
-- googletagservices.com
 - googletraveladservices-cn.com
 - googletraveladservices.com
 - googlevads-cn.com
@@ -505,7 +479,6 @@ domain_suffix_set:
 - gstatic.cn
 - gstaticcnapps.cn
 - gsuite.com
-- gt
 - guge
 - gv.com
 - gvt1-cn.com
@@ -520,7 +493,6 @@ domain_suffix_set:
 - hdrplusdata.org
 - hey.boo
 - hindiweb.com
-- hk
 - howtogetmo.co.uk
 - html5rocks.com
 - hwgo.com
@@ -542,7 +514,6 @@ domain_suffix_set:
 - keytransparency.org
 - lanternal.com
 - like.com
-- ly
 - madewithcode.com
 - material.io
 - mdialog.com
@@ -550,14 +521,11 @@ domain_suffix_set:
 - mfg-inspector.com
 - mobileview.page
 - moodstocks.com
-- mx
-- my
 - near.by
 - nest.com
 - neverware.com
 - new.day
 - nexus
-- ni
 - nomulus.foo
 - oasisfeng.com
 - oauthz.com
@@ -572,15 +540,12 @@ domain_suffix_set:
 - openweave.io
 - openxla.org
 - orbitera.com
-- pa
 - page.link
 - pagespeedmobilizer.com
 - pageview.mobi
 - panoramio.com
 - partylikeits1986.org
 - paxlicense.org
-- pe
-- ph
 - picasa.com
 - picasaweb.com
 - picasaweb.net
@@ -588,18 +553,15 @@ domain_suffix_set:
 - picnik.com
 - pittpatt.com
 - pixate.com
-- pk
 - plus.codes
 - polymer-project.org
 - polymerproject.org
 - postini.com
-- pr
 - privacysandbox.com
 - projectara.com
 - projectbaseline.com
 - pub.dev
 - publishproxy.com
-- py
 - qiao-cn.com
 - qpx.googleflights.net
 - questvisual.com
@@ -615,7 +577,6 @@ domain_suffix_set:
 - schemer.com
 - screenwisetrends.com
 - screenwisetrendspanel.com
-- sg
 - shattered.io
 - sheets.new
 - slides.new
@@ -630,7 +591,6 @@ domain_suffix_set:
 - stxmosquitoproject.com
 - stxmosquitoproject.net
 - stxmosquitoproject.org
-- sv
 - synergyse.com
 - teachparentstech.org
 - tenor.com
@@ -642,17 +602,13 @@ domain_suffix_set:
 - thinkquarterly.com
 - thinkwithgoogle.com
 - tiltbrush.com
-- tr
-- tw
 - txcloud.net
 - txvia.com
-- ua
 - unfiltered.news
 - urchin.com
 - useplannr.com
 - usvimosquito.com
 - usvimosquitoproject.com
-- uy
 - v8.dev
 - v8project.org
 - velostrata.com
@@ -661,7 +617,6 @@ domain_suffix_set:
 - verilystudyhub.com
 - verilystudywatch.com
 - verilystudywatch.org
-- vn
 - wallet.com
 - waveprotocol.org
 - waymo.com

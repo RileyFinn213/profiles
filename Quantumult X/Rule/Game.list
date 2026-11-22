@@ -1,6 +1,6 @@
-# Source: Rabbit-Spec/Surge/Rules/Game.list
-# Incremental domains only; existing main rules keep ownership. See Rules-Conversion/Optional-integration.json.
-# Native Quantumult X; bind actual policy with force-policy.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Game.list
+# Cleaned 2026-11-22: removed 1 cross-group entries (see audit report)
+# Native filter; bind actual policy with force-policy. no-resolve not retained.
 host, a.ppy.sh, proxy
 host, a4e8s8k3.map2.ssl.hwcdn.net, proxy
 host, assets.ppy.sh, proxy
@@ -147,7 +147,6 @@ host-suffix, clashmini.com, proxy
 host-suffix, clashofclans.com, proxy
 host-suffix, clashroyale.com, proxy
 host-suffix, clashroyaleapp.com, proxy
-host-suffix, client-update.queniuqe.com, proxy
 host-suffix, cncrivals.com, proxy
 host-suffix, commandandconquer.com, proxy
 host-suffix, conquerwithcharacter.com, proxy
@@ -705,8 +704,6 @@ host-suffix, zenlesszonezero.com, proxy
 host-suffix, zynga.com, proxy
 host-suffix, zyngaplayersupport.com, proxy
 host-suffix, zyngapoker.com, proxy
-
-# MagicRule 域名补充
 host, assets-www.xbox.com, proxy
 host, assets.play.xbox.com, proxy
 host, assets1.xboxlive.com, proxy

@@ -1,15 +1,11 @@
-# Source: Surge/Rules/Google.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Google.list
-# Source: Rabbit-Spec/Surge/Rules/Google.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Google.list
+# Cleaned 2026-11-22: removed 47 cross-group entries (see audit report)
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host-suffix, google.com, proxy
 host-suffix, googleapis.com, proxy
 host-suffix, gstatic.com, proxy
 host-suffix, googleusercontent.com, proxy
 host-suffix, googleusercontent.cn, proxy
-host-suffix, ggpht.com, proxy
 host-suffix, recaptcha.net, proxy
 host-suffix, recaptcha-cn.net, proxy
 host-suffix, chrome.com, proxy
@@ -17,16 +13,9 @@ host-suffix, googledrive.com, proxy
 host-suffix, firebaseio.com, proxy
 host-suffix, firebaseapi.com, proxy
 host-suffix, googlezip.net, proxy
-host-suffix, googlesyndication.com, proxy
-host-suffix, doubleclick.net, proxy
-host-suffix, google-analytics.com, proxy
 host-suffix, google-analytics-cn.com, proxy
-host-suffix, googletagmanager.com, proxy
 host-suffix, googleoptimize.com, proxy
-host-suffix, app-measurement.com, proxy
 host-suffix, gvt0.com, proxy
-host-suffix, gvt1.com, proxy
-host-suffix, gvt2.com, proxy
 host-suffix, gvt3.com, proxy
 host-suffix, 1e100.net, proxy
 host-suffix, withgoogle.com, proxy
@@ -42,7 +31,6 @@ host-suffix, actifio.com, proxy
 host-suffix, adgoogle.net, proxy
 host-suffix, admeld.com, proxy
 host-suffix, admob-cn.com, proxy
-host-suffix, admob.com, proxy
 host-suffix, adsense.com, proxy
 host-suffix, adsensecustomsearchads.com, proxy
 host-suffix, adsenseformobileapps.com, proxy
@@ -51,7 +39,6 @@ host-suffix, advertiserscommunity.com, proxy
 host-suffix, adwords-community.com, proxy
 host-suffix, adwords.com, proxy
 host-suffix, adwordsexpress.com, proxy
-host-suffix, ai.studio, proxy
 host-suffix, amp.dev, proxy
 host-suffix, ampproject.com, proxy
 host-suffix, ampproject.net, proxy
@@ -74,10 +61,8 @@ host-suffix, appbridge.it, proxy
 host-suffix, apps5.oingo.com, proxy
 host-suffix, appspot.com, proxy
 host-suffix, apture.com, proxy
-host-suffix, ar, proxy
 host-suffix, area120.com, proxy
 host-suffix, asp-cc.com, proxy
-host-suffix, au, proxy
 host-suffix, autodraw.com, proxy
 host-suffix, avail.googleflights.net, proxy
 host-suffix, bandpage.com, proxy
@@ -148,8 +133,6 @@ host-suffix, blogspot.sk, proxy
 host-suffix, blogspot.sn, proxy
 host-suffix, blogspot.td, proxy
 host-suffix, blogspot.ug, proxy
-host-suffix, bo, proxy
-host-suffix, br, proxy
 host-suffix, brocaproject.com, proxy
 host-suffix, brotli.org, proxy
 host-suffix, bumpshare.com, proxy
@@ -178,7 +161,6 @@ host-suffix, cloudburstresearch.com, proxy
 host-suffix, cloudfunctions.net, proxy
 host-suffix, cloudproxy.app, proxy
 host-suffix, cloudrobotics.com, proxy
-host-suffix, co, proxy
 host-suffix, cobrasearch.com, proxy
 host-suffix, codespot.com, proxy
 host-suffix, conscrypt.com, proxy
@@ -187,14 +169,12 @@ host-suffix, cookiechoices.org, proxy
 host-suffix, coova.com, proxy
 host-suffix, coova.net, proxy
 host-suffix, coova.org, proxy
-host-suffix, crashlytics.com, proxy
 host-suffix, crbug.com, proxy
 host-suffix, creativelab5.com, proxy
 host-suffix, crossmediapanel.com, proxy
 host-suffix, crr.com, proxy
 host-suffix, crrev.com, proxy
 host-suffix, cs4hs.com, proxy
-host-suffix, cu, proxy
 host-suffix, dart.dev, proxy
 host-suffix, dartlang.org, proxy
 host-suffix, dartpad.dev, proxy
@@ -205,7 +185,6 @@ host-suffix, dataliberation.org, proxy
 host-suffix, dclk, proxy
 host-suffix, debug.com, proxy
 host-suffix, debugproject.com, proxy
-host-suffix, deepmind.com, proxy
 host-suffix, deja.com, proxy
 host-suffix, deps.dev, proxy
 host-suffix, deps.info, proxy
@@ -214,13 +193,8 @@ host-suffix, dialogflow.com, proxy
 host-suffix, digisfera.com, proxy
 host-suffix, digitalassetlinks.org, proxy
 host-suffix, digitalattackmap.com, proxy
-host-suffix, do, proxy
 host-suffix, docs.new, proxy
-host-suffix, doubleclick-cn.net, proxy
 host-suffix, doubleclick.cn, proxy
-host-suffix, doubleclick.com, proxy
-host-suffix, ec, proxy
-host-suffix, eg, proxy
 host-suffix, episodic.com, proxy
 host-suffix, fastlane.ci, proxy
 host-suffix, fastlane.tools, proxy
@@ -453,8 +427,6 @@ host-suffix, googleadapis.com, proxy
 host-suffix, googleads-cn.com, proxy
 host-suffix, googleads.com, proxy
 host-suffix, googleadservices-cn.com, proxy
-host-suffix, googleadservices.com, proxy
-host-suffix, googleadsserving.cn, proxy
 host-suffix, googleanalytics.com, proxy
 host-suffix, googleapis-cn.com, proxy
 host-suffix, googleapis.cn, proxy
@@ -467,7 +439,6 @@ host-suffix, googlecapital.com, proxy
 host-suffix, googlecert.net, proxy
 host-suffix, googlecnapps.cn, proxy
 host-suffix, googlecode.com, proxy
-host-suffix, googlecommerce.com, proxy
 host-suffix, googlecompare.co.uk, proxy
 host-suffix, googledanmark.com, proxy
 host-suffix, googledomains.com, proxy
@@ -489,10 +460,8 @@ host-suffix, googlescholar.com, proxy
 host-suffix, googlesource.com, proxy
 host-suffix, googlestore.com, proxy
 host-suffix, googlesverige.com, proxy
-host-suffix, googlesyndication-cn.com, proxy
 host-suffix, googletagmanager-cn.com, proxy
 host-suffix, googletagservices-cn.com, proxy
-host-suffix, googletagservices.com, proxy
 host-suffix, googletraveladservices-cn.com, proxy
 host-suffix, googletraveladservices.com, proxy
 host-suffix, googlevads-cn.com, proxy
@@ -506,7 +475,6 @@ host-suffix, gstatic-cn.com, proxy
 host-suffix, gstatic.cn, proxy
 host-suffix, gstaticcnapps.cn, proxy
 host-suffix, gsuite.com, proxy
-host-suffix, gt, proxy
 host-suffix, guge, proxy
 host-suffix, gv.com, proxy
 host-suffix, gvt1-cn.com, proxy
@@ -521,7 +489,6 @@ host-suffix, haplorrhini.com, proxy
 host-suffix, hdrplusdata.org, proxy
 host-suffix, hey.boo, proxy
 host-suffix, hindiweb.com, proxy
-host-suffix, hk, proxy
 host-suffix, howtogetmo.co.uk, proxy
 host-suffix, html5rocks.com, proxy
 host-suffix, hwgo.com, proxy
@@ -543,7 +510,6 @@ host-suffix, keytransparency.foo, proxy
 host-suffix, keytransparency.org, proxy
 host-suffix, lanternal.com, proxy
 host-suffix, like.com, proxy
-host-suffix, ly, proxy
 host-suffix, madewithcode.com, proxy
 host-suffix, material.io, proxy
 host-suffix, mdialog.com, proxy
@@ -551,14 +517,11 @@ host-suffix, meet.new, proxy
 host-suffix, mfg-inspector.com, proxy
 host-suffix, mobileview.page, proxy
 host-suffix, moodstocks.com, proxy
-host-suffix, mx, proxy
-host-suffix, my, proxy
 host-suffix, near.by, proxy
 host-suffix, nest.com, proxy
 host-suffix, neverware.com, proxy
 host-suffix, new.day, proxy
 host-suffix, nexus, proxy
-host-suffix, ni, proxy
 host-suffix, nomulus.foo, proxy
 host-suffix, oasisfeng.com, proxy
 host-suffix, oauthz.com, proxy
@@ -573,15 +536,12 @@ host-suffix, openthread.io, proxy
 host-suffix, openweave.io, proxy
 host-suffix, openxla.org, proxy
 host-suffix, orbitera.com, proxy
-host-suffix, pa, proxy
 host-suffix, page.link, proxy
 host-suffix, pagespeedmobilizer.com, proxy
 host-suffix, pageview.mobi, proxy
 host-suffix, panoramio.com, proxy
 host-suffix, partylikeits1986.org, proxy
 host-suffix, paxlicense.org, proxy
-host-suffix, pe, proxy
-host-suffix, ph, proxy
 host-suffix, picasa.com, proxy
 host-suffix, picasaweb.com, proxy
 host-suffix, picasaweb.net, proxy
@@ -589,18 +549,15 @@ host-suffix, picasaweb.org, proxy
 host-suffix, picnik.com, proxy
 host-suffix, pittpatt.com, proxy
 host-suffix, pixate.com, proxy
-host-suffix, pk, proxy
 host-suffix, plus.codes, proxy
 host-suffix, polymer-project.org, proxy
 host-suffix, polymerproject.org, proxy
 host-suffix, postini.com, proxy
-host-suffix, pr, proxy
 host-suffix, privacysandbox.com, proxy
 host-suffix, projectara.com, proxy
 host-suffix, projectbaseline.com, proxy
 host-suffix, pub.dev, proxy
 host-suffix, publishproxy.com, proxy
-host-suffix, py, proxy
 host-suffix, qiao-cn.com, proxy
 host-suffix, qpx.googleflights.net, proxy
 host-suffix, questvisual.com, proxy
@@ -616,7 +573,6 @@ host-suffix, schema.org, proxy
 host-suffix, schemer.com, proxy
 host-suffix, screenwisetrends.com, proxy
 host-suffix, screenwisetrendspanel.com, proxy
-host-suffix, sg, proxy
 host-suffix, shattered.io, proxy
 host-suffix, sheets.new, proxy
 host-suffix, slides.new, proxy
@@ -631,7 +587,6 @@ host-suffix, stxmosquito.com, proxy
 host-suffix, stxmosquitoproject.com, proxy
 host-suffix, stxmosquitoproject.net, proxy
 host-suffix, stxmosquitoproject.org, proxy
-host-suffix, sv, proxy
 host-suffix, synergyse.com, proxy
 host-suffix, teachparentstech.org, proxy
 host-suffix, tenor.com, proxy
@@ -643,17 +598,13 @@ host-suffix, thinkquarterly.co.uk, proxy
 host-suffix, thinkquarterly.com, proxy
 host-suffix, thinkwithgoogle.com, proxy
 host-suffix, tiltbrush.com, proxy
-host-suffix, tr, proxy
-host-suffix, tw, proxy
 host-suffix, txcloud.net, proxy
 host-suffix, txvia.com, proxy
-host-suffix, ua, proxy
 host-suffix, unfiltered.news, proxy
 host-suffix, urchin.com, proxy
 host-suffix, useplannr.com, proxy
 host-suffix, usvimosquito.com, proxy
 host-suffix, usvimosquitoproject.com, proxy
-host-suffix, uy, proxy
 host-suffix, v8.dev, proxy
 host-suffix, v8project.org, proxy
 host-suffix, velostrata.com, proxy
@@ -662,7 +613,6 @@ host-suffix, verilylifesciences.com, proxy
 host-suffix, verilystudyhub.com, proxy
 host-suffix, verilystudywatch.com, proxy
 host-suffix, verilystudywatch.org, proxy
-host-suffix, vn, proxy
 host-suffix, wallet.com, proxy
 host-suffix, waveprotocol.org, proxy
 host-suffix, waymo.com, proxy
@@ -704,8 +654,8 @@ host-keyword, googlesource, proxy
 host-keyword, recaptcha, proxy
 ip-cidr, 173.194.0.0/16, proxy
 ip-cidr, 74.125.0.0/16, proxy
-# OMITTED (unsupported condition): PROCESS-NAME,GoogleDriveFS.exe
-# OMITTED (unsupported condition): PROCESS-NAME,com.android.vending
-# OMITTED (unsupported condition): PROCESS-NAME,com.google.android.gms
-# OMITTED (unsupported condition): PROCESS-NAME,com.google.android.gsf
-# OMITTED (unsupported condition): PROCESS-NAME,com.google.android.play.games
+# OMITTED (process condition unsupported): PROCESS-NAME,GoogleDriveFS.exe
+# OMITTED (process condition unsupported): PROCESS-NAME,com.android.vending
+# OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.gms
+# OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.gsf
+# OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.play.games

@@ -1,6 +1,3 @@
-# Source: Surge/Rules/Microsoft.list
-# Synced from this repository; preserve upstream attribution and usage terms.
-# Source: Surge/Rules/Microsoft.list
-# Source: Rabbit-Spec/Surge/Rules/Microsoft.list
-# Preserve upstream attribution and usage requirements.
+# Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Microsoft.list
+# Cleaned 2026-11-22: removed 83 cross-group entries (see audit report)
 no_resolve: true
