@@ -34,18 +34,11 @@ host, roovza-launches.appsflyersdk.com, proxy
 host, roovza.inapps.appsflyersdk.com, proxy
 host, roovza.launches.appsflyersdk.com, proxy
 host, roovza.skadsdk.appsflyersdk.com, proxy
-host, trae-api-sg.mchost.guru, proxy
 host-suffix, bytedapm.com, proxy
 host-suffix, bytegecko-i18n.com, proxy
 host-suffix, byteintlapi.com, proxy
-host-suffix, capcut.com, proxy
-host-suffix, capcutapi.com, proxy
-host-suffix, capcutapi.us, proxy
-host-suffix, capcutcdn-us.com, proxy
-host-suffix, capcutstatic.com, proxy
 host-suffix, ipstatp.com, proxy
 host-suffix, isnssdk.com, proxy
-host-suffix, marscode.com, proxy
 host-suffix, muscdn.com, proxy
 host-suffix, sgpstatp.com, proxy
 host-suffix, snssdk.com, proxy
@@ -68,7 +61,6 @@ host-suffix, tiktokv.com.edgesuite.net, proxy
 host-suffix, tiktokv.eu, proxy
 host-suffix, tiktokw.eu, proxy
 host-suffix, tiktokw.us, proxy
-host-suffix, trae.ai, proxy
 host-suffix, ttcdn-us.com, proxy
 host-suffix, ttoverseaus.net, proxy
 host-suffix, ttwebview.com, proxy

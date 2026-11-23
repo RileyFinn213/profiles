@@ -27,14 +27,8 @@ domain_suffix_set:
 - bytedapm.com
 - bytegecko-i18n.com
 - byteintlapi.com
-- capcut.com
-- capcutapi.com
-- capcutapi.us
-- capcutcdn-us.com
-- capcutstatic.com
 - ipstatp.com
 - isnssdk.com
-- marscode.com
 - muscdn.com
 - sgpstatp.com
 - snssdk.com
@@ -57,7 +51,6 @@ domain_suffix_set:
 - tiktokv.eu
 - tiktokw.eu
 - tiktokw.us
-- trae.ai
 - ttcdn-us.com
 - ttoverseaus.net
 - ttwebview.com
@@ -76,6 +69,5 @@ domain_set:
 - roovza.inapps.appsflyersdk.com
 - roovza.launches.appsflyersdk.com
 - roovza.skadsdk.appsflyersdk.com
-- trae-api-sg.mchost.guru
 user_agent_set:
 - TikTok*

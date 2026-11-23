@@ -271,8 +271,6 @@ payload:
 - DOMAIN,ai.developer.meta.com
 - DOMAIN,ai.meta.com
 - DOMAIN,aidemos.meta.com
-- DOMAIN,imagine.meta.com
-- DOMAIN-SUFFIX,meta.ai
 - DOMAIN-SUFFIX,metaaiusercontent.com
 - DOMAIN,gateway.ai.cloudflare.com
 - DOMAIN,api.together.xyz

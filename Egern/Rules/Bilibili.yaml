@@ -13,7 +13,11 @@ domain_suffix_set:
 - biliimg.com
 - bilivideo.cn
 - bilibiligame.net
-- akamaized.net
+- upos-hz-mirrorakam.akamaized.net
+- upos-sz-mirrorakam.akamaized.net
+- upos-bstar-mirrorakam.akamaized.net
+- upos-bstar1-mirrorakam.akamaized.net
+- p-bstarstatic.akamaized.net
 - ourvideo.com
 - acg.tv
 - acgvideo.com

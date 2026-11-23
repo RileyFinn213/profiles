@@ -7,7 +7,6 @@ host-suffix, x.com, proxy
 host-suffix, twitter.com, proxy
 host-suffix, twimg.com, proxy
 host-suffix, t.co, proxy
-host-suffix, grok.com, proxy
 host-suffix, twvid.com, proxy
 ip-cidr, 104.244.42.0/21, proxy
 ip-cidr, 192.133.76.0/22, proxy

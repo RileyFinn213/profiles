@@ -13,7 +13,11 @@ host-suffix, hdslb.com, proxy
 host-suffix, biliimg.com, proxy
 host-suffix, bilivideo.cn, proxy
 host-suffix, bilibiligame.net, proxy
-host-suffix, akamaized.net, proxy
+host-suffix, upos-hz-mirrorakam.akamaized.net, proxy
+host-suffix, upos-sz-mirrorakam.akamaized.net, proxy
+host-suffix, upos-bstar-mirrorakam.akamaized.net, proxy
+host-suffix, upos-bstar1-mirrorakam.akamaized.net, proxy
+host-suffix, p-bstarstatic.akamaized.net, proxy
 host-suffix, ourvideo.com, proxy
 host, 0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com, proxy
 host, 0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com, proxy

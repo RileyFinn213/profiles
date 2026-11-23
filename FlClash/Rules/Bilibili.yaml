@@ -9,7 +9,11 @@ payload:
 - DOMAIN-SUFFIX,biliimg.com
 - DOMAIN-SUFFIX,bilivideo.cn
 - DOMAIN-SUFFIX,bilibiligame.net
-- DOMAIN-SUFFIX,akamaized.net
+- DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+- DOMAIN-SUFFIX,upos-sz-mirrorakam.akamaized.net
+- DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
+- DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
+- DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
 - DOMAIN-SUFFIX,ourvideo.com
 - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com

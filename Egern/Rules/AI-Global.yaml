@@ -177,7 +177,6 @@ domain_set:
 - ai.developer.meta.com
 - ai.meta.com
 - aidemos.meta.com
-- imagine.meta.com
 - gateway.ai.cloudflare.com
 - api.together.xyz
 - copilot-workspace.githubnext.com
@@ -272,7 +271,6 @@ domain_suffix_set:
 - pplx.ai
 - perplexity.com
 - z.ai
-- meta.ai
 - metaaiusercontent.com
 - agentclientprotocol.com
 - ai.studio
