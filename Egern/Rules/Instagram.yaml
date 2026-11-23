@@ -8,7 +8,6 @@ domain_suffix_set:
 - cdninstagram.com
 - instagr.am
 - instagr.com
-- fbcdn.net
 - achat-followers-instagram.com
 - acheter-followers-instagram.com
 - acheterdesfollowersinstagram.com
@@ -79,5 +78,8 @@ domain_suffix_set:
 - theinstagramhack.com
 - web-instagram.net
 - wwwinstagram.com
+- threads.com
+- threads.net
+- facebookthreads.net
 domain_keyword_set:
 - instagram

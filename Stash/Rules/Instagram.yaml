@@ -4,7 +4,6 @@ payload:
 - DOMAIN-SUFFIX,cdninstagram.com
 - DOMAIN-SUFFIX,instagr.am
 - DOMAIN-SUFFIX,instagr.com
-- DOMAIN-SUFFIX,fbcdn.net
 - DOMAIN-KEYWORD,instagram
 - DOMAIN-SUFFIX,achat-followers-instagram.com
 - DOMAIN-SUFFIX,acheter-followers-instagram.com
@@ -76,3 +75,6 @@ payload:
 - DOMAIN-SUFFIX,theinstagramhack.com
 - DOMAIN-SUFFIX,web-instagram.net
 - DOMAIN-SUFFIX,wwwinstagram.com
+- DOMAIN-SUFFIX,threads.com
+- DOMAIN-SUFFIX,threads.net
+- DOMAIN-SUFFIX,facebookthreads.net

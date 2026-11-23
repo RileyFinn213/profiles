@@ -8,7 +8,6 @@ host-suffix, instagram.com, proxy
 host-suffix, cdninstagram.com, proxy
 host-suffix, instagr.am, proxy
 host-suffix, instagr.com, proxy
-host-suffix, fbcdn.net, proxy
 host-keyword, instagram, proxy
 host-suffix, achat-followers-instagram.com, proxy
 host-suffix, acheter-followers-instagram.com, proxy
@@ -80,3 +79,6 @@ host-suffix, onlineinstagram.com, proxy
 host-suffix, theinstagramhack.com, proxy
 host-suffix, web-instagram.net, proxy
 host-suffix, wwwinstagram.com, proxy
+host-suffix, threads.com, proxy
+host-suffix, threads.net, proxy
+host-suffix, facebookthreads.net, proxy

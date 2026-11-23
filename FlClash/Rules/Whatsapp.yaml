@@ -1,7 +1,5 @@
 # Source: https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Rules/Whatsapp.list
 payload:
-- DOMAIN,graph.facebook.com
-- DOMAIN-SUFFIX,bintray.com
 - DOMAIN-SUFFIX,wa.me
 - DOMAIN-SUFFIX,whatsapp-plus.info
 - DOMAIN-SUFFIX,whatsapp-plus.me
@@ -14,3 +12,4 @@ payload:
 - DOMAIN-SUFFIX,whatsapp.org
 - DOMAIN-SUFFIX,whatsapp.tv
 - DOMAIN-SUFFIX,whatsappbrand.com
+- DOMAIN-SUFFIX,whatsappbusiness.com
