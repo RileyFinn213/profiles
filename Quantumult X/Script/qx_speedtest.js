@@ -1,5 +1,11 @@
 /**
- * QX 网速测试（单线程 / 多线程双模式） v1.0.0
+ * QX 网速测试（单线程 / 多线程双模式） v1.1.0
+ *
+ * 两种用法（同一个脚本，自动识别）：
+ *   A. cron 任务：任务列表右滑手动跑 / 定时跑，测「当前分流出口」，结果走通知（见下方 task_local 例）
+ *   B. event-interaction：在 QX 首页长按某个节点或策略组 → 选本脚本 → 专测那个节点/组，
+ *      脚本从 $environment.params 拿到被长按的 tag 作为 policy，结果在弹窗面板里显示（不发通知）：
+ *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&size=10, tag=网速测试, img-url=gauge.with.dots.needle.67percent.system, enabled=true
  *
  * 类 Surge [Testing] 吞吐测试的 Quantumult X 任务脚本版：
  * Surge 默认 download-concurrency=4、duration-limit=10s，本脚本多线程默认同样 4 并发。
@@ -40,8 +46,8 @@
  *   2. 脚本用 opts.filter 让大响应体在 Network Extension 侧只回传字节数
  *      （官方 sample-fetch-opts-filter 的做法），避免几十 MB 文本进 JS 内存；
  *      filter 不生效时自动回退用响应体/Content-Length 计量，结果一样、只是更吃内存。
- *   3. 测的是「测速域名在你分流规则下命中的那个出口」，不是逐个节点批量测速。
- *      想测某个节点：把 policy 参数填成那个策略组/节点，或先在 QX 里切好节点再跑。
+ *   3. cron 模式测的是「测速域名在分流规则下命中的出口」；测单个节点用 event-interaction
+ *      长按触发（最顺手）、或 cron 行里写 policy 参数、或先切好节点再跑。都不是批量逐个测。
  */
 
 // ---------- 参数 ----------
@@ -78,7 +84,11 @@ const UPLOAD = String(P.upload || "0") === "1";
 const USIZE_MB = Math.min(50, Math.max(1, parseFloat(P.usize) || 5));
 const DO_LATENCY = String(P.latency || "1") !== "0";
 const DO_META = String(P.meta || "1") !== "0";
-const POLICY = (P.policy || "").trim();
+// event-interaction 触发时 $environment.params 是被长按的节点/策略组 tag，优先于 #policy 参数
+const UI_TARGET = (typeof $environment !== "undefined" && typeof $environment.params === "string")
+  ? $environment.params.trim() : "";
+const IS_UI = UI_TARGET.length > 0;
+const POLICY = UI_TARGET || (P.policy || "").trim();
 const BASE = (P.url || "https://speed.cloudflare.com").replace(/\/+$/, "");
 const TIMEOUT_S = Math.min(600, Math.max(20, parseInt(P.timeout, 10) || 120));
 
@@ -88,17 +98,22 @@ const UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/6
 
 // ---------- 工具 ----------
 let doneCalled = false;
-function finish() {
-  if (!doneCalled) { doneCalled = true; $done(); }
+function finish(obj) {
+  if (!doneCalled) { doneCalled = true; $done(obj); }
 }
 const watchdog = setTimeout(() => {
   console.log("⏱ 整体超时 " + TIMEOUT_S + "s，强制结束");
-  try { $notify("📶 QX 测速", "", "⏱ 超过 " + TIMEOUT_S + "s 未完成，已强制结束\n（慢线可调大 timeout，或调小 size）"); } catch (e) {}
+  const msg = "⏱ 超过 " + TIMEOUT_S + "s 未完成，已强制结束\n（慢线可调大 timeout，或调小 size）";
+  if (IS_UI) { finish({ title: "📶 QX 测速", message: msg }); return; }
+  try { $notify("📶 QX 测速", "", msg); } catch (e) {}
   finish();
 }, TIMEOUT_S * 1000);
 if (watchdog && typeof watchdog.unref === "function") watchdog.unref();
 
 function fmt(n, d) { return Number(n).toFixed(d === undefined ? 1 : d); }
+function escHtml(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
 function headerCI(headers, name) {
   if (!headers) return null;
   const keys = Object.keys(headers);
@@ -204,7 +219,7 @@ async function runMeta() {
   const lines = [];
   const sizeBytes = Math.round(SIZE_MB * MB);
   const usizeBytes = Math.round(USIZE_MB * MB);
-  console.log("📶 QX 测速开始 mode=" + MODE + " threads=" + THREADS + " size=" + SIZE_MB + "MB upload=" + UPLOAD + (POLICY ? " policy=" + POLICY : ""));
+  console.log("📶 QX 测速开始 mode=" + MODE + " threads=" + THREADS + " size=" + SIZE_MB + "MB upload=" + UPLOAD + (IS_UI ? " ui-target=" + UI_TARGET : "") + (POLICY ? " policy=" + POLICY : ""));
 
   const meta = DO_META ? await runMeta() : null;
 
@@ -238,14 +253,24 @@ async function runMeta() {
   }
 
   lines.push("源： Cloudflare" + (POLICY ? " · 策略 " + POLICY : " · 当前分流出口") + " · 每连接 " + SIZE_MB + " MB");
-  const title = "📶 QX 测速 · " + (MODE === "both" ? "双模式" : MODE === "single" ? "单线程" : "多线程");
+  const title = "📶 QX 测速 · " + (MODE === "both" ? "双模式" : MODE === "single" ? "单线程" : "多线程") +
+    (IS_UI ? " · " + UI_TARGET : "");
   console.log(lines.join("\n"));
-  $notify(title, meta ? "出口 " + meta : "", lines.join("\n"));
   clearTimeout(watchdog);
-  finish();
+  if (IS_UI) {
+    // event-interaction：结果显示在长按弹窗面板里，不发通知
+    const html = '<p style="text-align: center; font-family: -apple-system; font-size: medium">' +
+      (meta ? "出口 " + escHtml(meta) + "<br/>" : "") +
+      lines.map(escHtml).join("<br/>") + "</p>";
+    finish({ title: title, htmlMessage: html });
+  } else {
+    $notify(title, meta ? "出口 " + meta : "", lines.join("\n"));
+    finish();
+  }
 })().catch(e => {
   console.log("❌ 测速异常 " + (e && e.error ? e.error : e));
-  try { $notify("📶 QX 测速", "", "❌ 测速异常：" + (e && e.error ? e.error : e)); } catch (_) {}
   clearTimeout(watchdog);
+  if (IS_UI) { finish({ title: "📶 QX 测速", message: "❌ 测速异常：" + (e && e.error ? e.error : e) }); return; }
+  try { $notify("📶 QX 测速", "", "❌ 测速异常：" + (e && e.error ? e.error : e)); } catch (_) {}
   finish();
 });
