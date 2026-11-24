@@ -23,8 +23,9 @@
  *   A. cron 任务：任务列表右滑手动跑 / 定时跑，测「当前分流出口」，结果走通知（见下方 task_local 例）
  *   B. event-interaction：在 QX 首页长按某个节点或策略组 → 选本脚本 → 专测那个节点/组，
  *      脚本从 $environment.params 拿到被长按的 tag 作为 policy，结果在弹窗面板里显示（不发通知）：
- *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&duration=5&upload=0, tag=网速测试, img-url=gauge.with.dots.needle.67percent.system, enabled=true
- *      （长按版关掉上传、窗口 5s，面板约 10s 出结果；要测上传去掉 upload=0 即可，等待翻倍）
+ *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=single&duration=5&upload=0, tag=测速·单线程, img-url=gauge.with.dots.needle.33percent.system, enabled=true
+ *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=multi&threads=4&duration=5&upload=0, tag=测速·多线程, img-url=gauge.with.dots.needle.67percent.system, enabled=true
+ *      （长按拆单/多线程两条：每条只跑一个 5s 窗口，面板约 6-8s 出结果；要测上传去掉 upload=0，等待翻倍）
  *
  * 测速源：Cloudflare 官方 speed.cloudflare.com
  *   下载 https://speed.cloudflare.com/__down?bytes=N   （返回 N 个 ASCII "0"，文本安全）
