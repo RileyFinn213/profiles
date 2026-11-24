@@ -1,18 +1,24 @@
 /**
- * QX 网速测试（单线程 / 多线程双模式） v1.1.0
+ * QX 网速测试（单线程 / 多线程双模式） v1.2.0
+ *
+ * 计量方式按 Surge [Testing] 原样对齐（Surge 手册 Mac 6.4.4+）：
+ *   download-concurrency = 4     多连接并发（单线程模式 = 1）
+ *   download-duration-limit = 10s 定时间窗：持续下载满 10s，数总字节算速（不是定长文件跑完计时）
+ *   upload-concurrency = 4 / upload-duration-limit = 10s / upload-size-limit = 1000000000（1GB 先到先停）
+ * QX 的 $task.fetch 没有流式回调、也不能中途掐断一条请求，所以定窗用「分块循环」逼近：
+ * 每条连接先下 1MB 探速，再按实测速率把后续块切成约 1.5s 一块，循环到窗口结束；
+ * 误差只剩窗口末尾在途的那一小块，和 Surge 原生流式会有个位数百分比出入，口径一致。
+ * 老的定长方式保留：#method=fixed 时按 size MB 定长计时（v1.1 行为）。
  *
  * 两种用法（同一个脚本，自动识别）：
  *   A. cron 任务：任务列表右滑手动跑 / 定时跑，测「当前分流出口」，结果走通知（见下方 task_local 例）
  *   B. event-interaction：在 QX 首页长按某个节点或策略组 → 选本脚本 → 专测那个节点/组，
  *      脚本从 $environment.params 拿到被长按的 tag 作为 policy，结果在弹窗面板里显示（不发通知）：
- *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&size=10, tag=网速测试, img-url=gauge.with.dots.needle.67percent.system, enabled=true
- *
- * 类 Surge [Testing] 吞吐测试的 Quantumult X 任务脚本版：
- * Surge 默认 download-concurrency=4、duration-limit=10s，本脚本多线程默认同样 4 并发。
+ *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&duration=5, tag=网速测试, img-url=gauge.with.dots.needle.67percent.system, enabled=true
  *
  * 测速源：Cloudflare 官方 speed.cloudflare.com
  *   下载 https://speed.cloudflare.com/__down?bytes=N   （返回 N 个 ASCII "0"，文本安全）
- *   上传 https://speed.cloudflare.com/__up             （POST，默认关，upload=1 开启）
+ *   上传 https://speed.cloudflare.com/__up             （POST，Surge 口径默认开，upload=0 关）
  *   出口 https://speed.cloudflare.com/meta             （出口 IP / 城市 / Colo / ASN）
  *
  * 参数切换（QX 官方方式：写在脚本 URL 的 # 后面，脚本里用 $environment.variables 读取，
@@ -20,7 +26,7 @@
  *
  * [task_local]
  * 双模式（先单后多，一次出两个数，默认）：
- * * * * * * https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&threads=4&size=25, tag=网速测试-双模式, enabled=false
+ * * * * * * https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&threads=4, tag=网速测试-双模式, enabled=false
  * 只测单线程：
  * * * * * * https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=single, tag=网速测试-单线程, enabled=false
  * 只测多线程：
@@ -29,22 +35,26 @@
  * * * * * * https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=multi&policy=direct, tag=网速测试-直连, enabled=false
  *
  * 全部参数（不写就用默认值）：
+ *   method   surge | fixed             默认 surge（Surge 式定窗）；fixed = 老定长方式
  *   mode     both | single | multi     默认 both
- *   threads  多线程并发数 1-8           默认 4（与 Surge 默认一致）
- *   size     每条连接下载 MB（十进制）   默认 25；流量敏感改 10，慢线改 50 更准
- *   upload   0 | 1                     默认 0（开启后下载测完接着测上传）
- *   usize    每条连接上传 MB            默认 5
- *   latency  0 | 1                     默认 1（测 3 次 bytes=0 取最小/平均）
+ *   threads  多线程并发数 1-8           默认 4（= Surge download/upload-concurrency）
+ *   duration 定窗秒数 1-30              默认 10（= Surge download/upload-duration-limit）
+ *   upload   0 | 1                     默认 1（Surge 测速含上下行；关掉只测下载省流量）
+ *   size     每条连接下载 MB            默认 25，仅 method=fixed 时用
+ *   usize    每条连接上传 MB            默认 5，仅 method=fixed 时用
+ *   latency  0 | 1                     默认 1（测 3 次 bytes=0 取最小/平均；Surge 里延迟是另一套 HEAD 测试，这里只作附加信息）
  *   meta     0 | 1                     默认 1（显示出口信息，失败自动跳过）
  *   policy   策略组名 / 节点 tag / direct，留空 = 按现有分流规则走（测当前出口）
- *   url      自定义下载地址（须支持 ?bytes=N 的 Cloudflare 风格接口才准），默认官方源
+ *   url      自定义测速源（须支持 ?bytes=N 的 Cloudflare 风格接口才准），默认官方源
  *   timeout  整体超时秒数               默认 120，到点强制结束并通知
  *
+ * 流量警告：定窗计量在快线上吃流量 = 速率 × 时间。500 Mbps 的线跑默认双模式
+ * （单+多各 10s 下 + 10s 上）能吃掉 1GB 以上，流量卡先把 duration 改小或 upload=0。
+ *
  * 已知限制（QX 本身，不是脚本问题）：
- *   1. $task.fetch 只能拿到完整响应体、没有流式回调，所以是「定长下载计时」，
- *      不是 Surge 那种「定时间窗流式计量」，慢启动阶段会拉低一点结果。
+ *   1. $task.fetch 没有流式回调，定窗靠分块循环逼近（见文件头），与 Surge 原生流式有个位数百分比出入。
  *   2. 脚本用 opts.filter 让大响应体在 Network Extension 侧只回传字节数
- *      （官方 sample-fetch-opts-filter 的做法），避免几十 MB 文本进 JS 内存；
+ *      （官方 sample-fetch-opts-filter 的做法），避免大文本进 JS 内存；
  *      filter 不生效时自动回退用响应体/Content-Length 计量，结果一样、只是更吃内存。
  *   3. cron 模式测的是「测速域名在分流规则下命中的出口」；测单个节点用 event-interaction
  *      长按触发（最顺手）、或 cron 行里写 policy 参数、或先切好节点再跑。都不是批量逐个测。
@@ -80,7 +90,9 @@ const MODE = /^(single|multi|both)$/.test(String(P.mode || "").toLowerCase())
   ? String(P.mode).toLowerCase() : "both";
 const THREADS = Math.min(8, Math.max(1, parseInt(P.threads, 10) || 4));
 const SIZE_MB = Math.min(200, Math.max(1, parseFloat(P.size) || 25));
-const UPLOAD = String(P.upload || "0") === "1";
+const METHOD = String(P.method || "surge").toLowerCase() === "fixed" ? "fixed" : "surge";
+const DURATION = Math.min(30, Math.max(1, parseFloat(P.duration) || 10));
+const UPLOAD = String(P.upload || "1") !== "0";
 const USIZE_MB = Math.min(50, Math.max(1, parseFloat(P.usize) || 5));
 const DO_LATENCY = String(P.latency || "1") !== "0";
 const DO_META = String(P.meta || "1") !== "0";
@@ -185,6 +197,56 @@ async function runRound(kind, concurrency, bytesPerConn) {
   return { concurrency, totalBytes, sec, mbps, mbpsPerConn: mbps / concurrency };
 }
 
+// ---- Surge 式定窗计量：窗口内分块循环，数总字节 / 实际耗时 ----
+const UPLOAD_SIZE_LIMIT = 1000000000; // = Surge upload-size-limit 1GB
+
+async function surgeWorker(kind, deadline, idx, capBytes) {
+  const fn = kind === "up" ? uploadOnce : downloadOnce;
+  const cap = kind === "up" ? 10 * MB : 25 * MB; // 单块上限：上传块受请求体内存约束更严
+  let total = 0;
+  let rate = 0; // 本连接实测字节/秒
+  let chunk = 1 * MB; // 首块探速
+  while (true) {
+    const remain = (deadline - Date.now()) / 1000;
+    if (remain <= 0.3) break;
+    if (capBytes && total >= capBytes) break;
+    if (rate > 0) {
+      chunk = Math.round(rate * Math.min(1.5, remain));
+      chunk = Math.min(cap, Math.max(Math.round(0.25 * MB), chunk));
+      if (capBytes) chunk = Math.min(chunk, capBytes - total);
+    }
+    const t0 = Date.now();
+    try {
+      const n = await fn(chunk, idx);
+      total += n;
+      const dt = (Date.now() - t0) / 1000;
+      if (dt > 0 && n > 0) rate = n / dt;
+    } catch (e) {
+      break; // 中途失败保留已完成字节；total=0 时整轮判失败
+    }
+  }
+  return total;
+}
+
+async function runRoundSurge(kind, concurrency) {
+  const start = Date.now();
+  const deadline = start + DURATION * 1000;
+  const perCap = kind === "up" ? Math.floor(UPLOAD_SIZE_LIMIT / concurrency) : 0;
+  const results = await Promise.all(
+    Array.from({ length: concurrency }, (_, i) => surgeWorker(kind, deadline, i, perCap))
+  );
+  const sec = (Date.now() - start) / 1000;
+  const totalBytes = results.reduce((a, b) => a + b, 0);
+  if (totalBytes <= 0) throw new Error("无数据返回");
+  const mbps = totalBytes * 8 / sec / 1e6;
+  return { concurrency, totalBytes, sec, mbps, mbpsPerConn: mbps / concurrency };
+}
+
+// 统一入口：surge = 定窗，fixed = 定长（v1.1 行为）
+function runTest(kind, concurrency, fixedBytes) {
+  return METHOD === "surge" ? runRoundSurge(kind, concurrency) : runRound(kind, concurrency, fixedBytes);
+}
+
 async function runLatency() {
   const samples = [];
   for (let i = 0; i < 3; i++) {
@@ -219,7 +281,7 @@ async function runMeta() {
   const lines = [];
   const sizeBytes = Math.round(SIZE_MB * MB);
   const usizeBytes = Math.round(USIZE_MB * MB);
-  console.log("📶 QX 测速开始 mode=" + MODE + " threads=" + THREADS + " size=" + SIZE_MB + "MB upload=" + UPLOAD + (IS_UI ? " ui-target=" + UI_TARGET : "") + (POLICY ? " policy=" + POLICY : ""));
+  console.log("📶 QX 测速开始 method=" + METHOD + " mode=" + MODE + " threads=" + THREADS + " duration=" + DURATION + "s size=" + SIZE_MB + "MB upload=" + UPLOAD + (IS_UI ? " ui-target=" + UI_TARGET : "") + (POLICY ? " policy=" + POLICY : ""));
 
   const meta = DO_META ? await runMeta() : null;
 
@@ -233,7 +295,7 @@ async function runMeta() {
     const n = m === "single" ? 1 : THREADS;
     const label = m === "single" ? "⬇️ 单线程" : "⬇️ 多线程 ×" + n;
     try {
-      const r = await runRound("down", n, sizeBytes);
+      const r = await runTest("down", n, sizeBytes);
       lines.push(label + "： " + fmt(r.mbps) + " Mbps（" + fmt(r.totalBytes / MB) + " MB / " + fmt(r.sec, 2) + "s" +
         (n > 1 ? "，单连接均 " + fmt(r.mbpsPerConn) + " Mbps" : "") + "）");
       console.log(label + " " + JSON.stringify(r));
@@ -243,7 +305,7 @@ async function runMeta() {
     if (UPLOAD) {
       const ulabel = m === "single" ? "⬆️ 单线程" : "⬆️ 多线程 ×" + n;
       try {
-        const r = await runRound("up", n, usizeBytes);
+        const r = await runTest("up", n, usizeBytes);
         lines.push(ulabel + "： " + fmt(r.mbps) + " Mbps（" + fmt(r.totalBytes / MB) + " MB / " + fmt(r.sec, 2) + "s）");
         console.log(ulabel + " " + JSON.stringify(r));
       } catch (e) {
@@ -252,7 +314,8 @@ async function runMeta() {
     }
   }
 
-  lines.push("源： Cloudflare" + (POLICY ? " · 策略 " + POLICY : " · 当前分流出口") + " · 每连接 " + SIZE_MB + " MB");
+  lines.push("源： Cloudflare" + (POLICY ? " · 策略 " + POLICY : " · 当前分流出口") +
+    (METHOD === "surge" ? " · Surge 式定窗 " + DURATION + "s" : " · 定长每连接 " + SIZE_MB + " MB"));
   const title = "📶 QX 测速 · " + (MODE === "both" ? "双模式" : MODE === "single" ? "单线程" : "多线程") +
     (IS_UI ? " · " + UI_TARGET : "");
   console.log(lines.join("\n"));
