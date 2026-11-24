@@ -1,5 +1,10 @@
 /**
- * QX 网速测试（单线程 / 多线程双模式） v1.2.2
+ * QX 网速测试（单线程 / 多线程双模式） v1.3.0
+ *
+ * v1.3.0：真机实测（德国 Mieru 节点，完整请求延迟 528ms）证明分块太碎时握手损耗惊人 —
+ * 每块约 1.5s 就要重付一次约 0.5s 的握手+爬坡，10s 窗口约三成时间没在传数据，数字被测低。
+ * 改为单块目标约 3s、上限 50MB，握手次数减半。延迟行是「新建连接完整请求」耗时（含握手，
+ * 约为真实 RTT 的 3 倍多），不要和 QX/Surge 的节点延迟数字对标。
  *
  * v1.2.2：长按（event-interaction）专项加固。官方 sample 注明 $task.fetch 默认超时 10s，
  * 长按面板等不起长流程：① 长按触发且没显式传 duration/upload 时，自动窗口 4s、关上传，
@@ -15,8 +20,8 @@
  *   download-duration-limit = 10s 定时间窗：持续下载满 10s，数总字节算速（不是定长文件跑完计时）
  *   upload-concurrency = 4 / upload-duration-limit = 10s / upload-size-limit = 1000000000（1GB 先到先停）
  * QX 的 $task.fetch 没有流式回调、也不能中途掐断一条请求，所以定窗用「分块循环」逼近：
- * 每条连接先下 1MB 探速，再按实测速率把后续块切成约 1.5s 一块，循环到窗口结束；
- * 误差只剩窗口末尾在途的那一小块，和 Surge 原生流式会有个位数百分比出入，口径一致。
+ * 每条连接先下 1MB 探速，再按实测速率把后续块切成约 3s 一块（上限 50MB），循环到窗口结束；
+ * 块越大握手占比越低，但窗口末尾在途块的误差也越大，3s 是折中。
  * 老的定长方式保留：#method=fixed 时按 size MB 定长计时（v1.1 行为）。
  *
  * 两种用法（同一个脚本，自动识别）：
@@ -229,7 +234,7 @@ const UPLOAD_SIZE_LIMIT = 1000000000; // = Surge upload-size-limit 1GB
 
 async function surgeWorker(kind, deadline, idx, capBytes) {
   const fn = kind === "up" ? uploadOnce : downloadOnce;
-  const cap = kind === "up" ? 10 * MB : 25 * MB; // 单块上限：上传块受请求体内存约束更严
+  const cap = kind === "up" ? 10 * MB : 50 * MB; // 单块上限：上传块受请求体内存约束更严
   let total = 0;
   let rate = 0; // 本连接实测字节/秒
   let chunk = 1 * MB; // 首块探速
@@ -238,7 +243,7 @@ async function surgeWorker(kind, deadline, idx, capBytes) {
     if (remain <= 0.3) break;
     if (capBytes && total >= capBytes) break;
     if (rate > 0) {
-      chunk = Math.round(rate * Math.min(1.5, remain));
+      chunk = Math.round(rate * Math.min(3, remain)); // 块目标约 3s：块太碎时每块都要重付握手，高延迟节点损耗大
       chunk = Math.min(cap, Math.max(Math.round(0.25 * MB), chunk));
       if (capBytes) chunk = Math.min(chunk, capBytes - total);
     }
