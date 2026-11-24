@@ -1,5 +1,10 @@
 /**
- * QX 网速测试（单线程 / 多线程双模式） v1.2.1
+ * QX 网速测试（单线程 / 多线程双模式） v1.2.2
+ *
+ * v1.2.2：长按（event-interaction）专项加固。官方 sample 注明 $task.fetch 默认超时 10s，
+ * 长按面板等不起长流程：① 长按触发且没显式传 duration/upload 时，自动窗口 4s、关上传，
+ * 整轮预算 25s 封顶（显式传参则按参数走）；② 每个 fetch 加自己的超时赛跑，不再干等；
+ * ③ 长按模式下延迟采样改并行（慢/死节点不再 3 次串行各等 10s）。
  *
  * v1.2.1：真机「测试显示无有效内容」修复 — QX 手动测试/长按的结果面板只认 $done 回传的内容，
  * 之前 cron 路径以裸 $done() 结束、面板无内容可显示。现在所有出口（成功/失败/超时、cron/UI）
@@ -96,8 +101,10 @@ const MODE = /^(single|multi|both)$/.test(String(P.mode || "").toLowerCase())
 const THREADS = Math.min(8, Math.max(1, parseInt(P.threads, 10) || 4));
 const SIZE_MB = Math.min(200, Math.max(1, parseFloat(P.size) || 25));
 const METHOD = String(P.method || "surge").toLowerCase() === "fixed" ? "fixed" : "surge";
-const DURATION = Math.min(30, Math.max(1, parseFloat(P.duration) || 10));
-const UPLOAD = String(P.upload || "1") !== "0";
+const DURATION_EXPLICIT = P.duration != null && String(P.duration) !== "";
+const UPLOAD_EXPLICIT = P.upload != null && String(P.upload) !== "";
+let DURATION = Math.min(30, Math.max(1, parseFloat(P.duration) || 10));
+let UPLOAD = String(P.upload || "1") !== "0";
 const USIZE_MB = Math.min(50, Math.max(1, parseFloat(P.usize) || 5));
 const DO_LATENCY = String(P.latency || "1") !== "0";
 const DO_META = String(P.meta || "1") !== "0";
@@ -107,6 +114,14 @@ const RAW_PARAMS = (typeof $environment !== "undefined") ? $environment.params :
 const UI_TARGET = (typeof RAW_PARAMS === "string") ? RAW_PARAMS.trim() : "";
 const IS_UI = RAW_PARAMS != null && String(RAW_PARAMS).trim().length > 0;
 const POLICY = UI_TARGET || (P.policy || "").trim();
+// 长按面板等不起默认全程（4 窗口 × 10s + 串行采样，慢节点能拖到 1 分钟）：
+// 没显式传参时长按自动缩短 — 窗口封顶 4s、关上传；cron 不受影响
+if (IS_UI) {
+  if (!DURATION_EXPLICIT) DURATION = Math.min(DURATION, 4);
+  if (!UPLOAD_EXPLICIT) UPLOAD = false;
+}
+let MAIN_START = 0; // 主流程启动时刻，长按模式用它算 25s 总预算
+const UI_BUDGET_MS = 25000;
 const BASE = (P.url || "https://speed.cloudflare.com").replace(/\/+$/, "");
 const TIMEOUT_S = Math.min(600, Math.max(20, parseInt(P.timeout, 10) || 120));
 
@@ -119,12 +134,13 @@ let doneCalled = false;
 function finish(obj) {
   if (!doneCalled) { doneCalled = true; $done(obj); }
 }
+const WATCHDOG_S = IS_UI ? Math.min(TIMEOUT_S, 30) : TIMEOUT_S; // 长按 30s 必回内容，抢在面板放弃之前
 const watchdog = setTimeout(() => {
-  console.log("⏱ 整体超时 " + TIMEOUT_S + "s，强制结束");
-  const msg = "⏱ 超过 " + TIMEOUT_S + "s 未完成，已强制结束\n（慢线可调大 timeout，或调小 duration/size）";
+  console.log("⏱ 整体超时 " + WATCHDOG_S + "s，强制结束");
+  const msg = "⏱ 超过 " + WATCHDOG_S + "s 未完成，已强制结束\n（慢线可调大 timeout，或调小 duration/size）";
   if (!IS_UI) { try { $notify("📶 QX 测速", "", msg); } catch (e) {} }
   finish({ title: "📶 QX 测速", message: msg });
-}, TIMEOUT_S * 1000);
+}, WATCHDOG_S * 1000);
 if (watchdog && typeof watchdog.unref === "function") watchdog.unref();
 
 function fmt(n, d) { return Number(n).toFixed(d === undefined ? 1 : d); }
@@ -157,10 +173,15 @@ function respBytes(resp, expected) {
   return expected || 0;
 }
 
-function fetchOnce(req) {
+// QX 的 fetch 默认超时 10s 且掐不断，这里只做「不等它」：到点先判失败，底层请求由 QX 自己收尾
+function withTimeout(p, ms) {
+  return Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error("等待响应超时")), ms))]);
+}
+
+function fetchOnce(req, timeoutMs) {
   const r = Object.assign({}, req);
   if (POLICY) r.opts = Object.assign({}, r.opts || {}, { policy: POLICY });
-  return $task.fetch(r);
+  return withTimeout($task.fetch(r), timeoutMs || 15000);
 }
 
 // 单条下载：filter 只回传字节数，避免大 body 进 JS 内存；失败/不生效时 respBytes 自动回退
@@ -235,7 +256,8 @@ async function surgeWorker(kind, deadline, idx, capBytes) {
 
 async function runRoundSurge(kind, concurrency) {
   const start = Date.now();
-  const deadline = start + DURATION * 1000;
+  let deadline = start + DURATION * 1000;
+  if (IS_UI && MAIN_START) deadline = Math.min(deadline, MAIN_START + UI_BUDGET_MS); // 长按总预算封顶
   const perCap = kind === "up" ? Math.floor(UPLOAD_SIZE_LIMIT / concurrency) : 0;
   const results = await Promise.all(
     Array.from({ length: concurrency }, (_, i) => surgeWorker(kind, deadline, i, perCap))
@@ -253,13 +275,19 @@ function runTest(kind, concurrency, fixedBytes) {
 }
 
 async function runLatency() {
-  const samples = [];
-  for (let i = 0; i < 3; i++) {
+  const one = async i => {
     const t = Date.now();
-    try {
-      await fetchOnce({ url: BASE + "/__down?bytes=0&r=" + Date.now() + "-" + i, method: "GET", headers: { "User-Agent": UA } });
-      samples.push(Date.now() - t);
-    } catch (e) { /* 单次失败忽略 */ }
+    await fetchOnce({ url: BASE + "/__down?bytes=0&r=" + Date.now() + "-" + i, method: "GET", headers: { "User-Agent": UA } }, 6000);
+    return Date.now() - t;
+  };
+  let samples = [];
+  if (IS_UI) {
+    // 长按模式并行采样：被测节点慢/死时串行 3 次最坏要等 30s，面板等不起
+    samples = (await Promise.all([0, 1, 2].map(i => one(i).catch(() => null)))).filter(x => x != null);
+  } else {
+    for (let i = 0; i < 3; i++) {
+      try { samples.push(await one(i)); } catch (e) { /* 单次失败忽略 */ }
+    }
   }
   if (!samples.length) return null;
   return {
@@ -270,7 +298,7 @@ async function runLatency() {
 
 async function runMeta() {
   try {
-    const resp = await fetchOnce({ url: BASE + "/meta", method: "GET", headers: { "User-Agent": UA, "Referer": "https://speed.cloudflare.com/" } });
+    const resp = await fetchOnce({ url: BASE + "/meta", method: "GET", headers: { "User-Agent": UA, "Referer": "https://speed.cloudflare.com/" } }, 6000);
     const m = JSON.parse(resp.body);
     if (!m || !m.clientIp) return null; // 无 UA 时 Cloudflare 只回 {}，拿到空数据就不显示
     const loc = [m.city, m.country].filter(Boolean).join(", ");
@@ -283,6 +311,7 @@ async function runMeta() {
 
 // ---------- 主流程 ----------
 (async () => {
+  MAIN_START = Date.now();
   const lines = [];
   const sizeBytes = Math.round(SIZE_MB * MB);
   const usizeBytes = Math.round(USIZE_MB * MB);
