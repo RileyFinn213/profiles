@@ -1,5 +1,9 @@
 /**
- * QX 网速测试（单线程 / 多线程双模式） v1.2.0
+ * QX 网速测试（单线程 / 多线程双模式） v1.2.1
+ *
+ * v1.2.1：真机「测试显示无有效内容」修复 — QX 手动测试/长按的结果面板只认 $done 回传的内容，
+ * 之前 cron 路径以裸 $done() 结束、面板无内容可显示。现在所有出口（成功/失败/超时、cron/UI）
+ * 都回传 {title, message/htmlMessage}；通知照常发。UI 识别也放宽：params 只要存在即按面板模式走。
  *
  * 计量方式按 Surge [Testing] 原样对齐（Surge 手册 Mac 6.4.4+）：
  *   download-concurrency = 4     多连接并发（单线程模式 = 1）
@@ -14,7 +18,8 @@
  *   A. cron 任务：任务列表右滑手动跑 / 定时跑，测「当前分流出口」，结果走通知（见下方 task_local 例）
  *   B. event-interaction：在 QX 首页长按某个节点或策略组 → 选本脚本 → 专测那个节点/组，
  *      脚本从 $environment.params 拿到被长按的 tag 作为 policy，结果在弹窗面板里显示（不发通知）：
- *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&duration=5, tag=网速测试, img-url=gauge.with.dots.needle.67percent.system, enabled=true
+ *      event-interaction https://raw.githubusercontent.com/RileyFinn213/profiles/refs/heads/main/Quantumult%20X/Script/qx_speedtest.js#mode=both&duration=5&upload=0, tag=网速测试, img-url=gauge.with.dots.needle.67percent.system, enabled=true
+ *      （长按版关掉上传、窗口 5s，面板约 10s 出结果；要测上传去掉 upload=0 即可，等待翻倍）
  *
  * 测速源：Cloudflare 官方 speed.cloudflare.com
  *   下载 https://speed.cloudflare.com/__down?bytes=N   （返回 N 个 ASCII "0"，文本安全）
@@ -96,10 +101,11 @@ const UPLOAD = String(P.upload || "1") !== "0";
 const USIZE_MB = Math.min(50, Math.max(1, parseFloat(P.usize) || 5));
 const DO_LATENCY = String(P.latency || "1") !== "0";
 const DO_META = String(P.meta || "1") !== "0";
-// event-interaction 触发时 $environment.params 是被长按的节点/策略组 tag，优先于 #policy 参数
-const UI_TARGET = (typeof $environment !== "undefined" && typeof $environment.params === "string")
-  ? $environment.params.trim() : "";
-const IS_UI = UI_TARGET.length > 0;
+// event-interaction 触发时 $environment.params 是被长按的节点/策略组 tag，优先于 #policy 参数；
+// params 只要存在（哪怕不是字符串）就按面板模式走，保证 $done 必回内容、面板不空
+const RAW_PARAMS = (typeof $environment !== "undefined") ? $environment.params : undefined;
+const UI_TARGET = (typeof RAW_PARAMS === "string") ? RAW_PARAMS.trim() : "";
+const IS_UI = RAW_PARAMS != null && String(RAW_PARAMS).trim().length > 0;
 const POLICY = UI_TARGET || (P.policy || "").trim();
 const BASE = (P.url || "https://speed.cloudflare.com").replace(/\/+$/, "");
 const TIMEOUT_S = Math.min(600, Math.max(20, parseInt(P.timeout, 10) || 120));
@@ -115,10 +121,9 @@ function finish(obj) {
 }
 const watchdog = setTimeout(() => {
   console.log("⏱ 整体超时 " + TIMEOUT_S + "s，强制结束");
-  const msg = "⏱ 超过 " + TIMEOUT_S + "s 未完成，已强制结束\n（慢线可调大 timeout，或调小 size）";
-  if (IS_UI) { finish({ title: "📶 QX 测速", message: msg }); return; }
-  try { $notify("📶 QX 测速", "", msg); } catch (e) {}
-  finish();
+  const msg = "⏱ 超过 " + TIMEOUT_S + "s 未完成，已强制结束\n（慢线可调大 timeout，或调小 duration/size）";
+  if (!IS_UI) { try { $notify("📶 QX 测速", "", msg); } catch (e) {} }
+  finish({ title: "📶 QX 测速", message: msg });
 }, TIMEOUT_S * 1000);
 if (watchdog && typeof watchdog.unref === "function") watchdog.unref();
 
@@ -327,13 +332,14 @@ async function runMeta() {
       lines.map(escHtml).join("<br/>") + "</p>";
     finish({ title: title, htmlMessage: html });
   } else {
+    // cron：通知照发，同时把结果回给 $done — 手动测试的结果面板靠它显示内容，裸 $done() 会显示「无有效内容」
     $notify(title, meta ? "出口 " + meta : "", lines.join("\n"));
-    finish();
+    finish({ title: title, message: (meta ? "出口 " + meta + "\n" : "") + lines.join("\n") });
   }
 })().catch(e => {
   console.log("❌ 测速异常 " + (e && e.error ? e.error : e));
   clearTimeout(watchdog);
-  if (IS_UI) { finish({ title: "📶 QX 测速", message: "❌ 测速异常：" + (e && e.error ? e.error : e) }); return; }
-  try { $notify("📶 QX 测速", "", "❌ 测速异常：" + (e && e.error ? e.error : e)); } catch (_) {}
-  finish();
+  const emsg = "❌ 测速异常：" + (e && e.error ? e.error : e);
+  if (!IS_UI) { try { $notify("📶 QX 测速", "", emsg); } catch (_) {} }
+  finish({ title: "📶 QX 测速", message: emsg });
 });
