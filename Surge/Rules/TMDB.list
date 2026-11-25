@@ -5,5 +5,6 @@
 # FORMAT: RULE-SET (no policy column)
 DOMAIN,tmdb-image-prod.b-cdn.net
 DOMAIN,tmdb-web-image-prod.b-cdn.net
+DOMAIN,tmdb.saltpi.cn
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org

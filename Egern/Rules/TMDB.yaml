@@ -5,6 +5,7 @@
 domain_set:
 - tmdb-image-prod.b-cdn.net
 - tmdb-web-image-prod.b-cdn.net
+- tmdb.saltpi.cn
 domain_suffix_set:
 - themoviedb.org
 - tmdb.org

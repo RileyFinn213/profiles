@@ -5,5 +5,6 @@
 # Native filter; bind actual policy with force-policy. no-resolve not retained.
 host, tmdb-image-prod.b-cdn.net, proxy
 host, tmdb-web-image-prod.b-cdn.net, proxy
+host, tmdb.saltpi.cn, proxy
 host-suffix, themoviedb.org, proxy
 host-suffix, tmdb.org, proxy

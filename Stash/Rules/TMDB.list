@@ -5,5 +5,6 @@
 # Classical text rule provider.
 DOMAIN,tmdb-image-prod.b-cdn.net
 DOMAIN,tmdb-web-image-prod.b-cdn.net
+DOMAIN,tmdb.saltpi.cn
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
