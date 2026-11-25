@@ -246,3 +246,6 @@ domain_suffix_set:
 - paypalhere.com.cn
 - xn--bnq297cix3a.cn
 - xoom.net.cn
+- paypal-mktg.com
+domain_keyword_set:
+- paypal

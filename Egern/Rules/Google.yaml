@@ -650,6 +650,15 @@ domain_suffix_set:
 - xn--qcka1pmc
 - zukunftswerkstatt.de
 - zynamics.com
+- g.co
+- ggpht.com
+- gvt1.com
+- gvt2.com
+- youtu.be
+- youtube-nocookie.com
+- youtube.com
+- yt.be
+- ytimg.com
 domain_set:
 - google-ohttp-relay-safebrowsing.fastly-edge.com
 domain_keyword_set:
@@ -659,3 +668,9 @@ domain_keyword_set:
 - google
 - googlesource
 - recaptcha
+process_name_set:
+- GoogleDriveFS.exe
+- com.android.vending
+- com.google.android.gms
+- com.google.android.gsf
+- com.google.android.play.games

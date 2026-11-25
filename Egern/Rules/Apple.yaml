@@ -1562,6 +1562,7 @@ domain_suffix_set:
 - notary-submissions-prod.s3-accelerate.amazonaws.com
 - notary-submissions-prod.s3.us-west-2.amazonaws.com
 - p-events-delivery.akamaized.net
+- crashlytics.com
 domain_set:
 - 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 - apple-relay.fastly-edge.com
@@ -1577,3 +1578,13 @@ domain_keyword_set:
 - icoudo
 - icoudos
 - testflight
+process_name_set:
+- CoreLocationAgent
+- LookupViewService
+- WeatherWidget
+- apsd
+- com.apple.Maps
+- com.apple.geod
+- findmydevice-user-agent
+- fmfd
+- mapspushd

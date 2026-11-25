@@ -20,3 +20,9 @@ domain_suffix_set:
 - comments.app
 - telegram-cdn.org
 - legra.ph
+ip_cidr6_set:
+- 2001:b28:f23c::/47
+process_name_set:
+- org.telegram.messenger
+domain_keyword_set:
+- telegram

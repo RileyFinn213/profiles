@@ -35,6 +35,9 @@ domain_suffix_set:
 - steam.tv
 - steamconnecttest.com
 - valve.net
+- fanatical.com
+- humblebundle.com
+- steamstat.us
 domain_keyword_set:
 - steam
 - valve

@@ -682,6 +682,7 @@ domain_suffix_set:
 - xboxlive.cn
 - yammer.com
 - yammerusercontent.com
+- akadns.net
 domain_set:
 - vsmarketplacebadge.apphb.com
 domain_keyword_set:
@@ -689,3 +690,6 @@ domain_keyword_set:
 - microsoft
 - onedrive
 - skydrive
+process_name_set:
+- OneDrive
+- OneDriveUpdater

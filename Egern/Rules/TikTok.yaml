@@ -54,6 +54,49 @@ domain_suffix_set:
 - ttcdn-us.com
 - ttoverseaus.net
 - ttwebview.com
+- amemv.com
+- bdxiguaimg.com
+- bdxiguastatic.com
+- byted-static.com
+- bytedance.com
+- bytedance.net
+- bytedns.net
+- bytednsdoc.com
+- bytegoofy.com
+- byteimg.com
+- bytescm.com
+- bytetos.com
+- bytexservice.com
+- douyin.com
+- douyincdn.com
+- douyinpic.com
+- douyinstatic.com
+- douyinvod.com
+- feelgood.cn
+- feiliao.com
+- gifshow.com
+- huoshan.com
+- huoshanzhibo.com
+- ibytedapm.com
+- iesdouyin.com
+- ixigua.com
+- kspkg.com
+- pstatp.com
+- toutiao.com
+- toutiao13.com
+- toutiaoapi.com
+- toutiaocdn.com
+- toutiaocdn.net
+- toutiaocloud.com
+- toutiaohao.com
+- toutiaohao.net
+- toutiaoimg.com
+- toutiaopage.com
+- wukong.com
+- zijieapi.com
+- zijieimg.com
+- zjbyte.com
+- zjcdn.com
 domain_keyword_set:
 - tiktokcdn-com
 - -tiktokcdn-
@@ -71,3 +114,5 @@ domain_set:
 - roovza.skadsdk.appsflyersdk.com
 user_agent_set:
 - TikTok*
+process_name_set:
+- com.zhiliaoapp.musically

@@ -50,6 +50,7 @@ domain_suffix_set:
 - webtest.net
 - wifiman.com
 - wifiman.me
+- fast.com
 domain_keyword_set:
 - speedtest
 - ookla

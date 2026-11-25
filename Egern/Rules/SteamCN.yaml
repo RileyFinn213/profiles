@@ -19,6 +19,8 @@ domain_suffix_set:
 - st.dl.pinyuncloud.com
 - steampowered.com.8686c.com
 - steamstatic.com.8686c.com
+- cm.steampowered.com
+- steamusercontent.com
 domain_keyword_set:
 - steamchina
 - steamcontent
@@ -34,3 +36,5 @@ domain_set:
 - steampowered.com.8686c.com
 - steamstatic.com.8686c.com
 - xz.pphimalayanrt.com
+- dl.steam.ksyna.com
+- steampipe.steamcontent.tnkjmec.com

@@ -448,3 +448,6 @@ domain_suffix_set:
 - fna.fbcdn.net
 domain_set:
 - graph.facebook.com
+domain_keyword_set:
+- facebook
+- fbcdn

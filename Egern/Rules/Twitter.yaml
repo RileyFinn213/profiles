@@ -25,3 +25,7 @@ domain_suffix_set:
 - twttr.com
 - twttr.net
 - vine.co
+- twimg.co
+- twimg.org
+domain_keyword_set:
+- twitter
