@@ -44,3 +44,4 @@ host, ds0h3roq6wcgc.cloudfront.net, proxy
 host, dykkng5hnh52u.cloudfront.net, proxy
 host-suffix, live-video.net, proxy
 host-suffix, twitchcon.com, proxy
+host-suffix, twitch-ext.rootonline.de, proxy

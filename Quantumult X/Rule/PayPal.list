@@ -248,3 +248,5 @@ host-suffix, paypalhere.cn, proxy
 host-suffix, paypalhere.com.cn, proxy
 host-suffix, xn--bnq297cix3a.cn, proxy
 host-suffix, xoom.net.cn, proxy
+host-suffix, paypal-mktg.com, proxy
+host-keyword, paypal, proxy

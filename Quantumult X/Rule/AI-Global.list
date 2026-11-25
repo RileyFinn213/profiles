@@ -365,3 +365,6 @@ host-suffix, windsurf.com, proxy
 host-suffix, youmind.ai, proxy
 host-suffix, youmind.com, proxy
 host-suffix, youmind.site, proxy
+host, anthropic-com.ghost.io, proxy
+host, anthropic.com.cdn.cloudflare.net, proxy
+host-suffix, openaiapi-site.azureedge.net, proxy

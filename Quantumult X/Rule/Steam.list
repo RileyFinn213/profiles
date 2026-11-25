@@ -63,3 +63,6 @@ host-suffix, steam.ru.qtlglb.com, proxy
 host-suffix, steam.tv, proxy
 host-suffix, steamconnecttest.com, proxy
 host-suffix, valve.net, proxy
+host-suffix, fanatical.com, proxy
+host-suffix, humblebundle.com, proxy
+host-suffix, steamstat.us, proxy

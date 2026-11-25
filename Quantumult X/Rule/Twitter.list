@@ -33,3 +33,6 @@ host-suffix, twtrdns.net, proxy
 host-suffix, twttr.com, proxy
 host-suffix, twttr.net, proxy
 host-suffix, vine.co, proxy
+host-suffix, twimg.co, proxy
+host-suffix, twimg.org, proxy
+host-keyword, twitter, proxy

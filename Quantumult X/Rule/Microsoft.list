@@ -687,3 +687,4 @@ host-keyword, onedrive, proxy
 host-keyword, skydrive, proxy
 # OMITTED (process condition unsupported): PROCESS-NAME,OneDrive
 # OMITTED (process condition unsupported): PROCESS-NAME,OneDriveUpdater
+host-suffix, akadns.net, proxy

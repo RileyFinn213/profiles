@@ -25,3 +25,13 @@ ip-asn, 132203, proxy
 ip-asn, 132591, proxy
 ip-asn, 45090, proxy
 ip-asn, 58543, proxy
+host-suffix, weixinsxy.com, proxy
+ip-cidr, 101.32.104.4/32, proxy
+ip-cidr, 101.32.104.41/32, proxy
+ip-cidr, 101.32.104.56/32, proxy
+ip-cidr, 101.32.118.25/32, proxy
+ip-cidr, 101.32.133.16/32, proxy
+ip-cidr, 101.32.133.209/32, proxy
+ip-cidr, 101.32.133.53/32, proxy
+ip-cidr, 129.226.107.244/32, proxy
+ip-cidr, 129.226.3.47/32, proxy

@@ -659,3 +659,12 @@ ip-cidr, 74.125.0.0/16, proxy
 # OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.gms
 # OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.gsf
 # OMITTED (process condition unsupported): PROCESS-NAME,com.google.android.play.games
+host-suffix, g.co, proxy
+host-suffix, ggpht.com, proxy
+host-suffix, gvt1.com, proxy
+host-suffix, gvt2.com, proxy
+host-suffix, youtu.be, proxy
+host-suffix, youtube-nocookie.com, proxy
+host-suffix, youtube.com, proxy
+host-suffix, yt.be, proxy
+host-suffix, ytimg.com, proxy

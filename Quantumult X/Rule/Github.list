@@ -64,3 +64,4 @@ host-suffix, octocaptcha.com, proxy
 host-suffix, opensource.guide, proxy
 host-suffix, repo.new, proxy
 host-suffix, thegithubshop.com, proxy
+host-keyword, github, proxy

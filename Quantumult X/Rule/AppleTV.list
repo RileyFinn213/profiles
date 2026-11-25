@@ -8,3 +8,5 @@ host-suffix, tv.applemusic.com, proxy
 host-suffix, hls.itunes.apple.com, proxy
 host-suffix, hls-amt.itunes.apple.com, proxy
 host-suffix, play-edge.apple.com, proxy
+host, np-edge.itunes.apple.com, proxy
+host, play-edge.itunes.apple.com, proxy

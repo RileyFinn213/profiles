@@ -32,3 +32,7 @@ host-suffix, st.dl.eccdnx.com, proxy
 host-suffix, st.dl.pinyuncloud.com, proxy
 host-suffix, steampowered.com.8686c.com, proxy
 host-suffix, steamstatic.com.8686c.com, proxy
+host, dl.steam.ksyna.com, proxy
+host, steampipe.steamcontent.tnkjmec.com, proxy
+host-suffix, cm.steampowered.com, proxy
+host-suffix, steamusercontent.com, proxy
