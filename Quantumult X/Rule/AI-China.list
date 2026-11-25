@@ -20,7 +20,6 @@ host-suffix, volcengine.cn, proxy
 host-keyword, rtc-vcloud, proxy
 host-keyword, volc-rtc, proxy
 host-keyword, volcengine-rtc, proxy
-host-suffix, bytedance.com, proxy
 ip-asn, 138692, proxy
 ip-asn, 204454, proxy
 ip-asn, 134709, proxy

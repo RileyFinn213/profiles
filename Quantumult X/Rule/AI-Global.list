@@ -17,13 +17,6 @@ host-suffix, oaistatic.com, proxy
 host-suffix, oaiusercontent.com, proxy
 host-suffix, sora.com, proxy
 host-suffix, searchgpt.com, proxy
-host-suffix, auth0.com, proxy
-host-suffix, arkoselabs.com, proxy
-host-suffix, identrust.com, proxy
-host-suffix, intercom.io, proxy
-host-suffix, intercomcdn.com, proxy
-host-suffix, featuregates.org, proxy
-host-suffix, stripe.com, proxy
 host-suffix, claude.ai, proxy
 host-suffix, anthropic.com, proxy
 host-suffix, anthropic.cn, proxy
@@ -314,9 +307,6 @@ host-suffix, dola.com, proxy
 host-suffix, duck.ai, proxy
 host-suffix, elevenlabs.com, proxy
 host-suffix, elevenlabs.io, proxy
-host-suffix, envato-static.com, proxy
-host-suffix, envato.com, proxy
-host-suffix, envatousercontent.com, proxy
 host-suffix, flow.google, proxy
 host-suffix, flow.google.com, proxy
 host-suffix, gateway.ai.cloudflare.com, proxy
@@ -332,10 +322,8 @@ host-suffix, jules.google.com, proxy
 host-suffix, labs.google, proxy
 host-suffix, labs.google.com, proxy
 host-suffix, langchain.com, proxy
-host-suffix, liveperson.net, proxy
 host-suffix, lmstudio.ai, proxy
 host-suffix, lovart.ai, proxy
-host-suffix, lpsnmedia.net, proxy
 host-suffix, manus.im, proxy
 host-suffix, manuscdn.com, proxy
 host-suffix, marscode.com, proxy
@@ -357,7 +345,6 @@ host-suffix, sider.ai, proxy
 host-suffix, spicywriter.com, proxy
 host-suffix, stitch.withgoogle.com, proxy
 host-suffix, tapnow.ai, proxy
-host-suffix, themeforest.net, proxy
 host-suffix, tripo3d.ai, proxy
 host-suffix, turn.livekit.cloud, proxy
 host-suffix, windsurf.build, proxy
