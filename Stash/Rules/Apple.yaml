@@ -1588,3 +1588,4 @@ payload:
 - DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
 - DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
 - DOMAIN-SUFFIX,p-events-delivery.akamaized.net
+- DOMAIN-SUFFIX,crashlytics.com
