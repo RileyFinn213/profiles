@@ -28,3 +28,6 @@ payload:
 - DOMAIN-SUFFIX,twttr.com
 - DOMAIN-SUFFIX,twttr.net
 - DOMAIN-SUFFIX,vine.co
+- DOMAIN-SUFFIX,twimg.co
+- DOMAIN-SUFFIX,twimg.org
+- DOMAIN-KEYWORD,twitter
