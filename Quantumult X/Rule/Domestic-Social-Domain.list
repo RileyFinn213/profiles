@@ -3,6 +3,7 @@ host,edith.xiaohongshu.com,proxy
 host,xhs-link.xiaohongshu.com,proxy
 host,api.weibo.cn,proxy
 host,www.zhihu.com,proxy
+host,api.zhihu.com,proxy
 host,tieba.baidu.com,proxy
 host,tiebac.baidu.com,proxy
 host,c.tieba.baidu.com,proxy
