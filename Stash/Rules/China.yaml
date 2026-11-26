@@ -4476,7 +4476,6 @@ payload:
 - DOMAIN-SUFFIX,qzwb.com
 - DOMAIN-SUFFIX,rainclassroom.com
 - DOMAIN-SUFFIX,rainyun.com
-- DOMAIN-SUFFIX,rarbg.to
 - DOMAIN-SUFFIX,raylink.live
 - DOMAIN-SUFFIX,rdfybk.com
 - DOMAIN-SUFFIX,rdnsdb.com
@@ -6539,7 +6538,6 @@ payload:
 - DOMAIN,gongyichuangyi.net
 - DOMAIN,google-analytics-cn.com
 - DOMAIN,googleadservices-cn.com
-- DOMAIN,googleadservices.com
 - DOMAIN,googleanalytics.com
 - DOMAIN,googleapis-cn.com
 - DOMAIN,googleapps-cn.com
@@ -6548,9 +6546,7 @@ payload:
 - DOMAIN,googleoptimize.com
 - DOMAIN,googlesyndication-cn.com
 - DOMAIN,googletagmanager-cn.com
-- DOMAIN,googletagmanager.com
 - DOMAIN,googletagservices-cn.com
-- DOMAIN,googletagservices.com
 - DOMAIN,googletraveladservices-cn.com
 - DOMAIN,googletraveladservices.com
 - DOMAIN,googlevads-cn.com
@@ -12353,7 +12349,6 @@ payload:
 - DOMAIN-SUFFIX,alt6-mtalk.google.com
 - DOMAIN-SUFFIX,alt7-mtalk.google.com
 - DOMAIN-SUFFIX,alt8-mtalk.google.com
-- DOMAIN-SUFFIX,app-measurement.com
 - DOMAIN-SUFFIX,ci.android.com
 - DOMAIN-SUFFIX,gtm.oasisfeng.com
 - DOMAIN-SUFFIX,imasdk.googleapis.com
@@ -12419,15 +12414,12 @@ payload:
 - DOMAIN,dnl-17.geo.kaspersky.com
 - DOMAIN,dnl-18.geo.kaspersky.com
 - DOMAIN,dnl-19.geo.kaspersky.com
-- DOMAIN,doubleclick.net
 - DOMAIN,drivers.amd.com
 - DOMAIN,edge.geo.kaspersky.com
 - DOMAIN,f.c2r.ts.cdn.office.net
 - DOMAIN,firebase-settings.crashlytics.com
 - DOMAIN,geetest.datasink.sensorsdata.cn
 - DOMAIN,gog.qtlglb.com
-- DOMAIN,google-analytics.com
-- DOMAIN,googlesyndication.com
 - DOMAIN,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
 - DOMAIN,gspe19-2-cn-ssl.ls-apple.com.akadns.net
 - DOMAIN,gspe19-cn.ls-apple.com.akadns.net
@@ -20204,7 +20196,6 @@ payload:
 - DOMAIN-SUFFIX,91chengguo.com
 - DOMAIN-SUFFIX,91convert.com
 - DOMAIN-SUFFIX,91ctc.com
-- DOMAIN-SUFFIX,91cy.app
 - DOMAIN-SUFFIX,91cy.cc
 - DOMAIN-SUFFIX,91czxs.com
 - DOMAIN-SUFFIX,91daizhang.com
@@ -23860,7 +23851,6 @@ payload:
 - DOMAIN-SUFFIX,asm64.com
 - DOMAIN-SUFFIX,asmasm.com
 - DOMAIN-SUFFIX,asmlc.com
-- DOMAIN-SUFFIX,asmr.gay
 - DOMAIN-SUFFIX,asnlab.com
 - DOMAIN-SUFFIX,asnlab.org
 - DOMAIN-SUFFIX,asnowsz.com
@@ -24176,7 +24166,6 @@ payload:
 - DOMAIN-SUFFIX,avptec.com
 - DOMAIN-SUFFIX,avq360.com
 - DOMAIN-SUFFIX,avrvi.com
-- DOMAIN-SUFFIX,avstar4.com
 - DOMAIN-SUFFIX,avt-cn.com
 - DOMAIN-SUFFIX,avtechcn.com
 - DOMAIN-SUFFIX,avuejs.com
@@ -26336,8 +26325,6 @@ payload:
 - DOMAIN-SUFFIX,bimiwu.com
 - DOMAIN-SUFFIX,bimjoy.com
 - DOMAIN-SUFFIX,bimsa.net
-- DOMAIN-SUFFIX,binancezh.kim
-- DOMAIN-SUFFIX,binancezh.link
 - DOMAIN-SUFFIX,binary-semi.com
 - DOMAIN-SUFFIX,binbinbiji.com
 - DOMAIN-SUFFIX,binbinyl.com
@@ -51247,7 +51234,6 @@ payload:
 - DOMAIN-SUFFIX,happi123.com
 - DOMAIN-SUFFIX,happigo.com
 - DOMAIN-SUFFIX,happy-ti.com
-- DOMAIN-SUFFIX,happy-vpn.com
 - DOMAIN-SUFFIX,happycodeboy.com
 - DOMAIN-SUFFIX,happycoding.online
 - DOMAIN-SUFFIX,happydino.com
@@ -54180,7 +54166,6 @@ payload:
 - DOMAIN-SUFFIX,hotata.com
 - DOMAIN-SUFFIX,hotborn.com
 - DOMAIN-SUFFIX,hotchenghong.com
-- DOMAIN-SUFFIX,hotcoin.com
 - DOMAIN-SUFFIX,hotdb.com
 - DOMAIN-SUFFIX,hoteamsoft.com
 - DOMAIN-SUFFIX,hoteastday.com
@@ -77392,7 +77377,6 @@ payload:
 - DOMAIN-SUFFIX,pic315.com
 - DOMAIN-SUFFIX,pic3733.com
 - DOMAIN-SUFFIX,pic720.com
-- DOMAIN-SUFFIX,picacgp.com
 - DOMAIN-SUFFIX,picatown.com
 - DOMAIN-SUFFIX,picbling.com
 - DOMAIN-SUFFIX,picc.com
@@ -83059,7 +83043,6 @@ payload:
 - DOMAIN-SUFFIX,sci-bioland.com
 - DOMAIN-SUFFIX,sci-fifans.net
 - DOMAIN-SUFFIX,sci-gz.com
-- DOMAIN-SUFFIX,sci-hub.ee
 - DOMAIN-SUFFIX,sci-hub.shop
 - DOMAIN-SUFFIX,sci-inv.com
 - DOMAIN-SUFFIX,sci-it.com
