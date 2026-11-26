@@ -6,7 +6,7 @@ DOMAIN,xhs-link.xiaohongshu.com
 DOMAIN,api.weibo.cn
 
 # ======== 知乎 ========
-DOMAIN-SUFFIX,zhihu.com
+DOMAIN,www.zhihu.com
 
 # ======== 百度贴吧 ：仅属地相关 ========
 DOMAIN,tieba.baidu.com
@@ -18,4 +18,3 @@ DOMAIN,tbmsg.baidu.com
 
 # ======== 抖音：仅属地接口 ========
 DOMAIN,aweme.snssdk.com
-DOMAIN-SUFFIX,amemv.com

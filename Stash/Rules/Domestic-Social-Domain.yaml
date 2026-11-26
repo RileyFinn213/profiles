@@ -3,10 +3,9 @@ payload:
 - DOMAIN,edith.xiaohongshu.com
 - DOMAIN,xhs-link.xiaohongshu.com
 - DOMAIN,api.weibo.cn
-- DOMAIN-SUFFIX,zhihu.com
+- DOMAIN,www.zhihu.com
 - DOMAIN,tieba.baidu.com
 - DOMAIN,tiebac.baidu.com
 - DOMAIN,c.tieba.baidu.com
 - DOMAIN,tbmsg.baidu.com
 - DOMAIN,aweme.snssdk.com
-- DOMAIN-SUFFIX,amemv.com

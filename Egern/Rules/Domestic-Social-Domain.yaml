@@ -9,6 +9,4 @@ domain_set:
 - c.tieba.baidu.com
 - tbmsg.baidu.com
 - aweme.snssdk.com
-domain_suffix_set:
-- zhihu.com
-- amemv.com
+- www.zhihu.com
