@@ -154,6 +154,8 @@ host-suffix, domesticmediapay.cn, proxy
 host-suffix, domesticmediapay.com, proxy
 host-suffix, dreamcast.hk, proxy
 host-suffix, dyhgames.com, proxy
+host-suffix, feelgood.cn, proxy
+host-suffix, feiliao.com, proxy
 host-suffix, gamenow.club, proxy
 host-suffix, gitv.cn, proxy
 host-suffix, gitv.tv, proxy
@@ -169,8 +171,11 @@ host-suffix, hifuntv.com, proxy
 host-suffix, hitv.com, proxy
 host-suffix, huasheng.cn, proxy
 host-suffix, hunaniptv.com, proxy
+host-suffix, huoshan.com, proxy
+host-suffix, huoshanzhibo.com, proxy
 host-suffix, ibkstore.com, proxy
 host-suffix, icntvcdn.com, proxy
+host-suffix, iesdouyin.com, proxy
 host-suffix, im9.com, proxy
 host-suffix, imgo.tv, proxy
 host-suffix, ipanda.cn, proxy
@@ -226,6 +231,16 @@ host-suffix, sogoodtech1.cn, proxy
 host-suffix, soku.com, proxy
 host-suffix, suike.cn, proxy
 host-suffix, tazai.com, proxy
+host-suffix, toutiao.com, proxy
+host-suffix, toutiao13.com, proxy
+host-suffix, toutiaoapi.com, proxy
+host-suffix, toutiaocdn.com, proxy
+host-suffix, toutiaocdn.net, proxy
+host-suffix, toutiaocloud.com, proxy
+host-suffix, toutiaohao.com, proxy
+host-suffix, toutiaohao.net, proxy
+host-suffix, toutiaoimg.com, proxy
+host-suffix, toutiaopage.com, proxy
 host-suffix, tudou.com, proxy
 host-suffix, tvcc.cn, proxy
 host-suffix, tvcc.com.cn, proxy
@@ -238,6 +253,7 @@ host-suffix, uposdash-302-bilivideo.yfcdn.net, proxy
 host-suffix, v1d.szbdyd.com, proxy
 host-suffix, wenyupages.com, proxy
 host-suffix, wingsmobiletek.cn, proxy
+host-suffix, wukong.com, proxy
 host-suffix, xn--fiq53l6wcx3kp9bc7joo6apn8a.cn, proxy
 host-suffix, xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s, proxy
 host-suffix, xn--fiq53l90et9fpncc7joo6apn8a.cn, proxy
