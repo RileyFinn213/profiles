@@ -4479,7 +4479,6 @@ domain_suffix_set:
 - qzwb.com
 - rainclassroom.com
 - rainyun.com
-- rarbg.to
 - raylink.live
 - rdfybk.com
 - rdnsdb.com
@@ -11947,7 +11946,6 @@ domain_suffix_set:
 - alt6-mtalk.google.com
 - alt7-mtalk.google.com
 - alt8-mtalk.google.com
-- app-measurement.com
 - ci.android.com
 - gtm.oasisfeng.com
 - imasdk.googleapis.com
@@ -19595,7 +19593,6 @@ domain_suffix_set:
 - 91chengguo.com
 - 91convert.com
 - 91ctc.com
-- 91cy.app
 - 91cy.cc
 - 91czxs.com
 - 91daizhang.com
@@ -23251,7 +23248,6 @@ domain_suffix_set:
 - asm64.com
 - asmasm.com
 - asmlc.com
-- asmr.gay
 - asnlab.com
 - asnlab.org
 - asnowsz.com
@@ -23567,7 +23563,6 @@ domain_suffix_set:
 - avptec.com
 - avq360.com
 - avrvi.com
-- avstar4.com
 - avt-cn.com
 - avtechcn.com
 - avuejs.com
@@ -25727,8 +25722,6 @@ domain_suffix_set:
 - bimiwu.com
 - bimjoy.com
 - bimsa.net
-- binancezh.kim
-- binancezh.link
 - binary-semi.com
 - binbinbiji.com
 - binbinyl.com
@@ -50638,7 +50631,6 @@ domain_suffix_set:
 - happi123.com
 - happigo.com
 - happy-ti.com
-- happy-vpn.com
 - happycodeboy.com
 - happycoding.online
 - happydino.com
@@ -53571,7 +53563,6 @@ domain_suffix_set:
 - hotata.com
 - hotborn.com
 - hotchenghong.com
-- hotcoin.com
 - hotdb.com
 - hoteamsoft.com
 - hoteastday.com
@@ -76783,7 +76774,6 @@ domain_suffix_set:
 - pic315.com
 - pic3733.com
 - pic720.com
-- picacgp.com
 - picatown.com
 - picbling.com
 - picc.com
@@ -82450,7 +82440,6 @@ domain_suffix_set:
 - sci-bioland.com
 - sci-fifans.net
 - sci-gz.com
-- sci-hub.ee
 - sci-hub.shop
 - sci-inv.com
 - sci-it.com
@@ -112033,7 +112022,6 @@ domain_set:
 - gongyichuangyi.net
 - google-analytics-cn.com
 - googleadservices-cn.com
-- googleadservices.com
 - googleanalytics.com
 - googleapis-cn.com
 - googleapps-cn.com
@@ -112042,9 +112030,7 @@ domain_set:
 - googleoptimize.com
 - googlesyndication-cn.com
 - googletagmanager-cn.com
-- googletagmanager.com
 - googletagservices-cn.com
-- googletagservices.com
 - googletraveladservices-cn.com
 - googletraveladservices.com
 - googlevads-cn.com
@@ -112331,15 +112317,12 @@ domain_set:
 - dnl-17.geo.kaspersky.com
 - dnl-18.geo.kaspersky.com
 - dnl-19.geo.kaspersky.com
-- doubleclick.net
 - drivers.amd.com
 - edge.geo.kaspersky.com
 - f.c2r.ts.cdn.office.net
 - firebase-settings.crashlytics.com
 - geetest.datasink.sensorsdata.cn
 - gog.qtlglb.com
-- google-analytics.com
-- googlesyndication.com
 - gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
 - gspe19-2-cn-ssl.ls-apple.com.akadns.net
 - gspe19-cn.ls-apple.com.akadns.net

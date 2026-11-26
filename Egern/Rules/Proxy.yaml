@@ -29895,7 +29895,6 @@ domain_suffix_set:
 - ae
 - af
 - ag
-- ai
 - al
 - am
 - ao
@@ -29985,7 +29984,6 @@ domain_suffix_set:
 - il
 - im
 - in
-- io
 - iq
 - is
 - it
@@ -30608,9 +30606,7 @@ domain_suffix_set:
 - boo
 - day
 - new
-- dev
 - page
-- app
 - how
 - soy
 - xn--q9jyb4c
