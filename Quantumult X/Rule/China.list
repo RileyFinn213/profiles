@@ -4479,7 +4479,6 @@ host-suffix, qzone.com, proxy
 host-suffix, qzwb.com, proxy
 host-suffix, rainclassroom.com, proxy
 host-suffix, rainyun.com, proxy
-host-suffix, rarbg.to, proxy
 host-suffix, raylink.live, proxy
 host-suffix, rdfybk.com, proxy
 host-suffix, rdnsdb.com, proxy
@@ -6544,7 +6543,6 @@ host, gonglchuangl.net, proxy
 host, gongyichuangyi.net, proxy
 host, google-analytics-cn.com, proxy
 host, googleadservices-cn.com, proxy
-host, googleadservices.com, proxy
 host, googleanalytics.com, proxy
 host, googleapis-cn.com, proxy
 host, googleapps-cn.com, proxy
@@ -6553,9 +6551,7 @@ host, googleoptimize-cn.com, proxy
 host, googleoptimize.com, proxy
 host, googlesyndication-cn.com, proxy
 host, googletagmanager-cn.com, proxy
-host, googletagmanager.com, proxy
 host, googletagservices-cn.com, proxy
-host, googletagservices.com, proxy
 host, googletraveladservices-cn.com, proxy
 host, googletraveladservices.com, proxy
 host, googlevads-cn.com, proxy
@@ -12358,7 +12354,6 @@ host-suffix, alt5-mtalk.google.com, proxy
 host-suffix, alt6-mtalk.google.com, proxy
 host-suffix, alt7-mtalk.google.com, proxy
 host-suffix, alt8-mtalk.google.com, proxy
-host-suffix, app-measurement.com, proxy
 host-suffix, ci.android.com, proxy
 host-suffix, gtm.oasisfeng.com, proxy
 host-suffix, imasdk.googleapis.com, proxy
@@ -12424,15 +12419,12 @@ host, dnl-16.geo.kaspersky.com, proxy
 host, dnl-17.geo.kaspersky.com, proxy
 host, dnl-18.geo.kaspersky.com, proxy
 host, dnl-19.geo.kaspersky.com, proxy
-host, doubleclick.net, proxy
 host, drivers.amd.com, proxy
 host, edge.geo.kaspersky.com, proxy
 host, f.c2r.ts.cdn.office.net, proxy
 host, firebase-settings.crashlytics.com, proxy
 host, geetest.datasink.sensorsdata.cn, proxy
 host, gog.qtlglb.com, proxy
-host, google-analytics.com, proxy
-host, googlesyndication.com, proxy
 host, gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net, proxy
 host, gspe19-2-cn-ssl.ls-apple.com.akadns.net, proxy
 host, gspe19-cn.ls-apple.com.akadns.net, proxy
@@ -20209,7 +20201,6 @@ host-suffix, 91cha.com, proxy
 host-suffix, 91chengguo.com, proxy
 host-suffix, 91convert.com, proxy
 host-suffix, 91ctc.com, proxy
-host-suffix, 91cy.app, proxy
 host-suffix, 91cy.cc, proxy
 host-suffix, 91czxs.com, proxy
 host-suffix, 91daizhang.com, proxy
@@ -23865,7 +23856,6 @@ host-suffix, asls.space, proxy
 host-suffix, asm64.com, proxy
 host-suffix, asmasm.com, proxy
 host-suffix, asmlc.com, proxy
-host-suffix, asmr.gay, proxy
 host-suffix, asnlab.com, proxy
 host-suffix, asnlab.org, proxy
 host-suffix, asnowsz.com, proxy
@@ -24181,7 +24171,6 @@ host-suffix, avpic.xyz, proxy
 host-suffix, avptec.com, proxy
 host-suffix, avq360.com, proxy
 host-suffix, avrvi.com, proxy
-host-suffix, avstar4.com, proxy
 host-suffix, avt-cn.com, proxy
 host-suffix, avtechcn.com, proxy
 host-suffix, avuejs.com, proxy
@@ -26341,8 +26330,6 @@ host-suffix, bimige.net, proxy
 host-suffix, bimiwu.com, proxy
 host-suffix, bimjoy.com, proxy
 host-suffix, bimsa.net, proxy
-host-suffix, binancezh.kim, proxy
-host-suffix, binancezh.link, proxy
 host-suffix, binary-semi.com, proxy
 host-suffix, binbinbiji.com, proxy
 host-suffix, binbinyl.com, proxy
@@ -51252,7 +51239,6 @@ host-suffix, hapingapp.com, proxy
 host-suffix, happi123.com, proxy
 host-suffix, happigo.com, proxy
 host-suffix, happy-ti.com, proxy
-host-suffix, happy-vpn.com, proxy
 host-suffix, happycodeboy.com, proxy
 host-suffix, happycoding.online, proxy
 host-suffix, happydino.com, proxy
@@ -54185,7 +54171,6 @@ host-suffix, hotalk.com, proxy
 host-suffix, hotata.com, proxy
 host-suffix, hotborn.com, proxy
 host-suffix, hotchenghong.com, proxy
-host-suffix, hotcoin.com, proxy
 host-suffix, hotdb.com, proxy
 host-suffix, hoteamsoft.com, proxy
 host-suffix, hoteastday.com, proxy
@@ -77397,7 +77382,6 @@ host-suffix, pic21.com, proxy
 host-suffix, pic315.com, proxy
 host-suffix, pic3733.com, proxy
 host-suffix, pic720.com, proxy
-host-suffix, picacgp.com, proxy
 host-suffix, picatown.com, proxy
 host-suffix, picbling.com, proxy
 host-suffix, picc.com, proxy
@@ -83064,7 +83048,6 @@ host-suffix, schxzx.com, proxy
 host-suffix, sci-bioland.com, proxy
 host-suffix, sci-fifans.net, proxy
 host-suffix, sci-gz.com, proxy
-host-suffix, sci-hub.ee, proxy
 host-suffix, sci-hub.shop, proxy
 host-suffix, sci-inv.com, proxy
 host-suffix, sci-it.com, proxy
