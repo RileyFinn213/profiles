@@ -1,5 +1,5 @@
 #!name=Komari VPS 状态
-#!desc=沿用 xiao-vvv/dstatus 卡片样式，读取自定义 Komari JSON 快照；近五分钟有采样视为在线。
+#!desc=沿用 xiao-vvv/dstatus 卡片样式，读取自定义 Komari JSON 快照；显示流量、资源、速率及已记录的续费信息。
 #!homepage=https://github.com/RileyFinn213/profiles
 #!arguments=快照地址:https://example.invalid/snapshot.json,流量告警百分比:80
 #!arguments-desc=快照地址：填写完整的私网 snapshot.json URL，而不是 Komari 首页。\n流量告警百分比：达到此使用率时卡片变橙。
@@ -11,7 +11,7 @@ KomariVPS-PC = script-name=KomariVPS-PC,update-interval=90
 KomariVPS-DR = script-name=KomariVPS-DR,update-interval=90
 
 [Script]
-KomariVPS-总览 = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js,argument=node=overview&warn={{{流量告警百分比}}}&url={{{快照地址}}}
-KomariVPS-AWS = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js,argument=node=AWS&warn={{{流量告警百分比}}}&url={{{快照地址}}}
-KomariVPS-PC = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js,argument=node=PC&warn={{{流量告警百分比}}}&url={{{快照地址}}}
-KomariVPS-DR = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js,argument=node=DR&warn={{{流量告警百分比}}}&url={{{快照地址}}}
+KomariVPS-总览 = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js?v=2,argument=node=overview&warn={{{流量告警百分比}}}&url={{{快照地址}}}
+KomariVPS-AWS = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js?v=2,argument=node=AWS&warn={{{流量告警百分比}}}&url={{{快照地址}}}
+KomariVPS-PC = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js?v=2,argument=node=PC&warn={{{流量告警百分比}}}&url={{{快照地址}}}
+KomariVPS-DR = type=generic,timeout=18,script-path=https://raw.githubusercontent.com/RileyFinn213/profiles/main/Surge/Script/komari-vps-panel.js?v=2,argument=node=DR&warn={{{流量告警百分比}}}&url={{{快照地址}}}
