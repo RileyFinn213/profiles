@@ -1,3 +1,4 @@
+# Emby
 DOMAIN-SUFFIX,origamiart.uk
 DOMAIN-SUFFIX,okemby.org
 DOMAIN-SUFFIX,sadchicktv.com
@@ -5,5 +6,32 @@ DOMAIN-SUFFIX,chapanda.site
 DOMAIN-SUFFIX,nijigem.by
 DOMAIN-SUFFIX,imetyou.top
 DOMAIN-SUFFIX,28.ai
+DOMAIN-SUFFIX,28.al
 DOMAIN-SUFFIX,zzm.li
 DOMAIN-SUFFIX,xying1314.xyz
+
+# 模块
+# 动漫巴士
+DOMAIN,dmbus.cc
+# 动漫聚合
+DOMAIN,www.7sefun.top
+# 资源聚合
+DOMAIN,api.changzhang.tv
+# 片库
+DOMAIN,4k03.pianku.online
+# 咸鱼 Rex
+DOMAIN,qqq.qhome2027.pro
+# Direct IP observations. These can change or be shared with other apps.
+# 追剧达人 Rex
+IP-CIDR,23.224.44.130/32,no-resolve
+# 小黄人 Rex
+IP-CIDR,110.42.3.227/32,no-resolve
+# 粉猪 Rex
+IP-CIDR,198.16.60.3/32,no-resolve
+# 蒙太奇 Rex
+IP-CIDR,23.225.14.70/32,no-resolve
+# Diagnostic observations only: search failed or timed out, not active rules.
+# 稀饭动漫: api.xifanacg.com
+# 皮库 Rex: 43.248.128.122, xmino.oss-cn-beijing.aliyuncs.com
+# 小柿子 Rex: b7816625c.xsz102.com
+# 剧下饭 Rex: manian.jugaoqing.com
